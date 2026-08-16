@@ -1,0 +1,538 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e2edba86-3954-46a4-a479-367be83dd969")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 62.23 19.05) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01eb50c5-767c-456c-adb4-e6904ef921fd")
+	)
+	(wire
+		(pts
+			(xy 67.31 77.47) (xy 67.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e93cc20-9557-45fd-b671-87fedec93a65")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 63.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32185ff5-a9a4-4a3a-9e32-af6879d5ca62")
+	)
+	(wire
+		(pts
+			(xy 59.69 77.47) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346560b7-69f8-4656-8956-d967a6fb58a8")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e41af58-83b2-4da9-b953-536fffa7adf9")
+	)
+	(wire
+		(pts
+			(xy 118.11 45.72) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b3c4c5-94e9-41ca-975b-aa4ffb0bbaa1")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c744ece-23aa-4bfb-8865-372b7be5f5e6")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51571946-d184-4b49-95c5-5d7752419ea0")
+	)
+	(wire
+		(pts
+			(xy 57.15 16.51) (xy 57.15 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cf2171-2c2e-472c-80eb-614596667ad9")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696a3060-4af4-470a-8207-5891d3835120")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a56f361-4e26-40a1-b5fb-3e73eeea1a14")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932fcd4b-59dd-4a94-a9bb-91b0a1377621")
+	)
+	(wire
+		(pts
+			(xy 44.45 41.91) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7d9475-c033-43fb-8ed3-f775cd9a6d76")
+	)
+	(wire
+		(pts
+			(xy 123.19 19.05) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61c120e-755a-422f-804b-30d3561fd38c")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b76d6f-09ea-495f-b26c-f65056af10e3")
+	)
+	(wire
+		(pts
+			(xy 127 16.51) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83aae10-2245-433f-b6e7-9e118a9a21cd")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c53178-af87-4f72-a0c7-b2e13545e816")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5637e9c-2c11-40a8-ab19-e10caf646481")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 57.15 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db713d50-fad1-41b3-bd6c-67dc02c56594")
+	)
+	(wire
+		(pts
+			(xy 62.23 19.05) (xy 123.19 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd50e86a-2732-4420-ab07-a7b4a12d936a")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3afe51-27c1-4a45-8b90-a4f6eeaf1297")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e168ec0a-7948-471f-a64e-1512f3641795")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0df5114-efff-47e3-868f-dc67ec8cc565")
+	)
+	(wire
+		(pts
+			(xy 57.15 16.51) (xy 127 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba7f92-e906-4aa1-8e7c-572a8b728a37")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff302674-fb38-4cdf-9385-7944591dae68")
+	)
+	(hierarchical_label "Trail_Left"
+		(shape input)
+		(at 63.5 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c8031a9-a0c5-4cd2-8488-a0cad2a13037")
+	)
+	(hierarchical_label "Veh_Left"
+		(shape input)
+		(at 48.26 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc7da15c-f46a-4a4e-ba74-8d76a96b9b33")
+	)
+	(sheet
+		(at 30.48 64.77)
+		(size 29.21 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4b410b73-581c-4913-a7b4-c25621986813")
+		(property "Sheetname" "Trailer_Left"
+			(at 30.48 64.3124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Trailer_Left.kicad_sch"
+			(at 30.48 109.6014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Trail_Left" input
+			(at 59.69 90.17 0)
+			(uuid "1d595ee2-4837-413f-a68e-6860863d9770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Btn_Left_Etat" input
+			(at 59.69 101.6 0)
+			(uuid "80089d94-54a9-4d72-b1e1-2c2ba1403487")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Left_Trailer" input
+			(at 59.69 77.47 0)
+			(uuid "ec14475e-0d1c-402c-aaa8-1ae45567e9b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Left_Trailer" input
+			(at 59.69 73.66 0)
+			(uuid "bdd585dd-f98f-4065-8c3a-89a318c82857")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/d158d25b-993e-468a-8f69-95ddcf9272e8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 20.32)
+		(size 26.67 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb509833-a0bd-42b2-ae9e-4b87e8a602fc")
+		(property "Sheetname" "Vehicule_Left"
+			(at 17.78 19.8624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vehicule_Left.kicad_sch"
+			(at 17.78 52.4514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ouvert_Left_Vehic" input
+			(at 44.45 26.67 0)
+			(uuid "a06baac6-26e4-4988-9302-963e2509a8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Left_Vehic" input
+			(at 44.45 34.29 0)
+			(uuid "be78ac05-ebb9-4ba6-bb09-0e270c4174aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Veh_Left" input
+			(at 44.45 41.91 0)
+			(uuid "356c6eab-9151-487a-9c1e-be57f3065e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/d158d25b-993e-468a-8f69-95ddcf9272e8"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 34.29)
+		(size 29.21 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7963cc6-1c2c-440a-87f5-49a6c6c4b196")
+		(property "Sheetname" "Bloc_Test_Left"
+			(at 88.9 33.8324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bloc_Test_Left.kicad_sch"
+			(at 88.9 75.3114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Court_Left_Vehic" input
+			(at 118.11 45.72 0)
+			(uuid "3c76407c-dcaa-475a-b681-0d7f9d48a539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Left_Vehic" input
+			(at 118.11 49.53 0)
+			(uuid "7bc2b413-5804-4fee-931a-26f90dd17b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Btn_Left_Etat" input
+			(at 118.11 53.34 0)
+			(uuid "60518d21-b2b9-4b06-b187-9a3abb43bab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Left_Trailer" input
+			(at 118.11 57.15 0)
+			(uuid "f41e3b83-5409-44f3-8522-0e8f72ed7c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Left_Trailer" input
+			(at 118.11 60.96 0)
+			(uuid "e2e2db35-c3f6-4fce-a9b2-f4275ed269fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/d158d25b-993e-468a-8f69-95ddcf9272e8"
+					(page "15")
+				)
+			)
+		)
+	)
+)

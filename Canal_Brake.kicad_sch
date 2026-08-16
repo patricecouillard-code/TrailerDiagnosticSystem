@@ -1,0 +1,196 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6e9a7210-5d59-4169-9488-730cc24a9ec2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 39.37 34.29)
+		(size 40.64 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "21c93d00-b37b-47a5-b927-bc58d61daf1e")
+		(property "Sheetname" "Vehicule_Brake"
+			(at 39.37 33.8324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vehicule_Brake.kicad_sch"
+			(at 39.37 79.1214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/1c73cd0e-d554-4457-9021-54aac4b5c0a2"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 35.56)
+		(size 35.56 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4aba9902-71b6-405a-a306-a02756ecbc63")
+		(property "Sheetname" "Trailer_Brake"
+			(at 90.17 35.1024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Trailer_Brake.kicad_sch"
+			(at 90.17 79.1214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/1c73cd0e-d554-4457-9021-54aac4b5c0a2"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 35.56)
+		(size 33.02 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "704733a3-8459-4f16-a041-c619adb87510")
+		(property "Sheetname" "Bloc_Test_Brake"
+			(at 138.43 35.1024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bloc_Test_Brake.kicad_sch"
+			(at 138.43 79.1214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ouvert_Brake_Trailer" input
+			(at 138.43 45.72 180)
+			(uuid "05671a67-abd4-459d-8f95-fbdd9ab712fa")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ouvert_Brake_Vehic" input
+			(at 138.43 50.8 180)
+			(uuid "817ee12d-f69b-44fd-b452-ed01cb1250db")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Btn_Brake_Etat" input
+			(at 138.43 55.88 180)
+			(uuid "d092ad1c-b697-41f2-8538-841d78ddad37")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Court_Brake_Trailer" input
+			(at 138.43 59.69 180)
+			(uuid "3316fcba-75a7-4ee8-b8e2-ddcd9c8646bf")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Court_Brake_Vehic" input
+			(at 138.43 64.77 180)
+			(uuid "39641616-9116-4a79-ae88-461a0f38ea90")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/1c73cd0e-d554-4457-9021-54aac4b5c0a2"
+					(page "11")
+				)
+			)
+		)
+	)
+)

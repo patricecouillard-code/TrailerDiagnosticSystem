@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "82c3fc49-cc6d-4053-81a7-5cb28ab06bb4")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Court_Left_Vehic"
+		(shape input)
+		(at 71.12 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17f556bd-af60-434b-a049-098ea71b6920")
+	)
+	(hierarchical_label "Court_Left_Trailer"
+		(shape input)
+		(at 69.85 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2592c438-ecec-4033-b6de-c5e1ce7abea0")
+	)
+	(hierarchical_label "Ouvert_Left_Trailer"
+		(shape input)
+		(at 71.12 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4599afe6-3839-494d-816f-3f25b7a9d09b")
+	)
+	(hierarchical_label "Btn_Left_Etat"
+		(shape input)
+		(at 68.58 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "824609ec-3d36-4358-9d12-f3c76167df3f")
+	)
+	(hierarchical_label "Ouvert_Left_Vehic"
+		(shape input)
+		(at 69.85 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c09528ae-70f9-4d51-8632-39e4cc04b5d1")
+	)
+)
