@@ -2188,8 +2188,8 @@
 		)
 	)
 	(rectangle
-		(start 175.26 38.1)
-		(end 236.22 80.01)
+		(start 146.05 38.1)
+		(end 207.01 80.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -2201,7 +2201,7 @@
 	)
 	(text "BMS 3S\n"
 		(exclude_from_sim no)
-		(at 222.25 44.45 0)
+		(at 193.04 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,7 +2210,7 @@
 		(uuid "b969897b-3180-4b17-b0c0-935b8d22e1b5")
 	)
 	(junction
-		(at 179.07 49.53)
+		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4890cd4f-d53e-4945-bac6-c9ccd1e2d286")
@@ -2228,26 +2228,26 @@
 		(uuid "b84fbddc-0972-49da-a7dd-652990105ab4")
 	)
 	(junction
-		(at 179.07 57.15)
+		(at 149.86 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d93064e1-4c38-4d36-b092-3b8375a649f5")
 	)
 	(no_connect
-		(at 147.32 52.07)
+		(at 91.44 106.68)
 		(uuid "779876ff-eebc-41d1-b276-4d7d4915657d")
 	)
 	(no_connect
-		(at 147.32 46.99)
+		(at 91.44 101.6)
 		(uuid "de40c195-c26c-4606-b4f5-11c751e605ca")
 	)
 	(no_connect
-		(at 137.16 49.53)
+		(at 81.28 104.14)
 		(uuid "f54c122e-dc01-44c0-a270-418dc017edb8")
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 199.39 52.07)
+			(xy 170.18 57.15) (xy 170.18 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2257,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 96.52) (xy 229.87 96.52)
+			(xy 194.31 96.52) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 41.91) (xy 203.2 46.99)
+			(xy 173.99 41.91) (xy 173.99 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 201.93 76.2)
+			(xy 163.83 76.2) (xy 172.72 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 39.37) (xy 151.13 39.37)
+			(xy 91.44 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 44.45) (xy 147.32 44.45)
+			(xy 95.25 99.06) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 52.07) (xy 203.2 52.07)
+			(xy 170.18 52.07) (xy 173.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2347,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 91.44) (xy 222.25 91.44)
+			(xy 189.23 91.44) (xy 193.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 41.91) (xy 203.2 41.91)
+			(xy 149.86 41.91) (xy 173.99 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 203.2 49.53)
+			(xy 149.86 49.53) (xy 173.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 64.77) (xy 203.2 54.61)
+			(xy 173.99 64.77) (xy 173.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2387,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 106.68) (xy 162.56 118.11)
+			(xy 133.35 106.68) (xy 133.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 116.84) (xy 232.41 113.03)
+			(xy 203.2 116.84) (xy 203.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2407,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 93.98) (xy 223.52 93.98)
+			(xy 189.23 93.98) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 73.66) (xy 201.93 73.66)
+			(xy 163.83 73.66) (xy 172.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 203.2 64.77)
+			(xy 149.86 64.77) (xy 173.99 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2437,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 93.98) (xy 223.52 96.52)
+			(xy 194.31 93.98) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2447,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 106.68) (xy 226.06 106.68)
+			(xy 189.23 106.68) (xy 196.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2457,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 91.44) (xy 222.25 88.9)
+			(xy 193.04 91.44) (xy 193.04 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2467,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 118.11) (xy 226.06 106.68)
+			(xy 196.85 118.11) (xy 196.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 199.39 57.15)
+			(xy 149.86 57.15) (xy 170.18 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 88.9) (xy 229.87 88.9)
+			(xy 193.04 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2507,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 118.11) (xy 226.06 118.11)
+			(xy 133.35 118.11) (xy 196.85 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 41.91) (xy 137.16 41.91)
+			(xy 77.47 96.52) (xy 81.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2536,7 @@
 		(uuid "05bfa193-5a40-409c-b888-29338ef2e38f")
 	)
 	(label "VPwr_Selection"
-		(at 232.41 102.87 0)
+		(at 203.2 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2546,7 +2546,7 @@
 		(uuid "13c4f896-6359-432c-b76d-b65d005aeed8")
 	)
 	(label "Batt_Interne_Pos"
-		(at 151.13 44.45 0)
+		(at 95.25 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +2556,7 @@
 		(uuid "45694461-9168-4dfb-af03-8ff99cb1b2cf")
 	)
 	(label "V12_Rail"
-		(at 162.56 101.6 180)
+		(at 133.35 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 		(uuid "693164b6-0a7c-4cf6-8446-ec6883c24929")
 	)
 	(label "Batt_Interne_Pos"
-		(at 193.04 73.66 180)
+		(at 163.83 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2576,7 +2576,7 @@
 		(uuid "a31a2e24-9413-48aa-a1da-c1e48b3cb10b")
 	)
 	(label "VPwr_Selection"
-		(at 162.56 99.06 180)
+		(at 133.35 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2586,7 +2586,7 @@
 		(uuid "ad2e932c-9c24-4c44-8b6b-46264ddf8f6d")
 	)
 	(label "VPwr_Selection"
-		(at 133.35 41.91 180)
+		(at 77.47 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +2596,7 @@
 		(uuid "e8c3e130-3021-4149-ae72-7503acacba2e")
 	)
 	(label "Batt_Externe_Pos"
-		(at 151.13 39.37 0)
+		(at 95.25 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2607,7 +2607,7 @@
 	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
-		(at 232.41 116.84 0)
+		(at 203.2 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2709,7 +2709,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 179.07 54.61 0)
+		(at 149.86 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2720,7 +2720,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b70ad9c-4868-4943-a4a5-b21bee2faead")
 		(property "Reference" "BT2"
-			(at 182.88 51.4984 0)
+			(at 153.67 51.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 182.88 54.0384 0)
+			(at 153.67 54.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 53.086 90)
+			(at 149.86 53.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 53.086 90)
+			(at 149.86 53.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2764,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 179.07 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2775,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 179.07 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +2786,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 179.07 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +2797,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 179.07 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2902,7 +2902,7 @@
 	)
 	(symbol
 		(lib_id "TrailerDiagSymols:BMS_3S")
-		(at 198.12 73.66 0)
+		(at 168.91 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2913,7 +2913,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c1255f-2fc6-468d-9b83-7fefdd8f90d0")
 		(property "Reference" "BMS3s1"
-			(at 222.25 40.64 0)
+			(at 193.04 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 73.66 0)
+			(at 168.91 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 73.66 0)
+			(at 168.91 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2945,7 +2945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 73.66 0)
+			(at 168.91 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +2956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 73.66 0)
+			(at 168.91 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +2995,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:IRLZ44N")
-		(at 229.87 107.95 0)
+		(at 200.66 107.95 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3006,7 +3006,7 @@
 		(dnp no)
 		(uuid "5de6a20d-3753-45b7-8d8a-36087595ef93")
 		(property "Reference" "Q1"
-			(at 236.22 104.14 0)
+			(at 207.01 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 236.22 106.68 0)
+			(at 207.01 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
-			(at 234.95 110.49 0)
+			(at 205.74 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +3039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/71cf1899624764088671ce6de5d15eb4/irlz44n.pdf"
-			(at 229.87 107.95 0)
+			(at 200.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +3050,7 @@
 			)
 		)
 		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 55V, 47A, 110W, Alternate KiCAD Library"
-			(at 229.87 107.95 0)
+			(at 200.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +3080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 76.2 270)
+		(at 163.83 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3090,7 +3090,7 @@
 		(dnp no)
 		(uuid "8e3c03c6-a24d-42fd-b494-ac9e50aa3171")
 		(property "Reference" "#PWR02"
-			(at 186.69 76.2 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.516 78.486 90)
+			(at 162.306 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3111,7 +3111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 76.2 0)
+			(at 163.83 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +3122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 76.2 0)
+			(at 163.83 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 76.2 0)
+			(at 163.83 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3157,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 179.07 62.23 0)
+		(at 149.86 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3168,7 +3168,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0872ed-455b-4bc2-a943-b800fe1467a9")
 		(property "Reference" "BT3"
-			(at 182.88 59.1184 0)
+			(at 153.67 59.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 182.88 61.6584 0)
+			(at 153.67 61.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3190,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 60.706 90)
+			(at 149.86 60.706 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 60.706 90)
+			(at 149.86 60.706 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3212,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 179.07 62.23 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +3223,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 179.07 62.23 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3234,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 179.07 62.23 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3245,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 179.07 62.23 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,7 +3272,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 179.07 46.99 0)
+		(at 149.86 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3283,7 +3283,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e1ab87-849d-43b0-bae0-f203915167b2")
 		(property "Reference" "BT1"
-			(at 182.88 43.8784 0)
+			(at 153.67 43.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3294,7 +3294,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 182.88 46.4184 0)
+			(at 153.67 46.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3305,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 45.466 90)
+			(at 149.86 45.466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 45.466 90)
+			(at 149.86 45.466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3327,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 179.07 46.99 0)
+			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3338,7 +3338,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 179.07 46.99 0)
+			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3349,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 179.07 46.99 0)
+			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3360,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 179.07 46.99 0)
+			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3387,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Capacitors:2.2uF_50V")
-		(at 229.87 92.71 270)
+		(at 200.66 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3398,7 +3398,7 @@
 		(fields_autoplaced yes)
 		(uuid "c14b3adc-3718-4b77-9828-44563ad236e1")
 		(property "Reference" "C1"
-			(at 233.68 91.4399 90)
+			(at 204.47 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3409,7 +3409,7 @@
 			)
 		)
 		(property "Value" "2.2uF_50V"
-			(at 233.68 93.9799 90)
+			(at 204.47 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 226.06 93.472 0)
+			(at 196.85 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 93.218 0)
+			(at 200.66 93.218 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +3442,7 @@
 			)
 		)
 		(property "Description" "2.2uF, 50V Electrolytic Capacitor"
-			(at 229.87 92.71 0)
+			(at 200.66 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3562,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 142.24 41.91 0)
+		(at 86.36 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3572,7 +3572,7 @@
 		(dnp no)
 		(uuid "cc875fab-88f8-48f2-91e5-91f876155c8d")
 		(property "Reference" "SW1"
-			(at 142.24 33.02 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3583,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 142.24 35.56 0)
+			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 41.91 0)
+			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,7 +3605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 41.91 0)
+			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,7 +3616,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 142.24 41.91 0)
+			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,7 +3627,7 @@
 			)
 		)
 		(property "Étiquette" "Source Selection"
-			(at 142.24 35.56 0)
+			(at 86.36 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3665,7 +3665,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 142.24 49.53 0)
+		(at 86.36 104.14 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3676,7 +3676,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8a12279-f88b-49b8-a231-a093e390220f")
 		(property "Reference" "SW1"
-			(at 142.24 40.64 0)
+			(at 86.36 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 142.24 43.18 0)
+			(at 86.36 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 49.53 0)
+			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 49.53 0)
+			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3720,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 142.24 49.53 0)
+			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3731,7 @@
 			)
 		)
 		(property "Étiquette" "Source Selection"
-			(at 142.24 49.53 0)
+			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3770,7 @@
 	)
 	(symbol
 		(lib_id "LM74610QDGKRQ1:LM74610QDGKRQ1")
-		(at 190.5 101.6 0)
+		(at 161.29 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3781,7 +3781,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfb8866-b899-4578-aa37-bf9bfdbcf554")
 		(property "Reference" "U1"
-			(at 190.5 83.82 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +3792,7 @@
 			)
 		)
 		(property "Value" "LM74610QDGKRQ1"
-			(at 190.5 86.36 0)
+			(at 161.29 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3802,7 +3802,7 @@
 			)
 		)
 		(property "Footprint" "LM74610QDGKRQ1:SOP65P490X110-8N"
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,7 +3860,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10 mm"
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3872,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 190.5 101.6 0)
+			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

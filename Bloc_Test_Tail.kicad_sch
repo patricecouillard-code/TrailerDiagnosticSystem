@@ -2008,16 +2008,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 26.67) (xy 67.31 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e7e22b-f571-4580-b00a-380ddd978d35")
-	)
-	(wire
-		(pts
 			(xy 205.74 36.83) (xy 205.74 39.37)
 		)
 		(stroke
@@ -2737,7 +2727,7 @@
 		(uuid "bbf075cd-1f8e-40c3-9832-48e0c665b590")
 	)
 	(label "Court_V_Actif"
-		(at 39.37 154.94 180)
+		(at 62.23 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)

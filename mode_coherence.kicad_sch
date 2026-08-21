@@ -1161,16 +1161,6 @@
 		)
 		(uuid "efa700b9-c3e0-4175-a5cd-c5f051727d4d")
 	)
-	(label "V_Ref"
-		(at 26.67 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dacf1330-f363-40e1-8b8a-0f328d9a9095")
-	)
 	(global_label "Mode_Trailer"
 		(shape input)
 		(at 91.44 44.45 180)
@@ -1328,6 +1318,30 @@
 		(uuid "80a98622-6d54-4a14-a9a3-f54c22c01dcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.9968 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 26.67 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f0d5631-39b0-4d17-9ce3-89d35ce0932e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5443 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

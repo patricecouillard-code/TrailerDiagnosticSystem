@@ -2465,16 +2465,6 @@
 		)
 		(uuid "4d8b7464-6b54-422b-a186-01c13a74cc3f")
 	)
-	(label "V_Arm_Trailer"
-		(at 39.37 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "511ee369-448d-4c37-91b2-17a22c02fcd0")
-	)
 	(label "Q20.2_Gate"
 		(at 33.02 110.49 180)
 		(effects
@@ -2752,6 +2742,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "V_Arm_Trailer"
+		(shape input)
+		(at 39.37 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72d7a740-a08f-4980-b36a-d67b57fae697")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.7453 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

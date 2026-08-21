@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 63.5 90.17)
+			(xy 59.69 96.52) (xy 63.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 138.43 101.6)
+			(xy 59.69 91.44) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 138.43 101.6)
+			(xy 133.35 53.34) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 53.34) (xy 138.43 53.34)
+			(xy 118.11 53.34) (xy 133.35 53.34)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +257,7 @@
 	)
 	(hierarchical_label "Trail_Left"
 		(shape input)
-		(at 63.5 90.17 0)
+		(at 63.5 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -316,7 +316,7 @@
 			)
 		)
 		(pin "Trail_Left" input
-			(at 59.69 90.17 0)
+			(at 59.69 96.52 0)
 			(uuid "1d595ee2-4837-413f-a68e-6860863d9770")
 			(effects
 				(font
@@ -326,7 +326,7 @@
 			)
 		)
 		(pin "Btn_Left_Etat" input
-			(at 59.69 101.6 0)
+			(at 59.69 91.44 0)
 			(uuid "80089d94-54a9-4d72-b1e1-2c2ba1403487")
 			(effects
 				(font
