@@ -1816,12 +1816,6 @@
 		)
 	)
 	(junction
-		(at 90.17 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299c854a-8ee9-4775-88b4-5bce74bb4d3b")
-	)
-	(junction
 		(at 147.32 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,28 +1828,22 @@
 		(uuid "3cf8bcf7-004b-4672-9767-5f533ad134ce")
 	)
 	(junction
-		(at 71.12 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7156c6ac-803b-4fd3-900b-c6f0e0479258")
-	)
-	(junction
 		(at 147.32 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c17a39-0e61-424c-b039-be48873fccd6")
 	)
 	(junction
-		(at 71.12 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a349a3ef-1b7f-425c-acc9-19301279efbe")
-	)
-	(junction
 		(at 90.17 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b365154c-8903-4719-9c9b-6580705f8182")
+	)
+	(junction
+		(at 71.12 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7e586a-0fb9-41af-ad9d-3fc9616797f6")
 	)
 	(no_connect
 		(at 144.78 45.72)
@@ -1894,6 +1882,16 @@
 			(type default)
 		)
 		(uuid "20804616-4381-45c7-8b9c-d077c3ec51cc")
+	)
+	(wire
+		(pts
+			(xy 39.37 118.11) (xy 43.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215c8b55-ccda-452d-8275-bf175cf48183")
 	)
 	(wire
 		(pts
@@ -2087,26 +2085,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 71.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8bbd20-3612-413f-808e-b41c051e89f4")
-	)
-	(wire
-		(pts
-			(xy 90.17 99.06) (xy 90.17 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700c9f80-a88b-4ba2-9ccd-b1e5c3682ac2")
-	)
-	(wire
-		(pts
 			(xy 123.19 132.08) (xy 127 132.08)
 		)
 		(stroke
@@ -2187,16 +2165,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 73.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b6e125-c7e3-4269-8df5-7133646e16d7")
-	)
-	(wire
-		(pts
 			(xy 43.18 100.33) (xy 43.18 104.14)
 		)
 		(stroke
@@ -2227,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 71.12 49.53)
+			(xy 71.12 41.91) (xy 71.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2377,16 +2345,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 90.17 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c8e586-4e5e-4890-aaf5-1e743cd29851")
-	)
-	(wire
-		(pts
 			(xy 43.18 57.15) (xy 43.18 60.96)
 		)
 		(stroke
@@ -2417,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 71.12 55.88)
+			(xy 76.2 41.91) (xy 71.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2435,16 +2393,6 @@
 		)
 		(uuid "feed551e-5346-431e-a52e-43bfb7f0b24f")
 	)
-	(label "Q20.2_Source"
-		(at 43.18 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00bd75bf-b18a-407c-abf4-3e1a87b2954f")
-	)
 	(label "Q20.2_Drain"
 		(at 39.37 72.39 180)
 		(effects
@@ -2456,6 +2404,16 @@
 		(uuid "1acf90a0-23c7-4300-bed5-8162686f966e")
 	)
 	(label "Left_Trailer_Shunt_Haut"
+		(at 39.37 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "250f5f66-5705-4e1f-82a9-e9095a6ea1d0")
+	)
+	(label "Left_Trailer_Shunt_Haut"
 		(at 86.36 87.63 180)
 		(effects
 			(font
@@ -2464,26 +2422,6 @@
 			(justify right bottom)
 		)
 		(uuid "4d8b7464-6b54-422b-a186-01c13a74cc3f")
-	)
-	(label "Q20.2_Gate"
-		(at 33.02 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58098248-8ab8-4781-ace0-c42fb3bc8744")
-	)
-	(label "Q20.2_Source"
-		(at 86.36 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76735342-f246-4245-a3da-6c3eee7c1d22")
 	)
 	(label "Q20.2_Drain"
 		(at 43.18 100.33 180)
@@ -2494,16 +2432,6 @@
 			(justify right bottom)
 		)
 		(uuid "d66235b1-3e41-40ad-ade4-c6df2f06ea1b")
-	)
-	(label "Q20.2_Gate"
-		(at 73.66 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fad26036-9d29-40df-9e90-15eeefed4670")
 	)
 	(global_label "V_Ref"
 		(shape input)
@@ -2902,7 +2830,18 @@
 	)
 	(hierarchical_label "Btn_Left_Etat"
 		(shape input)
-		(at 83.82 55.88 0)
+		(at 33.02 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33e067c2-b6ff-4e0d-a89f-9597a8e9f381")
+	)
+	(hierarchical_label "Btn_Left_Etat"
+		(shape input)
+		(at 76.2 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2956,7 +2895,7 @@
 		(dnp no)
 		(uuid "000309ba-784b-4c1e-b734-0a0a2de762db")
 		(property "Reference" "R72"
-			(at 78.74 43.688 0)
+			(at 78.74 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2966,7 +2905,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.74 46.228 0)
+			(at 78.74 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

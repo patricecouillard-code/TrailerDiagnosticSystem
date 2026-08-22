@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "bf27cebe-5ba7-40f2-b450-c628fb223d34")
-	(paper "A4")
+	(paper "A")
 	(lib_symbols
 		(symbol "Connector:Conn_Plug_2P"
 			(exclude_from_sim no)
@@ -11,10 +11,11 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -7.112 8.636 0)
+			(property "Reference" "P1"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,9 +23,10 @@
 				)
 			)
 			(property "Value" "Conn_Plug_2P"
-				(at 0.254 -8.89 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -58,6 +60,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Étiquette" "GX16-2 (12v. Externe)"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1453,6 +1465,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Voltage_Regulator_AKL:LM7805CT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805CT"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.octopart.com/LM7805CT-Fairchild-datasheet-5337151.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TO-220 5V 1A 3-terminal voltage regulator, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "7805 5V 1A voltage regulator vreg pmic power supply 3-terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM7805CT_0_0"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GND"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LM7805CT_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -1705,6 +1866,786 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailerDiagSymbols:FG26X7R1E106KRT06"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FG26X7R1E106KRT06"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "FG26X7R1E106KRT06:CAPRB500W50L550T350H600"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R Radial"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Radial TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/FG26X7R1E106KRT06/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20200310"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FG26X7R1E106KRT06/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "FG26X7R1E106KRT06"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "FG26X7R1E106KRT06_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailerDiagSymbols:SR205E104MARAP1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SR205E104MARAP1"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AVX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "081816"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SR205E104MARAP1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "KYOCERA AVX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SR205E104MARAP1_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailerDiagSymbols:SR305C334KAR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SR305C334KAR"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SR305C334KAR:CAPRR508W50L762T381H762"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor Ceramic, Radial .33uF, 50V, 10%, X7R | AVX SR305C334KAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AVX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.62mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Radial AVX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SR305C334KAR/AVX/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "081816"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR305C334KAR/AVX/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SR305C334KAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "KYOCERA AVX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SR305C334KAR_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2186,10 +3127,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 146.05 38.1)
-		(end 207.01 80.01)
+		(start 109.22 31.75)
+		(end 170.18 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -2201,7 +3257,7 @@
 	)
 	(text "BMS 3S\n"
 		(exclude_from_sim no)
-		(at 193.04 44.45 0)
+		(at 156.21 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,44 +3266,66 @@
 		(uuid "b969897b-3180-4b17-b0c0-935b8d22e1b5")
 	)
 	(junction
-		(at 149.86 49.53)
+		(at 43.18 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed7743e-226d-46e0-b5f1-56588b2cb903")
+	)
+	(junction
+		(at 113.03 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4890cd4f-d53e-4945-bac6-c9ccd1e2d286")
 	)
 	(junction
-		(at 96.52 44.45)
+		(at 68.58 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "613f07b4-6671-4ca8-818b-04432b60c3f6")
 	)
 	(junction
-		(at 96.52 41.91)
+		(at 173.99 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ed33e3-0e35-447f-8d64-1bd4faa84a9d")
+	)
+	(junction
+		(at 68.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b84fbddc-0972-49da-a7dd-652990105ab4")
 	)
 	(junction
-		(at 149.86 57.15)
+		(at 113.03 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d93064e1-4c38-4d36-b092-3b8375a649f5")
 	)
 	(no_connect
-		(at 91.44 106.68)
+		(at 46.99 77.47)
 		(uuid "779876ff-eebc-41d1-b276-4d7d4915657d")
 	)
 	(no_connect
-		(at 91.44 101.6)
+		(at 46.99 72.39)
 		(uuid "de40c195-c26c-4606-b4f5-11c751e605ca")
 	)
 	(no_connect
-		(at 81.28 104.14)
+		(at 36.83 74.93)
 		(uuid "f54c122e-dc01-44c0-a270-418dc017edb8")
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 170.18 52.07)
+			(xy 31.75 130.81) (xy 40.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9e0b46-9f55-49c1-9f8e-0810ed8af627")
+	)
+	(wire
+		(pts
+			(xy 133.35 50.8) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +3335,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 96.52) (xy 200.66 96.52)
+			(xy 165.1 95.25) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 41.91) (xy 173.99 46.99)
+			(xy 137.16 35.56) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 96.52 41.91)
+			(xy 41.91 35.56) (xy 43.18 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 76.2) (xy 172.72 76.2)
+			(xy 127 69.85) (xy 135.89 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 95.25 93.98)
+			(xy 46.99 64.77) (xy 50.8 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +3385,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 91.44 99.06)
+			(xy 173.99 115.57) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2082e9b3-92b2-44ce-a4f0-1289a00d6ebd")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 52.07) (xy 173.99 52.07)
+			(xy 133.35 45.72) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 52.07) (xy 81.28 52.07)
+			(xy 41.91 45.72) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 81.28 44.45)
+			(xy 53.34 45.72) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +3435,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 91.44) (xy 193.04 91.44)
+			(xy 160.02 90.17) (xy 163.83 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +3445,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 41.91) (xy 173.99 41.91)
+			(xy 50.8 96.52) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0984fc-3928-4b1d-8933-945b18de4cb6")
+	)
+	(wire
+		(pts
+			(xy 113.03 35.56) (xy 137.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +3465,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 49.53) (xy 173.99 49.53)
+			(xy 48.26 119.38) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5935551b-450c-43b8-b340-c0c2a0b372cc")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 137.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +3485,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 64.77) (xy 173.99 54.61)
+			(xy 48.26 143.51) (xy 58.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6407a30e-61eb-4259-a2a9-4cf5a379ddb6")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 137.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +3505,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 106.68) (xy 133.35 118.11)
+			(xy 104.14 105.41) (xy 104.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +3515,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 116.84) (xy 203.2 113.03)
+			(xy 43.18 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78322e7e-97da-4a26-a60a-aab7566e8efa")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 173.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +3535,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 93.98) (xy 194.31 93.98)
+			(xy 160.02 92.71) (xy 165.1 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +3545,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 172.72 73.66)
+			(xy 31.75 143.51) (xy 40.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2632099-d811-486f-ba35-657ef1662472")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 135.89 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 64.77) (xy 173.99 64.77)
+			(xy 113.03 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +3575,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 93.98) (xy 194.31 96.52)
+			(xy 165.1 92.71) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2445,9 +3583,19 @@
 		)
 		(uuid "aabc6d11-2a58-4d7c-93fa-99d6c93c01f0")
 	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cfbba3-e48e-4f4c-8b8f-46fe2cd377c1")
+	)
 	(bus
 		(pts
-			(xy 189.23 106.68) (xy 196.85 106.68)
+			(xy 160.02 105.41) (xy 167.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2455,9 +3603,19 @@
 		)
 		(uuid "bcd5cd2c-dcd6-4077-bc9a-874e419f85cc")
 	)
+	(wire
+		(pts
+			(xy 29.21 119.38) (xy 40.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9c9bd3-71c9-4a3a-ac76-8ed5519886c2")
+	)
 	(bus
 		(pts
-			(xy 193.04 91.44) (xy 193.04 88.9)
+			(xy 163.83 90.17) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +3625,7 @@
 	)
 	(bus
 		(pts
-			(xy 196.85 118.11) (xy 196.85 106.68)
+			(xy 167.64 116.84) (xy 167.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 57.15) (xy 170.18 57.15)
+			(xy 113.03 50.8) (xy 133.35 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2485,9 +3643,19 @@
 		)
 		(uuid "cfba195a-f277-4af8-833c-39f938738579")
 	)
+	(wire
+		(pts
+			(xy 48.26 130.81) (xy 57.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24ec337-eab7-4e61-929a-249b33ebc78b")
+	)
 	(bus
 		(pts
-			(xy 193.04 88.9) (xy 200.66 88.9)
+			(xy 163.83 87.63) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +3665,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 44.45) (xy 96.52 44.45)
+			(xy 43.18 102.87) (xy 43.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d1a388-567f-4d96-ab37-ef8ea9f76cd5")
+	)
+	(wire
+		(pts
+			(xy 53.34 38.1) (xy 68.58 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +3685,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 118.11) (xy 196.85 118.11)
+			(xy 104.14 116.84) (xy 167.64 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +3695,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 81.28 96.52)
+			(xy 176.53 115.57) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2534ff-53bc-4098-ae05-cae405bef60f")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 43.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64d76b2-8c47-4edf-86c6-0245e591edaf")
+	)
+	(wire
+		(pts
+			(xy 33.02 67.31) (xy 36.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +3724,7 @@
 		(uuid "f9fcfc48-d075-4f6e-a879-b8bc9d3c82ae")
 	)
 	(label "Batt_Externe_Pos"
-		(at 104.14 41.91 0)
+		(at 76.2 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2536,7 +3734,7 @@
 		(uuid "05bfa193-5a40-409c-b888-29338ef2e38f")
 	)
 	(label "VPwr_Selection"
-		(at 203.2 102.87 0)
+		(at 173.99 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2546,7 +3744,7 @@
 		(uuid "13c4f896-6359-432c-b76d-b65d005aeed8")
 	)
 	(label "Batt_Interne_Pos"
-		(at 95.25 99.06 0)
+		(at 50.8 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +3754,7 @@
 		(uuid "45694461-9168-4dfb-af03-8ff99cb1b2cf")
 	)
 	(label "V12_Rail"
-		(at 133.35 101.6 180)
+		(at 104.14 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +3764,7 @@
 		(uuid "693164b6-0a7c-4cf6-8446-ec6883c24929")
 	)
 	(label "Batt_Interne_Pos"
-		(at 163.83 73.66 180)
+		(at 127 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2576,7 +3774,7 @@
 		(uuid "a31a2e24-9413-48aa-a1da-c1e48b3cb10b")
 	)
 	(label "VPwr_Selection"
-		(at 133.35 99.06 180)
+		(at 104.14 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2586,7 +3784,7 @@
 		(uuid "ad2e932c-9c24-4c44-8b6b-46264ddf8f6d")
 	)
 	(label "VPwr_Selection"
-		(at 77.47 96.52 180)
+		(at 33.02 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +3794,7 @@
 		(uuid "e8c3e130-3021-4149-ae72-7503acacba2e")
 	)
 	(label "Batt_Externe_Pos"
-		(at 95.25 93.98 0)
+		(at 50.8 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,9 +3803,92 @@
 		)
 		(uuid "fce5b3f9-46ed-4836-96e6-3fb71a5a6e12")
 	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 57.15 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22c898da-370f-4efc-84c7-c7e2aa039ef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.7919 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 31.75 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a462ff-d9c2-4030-95b7-66f3642ccf9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1081 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 31.75 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef690726-7074-472c-8ddf-d4803630df37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1081 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
-		(at 203.2 116.84 0)
+		(at 27.94 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fc079f1-dc66-4d88-b255-74a9c90d97b5")
+	)
+	(hierarchical_label "V12_Rail"
+		(shape input)
+		(at 176.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,9 +3897,234 @@
 		)
 		(uuid "4673cf5b-2c24-4575-aa32-67946184b14e")
 	)
+	(hierarchical_label "V12_Rail"
+		(shape input)
+		(at 29.21 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b936a0f-dcc6-46a0-aa1e-703dc5fe2b1a")
+	)
+	(symbol
+		(lib_id "TrailerDiagSymbols:SR205E104MARAP1")
+		(at 43.18 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a20f56-42d0-4d74-9b2e-57aff37148d0")
+		(property "Reference" "C4"
+			(at 44.45 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SR205E104MARAP1"
+			(at 44.45 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AVX"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "081816"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SR205E104MARAP1"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4d011c2f-27c1-4e84-8788-e02400f6a8c8")
+		)
+		(pin "1"
+			(uuid "cea3ea5f-84ac-4d94-8f92-39add05f4467")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_Plug_2P")
-		(at 59.69 46.99 0)
+		(at 31.75 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,7 +4134,7 @@
 		(dnp no)
 		(uuid "0ae86669-3e0b-4c3c-b2ed-9ef281eb6ca0")
 		(property "Reference" "P1"
-			(at 59.69 36.83 0)
+			(at 31.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +4145,7 @@
 			)
 		)
 		(property "Value" "Conn_Plug_2P"
-			(at 59.69 36.83 0)
+			(at 31.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +4156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.118 47.244 0)
+			(at 27.178 40.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 46.99 0)
+			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +4178,7 @@
 			)
 		)
 		(property "Description" "2 Pins non-protected generic plug"
-			(at 59.69 46.99 0)
+			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +4189,7 @@
 			)
 		)
 		(property "Étiquette" "GX16-2 (12v. Externe)"
-			(at 59.69 36.83 0)
+			(at 31.75 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2709,7 +4215,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 149.86 54.61 0)
+		(at 113.03 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2720,7 +4226,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b70ad9c-4868-4943-a4a5-b21bee2faead")
 		(property "Reference" "BT2"
-			(at 153.67 51.4984 0)
+			(at 116.84 45.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,7 +4237,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 153.67 54.0384 0)
+			(at 116.84 47.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2742,7 +4248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 53.086 90)
+			(at 113.03 46.736 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +4259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 53.086 90)
+			(at 113.03 46.736 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +4270,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 149.86 54.61 0)
+			(at 113.03 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +4281,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 149.86 54.61 0)
+			(at 113.03 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +4292,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 149.86 54.61 0)
+			(at 113.03 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +4303,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 149.86 54.61 0)
+			(at 113.03 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +4330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 44.45 0)
+		(at 68.58 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2835,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "23479a35-dd2b-4826-ae9a-9b9b69fc2003")
 		(property "Reference" "#PWR01"
-			(at 96.52 50.8 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +4352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 49.53 0)
+			(at 68.58 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 44.45 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +4373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 44.45 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +4384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 44.45 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2902,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "TrailerDiagSymols:BMS_3S")
-		(at 168.91 73.66 0)
+		(at 132.08 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2913,7 +4419,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c1255f-2fc6-468d-9b83-7fefdd8f90d0")
 		(property "Reference" "BMS3s1"
-			(at 193.04 40.64 0)
+			(at 156.21 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2924,7 +4430,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 168.91 73.66 0)
+			(at 132.08 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2934,7 +4440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 73.66 0)
+			(at 132.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2945,7 +4451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 73.66 0)
+			(at 132.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +4462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 73.66 0)
+			(at 132.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,8 +4500,323 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d25a533-9943-4a2b-84de-bf9b6adff925")
+		(property "Reference" "#PWR010"
+			(at 63.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.674 128.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bed233a-cf46-4c04-841e-bd4d8c0c5c48")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 118.11 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49de8e69-7817-4fdf-81f9-84232fe46b24")
+		(property "Reference" "#FLG01"
+			(at 173.99 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 173.99 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30906726-2d1c-4e83-823f-501b727e850d")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d453875-d083-4efe-b78e-68ba5f3c1847")
+		(property "Reference" "#PWR011"
+			(at 64.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.944 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b04df67-a50f-493f-a6a2-54d115cf80c1")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Voltage_Regulator_AKL:LM7805CT")
+		(at 43.18 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508360b5-fa30-478b-83f5-08263ae9ca47")
+		(property "Reference" "U6"
+			(at 43.18 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805CT"
+			(at 43.18 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical"
+			(at 43.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/LM7805CT-Fairchild-datasheet-5337151.pdf"
+			(at 43.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TO-220 5V 1A 3-terminal voltage regulator, Alternate KiCad Library"
+			(at 43.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5516e574-a731-4ef1-98ff-787158aaefb5")
+		)
+		(pin "1"
+			(uuid "96041060-09fd-4c38-bf97-dec47690cbb5")
+		)
+		(pin "2"
+			(uuid "d530dd01-6e46-48ff-b19e-b43a8209fae3")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:IRLZ44N")
-		(at 200.66 107.95 0)
+		(at 171.45 106.68 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3006,7 +4827,7 @@
 		(dnp no)
 		(uuid "5de6a20d-3753-45b7-8d8a-36087595ef93")
 		(property "Reference" "Q1"
-			(at 207.01 104.14 0)
+			(at 177.8 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3017,7 +4838,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 207.01 106.68 0)
+			(at 177.8 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +4849,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
-			(at 205.74 110.49 0)
+			(at 176.53 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +4860,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/71cf1899624764088671ce6de5d15eb4/irlz44n.pdf"
-			(at 200.66 107.95 0)
+			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +4871,7 @@
 			)
 		)
 		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 55V, 47A, 110W, Alternate KiCAD Library"
-			(at 200.66 107.95 0)
+			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +4901,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 76.2 270)
+		(at 55.88 105.41 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3088,9 +4910,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8e3c03c6-a24d-42fd-b494-ac9e50aa3171")
-		(property "Reference" "#PWR02"
-			(at 157.48 76.2 0)
+		(uuid "6d443be6-1953-41d4-bd69-93feb4e452d9")
+		(property "Reference" "#PWR04"
+			(at 62.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +4923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.306 78.486 90)
+			(at 57.404 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3111,7 +4933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 76.2 0)
+			(at 55.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +4944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 76.2 0)
+			(at 55.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +4955,84 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 76.2 0)
+			(at 55.88 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d15a7b9a-38ef-486a-a672-3c63e94f407c")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e3c03c6-a24d-42fd-b494-ac9e50aa3171")
+		(property "Reference" "#PWR02"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.476 72.136 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +5056,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 149.86 62.23 0)
+		(at 113.03 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3168,7 +5067,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0872ed-455b-4bc2-a943-b800fe1467a9")
 		(property "Reference" "BT3"
-			(at 153.67 59.1184 0)
+			(at 116.84 52.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,7 +5078,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 153.67 61.6584 0)
+			(at 116.84 55.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3190,7 +5089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 60.706 90)
+			(at 113.03 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +5100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 60.706 90)
+			(at 113.03 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +5111,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 149.86 62.23 0)
+			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +5122,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 149.86 62.23 0)
+			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +5133,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 149.86 62.23 0)
+			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +5144,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 149.86 62.23 0)
+			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,7 +5171,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 149.86 46.99 0)
+		(at 113.03 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3283,7 +5182,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e1ab87-849d-43b0-bae0-f203915167b2")
 		(property "Reference" "BT1"
-			(at 153.67 43.8784 0)
+			(at 116.84 37.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3294,7 +5193,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 153.67 46.4184 0)
+			(at 116.84 40.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3305,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 45.466 90)
+			(at 113.03 39.116 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +5215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 45.466 90)
+			(at 113.03 39.116 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +5226,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 149.86 46.99 0)
+			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3338,7 +5237,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 149.86 46.99 0)
+			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +5248,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 149.86 46.99 0)
+			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +5259,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 149.86 46.99 0)
+			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +5286,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Capacitors:2.2uF_50V")
-		(at 200.66 92.71 270)
+		(at 171.45 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3398,7 +5297,7 @@
 		(fields_autoplaced yes)
 		(uuid "c14b3adc-3718-4b77-9828-44563ad236e1")
 		(property "Reference" "C1"
-			(at 204.47 91.4399 90)
+			(at 175.26 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3409,7 +5308,7 @@
 			)
 		)
 		(property "Value" "2.2uF_50V"
-			(at 204.47 93.9799 90)
+			(at 175.26 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3420,7 +5319,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 196.85 93.472 0)
+			(at 167.64 92.202 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +5330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 93.218 0)
+			(at 171.45 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +5341,7 @@
 			)
 		)
 		(property "Description" "2.2uF, 50V Electrolytic Capacitor"
-			(at 200.66 92.71 0)
+			(at 171.45 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3469,7 +5368,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P3.50mm")
-		(at 92.71 43.18 0)
+		(at 64.77 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3480,7 +5379,7 @@
 		(dnp no)
 		(uuid "c579665a-d6be-4f10-a50b-46a999430807")
 		(property "Reference" "J2"
-			(at 93.3451 39.37 0)
+			(at 65.4051 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3491,7 +5390,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_2_P3.50mm"
-			(at 90.8051 39.37 90)
+			(at 62.8651 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,7 +5402,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 91.44 49.53 0)
+			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +5413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 43.18 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +5424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 43.18 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +5435,7 @@
 			)
 		)
 		(property "Étiquette" "Source Externe (GX16-2)"
-			(at 93.345 35.179 0)
+			(at 65.405 28.829 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3561,8 +5460,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 86.36 96.52 0)
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 35.56 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3570,9 +5470,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc875fab-88f8-48f2-91e5-91f876155c8d")
-		(property "Reference" "SW1"
-			(at 86.36 87.63 0)
+		(uuid "c6214187-4e73-4585-b486-a8b3af5f7f5b")
+		(property "Reference" "#FLG02"
+			(at 43.18 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3582,19 +5482,18 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
-			(at 86.36 90.17 0)
-			(hide yes)
+		(property "Value" "PWR_FLAG"
+			(at 43.18 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 96.52 0)
+			(at 43.18 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,7 +5504,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 96.52 0)
+			(at 43.18 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc7a9388-3657-4dc1-8657-a455a75d99ab")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9a7ef27-ebd9-4bc7-9bb0-5addf253900d")
+		(property "Reference" "#PWR012"
+			(at 63.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.674 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c4c37bd-06cd-4d63-bb9b-3309952668ab")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 41.91 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc875fab-88f8-48f2-91e5-91f876155c8d")
+		(property "Reference" "SW1"
+			(at 41.91 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 41.91 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,7 +5670,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 86.36 96.52 0)
+			(at 41.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,7 +5681,7 @@
 			)
 		)
 		(property "Étiquette" "Source Selection"
-			(at 86.36 90.17 0)
+			(at 41.91 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,8 +5718,222 @@
 		)
 	)
 	(symbol
+		(lib_id "TrailerDiagSymbols:SR305C334KAR")
+		(at 43.18 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b7e6e7-78be-40b6-bdec-756c7995190e")
+		(property "Reference" "C2"
+			(at 44.45 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SR305C334KAR"
+			(at 44.45 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SR305C334KAR:CAPRR508W50L762T381H762"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor Ceramic, Radial .33uF, 50V, 10%, X7R | AVX SR305C334KAR"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AVX"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.62mm"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Radial AVX"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SR305C334KAR/AVX/view-part/?ref=eda"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "081816"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR305C334KAR/AVX/view-part/?ref=snap"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SR305C334KAR"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a0aeba71-151a-4193-ad1c-c2199b72c0c4")
+		)
+		(pin "1"
+			(uuid "53705b3c-6d61-4cd5-936d-809aa1d13fb3")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 86.36 104.14 0)
+		(at 41.91 74.93 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3676,7 +5944,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8a12279-f88b-49b8-a231-a093e390220f")
 		(property "Reference" "SW1"
-			(at 86.36 95.25 0)
+			(at 41.91 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +5955,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 86.36 97.79 0)
+			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +5966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 104.14 0)
+			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +5977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 104.14 0)
+			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +5988,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 86.36 104.14 0)
+			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +5999,7 @@
 			)
 		)
 		(property "Étiquette" "Source Selection"
-			(at 86.36 104.14 0)
+			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +6038,7 @@
 	)
 	(symbol
 		(lib_id "LM74610QDGKRQ1:LM74610QDGKRQ1")
-		(at 161.29 101.6 0)
+		(at 132.08 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3781,7 +6049,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfb8866-b899-4578-aa37-bf9bfdbcf554")
 		(property "Reference" "U1"
-			(at 161.29 83.82 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +6060,7 @@
 			)
 		)
 		(property "Value" "LM74610QDGKRQ1"
-			(at 161.29 86.36 0)
+			(at 132.08 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3802,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" "LM74610QDGKRQ1:SOP65P490X110-8N"
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +6082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +6093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +6104,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +6116,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,7 +6128,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10 mm"
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +6140,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 161.29 101.6 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +6186,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 100.33 41.91 270)
+		(at 72.39 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3929,7 +6197,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef39c361-57e9-40cd-a6a2-527297fbd0fe")
 		(property "Reference" "F1"
-			(at 100.33 35.56 90)
+			(at 72.39 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +6208,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 100.33 38.1 90)
+			(at 72.39 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +6218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 40.132 90)
+			(at 72.39 33.782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +6229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 41.91 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +6240,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 100.33 41.91 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,6 +6260,220 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailerDiagSymbols:FG26X7R1E106KRT06")
+		(at 43.18 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd367cc-3089-461c-8d11-189fd63144d3")
+		(property "Reference" "C3"
+			(at 44.45 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FG26X7R1E106KRT06"
+			(at 44.45 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FG26X7R1E106KRT06:CAPRB500W50L550T350H600"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R Radial"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.0 mm"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Radial TDK"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FG26X7R1E106KRT06/TDK/view-part/?ref=eda"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "20200310"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FG26X7R1E106KRT06/TDK/view-part/?ref=snap"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "FG26X7R1E106KRT06"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "eb80e273-90d9-41e0-a7f0-bd33fd4d875d")
+		)
+		(pin "2"
+			(uuid "210071d8-5958-40cc-9cf6-53a0523dc285")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+					(reference "C3")
 					(unit 1)
 				)
 			)
