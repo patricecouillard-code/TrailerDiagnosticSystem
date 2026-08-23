@@ -1578,7 +1578,7 @@
 		)
 		(uuid "7d5985d7-1e1d-438d-a6a9-3ad0b01ea71f")
 	)
-	(text "Court_Tail\n(Porte OU #1)"
+	(text "Court_Brake\n(Porte OU #1)"
 		(exclude_from_sim no)
 		(at 48.26 146.05 0)
 		(effects
@@ -1597,16 +1597,6 @@
 			)
 		)
 		(uuid "b207a72a-6fba-4c02-8876-9c6b997968b8")
-	)
-	(text "Fault_Actif"
-		(exclude_from_sim no)
-		(at 203.2 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b38a663c-81c0-43dd-9144-7191479d0a7d")
 	)
 	(text ""
 		(exclude_from_sim no)
@@ -1628,17 +1618,7 @@
 		)
 		(uuid "c06c42c6-1cb4-4894-822f-ef60aaa58d8b")
 	)
-	(text "Vert_Enable"
-		(exclude_from_sim no)
-		(at 228.6 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d2a038ff-9f18-4201-8df7-58469ec791ff")
-	)
-	(text "Ouvet_Tail\n(Porte OU #2)"
+	(text "Ouvet_Brake\n(Porte OU #2)"
 		(exclude_from_sim no)
 		(at 93.98 146.05 0)
 		(effects
@@ -1648,7 +1628,7 @@
 		)
 		(uuid "e3c0a3ba-d25b-4512-9129-a24a59dbe2ff")
 	)
-	(text "Porte ET #5\n(Bleu_Tail)\n"
+	(text "Porte ET #5\n(Bleu_Brake)\n"
 		(exclude_from_sim no)
 		(at 50.8 101.6 0)
 		(effects
@@ -1707,6 +1687,12 @@
 		(uuid "7a380be9-edc2-4d95-9883-ad4b5a18703b")
 	)
 	(junction
+		(at 58.42 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801afd44-c3b5-44ce-a5a6-7085fa9c273a")
+	)
+	(junction
 		(at 149.86 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1731,22 +1717,10 @@
 		(uuid "d867301d-abf1-4b92-accd-16506a6ef6ce")
 	)
 	(junction
-		(at 58.42 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8b31260-88da-450a-b5b4-983a45c45c93")
-	)
-	(junction
 		(at 86.36 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99f49d4-1e8d-4bdd-b9c5-8a79be82a438")
-	)
-	(junction
-		(at 53.34 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfc1b4b2-39d5-4769-9cb6-5b3f3599dbdf")
 	)
 	(junction
 		(at 105.41 175.26)
@@ -1794,6 +1768,16 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "13f99aca-b70e-4307-8f95-7dfdf0f4a5b7")
+	)
+	(wire
+		(pts
+			(xy 58.42 158.75) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "1d7e288b-6bce-4df8-a660-b4c943072b2c")
 	)
 	(wire
@@ -1815,16 +1799,6 @@
 			(type default)
 		)
 		(uuid "2362dd3d-97e3-4552-9bc9-be6773529c29")
-	)
-	(wire
-		(pts
-			(xy 53.34 170.18) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24df0975-6a36-4880-a9ce-6247f2c85d61")
 	)
 	(wire
 		(pts
@@ -1988,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 36.83) (xy 189.23 39.37)
+			(xy 195.58 36.83) (xy 195.58 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2065,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "7ba182d2-a344-4a58-b310-a524e4589971")
+	)
+	(wire
+		(pts
+			(xy 53.34 170.18) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87306dad-4026-4cb4-a855-6b2c8f50d488")
 	)
 	(wire
 		(pts
@@ -2188,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 39.37) (xy 185.42 39.37)
+			(xy 195.58 39.37) (xy 191.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 22.86) (xy 190.5 22.86)
+			(xy 195.58 22.86) (xy 196.85 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2235,16 +2219,6 @@
 			(type default)
 		)
 		(uuid "b3252569-ecfb-4811-96a1-db54060a70fb")
-	)
-	(wire
-		(pts
-			(xy 50.8 170.18) (xy 53.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5434a3f-e00b-4e11-a625-13bcfe4ea650")
 	)
 	(wire
 		(pts
@@ -2295,16 +2269,6 @@
 			(type default)
 		)
 		(uuid "c9072dc0-f4ee-4b32-ac91-146a99599d76")
-	)
-	(wire
-		(pts
-			(xy 58.42 158.75) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca57797c-723c-4173-8684-7ab537ca9751")
 	)
 	(wire
 		(pts
@@ -2498,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 26.67) (xy 189.23 22.86)
+			(xy 195.58 26.67) (xy 195.58 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2480,7 @@
 		)
 		(uuid "04a866f5-7188-4a84-8778-89193f28fd96")
 	)
-	(label "Court_Tail"
+	(label "Court_Brake"
 		(at 140.97 55.88 180)
 		(effects
 			(font
@@ -2576,7 +2540,7 @@
 		)
 		(uuid "4cc94028-bd7f-446b-b96f-af848da2c320")
 	)
-	(label "Bleu_Tail"
+	(label "Bleu_Brake"
 		(at 137.16 36.83 180)
 		(effects
 			(font
@@ -2586,7 +2550,7 @@
 		)
 		(uuid "55a10c80-1fd7-4104-9bf9-b4e410184315")
 	)
-	(label "Not_Btn_Tail"
+	(label "Not_Btn_Brake"
 		(at 52.07 124.46 180)
 		(effects
 			(font
@@ -2596,7 +2560,7 @@
 		)
 		(uuid "58411de0-8de6-470a-a5a5-611ba33b7757")
 	)
-	(label "Ouvert_Tail"
+	(label "Ouvert_Brake"
 		(at 208.28 107.95 180)
 		(effects
 			(font
@@ -2605,6 +2569,16 @@
 			(justify right bottom)
 		)
 		(uuid "64b68653-34ae-4ed1-95fb-0ffeec2637da")
+	)
+	(label "Vert_Enable"
+		(at 224.79 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "813dfbaa-8acc-495a-8101-176b6fc23388")
 	)
 	(label "Ouvert_T_Actif"
 		(at 93.98 175.26 180)
@@ -2616,7 +2590,7 @@
 		)
 		(uuid "858122fd-5393-46bb-b123-c0022e869927")
 	)
-	(label "Not_Btn_Tail"
+	(label "Not_Btn_Brake"
 		(at 146.05 115.57 180)
 		(effects
 			(font
@@ -2626,7 +2600,17 @@
 		)
 		(uuid "882dbb31-2ba0-471a-ade5-df725d3a8d51")
 	)
-	(label "Ouvert_Tail"
+	(label "Vert_Enable"
+		(at 187.96 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7914403-f6df-429e-be09-1b368ca88897")
+	)
+	(label "Ouvert_Brake"
 		(at 187.96 85.09 180)
 		(effects
 			(font
@@ -2646,7 +2630,7 @@
 		)
 		(uuid "bf549f36-31c3-4f86-9f95-0411c052acaf")
 	)
-	(label "Ouvert_Tail"
+	(label "Ouvert_Brake"
 		(at 137.16 25.4 180)
 		(effects
 			(font
@@ -2656,7 +2640,17 @@
 		)
 		(uuid "bff8acc8-ba94-4137-8784-e158039665a0")
 	)
-	(label "Court_Tail"
+	(label "Fault_Actif"
+		(at 198.12 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca6ae814-7684-4405-a804-ad21b2cec618")
+	)
+	(label "Court_Brake"
 		(at 190.5 63.5 180)
 		(effects
 			(font
@@ -2687,7 +2681,7 @@
 		(uuid "d9314016-8b40-443e-ba2c-03319efd340e")
 	)
 	(label "R_Lim_G"
-		(at 198.12 22.86 0)
+		(at 204.47 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2696,7 +2690,7 @@
 		)
 		(uuid "e5c8c622-8852-4a66-99d9-962c0668df08")
 	)
-	(label "Court_Tail"
+	(label "Court_Brake"
 		(at 187.96 120.65 180)
 		(effects
 			(font
@@ -2706,7 +2700,7 @@
 		)
 		(uuid "e938e1e9-c287-4dd0-812d-5152ebe6cc5f")
 	)
-	(label "Bleu_Tail"
+	(label "Bleu_Brake"
 		(at 187.96 134.62 180)
 		(effects
 			(font
@@ -2766,7 +2760,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 185.42 39.37 180)
+		(at 191.77 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2776,7 +2770,7 @@
 		)
 		(uuid "1cc225f9-eeca-4bd8-a707-157672154f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.5643 39.37 0)
+			(at 184.9143 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,7 +4626,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:330ohm")
-		(at 194.31 22.86 0)
+		(at 200.66 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4643,7 +4637,7 @@
 		(fields_autoplaced yes)
 		(uuid "4963221e-038c-41b6-8a38-3315df97b7a3")
 		(property "Reference" "R49"
-			(at 194.31 16.51 0)
+			(at 200.66 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4653,7 +4647,7 @@
 			)
 		)
 		(property "Value" "330ohm"
-			(at 194.31 19.05 0)
+			(at 200.66 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4663,7 +4657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 195.199 27.178 0)
+			(at 201.549 27.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.818 22.86 0)
+			(at 201.168 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4679,7 @@
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
-			(at 194.31 22.86 0)
+			(at 200.66 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4706,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 186.69 31.75 0)
+		(at 193.04 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4722,7 +4716,7 @@
 		(dnp no)
 		(uuid "4f21822e-96fa-4cdd-a6da-607e686f26f0")
 		(property "Reference" "Q16"
-			(at 193.04 30.4799 0)
+			(at 199.39 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4733,7 +4727,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 191.77 33.02 0)
+			(at 198.12 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4744,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 191.77 33.655 0)
+			(at 198.12 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +4751,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 191.77 35.56 0)
+			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4763,7 @@
 			)
 		)
 		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 186.69 31.75 0)
+			(at 193.04 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

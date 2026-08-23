@@ -1,0 +1,458 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0b3fca0e-6e7b-4761-95f4-a03daadc99bd")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 50.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117ce551-cc3f-49ae-9314-7b78e659d3fe")
+	)
+	(wire
+		(pts
+			(xy 49.53 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bbce4d-5700-4ad2-a7a9-e43cf86c1040")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33038f67-c8d8-421d-8576-248b0be15144")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35032cf0-99f2-4b6d-b60b-36af5ac6b470")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c336ed-88dc-4f10-8ac8-528c8146a114")
+	)
+	(wire
+		(pts
+			(xy 39.37 41.91) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49019381-a9da-45d8-a4c0-caa91eee74c2")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc359cb-967c-48d6-b3fd-51d84cec0f8c")
+	)
+	(wire
+		(pts
+			(xy 48.26 26.67) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570c9384-6629-4245-a59a-a02bba74ccc1")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd68eac-75d1-4352-a2a6-dd294cc29b28")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 58.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dadcee0-e806-42f0-a302-2c60d25d2ceb")
+	)
+	(wire
+		(pts
+			(xy 38.1 22.86) (xy 49.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e46c72-a41e-4257-90b8-67f4159fb7ba")
+	)
+	(wire
+		(pts
+			(xy 38.1 26.67) (xy 48.26 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bf547f-84b7-42c5-b589-ec564102f956")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 41.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06ba349-5569-465c-b1b4-80b53489bf15")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 49.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0fce92-7ec5-400e-bbb4-c28f3b9478dc")
+	)
+	(wire
+		(pts
+			(xy 48.26 30.48) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d1bfb6-538c-4acc-9548-ac91e77a6e70")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6efdc5c-da52-4206-bc45-b02c0478e9bc")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbe9c65-5b5c-416e-8acc-fa7d77832d62")
+	)
+	(hierarchical_label "Veh_Aux"
+		(shape input)
+		(at 40.64 30.48 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "07885583-7d41-44c2-a6d2-91f06b4c4a6c")
+	)
+	(hierarchical_label "Trail_Aux"
+		(shape input)
+		(at 41.91 54.61 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "d21a2504-08f9-4c1a-8d06-7118172ac428")
+	)
+	(sheet
+		(at 17.78 19.05)
+		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8bf9eb37-7b7a-46ec-8575-d84af1a08848")
+		(property "Sheetname" "Vehicule_Aux"
+			(at 17.78 18.5924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vehicule_Aux.kicad_sch"
+			(at 17.78 34.6714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Court_Aux_Vehic" input
+			(at 38.1 26.67 0)
+			(uuid "85beaed5-4c71-4606-ba56-068ed376287f")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Veh_Aux" input
+			(at 38.1 30.48 0)
+			(uuid "fe9094f2-4c23-4311-aec6-79c9dd852f41")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Aux_Vehic" input
+			(at 38.1 22.86 0)
+			(uuid "2b0d0424-c6c8-4406-9647-12e50d45bdcd")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 39.37)
+		(size 21.59 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b79546ec-0f75-4d28-b009-134d4d8e2d56")
+		(property "Sheetname" "Trailer_Aux"
+			(at 17.78 38.9124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Trailer_Aux.kicad_sch"
+			(at 17.78 58.8014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Trail_Aux" input
+			(at 39.37 54.61 0)
+			(uuid "18d8847c-18d0-4825-b591-b2680f23a0fc")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Btn_Aux_Etat" input
+			(at 39.37 46.99 0)
+			(uuid "9a188767-5764-4e8a-8810-2f8dc5fd3fec")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Aux_Trailer" input
+			(at 39.37 41.91 0)
+			(uuid "c5edefad-0569-4ff0-b8f8-6352cec71fee")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Aux_Trailer" input
+			(at 39.37 44.45 0)
+			(uuid "78d1434a-c158-4d57-a89a-945dc5dcc027")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 24.13)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d25077f7-2868-4779-a1c2-6faeaca9c2d4")
+		(property "Sheetname" "Bloc_Test_Aux"
+			(at 58.42 23.6724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bloc_Test_Aux.kicad_sch"
+			(at 58.42 47.3714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Court_Aux_Trailer" input
+			(at 58.42 30.48 180)
+			(uuid "bae77ce7-5fa8-44ca-92e9-eca9a219857d")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ouvert_Aux_Vehic" input
+			(at 58.42 27.94 180)
+			(uuid "dece3543-b1be-49fb-bbf0-2fc127464fdc")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Btn_Aux_Etat" input
+			(at 58.42 41.91 180)
+			(uuid "f7acd9fc-8b1b-416a-9b13-63d58965112d")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ouvert_Aux_Trailer" input
+			(at 58.42 36.83 180)
+			(uuid "9fad3093-7d02-4d71-9813-ae6ac9fe5e9a")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "Court_Aux_Vehic" input
+			(at 58.42 39.37 180)
+			(uuid "768210e5-68ab-46da-a118-5f348b909eff")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74"
+					(page "27")
+				)
+			)
+		)
+	)
+)

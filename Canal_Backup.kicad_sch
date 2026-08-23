@@ -2,204 +2,204 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "654f072f-456b-43a6-9be4-3b4786d4a3d0")
+	(uuid "721444ea-0a66-47ca-a08e-6c1e55dfa55c")
 	(paper "A4")
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 85.09 50.8)
+			(xy 52.07 38.1) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0893ebb9-1032-4768-8cf1-4e646087d1bb")
+		(uuid "02245be3-05ec-47bd-8507-f43d93354f94")
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 92.71 71.12)
+			(xy 54.61 40.64) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d6f0237-4ec0-43d9-a32f-8f32821af018")
+		(uuid "08d6f41c-8dd1-420e-85b8-d8543901b670")
 	)
 	(wire
 		(pts
-			(xy 92.71 59.69) (xy 95.25 59.69)
+			(xy 52.07 43.18) (xy 52.07 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13007eeb-ab0d-4446-8b9a-c07ac2b4fbc9")
+		(uuid "0ddadbe0-7688-4ffa-8101-959fbf23272e")
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 69.85 76.2)
+			(xy 39.37 30.48) (xy 41.91 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16a5509f-12ef-4983-b98b-e2319f3349c8")
+		(uuid "1e9c9196-c8f0-4ac5-935a-e2377d0f5cd5")
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 95.25 50.8)
+			(xy 39.37 40.64) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cf4c1f9-1072-4f25-b248-f451ed55486a")
+		(uuid "28372d91-a2c6-4496-9fa8-cb8e3734a9a3")
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 88.9 36.83)
+			(xy 39.37 43.18) (xy 52.07 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ccb055c-28c8-44cf-97ba-45d1c8ed2235")
+		(uuid "2e310453-412f-4444-9595-96e445c0e69a")
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 85.09 60.96)
+			(xy 39.37 27.94) (xy 49.53 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53da5a59-7d24-4a2a-9ca1-31fb4eed2653")
+		(uuid "4ab2a31a-5bf5-4b93-a10f-6800f42ee37e")
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 41.91)
+			(xy 39.37 48.26) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d4ac37a-5d82-40fb-880b-f0ac9ae19476")
+		(uuid "4f76e377-18fb-4ed5-92c3-43f5bb2bc3a1")
 	)
 	(wire
 		(pts
-			(xy 85.09 45.72) (xy 95.25 45.72)
+			(xy 49.53 40.64) (xy 49.53 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6270bdb4-5517-4c28-9880-e716b6982ac2")
+		(uuid "7457e3b8-da43-465e-ae29-bad6d07dd316")
 	)
 	(wire
 		(pts
-			(xy 63.5 44.45) (xy 68.58 44.45)
+			(xy 52.07 29.21) (xy 63.5 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d57448d-2a2c-478a-9838-9b6ba9e38610")
+		(uuid "839786b4-7a5a-40ba-a293-03efbf26c2a8")
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 85.09 45.72)
+			(xy 52.07 25.4) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ee39675-d695-42c6-bcc6-343250c8bcda")
+		(uuid "895a9d20-1494-4306-9af4-d04fb248bf77")
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 88.9 66.04)
+			(xy 54.61 45.72) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "963b3a81-53d2-4683-8e04-e5ec70497910")
+		(uuid "90699e18-25e4-4d29-abef-7575f7207347")
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 95.25 41.91)
+			(xy 49.53 35.56) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6c1d125-8403-41d2-a9e9-e17dc3bf87ab")
+		(uuid "9c9b75e8-304e-4df5-9cf1-02f77b6a71f5")
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 59.69)
+			(xy 49.53 27.94) (xy 49.53 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc8eeca3-c108-4ebe-9467-27d2eb0de057")
+		(uuid "9e97a670-75e9-445e-b1e1-dd201eab6446")
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 85.09 40.64)
+			(xy 39.37 25.4) (xy 52.07 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c5d9aa-a4d1-4ea1-be4a-fb07439454a0")
+		(uuid "c1b154ef-a234-46f4-8ef5-9c36644e54eb")
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 95.25 54.61)
+			(xy 39.37 45.72) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1e72090-740d-43a7-97d8-1fa9b47021b4")
+		(uuid "c311aef7-b829-433b-a2a5-caf8e7f926f5")
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 88.9 54.61)
+			(xy 49.53 31.75) (xy 63.5 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f37976b2-49af-4fd8-8a0a-552869c9289f")
+		(uuid "c3faaf66-3c25-424d-bc50-29930eabf9b5")
 	)
-	(hierarchical_label "Trail_Right"
+	(hierarchical_label "Trail_Backup"
 		(shape input)
-		(at 69.85 76.2 0)
+		(at 41.91 48.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify left)
 		)
-		(uuid "456d6e28-b902-4d6b-840d-c515d5be6df3")
+		(uuid "3957af4e-e5e0-4202-84b7-84aae61d7ed5")
 	)
-	(hierarchical_label "Veh_Right"
+	(hierarchical_label "Veh_Backup"
 		(shape input)
-		(at 68.58 44.45 0)
+		(at 41.91 30.48 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify left)
 		)
-		(uuid "780f672e-fef5-42bd-91d1-6eef745a64b4")
+		(uuid "cc478a6a-117b-4105-bb46-92d1b1c28c9d")
 	)
 	(sheet
-		(at 27.94 57.15)
-		(size 35.56 26.67)
+		(at 19.05 38.1)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -212,9 +212,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a")
-		(property "Sheetname" "Trailer_Right"
-			(at 27.94 56.6924 0)
+		(uuid "18872dd6-0ef4-4a27-9be8-9bc7a3e7d142")
+		(property "Sheetname" "Trailer_Backup"
+			(at 19.05 37.6424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -224,8 +224,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Trailer_Right.kicad_sch"
-			(at 27.94 84.2014 0)
+		(property "Sheetfile" "Trailer_Backup.kicad_sch"
+			(at 19.05 51.1814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -235,9 +235,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Btn_Right_Etat" input
-			(at 63.5 71.12 0)
-			(uuid "361b4802-eaa6-4904-be82-c4d10a660566")
+		(pin "Trail_Backup" input
+			(at 39.37 48.26 0)
+			(uuid "aa93fa13-b346-4362-ac5c-568a82dfc990")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -245,9 +245,9 @@
 				(justify right)
 			)
 		)
-		(pin "Court_Right_Trailer" input
-			(at 63.5 60.96 0)
-			(uuid "95b35d02-6413-4410-8220-8c1d8253a9b1")
+		(pin "Ouvert_Backup_Trailer" input
+			(at 39.37 40.64 0)
+			(uuid "11de05ef-627a-4e36-8da7-ff3ea498d760")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -255,9 +255,9 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Right_Trailer" input
-			(at 63.5 66.04 0)
-			(uuid "b97025ca-e1a9-4631-9998-1381b1767a85")
+		(pin "Court_Backup_Trailer" input
+			(at 39.37 43.18 0)
+			(uuid "d35a27a1-1e6a-436d-b5c9-f0960e4c1306")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -265,9 +265,9 @@
 				(justify right)
 			)
 		)
-		(pin "Trail_Right" input
-			(at 63.5 76.2 0)
-			(uuid "aa2dc491-84ce-4795-a621-5872d08fe40c")
+		(pin "Btn_Backup_Etat" input
+			(at 39.37 45.72 0)
+			(uuid "9270f0d6-5065-439b-b1e8-e448d624700a")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -277,15 +277,15 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea"
-					(page "18")
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/b4ff831c-304a-4222-b9bb-487c614afe45"
+					(page "22")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 95.25 39.37)
-		(size 46.99 35.56)
+		(at 63.5 25.4)
+		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -298,9 +298,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "9c44984f-fa80-4102-be68-50a7c77252f6")
-		(property "Sheetname" "Bloc_Test_Right"
-			(at 95.25 38.9124 0)
+		(uuid "3c1e0037-3393-4d0b-90ae-4005503ff1f2")
+		(property "Sheetname" "Bloc_Test_Backup"
+			(at 63.5 24.9424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -310,8 +310,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Bloc_Test_Right.kicad_sch"
-			(at 95.25 75.3114 0)
+		(property "Sheetfile" "Bloc_Test_Backup.kicad_sch"
+			(at 63.5 44.8314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,9 +321,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Btn_Right_Etat" input
-			(at 95.25 59.69 180)
-			(uuid "f3926b68-83bd-465f-b5f2-4f72c15fda5e")
+		(pin "Ouvert_Backup_Vehic" input
+			(at 63.5 29.21 180)
+			(uuid "ed52f5a0-4cf5-43fc-8208-1fbc1e69ae6a")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -331,9 +331,9 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Right_Trailer" input
-			(at 95.25 50.8 180)
-			(uuid "69eddd81-0573-41b4-a17c-97e0b12cde79")
+		(pin "Ouvert_Backup_Trailer" input
+			(at 63.5 35.56 180)
+			(uuid "84d23908-8452-4e03-a571-82070680a136")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -341,9 +341,9 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Right_Vehic" input
-			(at 95.25 41.91 180)
-			(uuid "e6b325a4-203b-44c2-aec0-d4af9e9f41ed")
+		(pin "Btn_Backup_Etat" input
+			(at 63.5 40.64 180)
+			(uuid "e174ec53-1b92-4fb5-88e6-0a6de9ee7456")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -351,9 +351,9 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Right_Trailer" input
-			(at 95.25 54.61 180)
-			(uuid "42c6b5bf-9c01-49ab-8461-eee8072a6908")
+		(pin "Court_Backup_Vehic" input
+			(at 63.5 31.75 180)
+			(uuid "fe00f178-df3a-4c10-8b1d-8eacfc37de8d")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -361,9 +361,9 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Right_Vehic" input
-			(at 95.25 45.72 180)
-			(uuid "49e29099-8584-469c-ab2e-fd5201f78dcd")
+		(pin "Court_Backup_Trailer" input
+			(at 63.5 38.1 180)
+			(uuid "6dc46b59-5e1d-4011-9a86-2ade5e6ef193")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -373,15 +373,15 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea"
-					(page "19")
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/b4ff831c-304a-4222-b9bb-487c614afe45"
+					(page "23")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 27.94 30.48)
-		(size 35.56 20.32)
+		(at 19.05 22.86)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -394,9 +394,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "c7d28692-79ba-468e-95aa-45c866b6d196")
-		(property "Sheetname" "Vehicule_Right"
-			(at 27.94 30.0224 0)
+		(uuid "d2f51127-2199-41cf-a720-93d9de718130")
+		(property "Sheetname" "Vehicule_Backup"
+			(at 19.05 22.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -406,8 +406,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Vehicule_Right.kicad_sch"
-			(at 27.94 51.1814 0)
+		(property "Sheetfile" "Vehicule_Backup.kicad_sch"
+			(at 19.05 33.4014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -417,9 +417,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Court_Right_Vehic" input
-			(at 63.5 36.83 0)
-			(uuid "f2dae72d-fad3-404d-a3d6-05964b7bd748")
+		(pin "Court_Backup_Vehic" input
+			(at 39.37 27.94 0)
+			(uuid "1de4ac08-ad2e-410c-aae9-74460a5dc538")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -427,9 +427,9 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Right_Vehic" input
-			(at 63.5 40.64 0)
-			(uuid "d6b51822-678a-4c23-80cd-e7a78fda85a8")
+		(pin "Ouvert_Backup_Vehic" input
+			(at 39.37 25.4 0)
+			(uuid "d0968eee-e2bf-4c4c-8681-aa43b182e487")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -437,9 +437,9 @@
 				(justify right)
 			)
 		)
-		(pin "Veh_Right" input
-			(at 63.5 44.45 0)
-			(uuid "878c28d0-7ef1-44c2-932c-ff3236c3e9ef")
+		(pin "Veh_Backup" input
+			(at 39.37 30.48 0)
+			(uuid "3350cf5d-451d-4efd-be82-c47fcc180f9f")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -449,8 +449,8 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea"
-					(page "17")
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/b4ff831c-304a-4222-b9bb-487c614afe45"
+					(page "21")
 				)
 			)
 		)
