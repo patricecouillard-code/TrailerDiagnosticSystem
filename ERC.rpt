@@ -1,7 +1,10 @@
-ERC report (2026-08-22T17:30:39, Encoding UTF8)
+ERC report (2026-08-23T11:55:28, Encoding UTF8)
 Report includes: Errors
 
 ***** Sheet /
+[label_dangling]: Label not connected
+    ; error
+    @(2.150 in, 1.950 in): Label 'Alerte_Incoherence'
 
 ***** Sheet /Alimentation/
 
@@ -16,33 +19,12 @@ Report includes: Errors
 ***** Sheet /Canal_Tail/Bloc_Test_Tail/
 
 ***** Sheet /Canal_Brake/
-[pin_not_connected]: Pin not connected
-    ; error
-    @(5.450 in, 1.800 in): Hierarchical Sheet Pin 'Ouvert_Brake_Trailer'
-[pin_not_connected]: Pin not connected
-    ; error
-    @(5.450 in, 2.000 in): Hierarchical Sheet Pin 'Ouvert_Brake_Vehic'
-[pin_not_connected]: Pin not connected
-    ; error
-    @(5.450 in, 2.200 in): Hierarchical Sheet Pin 'Btn_Brake_Etat'
-[pin_not_connected]: Pin not connected
-    ; error
-    @(5.450 in, 2.350 in): Hierarchical Sheet Pin 'Court_Brake_Trailer'
-[pin_not_connected]: Pin not connected
-    ; error
-    @(5.450 in, 2.550 in): Hierarchical Sheet Pin 'Court_Brake_Vehic'
 
 ***** Sheet /Canal_Brake/Vehicule_Brake/
 
 ***** Sheet /Canal_Brake/Trailer_Brake/
 
 ***** Sheet /Canal_Brake/Bloc_Test_Brake/
-[pin_not_connected]: Pin not connected
-    ; error
-    @(7.150 in, 1.250 in): Symbol Q16 Pin 2 [G, Entrée, Ligne]
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(7.150 in, 1.250 in): Symbol Q16 Pin 2 [G, Entrée, Ligne]
 
 ***** Sheet /Canal_Left/
 
@@ -52,7 +34,31 @@ Report includes: Errors
 
 ***** Sheet /Canal_Left/Bloc_Test_Left/
 
- ** ERC messages: 7  Errors 7  Warnings 0
+***** Sheet /Canal_Right/
+
+***** Sheet /Canal_Right/Vehicule_Right/
+
+***** Sheet /Canal_Right/Trailer_Right/
+
+***** Sheet /Canal_Right/Bloc_Test_Right/
+
+***** Sheet /Canal_Backup/
+
+***** Sheet /Canal_Backup/Vehicule_Backup/
+
+***** Sheet /Canal_Backup/Trailer_Backup/
+
+***** Sheet /Canal_Backup/Bloc_Test_Backup/
+
+***** Sheet /Canal_Aux/
+
+***** Sheet /Canal_Aux/Vehicule_Aux/
+
+***** Sheet /Canal_Aux/Trailer_Aux/
+
+***** Sheet /Canal_Aux/Bloc_Test_Aux/
+
+ ** ERC messages: 1  Errors 1  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic

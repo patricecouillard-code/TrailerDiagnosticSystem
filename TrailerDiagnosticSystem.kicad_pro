@@ -784,7 +784,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,BMS3s1-2,SW1-8,P1-2,BT1-6,U1-14,Q1-52,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,D1-146,LED1-2,OC1-12",
+    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-15,Q1-54,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,R207,D1-146,LED1-2,OC1-12",
     "variants": []
   },
   "sheets": [
