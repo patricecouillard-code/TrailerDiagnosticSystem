@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "fe322d54-1c6c-41eb-ad87-d578cfa81297")
+	(uuid "11771198-bbf2-4988-b56d-3f8820a58518")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Comparator:LM339"
@@ -1896,6 +1896,12 @@
 		(uuid "0c6ed4e7-10a4-4bf9-b2e5-d28927f18960")
 	)
 	(junction
+		(at 134.62 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271a7b47-ca57-4a15-9bcc-246be3da4d94")
+	)
+	(junction
 		(at 78.74 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,13 +2377,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 135.89 69.85)
+			(xy 134.62 69.85) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "deb030f2-56a7-4794-a69b-f007237726bc")
+		(uuid "e1ed3a68-22cb-47f4-821f-42bbbc726913")
 	)
 	(wire
 		(pts

@@ -586,7 +586,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
@@ -692,6 +692,48 @@
           "label": "Field10",
           "name": "Field10",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -742,7 +784,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,BMS3s1-2,SW1-5,P1-2,BT1-6,U1-6,Q1-29,C1-4,#PWR1-15,F1-4,#FLG1-2,R1-63,R67-71,R75-86,D1-74,LED1-2,OC1-4",
+    "used_designators": "J1-5,BMS3s1-2,SW1-8,P1-2,BT1-6,U1-14,Q1-52,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,D1-146,LED1-2,OC1-12",
     "variants": []
   },
   "sheets": [
@@ -805,6 +847,54 @@
     [
       "f7963cc6-1c2c-440a-87f5-49a6c6c4b196",
       "Bloc_Test_Left"
+    ],
+    [
+      "4f89c816-e1c8-4a6d-9631-51fb882801ea",
+      "Canal_Right"
+    ],
+    [
+      "c7d28692-79ba-468e-95aa-45c866b6d196",
+      "Vehicule_Right"
+    ],
+    [
+      "1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a",
+      "Trailer_Right"
+    ],
+    [
+      "9c44984f-fa80-4102-be68-50a7c77252f6",
+      "Bloc_Test_Right"
+    ],
+    [
+      "b4ff831c-304a-4222-b9bb-487c614afe45",
+      "Canal_Backup"
+    ],
+    [
+      "d2f51127-2199-41cf-a720-93d9de718130",
+      "Vehicule_Backup"
+    ],
+    [
+      "18872dd6-0ef4-4a27-9be8-9bc7a3e7d142",
+      "Trailer_Backup"
+    ],
+    [
+      "3c1e0037-3393-4d0b-90ae-4005503ff1f2",
+      "Bloc_Test_Backup"
+    ],
+    [
+      "f56287af-99ab-446e-8dde-0a4522148d74",
+      "Canal_Aux"
+    ],
+    [
+      "8bf9eb37-7b7a-46ec-8575-d84af1a08848",
+      "Vehicule_Aux"
+    ],
+    [
+      "b79546ec-0f75-4d28-b009-134d4d8e2d56",
+      "Trailer_Aux"
+    ],
+    [
+      "d25077f7-2868-4779-a1c2-6faeaca9c2d4",
+      "Bloc_Test_Aux"
     ]
   ],
   "text_variables": {},

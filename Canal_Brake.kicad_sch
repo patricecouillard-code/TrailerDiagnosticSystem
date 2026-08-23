@@ -5,9 +5,201 @@
 	(uuid "6e9a7210-5d59-4169-9488-730cc24a9ec2")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b87400-8cbc-4e09-a3c5-cd1c071879ac")
+	)
+	(wire
+		(pts
+			(xy 58.42 64.77) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2437bcc5-c652-411a-8f15-a73d222f290f")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34647a6f-a3ce-4214-a7dd-0191a35a0c1d")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 50.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41da6819-621a-4074-8983-d8f0bec8d9ed")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4408674d-71be-4485-93e6-7d92fb8ac19c")
+	)
+	(wire
+		(pts
+			(xy 50.8 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48976ddd-25fd-4087-baa0-e7b4034920cd")
+	)
+	(wire
+		(pts
+			(xy 54.61 44.45) (xy 63.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4961083e-5cfa-411b-8b37-6f9f94542307")
+	)
+	(wire
+		(pts
+			(xy 38.1 60.96) (xy 54.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c6fa8e-9b39-4815-aeb9-38d48d9d303f")
+	)
+	(wire
+		(pts
+			(xy 48.26 33.02) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602769f2-9936-4062-97a1-7ac28b035d1f")
+	)
+	(wire
+		(pts
+			(xy 38.1 64.77) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fcf7be-65f2-44f4-aba7-9ff8c6663cd4")
+	)
+	(wire
+		(pts
+			(xy 54.61 60.96) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbaeef9-ee3f-49a0-91a1-089f6e981028")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968f4e10-77c1-4f49-8689-2f2a3754e362")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a9b6d9-a169-4a54-acc9-a0c79b2ddb58")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21bb455-b2cd-4d80-86c6-86bf7057a003")
+	)
+	(wire
+		(pts
+			(xy 38.1 35.56) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73ccdb2-2250-4b6d-ad85-ee9996253ad4")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7f560b-1e80-4e0d-ae4d-2bce23f3a36b")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 50.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb2ac74-8322-43c3-b063-96257edead87")
+	)
+	(hierarchical_label "Trail_Brake"
+		(shape input)
+		(at 40.64 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c062d24b-2ada-4453-bfe5-f364b2facfe3")
+	)
+	(hierarchical_label "Veh_Brake"
+		(shape input)
+		(at 40.64 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7f9c2c4-fa57-404f-9fbd-5484f9495f0f")
+	)
 	(sheet
-		(at 19.05 12.7)
-		(size 40.64 44.45)
+		(at 17.78 20.32)
+		(size 20.32 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +214,7 @@
 		)
 		(uuid "21c93d00-b37b-47a5-b927-bc58d61daf1e")
 		(property "Sheetname" "Vehicule_Brake"
-			(at 19.05 12.2424 0)
+			(at 17.78 19.8624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +225,7 @@
 			)
 		)
 		(property "Sheetfile" "Vehicule_Brake.kicad_sch"
-			(at 19.05 57.5314 0)
+			(at 17.78 39.7514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +233,36 @@
 					(size 0.762 0.762)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Ouvert_Brake_Vehic" input
+			(at 38.1 25.4 0)
+			(uuid "602bed04-79dd-41e6-85fe-04bc88d74989")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Brake_Vehic" input
+			(at 38.1 29.21 0)
+			(uuid "c8d37771-e501-4f22-91d8-eb98e2c6c7f3")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Veh_Brake" input
+			(at 38.1 35.56 0)
+			(uuid "4a0b9860-9e4c-443d-9ef6-b4501931de92")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +274,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 62.23)
-		(size 35.56 43.18)
+		(at 17.78 53.34)
+		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +290,7 @@
 		)
 		(uuid "4aba9902-71b6-405a-a306-a02756ecbc63")
 		(property "Sheetname" "Trailer_Brake"
-			(at 20.32 61.7724 0)
+			(at 17.78 52.8824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "Trailer_Brake.kicad_sch"
-			(at 20.32 105.7914 0)
+			(at 17.78 74.0414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +309,46 @@
 					(size 0.762 0.762)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Trail_Brake" input
+			(at 38.1 69.85 0)
+			(uuid "2ee3f39b-015e-4299-aab3-6f36fa89b749")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ouvert_Brake_Trailer" input
+			(at 38.1 57.15 0)
+			(uuid "3007fb99-d20d-40f6-b157-d62507c1deea")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Btn_Brake_Etat" input
+			(at 38.1 64.77 0)
+			(uuid "b1feee2f-b546-4db6-81c3-814b20b7042b")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Brake_Trailer" input
+			(at 38.1 60.96 0)
+			(uuid "b1667238-7d1d-4409-937b-37d1f400a1af")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -98,7 +360,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 29.21)
+		(at 63.5 24.13)
 		(size 33.02 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +376,7 @@
 		)
 		(uuid "704733a3-8459-4f16-a041-c619adb87510")
 		(property "Sheetname" "Bloc_Test_Brake"
-			(at 91.44 28.7524 0)
+			(at 63.5 23.6724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +387,7 @@
 			)
 		)
 		(property "Sheetfile" "Bloc_Test_Brake.kicad_sch"
-			(at 91.44 72.7714 0)
+			(at 63.5 67.6914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,7 +398,7 @@
 			)
 		)
 		(pin "Ouvert_Brake_Trailer" input
-			(at 91.44 39.37 180)
+			(at 63.5 41.91 180)
 			(uuid "05671a67-abd4-459d-8f95-fbdd9ab712fa")
 			(effects
 				(font
@@ -146,7 +408,7 @@
 			)
 		)
 		(pin "Ouvert_Brake_Vehic" input
-			(at 91.44 44.45 180)
+			(at 63.5 29.21 180)
 			(uuid "817ee12d-f69b-44fd-b452-ed01cb1250db")
 			(effects
 				(font
@@ -156,7 +418,7 @@
 			)
 		)
 		(pin "Btn_Brake_Etat" input
-			(at 91.44 49.53 180)
+			(at 63.5 50.8 180)
 			(uuid "d092ad1c-b697-41f2-8538-841d78ddad37")
 			(effects
 				(font
@@ -166,7 +428,7 @@
 			)
 		)
 		(pin "Court_Brake_Trailer" input
-			(at 91.44 53.34 180)
+			(at 63.5 44.45 180)
 			(uuid "3316fcba-75a7-4ee8-b8e2-ddcd9c8646bf")
 			(effects
 				(font
@@ -176,7 +438,7 @@
 			)
 		)
 		(pin "Court_Brake_Vehic" input
-			(at 91.44 58.42 180)
+			(at 63.5 33.02 180)
 			(uuid "39641616-9116-4a79-ae88-461a0f38ea90")
 			(effects
 				(font
