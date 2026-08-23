@@ -1828,7 +1828,7 @@
 		(uuid "a02c412b-8e24-4172-a7e5-a891fda9c2dd")
 	)
 	(junction
-		(at 87.6223 27.686)
+		(at 49.53 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9578b91-3d49-4bb8-904d-3ed9820faf18")
@@ -1915,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.5223 96.266) (xy 53.3323 96.266)
+			(xy 41.91 95.25) (xy 45.72 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.6223 27.686) (xy 87.6223 35.306)
+			(xy 49.53 27.94) (xy 49.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.2523 75.946) (xy 52.0623 75.946)
+			(xy 33.02 73.66) (xy 36.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.6823 86.106) (xy 59.6823 89.916)
+			(xy 52.07 85.09) (xy 52.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.8723 58.166) (xy 59.6823 58.166)
+			(xy 41.91 62.23) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.8723 42.926) (xy 59.6823 42.926)
+			(xy 41.91 46.99) (xy 45.72 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.7023 27.686) (xy 87.6223 27.686)
+			(xy 54.61 27.94) (xy 49.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.3523 27.686) (xy 87.6223 27.686)
+			(xy 48.26 27.94) (xy 49.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.6223 35.306) (xy 91.4323 35.306)
+			(xy 49.53 35.56) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.6823 54.356) (xy 59.6823 58.166)
+			(xy 45.72 58.42) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.3823 27.686) (xy 76.1923 27.686)
+			(xy 34.29 27.94) (xy 38.1 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.6823 42.926) (xy 59.6823 46.736)
+			(xy 45.72 46.99) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.6823 75.946) (xy 63.4923 75.946)
+			(xy 44.45 73.66) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.6823 100.076) (xy 59.6823 103.886)
+			(xy 52.07 99.06) (xy 52.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.8723 103.886) (xy 59.6823 103.886)
+			(xy 48.26 102.87) (xy 52.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2404,7 @@
 		(uuid "1ac1e381-1337-471b-bac3-47a630118026")
 	)
 	(label "Q52.2_Drain"
-		(at 59.6823 86.106 180)
+		(at 52.07 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2414,7 +2414,7 @@
 		(uuid "7c82471b-40c5-4b40-b7f8-5cdbd9b4e694")
 	)
 	(label "Q52.2_Drain"
-		(at 55.8723 58.166 180)
+		(at 41.91 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2424,7 +2424,7 @@
 		(uuid "933f1c74-bd2c-4f55-ac85-6076fe5f7a1e")
 	)
 	(label "Brake_Trailer_Shunt_Haut"
-		(at 55.8723 103.886 180)
+		(at 48.26 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 99.0523 35.306 0)
+		(at 60.96 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2469,7 +2469,7 @@
 		)
 		(uuid "28fa99cf-4926-4092-9b85-4ab9f870a9f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.908 35.306 0)
+			(at 67.8157 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +2579,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 48.2523 75.946 180)
+		(at 33.02 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,7 +2589,7 @@
 		)
 		(uuid "72921b8a-9b45-4038-bcd5-b32257125c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.3966 75.946 0)
+			(at 26.1643 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2723,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 72.3823 27.686 180)
+		(at 34.29 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2733,7 +2733,7 @@
 		)
 		(uuid "a2ff94bc-6db9-4f1e-8037-dab8f489c84e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.2566 27.686 0)
+			(at 26.1643 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2771,7 +2771,7 @@
 	)
 	(global_label "V_Arm_Trailer"
 		(shape input)
-		(at 55.8723 42.926 180)
+		(at 41.91 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2781,7 +2781,7 @@
 		)
 		(uuid "a79a62f6-d96c-40b9-9aa7-bb4b132a8329")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.2476 42.926 0)
+			(at 26.2853 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2819,7 @@
 	)
 	(hierarchical_label "Btn_Brake_Etat"
 		(shape input)
-		(at 49.5223 96.266 180)
+		(at 41.91 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2830,7 +2830,7 @@
 	)
 	(hierarchical_label "Btn_Brake_Etat"
 		(shape input)
-		(at 92.7023 27.686 0)
+		(at 54.61 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 	)
 	(hierarchical_label "Trail_Brake"
 		(shape input)
-		(at 63.4923 75.946 0)
+		(at 48.26 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2885,7 +2885,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 95.2423 35.306 0)
+		(at 57.15 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2895,7 +2895,7 @@
 		(dnp no)
 		(uuid "0555b358-78fd-4023-9540-7a6a8f5184ab")
 		(property "Reference" "R200"
-			(at 95.2423 30.988 0)
+			(at 57.15 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2905,7 +2905,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 95.2423 32.766 0)
+			(at 57.15 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2915,7 +2915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 96.1313 39.624 0)
+			(at 58.039 39.878 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2926,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.7503 35.306 0)
+			(at 57.658 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2937,7 +2937,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 95.2423 35.306 0)
+			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3314,7 +3314,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ33A")
-		(at 55.8723 75.946 0)
+		(at 40.64 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3325,7 +3325,7 @@
 		(fields_autoplaced yes)
 		(uuid "65790eff-bea6-4115-82c5-72823ff5b025")
 		(property "Reference" "D146"
-			(at 55.8723 69.596 0)
+			(at 40.64 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Value" "SMBJ33A"
-			(at 55.8723 72.136 0)
+			(at 40.64 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
-			(at 55.8723 75.946 0)
+			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3356,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 55.8723 75.946 0)
+			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
-			(at 55.8723 75.946 0)
+			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3394,7 +3394,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:IRLZ44N")
-		(at 57.1423 94.996 0)
+		(at 49.53 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3405,7 +3405,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ee2ca7-90de-4aa6-9bca-c8a13c5fddf5")
 		(property "Reference" "Q52"
-			(at 63.4923 93.7259 0)
+			(at 55.88 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3416,7 +3416,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 63.4923 96.2659 0)
+			(at 55.88 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3427,7 +3427,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
-			(at 62.2223 92.456 0)
+			(at 54.61 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3438,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/71cf1899624764088671ce6de5d15eb4/irlz44n.pdf"
-			(at 57.1423 94.996 0)
+			(at 49.53 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 55V, 47A, 110W, Alternate KiCAD Library"
-			(at 57.1423 94.996 0)
+			(at 49.53 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,7 +3479,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 59.6823 50.546 0)
+		(at 45.72 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3490,7 +3490,7 @@
 		(fields_autoplaced yes)
 		(uuid "8613ebb3-9b2a-4060-ae3c-741b61f7179c")
 		(property "Reference" "F7"
-			(at 62.2223 49.2759 0)
+			(at 48.26 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3501,7 +3501,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 62.2223 51.8159 0)
+			(at 48.26 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3512,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.9523 55.626 0)
+			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.6823 50.546 0)
+			(at 45.72 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3535,7 +3535,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 59.6823 50.546 0)
+			(at 45.72 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,7 +4311,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 81.2723 27.686 0)
+		(at 43.18 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4322,7 +4322,7 @@
 		(fields_autoplaced yes)
 		(uuid "e431a886-0dd1-4f0c-bd7e-281a2e1834bd")
 		(property "Reference" "SW8"
-			(at 81.2723 21.336 0)
+			(at 43.18 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4332,7 +4332,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 81.2723 23.876 0)
+			(at 43.18 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4342,7 +4342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.2723 27.686 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.2723 27.686 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4364,7 +4364,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 81.2723 27.686 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -963,16 +963,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 59.69) (xy 118.11 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02dff0da-3740-42c2-bf0b-6abd2edfd1b2")
-	)
-	(wire
-		(pts
 			(xy 116.84 69.85) (xy 116.84 74.93)
 		)
 		(stroke
@@ -1000,16 +990,6 @@
 			(type default)
 		)
 		(uuid "362a44b4-da77-4563-a170-b19cc5f73b07")
-	)
-	(wire
-		(pts
-			(xy 44.45 74.93) (xy 45.72 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4634b1dc-2960-4228-82db-fa9f5668e4eb")
 	)
 	(wire
 		(pts
@@ -1050,6 +1030,16 @@
 			(type default)
 		)
 		(uuid "6f534eb9-eccd-46f8-a3fb-9f615abc34d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0de0a5-06fb-4d1f-a77b-14efc3e483aa")
 	)
 	(wire
 		(pts
@@ -1160,6 +1150,16 @@
 			(type default)
 		)
 		(uuid "efa700b9-c3e0-4175-a5cd-c5f051727d4d")
+	)
+	(wire
+		(pts
+			(xy 44.45 74.93) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6518b1-2a59-46ce-84b3-b677b738bc0b")
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
