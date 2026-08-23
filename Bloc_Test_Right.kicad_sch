@@ -1,0 +1,7421 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1d23e78b-3590-4f88-94e8-971f98f161d2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_ARGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_ARGB"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RGB LED, anode/red/green/blue"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_ARGB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_ARGB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_ARGB_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Diode_AKL:1N4148"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode 1N4148"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1N4148_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:330ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330ohm"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "330Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "330ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "330ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:4.7k"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7k"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4.7kΩ, 1/4W Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4.7k_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4.7k_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:2N7000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7000"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7000_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7000_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 21.59 25.4)
+		(end 59.69 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4d1a291c-7771-44fb-bb4b-9972c41c3415")
+	)
+	(rectangle
+		(start 21.59 124.46)
+		(end 64.77 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "53528ad4-d53f-4701-8b6f-ffef7c4740c3")
+	)
+	(rectangle
+		(start 185.42 25.4)
+		(end 223.52 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "71183bb6-690a-4e3b-baac-3b1e5590f82c")
+	)
+	(rectangle
+		(start 60.96 69.85)
+		(end 99.06 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "718bcd5b-7d4b-442d-baed-286a0ab7c5fd")
+	)
+	(rectangle
+		(start 144.78 25.4)
+		(end 182.88 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "81446210-0858-4bcc-a337-7f448ec8672b")
+	)
+	(rectangle
+		(start 224.79 25.4)
+		(end 262.89 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "92e280bd-06f0-4480-ab99-85d252327ada")
+	)
+	(rectangle
+		(start 71.12 124.46)
+		(end 120.65 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9715f20e-7a81-4823-97fb-de901fb30823")
+	)
+	(rectangle
+		(start 102.87 25.4)
+		(end 140.97 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9949ef98-2dcd-47cd-b300-abc151a3c3ba")
+	)
+	(rectangle
+		(start 125.73 124.46)
+		(end 166.37 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e998bf1a-b5e5-4d29-a0e5-b9fd8e27a3c3")
+	)
+	(rectangle
+		(start 60.96 25.4)
+		(end 99.06 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f7c8f535-5ba7-461f-b41f-36a0c0050e61")
+	)
+	(rectangle
+		(start 21.59 69.85)
+		(end 59.69 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ffaad90b-24e0-4486-80f9-82df8ed1059b")
+	)
+	(text "========================================================================== NIVEAU 1 ==========================================================================\n"
+		(exclude_from_sim no)
+		(at 134.62 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06ee97fa-95c4-4318-8f0e-cc7f2aae4733")
+	)
+	(text "Porte OU Fault_Actif_Right (3 entrées) + inverseur vert"
+		(exclude_from_sim no)
+		(at 96.266 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0862812a-5970-4098-a7a2-17d64e03e959")
+	)
+	(text "3ième Porte \"ET\" (Ouvert_V_Actif_Right)"
+		(exclude_from_sim no)
+		(at 121.92 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c24f8bf-6c71-42ab-8bde-513a8e7df6de")
+	)
+	(text "=========================================== NIVEAU 2 =================================================\n"
+		(exclude_from_sim no)
+		(at 91.44 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34b7e81b-cf8e-40f7-8cee-bd321635d3ae")
+	)
+	(text "1ère Porte \"OU\" (Ouvert_Right)"
+		(exclude_from_sim no)
+		(at 39.37 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f5b15e5-247b-49a6-8878-69688e985e0d")
+	)
+	(text "2ième Porte \"OU\" (Court_Right)"
+		(exclude_from_sim no)
+		(at 81.28 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e35cbde-c12f-4b51-a3f8-43bb6edcfb4c")
+	)
+	(text "1ère Porte \"ET\" (Court_V_Actif_Right)"
+		(exclude_from_sim no)
+		(at 40.64 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "628fc6fd-775a-4d09-b30d-7885c696aae7")
+	)
+	(text "Porte OU Rouge_Enable_Right"
+		(exclude_from_sim no)
+		(at 145.796 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88d3d57e-666b-4c04-a485-114e0fe07efd")
+	)
+	(text "4ième Porte \"ET\" (Ouvert_T_Actif_Right)"
+		(exclude_from_sim no)
+		(at 163.83 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89dcee62-404d-4a36-91d6-895bcb7baa3e")
+	)
+	(text "Inverseur (Dépendance de Bleu_Right)"
+		(exclude_from_sim no)
+		(at 204.47 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96ca5f71-9d3d-4e54-ab8a-aaf5d27f946b")
+	)
+	(text "2ième Porte \"ET\" (Court_T_Actif_Right)"
+		(exclude_from_sim no)
+		(at 80.01 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3ee510a-b682-4d42-8652-0eb44987c5fe")
+	)
+	(text "5ième Porte \"ET\" (Bleu_Right)"
+		(exclude_from_sim no)
+		(at 245.11 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8f100ae-f9c1-4d60-b202-4c94cd9e7fe4")
+	)
+	(text "====================================== NIVEAU 3 ==================\n"
+		(exclude_from_sim no)
+		(at 236.474 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de2405be-1bc6-44e8-9841-e72828cea4dd")
+	)
+	(text "Porte OU Ouvert_Ou_Bleu_Right + override"
+		(exclude_from_sim no)
+		(at 43.18 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1f98c63-8b87-48da-a9e5-f7241ab95743")
+	)
+	(junction
+		(at 229.87 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13106de8-6fbe-4552-9324-5792af46d4db")
+	)
+	(junction
+		(at 106.68 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f96afff-0d05-4216-b49d-bf12789f5e81")
+	)
+	(junction
+		(at 148.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2297dd1b-d0af-41c8-b4b6-7ffba296e179")
+	)
+	(junction
+		(at 91.44 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e0e1e0-30d9-47e2-8104-9025cc34b669")
+	)
+	(junction
+		(at 99.06 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c58138a-7e5a-4acc-be4c-1c9c5e8e829a")
+	)
+	(junction
+		(at 102.87 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b612d5-ad55-40e6-9b10-e3abcd581a51")
+	)
+	(junction
+		(at 95.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4acf244d-5877-42b3-b8d2-c452bf892fd6")
+	)
+	(junction
+		(at 209.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621035c7-1ade-4936-b38d-748b136bd346")
+	)
+	(junction
+		(at 102.87 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6988596c-73e6-40cf-b040-193c21a4e500")
+	)
+	(junction
+		(at 55.88 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773f9e34-86a5-40ae-a853-f73d4e3ed95a")
+	)
+	(junction
+		(at 49.53 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f435bd9-c422-4200-ba0f-5708524ac101")
+	)
+	(junction
+		(at 157.48 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f8364d2-7cdc-43f2-a532-cd9ab9f63e64")
+	)
+	(junction
+		(at 148.59 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922f6a1c-42a9-40c1-80c7-d4f01413f76e")
+	)
+	(junction
+		(at 26.67 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a08692f3-8361-4525-be3d-37cfe2ac90e2")
+	)
+	(junction
+		(at 102.87 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24eb226-24d7-42ec-9047-c20bbfa896c8")
+	)
+	(junction
+		(at 64.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8983a9a-1d9a-4c37-986b-87c61559cf8c")
+	)
+	(junction
+		(at 49.53 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abae7919-6f08-4d62-a253-83816e66e283")
+	)
+	(junction
+		(at 52.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bff1d7eb-348b-4eff-9e3a-2653310ce1a7")
+	)
+	(junction
+		(at 64.77 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d754b9-a903-4448-b5e8-bcbc17af1aa9")
+	)
+	(junction
+		(at 229.87 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caf47096-5098-4749-8ad3-3f5688176e2a")
+	)
+	(junction
+		(at 106.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d00454b8-e71a-41ab-8369-bbc89917c1a4")
+	)
+	(junction
+		(at 55.88 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8801ee6-5a44-404d-aa88-353855f63310")
+	)
+	(junction
+		(at 95.25 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e982e91d-b460-45dd-b5eb-36c9525364ce")
+	)
+	(junction
+		(at 26.67 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb42336f-e1e5-4f8d-85f1-3e77d424c49a")
+	)
+	(junction
+		(at 157.48 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7fdfe5-a533-444c-bb39-5ac0a381164e")
+	)
+	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22d54cc-a572-4847-90f1-1d3417709899")
+	)
+	(wire
+		(pts
+			(xy 88.9 181.61) (xy 91.44 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d1a01c-8560-4304-9052-b55f5cebe603")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d801f3-71ef-4587-9d0d-02de21d1db70")
+	)
+	(wire
+		(pts
+			(xy 102.87 140.97) (xy 102.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025f5338-6a3f-468f-8974-496c91c3eabf")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028429e3-df8e-45aa-b9d1-a3ab2998d159")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040b478f-4595-45aa-b80d-a14c9c964893")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cb01df-4a5a-4fae-a978-33c9ece43091")
+	)
+	(wire
+		(pts
+			(xy 142.24 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15084835-31c8-4793-9084-4fc0bf24f6dc")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8c206f-3df6-44d4-9f89-4d934a0aa1e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 33.02) (xy 209.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfcff88-0ba4-47fd-b5cd-258f8aeaef2e")
+	)
+	(wire
+		(pts
+			(xy 26.67 53.34) (xy 27.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfe24cb-4c4a-4290-b03a-91977e9bf019")
+	)
+	(wire
+		(pts
+			(xy 30.48 97.79) (xy 44.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0cfd37-7f23-43b4-b9e1-29d8fdb94ec6")
+	)
+	(wire
+		(pts
+			(xy 209.55 43.18) (xy 209.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1fde7f-dfcb-471a-8dcf-c6fa32bf3b3e")
+	)
+	(wire
+		(pts
+			(xy 196.85 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f24a56b-9a0b-4d41-beff-4cac068656b1")
+	)
+	(wire
+		(pts
+			(xy 83.82 140.97) (xy 90.17 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f71a1ea-a68d-4d1e-a150-2602d6c6e4ba")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e63d47-c916-42a8-8835-15dbf416c71a")
+	)
+	(wire
+		(pts
+			(xy 40.64 182.88) (xy 40.64 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26299723-396f-46c4-b8ae-a4efd7cd86c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28545f25-9356-4143-b1a4-bb3a50032178")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d589422-69db-4f03-9a96-d481b39f9ae1")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0533f0-a11a-4435-a3e0-4afbba076675")
+	)
+	(wire
+		(pts
+			(xy 45.72 140.97) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f489f93-dcba-45dc-81a3-37fee851d455")
+	)
+	(wire
+		(pts
+			(xy 34.29 34.29) (xy 38.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc4a916-b7b6-47cb-a368-5e48244b7b67")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329e1aad-99bf-4bf9-918d-976187c86157")
+	)
+	(wire
+		(pts
+			(xy 49.53 151.13) (xy 44.45 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3393ab19-81c4-41bc-9a3e-2322a60da546")
+	)
+	(wire
+		(pts
+			(xy 41.91 160.02) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380b7858-b168-4247-b150-34e1d57ea219")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b99f8af-9026-41c7-ba8b-d0407ab4e259")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 157.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c90cbac-dfac-4266-8b9c-d9546bf1bd29")
+	)
+	(wire
+		(pts
+			(xy 55.88 77.47) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce32702-d861-4711-b217-63910eed7e47")
+	)
+	(wire
+		(pts
+			(xy 34.29 44.45) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1b69fc-9a06-433f-9204-68057b447bda")
+	)
+	(wire
+		(pts
+			(xy 231.14 152.4) (xy 232.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40444870-93f3-4486-82db-ff293a0d3a9e")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426cec5c-f59a-4946-9a00-ea9b973df2ca")
+	)
+	(wire
+		(pts
+			(xy 139.7 142.24) (xy 146.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438f5d0a-5b63-4aa3-8368-6e66cfae592c")
+	)
+	(wire
+		(pts
+			(xy 26.67 34.29) (xy 26.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4480a6f9-1e5d-409b-957c-925172aaf53f")
+	)
+	(wire
+		(pts
+			(xy 148.59 33.02) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45791871-22f5-40dc-be22-7fc118ba0e34")
+	)
+	(wire
+		(pts
+			(xy 34.29 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a0f767-7709-4b1e-9b83-0e4e0b24d074")
+	)
+	(wire
+		(pts
+			(xy 49.53 140.97) (xy 49.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494c99d2-4a09-4973-a948-ff1a50bb40a3")
+	)
+	(wire
+		(pts
+			(xy 231.14 113.03) (xy 232.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fada0f7-40c9-4e39-8082-d61abf87ce2f")
+	)
+	(wire
+		(pts
+			(xy 229.87 34.29) (xy 229.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a06b35-56f2-477c-b2f4-03bc05ed33e9")
+	)
+	(wire
+		(pts
+			(xy 229.87 55.88) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c24560-1121-4cc2-85c6-dbba6b23500c")
+	)
+	(wire
+		(pts
+			(xy 81.28 77.47) (xy 83.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56781ff1-9767-4c00-a26d-9884158ea96e")
+	)
+	(wire
+		(pts
+			(xy 29.21 151.13) (xy 36.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58625675-31c7-476a-a21d-2a9a6b5ecb39")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.08) (xy 90.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea62e13-0934-497d-baa4-68cc9d1f7ec5")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec00321-37d9-4951-a2bd-3316db562e22")
+	)
+	(wire
+		(pts
+			(xy 26.67 44.45) (xy 26.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcecd1b-d268-46be-8c89-833fc2a381e8")
+	)
+	(wire
+		(pts
+			(xy 49.53 132.08) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6002ab61-2ff0-4a8f-ba32-b538a3f55345")
+	)
+	(wire
+		(pts
+			(xy 102.87 156.21) (xy 102.87 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b418f5-79a5-4567-877f-a910ef1169e8")
+	)
+	(wire
+		(pts
+			(xy 153.67 142.24) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645e7786-d291-4d4a-88aa-c9da72c96520")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6911af09-b35d-463e-8b69-ead969579936")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6955c86e-ed0e-43c8-a7fc-4483754464fe")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 257.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69633ee5-ac4b-46d0-a538-72562a0b5543")
+	)
+	(wire
+		(pts
+			(xy 148.59 50.8) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c1e7a1-6eee-4131-a95a-e203472bfb20")
+	)
+	(wire
+		(pts
+			(xy 99.06 168.91) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76785916-fcfa-4983-8b7c-4bc0da20fe76")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78acd279-5fbf-438c-980f-4e7b100ec8ff")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c29ec29-c80e-47bf-87f6-2fd6a8e672b3")
+	)
+	(wire
+		(pts
+			(xy 237.49 55.88) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce43350-7e85-42e4-8f29-60408fd43486")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dfbf4d-d3b0-4ee3-8c92-d5c9fa8ff8c1")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831748e8-42b0-46a6-bb19-55e0ac6ed809")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8322d843-490d-4e79-8130-80a423cd3716")
+	)
+	(wire
+		(pts
+			(xy 237.49 45.72) (xy 242.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861b821d-180d-4a26-8fd7-ef73af33e29c")
+	)
+	(wire
+		(pts
+			(xy 229.87 45.72) (xy 229.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89890e08-5a9d-483b-b8ca-0899d11ed24c")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae7422d-7caf-4c08-9ecd-fd23a2e5544b")
+	)
+	(wire
+		(pts
+			(xy 157.48 152.4) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdb9101-97d5-4d94-8013-90007104c280")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 209.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4513a9-213f-46c5-8587-8cd02000e701")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef4dac8-3f84-4e63-8b4a-dfadf389db96")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fac08d4-74b5-4c71-91e8-104d98ad7c52")
+	)
+	(wire
+		(pts
+			(xy 209.55 55.88) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbcf6d8-5c89-4fc8-ac07-40b6e35eb598")
+	)
+	(wire
+		(pts
+			(xy 229.87 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908fe140-e75c-46e2-91bf-7107d86d8024")
+	)
+	(wire
+		(pts
+			(xy 238.76 142.24) (xy 257.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e2038e-5925-4c97-bfc1-2240e4d2ccde")
+	)
+	(wire
+		(pts
+			(xy 26.67 60.96) (xy 29.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935a7f3d-d9bc-465c-8414-8dc65b4bfbbb")
+	)
+	(wire
+		(pts
+			(xy 72.39 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a7c12f-bcfa-4e0f-8d5c-495ae5cfcc5c")
+	)
+	(wire
+		(pts
+			(xy 31.75 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9533270c-7ea0-47d5-b233-5b41049440af")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9772916f-f158-4a01-9c78-add1cc8e4fed")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9838ea8a-5b7c-47d4-8798-18c784bd4ac4")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984d5038-a03c-4d5a-ba4d-a312ef96e99d")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a44b4b8-fe7c-42d3-aa50-2496bc7628fa")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d6eeb6-f694-47b9-a22c-8ff0bc52bd7a")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50008da-ea8b-44f5-9459-0e131ab53f51")
+	)
+	(wire
+		(pts
+			(xy 99.06 186.69) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b56220-d88c-4506-8429-cdc727b95e93")
+	)
+	(wire
+		(pts
+			(xy 40.64 170.18) (xy 40.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80a4483-9855-4804-99e1-9110dfd1e9a6")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 39.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b777478d-6710-4ccb-911b-ffdeadf0ea06")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.33) (xy 264.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7783d25-3620-40dd-8f87-a16526c1c8de")
+	)
+	(wire
+		(pts
+			(xy 251.46 114.3) (xy 251.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00aea90-9a2c-4c4c-8664-9af7ed75cbb8")
+	)
+	(wire
+		(pts
+			(xy 26.67 53.34) (xy 26.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c111335a-f4a6-452a-8d57-5a658e6fcb19")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26f586b-0909-4eb4-8907-78cc9347112d")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28accdb-932a-4211-beea-69adc5140b20")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62da266-40b6-4238-a48c-164e3b034b65")
+	)
+	(wire
+		(pts
+			(xy 83.82 149.86) (xy 90.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dc4fa7-8012-47ab-a866-defc439f1001")
+	)
+	(wire
+		(pts
+			(xy 87.63 162.56) (xy 102.87 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c816f752-0980-4114-92f2-43d94e6de4f8")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf15fe1-c151-4937-9881-a5099022586a")
+	)
+	(wire
+		(pts
+			(xy 64.77 60.96) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbc002a-c0f9-4bc5-92ae-bfb6910a4671")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.47) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf924761-3225-4cab-a9a3-6174640f42a3")
+	)
+	(wire
+		(pts
+			(xy 231.14 110.49) (xy 231.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb935d6-3f91-47a8-9404-ad4fbb00b28e")
+	)
+	(wire
+		(pts
+			(xy 97.79 149.86) (xy 102.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0881eaf-a4ae-4312-962e-053edee5e33e")
+	)
+	(wire
+		(pts
+			(xy 55.88 77.47) (xy 55.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2355299-04bd-4b34-b138-9f17b7d6caa4")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6184f4b-5c35-4774-a1af-7d22ad324024")
+	)
+	(wire
+		(pts
+			(xy 195.58 43.18) (xy 201.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61b0868-5ef3-4a1f-b7ea-e818259f1195")
+	)
+	(wire
+		(pts
+			(xy 90.17 156.21) (xy 102.87 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5fe742-cea0-4f0e-b147-188261d20ac8")
+	)
+	(wire
+		(pts
+			(xy 97.79 140.97) (xy 102.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab6355b-68b5-48bd-948a-e221a24ab3da")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcadd898-2477-4c15-8b7a-0d8a69eaca4b")
+	)
+	(wire
+		(pts
+			(xy 149.86 161.29) (xy 157.48 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb2d639-69d5-449c-acee-197f5ab13f24")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 264.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb9a014-b5c4-44e8-8548-4308caa0d39b")
+	)
+	(wire
+		(pts
+			(xy 251.46 114.3) (xy 264.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbaf36e-ac6f-4d33-b7bb-12bf4cdd583a")
+	)
+	(wire
+		(pts
+			(xy 85.09 176.53) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37c8052-3110-4c45-b5fd-5e1f21d17ae8")
+	)
+	(wire
+		(pts
+			(xy 49.53 151.13) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e514f015-26dd-4def-859c-0a870f38895a")
+	)
+	(wire
+		(pts
+			(xy 148.59 62.23) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6342002-5d19-4249-b1d2-6a13a6309622")
+	)
+	(wire
+		(pts
+			(xy 114.3 34.29) (xy 118.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84b6720-f0a1-46c2-ad69-32c20e6b78b9")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9635ffc-8cf5-4d32-a5e7-f376f4e7f0f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97ae2ac-3dc6-41eb-bd04-eebf595bee9c")
+	)
+	(wire
+		(pts
+			(xy 264.16 100.33) (xy 264.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadfe386-b007-4de9-8438-3de08bb85800")
+	)
+	(wire
+		(pts
+			(xy 102.87 149.86) (xy 102.87 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb386b0e-ca77-477f-a9db-70e76e3d648e")
+	)
+	(wire
+		(pts
+			(xy 237.49 34.29) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec01cf87-3a79-4275-8c97-910377ddea39")
+	)
+	(wire
+		(pts
+			(xy 49.53 132.08) (xy 45.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec43c792-740d-4e21-8819-7b754d78361b")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 102.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd693ea-dc32-43c0-add9-904b265dd31e")
+	)
+	(wire
+		(pts
+			(xy 137.16 152.4) (xy 144.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f3ff40-c3db-40f4-a653-939837115a06")
+	)
+	(wire
+		(pts
+			(xy 238.76 121.92) (xy 251.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a04b8d-a7d7-44c2-a3d6-315d2607638f")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 161.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4fc943-1f15-40bf-a828-3a006f31194b")
+	)
+	(wire
+		(pts
+			(xy 157.48 152.4) (xy 157.48 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd2ea0c-fbf4-4493-b81d-2dfabb35426d")
+	)
+	(label "Bleu_Right"
+		(at 242.57 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "058042ac-d63f-42f5-963c-e933a261dc28")
+	)
+	(label "Ouvert_Ou_Bleu_Right"
+		(at 41.91 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18206bb5-81ce-4a9b-9a28-80f3579375d3")
+	)
+	(label "Ouvert_Right"
+		(at 83.82 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2614a5dd-8f80-474d-82cd-2e0b419602ec")
+	)
+	(label "Vert_Enable_Right"
+		(at 223.52 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fa0a6c1-0cc5-4f5b-aaf2-62bb40df0953")
+	)
+	(label "Vert_Enable_Right"
+		(at 99.06 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "475b2274-0eba-4a03-bca6-f59b49684921")
+	)
+	(label "Ouvert_V_Actif_Right"
+		(at 110.49 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ba8b67c-ec64-4eef-99e2-1755b50a3356")
+	)
+	(label "Ouvert_Right"
+		(at 34.29 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d63eee7-4de0-4c27-9221-9b3e3262d3ee")
+	)
+	(label "Rouge_Enable_Right"
+		(at 223.52 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ff187eb-348f-474b-a2bb-7e70639519aa")
+	)
+	(label "Court_V_Actif_Right"
+		(at 81.28 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "613ba8ce-bd18-4e35-b549-b9021fb47be3")
+	)
+	(label "Ouvert_Ou_Bleu_Right"
+		(at 40.64 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bfcb383-0a37-49d9-8ba7-51a1beb9b345")
+	)
+	(label "Fault_Actif_Right"
+		(at 88.9 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74ff2126-4579-4521-9c9f-b91ec657dd2a")
+	)
+	(label "Court_V_Actif_Right"
+		(at 29.21 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9248f587-92fd-4433-8078-2c60e02ae5d0")
+	)
+	(label "Ouvert_Ou_Bleu_Right"
+		(at 223.52 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b42a6c2-8ca7-4a44-9b76-28c8090c8edc")
+	)
+	(label "Court_Right"
+		(at 142.24 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6b4c609-8fb7-4bd7-b4b4-fd7985c89718")
+	)
+	(label "Not_Btn_Right"
+		(at 242.57 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaa5a503-deab-40a2-a66f-ddd4cfed903d")
+	)
+	(label "Not_Btn_Right"
+		(at 201.93 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b14add0c-3a89-4baa-895d-30d9e48291dc")
+	)
+	(label "Ouvert_Right"
+		(at 139.7 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6a35c03-15bf-4075-9f5f-bf00b72faf83")
+	)
+	(label "Court_T_Actif_Right"
+		(at 81.28 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bac71a26-15e4-4454-bb19-21547b60cc42")
+	)
+	(label "Court_Right"
+		(at 73.66 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c09365ca-ad9a-4156-acb3-192233f2718c")
+	)
+	(label "Ouvert_T_Actif_Right"
+		(at 41.91 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db7eefcd-ec4c-4f2f-bc91-a4f1a192046e")
+	)
+	(label "Bleu_Right"
+		(at 83.82 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddbe99da-0128-42f2-a9b0-64e3dcb9f926")
+	)
+	(label "Bleu_Right"
+		(at 31.75 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de4485e2-d1d4-4082-8a60-e509fc43c36a")
+	)
+	(label "Court_Right"
+		(at 83.82 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df009a4e-044d-4dc1-b8db-295883d1a296")
+	)
+	(label "Fault_Actif_Right"
+		(at 87.63 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ece73071-b800-45a8-a533-26d22118992b")
+	)
+	(label "Court_Right"
+		(at 33.02 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed9a2255-ddf2-4277-8567-7a8904054b0e")
+	)
+	(label "Ouvert_T_Actif_Right"
+		(at 151.13 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee8be681-e43a-4919-a48f-a131e901e05c")
+	)
+	(label "Court_T_Actif_Right"
+		(at 66.04 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f30cf407-b2ed-4f67-b7f5-f057aed2e61d")
+	)
+	(label "Rouge_Enable_Right"
+		(at 149.86 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5888596-fb9a-49a7-903e-264be43263f7")
+	)
+	(label "Ouvert_Right"
+		(at 34.29 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5f5070f-3561-4bf6-8ed1-e40e3ed8c8a2")
+	)
+	(label "Ouvert_V_Actif_Right"
+		(at 41.91 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc68caeb-1f7f-4374-8fb0-ddd54ebf5ccc")
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 85.09 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e374ca5-166f-4fb4-bc11-b6d31b31eb2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.9643 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Mode_Vehicule"
+		(shape input)
+		(at 38.1 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "181ff94b-acc4-4ad7-9eaa-aa34e2e0be2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.8132 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "219072e5-5466-402c-bcad-046398b6b798")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2657 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d87813f-08e2-44ef-98aa-f5b11b312c77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6943 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 40.64 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4183c7a7-61ee-4a59-b8b6-0f2368893cc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4957 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Mode_Trailer"
+		(shape input)
+		(at 76.2 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b99986d-522e-4b07-b1cf-19bd0d517a2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.0384 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 195.58 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "639c421a-8e75-4a0b-8c6e-ae62ef7c4eee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.4543 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 137.16 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c7c1fe1-4636-4d35-9aff-bed902a50275")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.3043 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 99.06 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ce9a640-22fa-42cd-a0a3-0f1b418a9b21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9157 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 161.29 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7419fbed-26c6-4fda-8db0-cd371a945508")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.4157 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 242.57 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82316578-febe-41ec-9577-806c2a5eef04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4257 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 29.21 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8593f514-1671-4ddc-809c-db45e4c3c799")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.3543 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Mode_Trailer"
+		(shape input)
+		(at 242.57 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97aeb94f-6e36-4279-97ca-d81010c52256")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4084 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 71.12 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "995c0f35-91e0-4f05-98ea-674910de5d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2643 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 30.48 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5e1c055-48cd-44ed-bd34-b56a72070c7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.6243 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0a42fc6-7ee3-4122-a480-27a3629d7941")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2657 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 274.32 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7d81c4c-a32e-4ed0-a785-d189413ca902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.4457 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Mode_Trailer"
+		(shape input)
+		(at 160.02 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b86bdee3-77ab-4712-88c0-b0d41411bb72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.8584 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3b35aec-c7d4-42ac-9040-e49e6bd99db6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2657 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 196.85 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c828b6e4-12b9-48ea-9ba5-35310bd5ad47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.9943 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 39.37 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0706616-6b32-4fa0-aed7-284e15b81c63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4957 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 77.47 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f31895b2-da48-49cc-baf8-56acb648406a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5957 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Mode_Vehicule"
+		(shape input)
+		(at 119.38 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8ff58f8-fdbd-4a5f-8031-63187c25b215")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.0932 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 119.38 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f97a743c-9861-4260-aef0-61b5b29a62ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5057 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "Btn_Right_Etat"
+		(shape input)
+		(at 201.93 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0112e803-c715-42dc-b0ff-df415255e7b8")
+	)
+	(hierarchical_label "Court_Right_Vehic"
+		(shape input)
+		(at 38.1 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a498db8-ede9-4cb1-a04d-a1bf2da1d3dc")
+	)
+	(hierarchical_label "Court_Right_Trailer"
+		(shape input)
+		(at 76.2 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ee9338d-4464-4075-8a4a-48e5ebf481b4")
+	)
+	(hierarchical_label "Ouvert_Right_Vehic"
+		(shape input)
+		(at 118.11 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9919f61c-40ea-4987-8699-19f46daea88b")
+	)
+	(hierarchical_label "Btn_Right_Etat"
+		(shape input)
+		(at 162.56 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b419cc2d-c935-4431-b019-f5d0ac909afc")
+	)
+	(hierarchical_label "Ouvert_Right_Trailer"
+		(shape input)
+		(at 161.29 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edbb545f-f3c6-4ffd-ab5f-7870fb088a76")
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 87.63 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0920b897-7288-4750-bd05-537025d192e7")
+		(property "Reference" "R112"
+			(at 87.884 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 87.63 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 88.519 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.138 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 87.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2c1032c-edb2-474e-87d1-1b07a89ef68f")
+		)
+		(pin "1"
+			(uuid "3c064ab8-5ba6-41af-a32f-630c4a958f7f")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 41.91 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a3d317a-8786-4739-8903-546d7a63f22a")
+		(property "Reference" "D77"
+			(at 41.91 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 41.91 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 41.91 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 41.91 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 41.91 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f22edb8f-6ddf-4ab3-8154-9f9da82131a6")
+		)
+		(pin "1"
+			(uuid "d3be9469-08e0-4e2b-9dda-6175bfcae9fb")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 152.4 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f90590d-ec75-41f1-8509-abce6d103b3d")
+		(property "Reference" "D94"
+			(at 152.4 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 152.4 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19d4a4a2-7c48-4301-b7c4-8cd4e05442c4")
+		)
+		(pin "1"
+			(uuid "e035a2ea-27a5-4427-94b6-a96dd319fe22")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 233.68 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "159a54e6-2b72-4020-8ed8-927f0425b00b")
+		(property "Reference" "R118"
+			(at 233.934 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 233.68 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 234.569 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.188 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 233.68 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22ae1453-597e-43f4-bd09-6728ea1ba0a4")
+		)
+		(pin "1"
+			(uuid "6edd0508-4cef-4e3b-9a3a-2dc0420697a6")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 148.59 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b5551f8-ba8e-4232-b7b7-3d8ba27272fc")
+		(property "Reference" "R115"
+			(at 148.844 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 148.59 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 149.479 156.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.098 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 148.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0de7370f-2bbc-4d74-a7c1-cde397038023")
+		)
+		(pin "1"
+			(uuid "8c4ea5d0-5375-492b-b30e-f0b019a3dd87")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 149.86 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c68e5d8-ca71-48ca-a700-c06a54f9b546")
+		(property "Reference" "D90"
+			(at 149.86 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 149.86 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 149.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 149.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 149.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1fb1b508-7198-4134-ba80-049e1ae1e15b")
+		)
+		(pin "1"
+			(uuid "151c5b8f-322c-4d3b-936b-41814d8326e0")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 207.01 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f0b6e4d-a9ab-41e0-af5e-271c05e7b318")
+		(property "Reference" "Q31"
+			(at 213.36 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 213.36 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 212.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 207.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19d634da-4c87-4454-93e4-65ff82bc2e2e")
+		)
+		(pin "1"
+			(uuid "32c0b49c-4bc5-47f8-a520-12580eac6826")
+		)
+		(pin "3"
+			(uuid "3833af30-032e-461c-b81a-05e63b84a806")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 110.49 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20d967b3-ecfd-4c27-8919-56d0fb527809")
+		(property "Reference" "R114"
+			(at 110.744 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 110.49 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 111.379 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.998 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 110.49 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16304c53-f412-44a4-9322-b67ad3fedb44")
+		)
+		(pin "1"
+			(uuid "a1fe5846-a71a-4979-ab7a-6441c3496b05")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 149.86 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24aea531-0cbf-44a7-a03e-ef8217536609")
+		(property "Reference" "D91"
+			(at 149.86 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 149.86 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 149.86 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 149.86 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 149.86 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5a3f728-0fc3-440d-ae60-46ca457d01e8")
+		)
+		(pin "1"
+			(uuid "08bdd067-e1d6-433e-a2fd-c174926d9dc6")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 234.95 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e372c54-87be-4932-b86c-cf70f3a5fb66")
+		(property "Reference" "R121"
+			(at 234.95 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 234.95 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 235.839 146.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.458 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 234.95 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fae2c50d-541d-4663-8c02-c055d593ba42")
+		)
+		(pin "1"
+			(uuid "5d327370-0153-402f-81b8-788994e3e7ad")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 68.58 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30096607-9fa3-4ef6-8cc9-7e9def95b392")
+		(property "Reference" "D81"
+			(at 68.58 28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 68.58 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "efad9db7-543a-4f50-ab23-01f45b448fd6")
+		)
+		(pin "1"
+			(uuid "6852bc9f-6b54-4caf-a8fb-626d443a1bdc")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 234.95 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46f187e7-24bf-455f-acd5-3b11db1d110e")
+		(property "Reference" "R119"
+			(at 234.95 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 234.95 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 235.839 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.458 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 234.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "941f7d1a-8525-4e1c-a34d-cdc07e2283fc")
+		)
+		(pin "1"
+			(uuid "e084e9eb-21fc-4218-89c4-8fa90f60270c")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 269.24 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "484cfa29-2e10-401c-a58b-089661a2736c")
+		(property "Reference" "D97"
+			(at 269.24 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 269.24 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "998f7fb4-5aa1-4271-8479-97c25de5811b")
+		)
+		(pin "3"
+			(uuid "cf5e890d-dbc6-47df-aa24-9c31cb5e2126")
+		)
+		(pin "4"
+			(uuid "e8f29b05-0358-4449-8e1c-fb3a7eb1c06a")
+		)
+		(pin "1"
+			(uuid "eb914d9a-47a0-4326-9153-a8293fcfcd66")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 95.25 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4eae66ea-083f-44e0-973a-7c9c05531e88")
+		(property "Reference" "R113"
+			(at 95.504 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 95.25 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 96.139 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.758 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 95.25 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1650a56-a2a3-4ac6-9b4d-069b7dc5303b")
+		)
+		(pin "1"
+			(uuid "ee2970df-4118-48c9-af46-f5283945b081")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 93.98 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56bb6c4e-ca78-4077-8ae1-c7b40aaaddf6")
+		(property "Reference" "D87"
+			(at 93.98 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 93.98 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 93.98 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 93.98 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 93.98 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b462df3-fb99-4a56-b03d-b4a8c8526199")
+		)
+		(pin "1"
+			(uuid "1db81248-1146-4ac0-9673-9abdeba4d4f7")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 96.52 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5741c21c-c8e6-44eb-9e06-567ba87a4996")
+		(property "Reference" "Q30"
+			(at 102.87 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 102.87 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 101.6 183.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 101.6 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 96.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b708b0dd-daf5-400a-811d-18ae1a7a24a2")
+		)
+		(pin "1"
+			(uuid "4d83a1a2-f8c8-4e65-96bb-f7497054156b")
+		)
+		(pin "3"
+			(uuid "05fe7691-bf8f-4b83-aad6-3a2fdf089326")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 234.95 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57a9c1f2-da90-4726-894a-31e3364cd360")
+		(property "Reference" "R120"
+			(at 234.95 117.094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 234.95 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 235.839 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.458 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 234.95 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d01ed3f-1223-4bb9-966b-204c6aaccaf7")
+		)
+		(pin "1"
+			(uuid "4da1f362-af2a-44e9-8ea6-d33b0f562038")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 30.48 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57c8f0cc-1504-4e94-96a5-0193f4af7062")
+		(property "Reference" "D75"
+			(at 30.48 28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 30.48 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 30.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 30.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 30.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a1e53a8-c0b9-4d4f-af2b-2800c69b1a13")
+		)
+		(pin "1"
+			(uuid "7a321528-d340-47bd-b7f1-7c817dd7b23e")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 228.6 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c915f02-7a24-41db-8d17-d413eae9cf99")
+		(property "Reference" "Q32"
+			(at 234.95 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 234.95 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 233.68 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 233.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 228.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec405fe-733e-4b03-8abf-a3fe73389b2c")
+		)
+		(pin "3"
+			(uuid "4c8da25c-5f89-4bf4-b7c9-ec4d2d150f77")
+		)
+		(pin "2"
+			(uuid "5d5937e9-7e28-48aa-91cd-6fdc68a3a874")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 152.4 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "647c299a-b801-4bcd-ad2b-1ed97ecafaf2")
+		(property "Reference" "D93"
+			(at 152.4 36.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 152.4 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e317f2b-e52c-4f4a-b5ed-006b205aa676")
+		)
+		(pin "1"
+			(uuid "b893d5e2-181c-45d0-86f6-b04a090b275d")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 48.26 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67a44620-af43-4961-bb7a-16cf1d5a8ca4")
+		(property "Reference" "D80"
+			(at 48.26 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 48.26 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ed96c0f-01e6-4c87-90d3-a837f0a19593")
+		)
+		(pin "1"
+			(uuid "fd49f180-a33b-43c7-899d-6f4ee5c7faca")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 40.64 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ebb5007-0f7a-4485-b51d-8b83ad45ad3e")
+		(property "Reference" "R108"
+			(at 40.894 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 40.64 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 41.529 155.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.148 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 40.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "581e2ad8-3e66-44d0-b4fe-802732a583f0")
+		)
+		(pin "1"
+			(uuid "ae062579-48ee-4260-aa47-6cb1593f0a47")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 48.26 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "773d7c9e-b581-46ff-ab49-c91212d1aa5e")
+		(property "Reference" "R109"
+			(at 48.514 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 48.26 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 49.149 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.768 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 48.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5ce3c5b-49da-4b83-bfdf-0b9ba940d459")
+		)
+		(pin "1"
+			(uuid "d1ba9656-bc76-43d8-b6a6-221770009687")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 228.6 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a42b838-ffc6-483d-8d7d-6e58aa11cd5f")
+		(property "Reference" "Q33"
+			(at 234.95 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 234.95 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 233.68 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca6e6d-13e5-4d24-b664-189975eb5574")
+		)
+		(pin "3"
+			(uuid "1189794e-ae8b-4b17-a4f5-58b0fff094f7")
+		)
+		(pin "2"
+			(uuid "20ee1eb2-08e8-4a15-8162-96cfbf6e8ee7")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 93.98 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ab0bfad-bc6d-4cbd-89b5-84a1fbbe469a")
+		(property "Reference" "D86"
+			(at 93.98 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 93.98 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 93.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 93.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 93.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9135144-827f-4b62-808f-3a425872a1b0")
+		)
+		(pin "1"
+			(uuid "6c1cba21-df13-4b72-927d-7d4efcd641c4")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 228.6 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ca1bd1-2114-49c8-a0c0-443c13d2bd7d")
+		(property "Reference" "Q34"
+			(at 234.95 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 234.95 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 233.68 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22b028a1-07c0-4161-96fe-eb83cc0c9dfe")
+		)
+		(pin "3"
+			(uuid "ad1ef22f-a472-4c3e-8a60-d505331a3bfd")
+		)
+		(pin "2"
+			(uuid "988b2d19-63af-4820-b4b7-9b9049a2a5ce")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 38.1 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c41099-d65f-45a8-be82-55b76d03a950")
+		(property "Reference" "Q29"
+			(at 44.45 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 44.45 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 43.18 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 43.18 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 38.1 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd2879d1-e9eb-4652-9618-0c3b0dbc0b15")
+		)
+		(pin "1"
+			(uuid "7e28249f-373e-439f-92d3-fd94a774e5d4")
+		)
+		(pin "3"
+			(uuid "eb18bd04-b4f4-48d6-8e9b-da9af3285629")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "Q29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 48.26 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93d23891-2de8-427b-aa93-52fcd9d001f7")
+		(property "Reference" "D79"
+			(at 48.26 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 48.26 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 48.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 48.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63368217-f185-4620-b5a9-7add3e8daa1b")
+		)
+		(pin "1"
+			(uuid "9c3faf0e-c2db-4ea8-a134-a2efb6150e88")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 110.49 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a4711d9-2c2f-40e7-a301-f570b1d9732a")
+		(property "Reference" "D88"
+			(at 110.49 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 110.49 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52f2440a-98c6-4f4b-a989-59d9ffa86d1f")
+		)
+		(pin "1"
+			(uuid "c7a85d2e-e8c0-432f-94d2-fb5729314620")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 152.4 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c28edab-b755-494d-8d00-ebc84cd7ca33")
+		(property "Reference" "R116"
+			(at 152.654 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 153.289 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.908 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 152.4 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bdcd444b-1d3e-4175-baea-f3de7d4cec4f")
+		)
+		(pin "1"
+			(uuid "ba061d92-bf6c-4b48-a566-915974976a88")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 233.68 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c7f5c8b-8430-486c-9ce5-7844d9e082fc")
+		(property "Reference" "D95"
+			(at 233.68 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 233.68 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 233.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 233.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 233.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "217e7424-daea-4b7b-961b-bb01a498716c")
+		)
+		(pin "1"
+			(uuid "5971646c-850b-4b4b-a994-9c2fe229d634")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 233.68 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae6ba1c2-a20d-4d5e-bc93-ad51f50ca545")
+		(property "Reference" "D96"
+			(at 233.68 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 233.68 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c4f6d70-44ed-473c-9c7f-ddc0bb2a5f33")
+		)
+		(pin "1"
+			(uuid "d9986ca2-66d5-4dfe-ac13-c0a9dec36752")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 68.58 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc36e0a3-a259-4315-a7a7-e8da8157ff37")
+		(property "Reference" "D82"
+			(at 68.58 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 68.58 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a7ec1a5-b1c7-41f0-b894-a154a6356acf")
+		)
+		(pin "1"
+			(uuid "4124d72a-78f4-4c78-9e69-5f923d6e74f5")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 205.74 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf2baef2-518f-4fb5-8ce2-e499c027ff62")
+		(property "Reference" "R117"
+			(at 205.994 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 205.74 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 206.629 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.248 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 205.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88103494-ac6f-44a0-9184-ca374c14f944")
+		)
+		(pin "1"
+			(uuid "9fe1f7ba-cb27-4e8f-a942-06b50ae72cda")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 30.48 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da4d6844-18ac-46cc-8105-8e9dd5ed1ce5")
+		(property "Reference" "D76"
+			(at 30.48 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 30.48 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cdf84eec-8744-4dfd-9ec4-8c91a0e2fa9d")
+		)
+		(pin "1"
+			(uuid "1a958605-3d7d-44a1-8ee0-21b974b13b85")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 87.63 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dff41afa-a088-478e-a9b8-affc60c3b020")
+		(property "Reference" "D83"
+			(at 87.63 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 87.63 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c31d05b6-00c7-4945-b5a1-6c10f3cdec9f")
+		)
+		(pin "1"
+			(uuid "6e12ac1d-00d8-4d6d-8b6e-f4b141c78697")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 41.91 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4683150-1f3a-49c9-a7cd-5d428091a8ca")
+		(property "Reference" "D78"
+			(at 41.91 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 41.91 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8fb37c67-a652-40e2-acaa-f739ac362948")
+		)
+		(pin "1"
+			(uuid "3f2bcc6c-30ca-42e2-9736-9e8e55a2d9a2")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 69.85 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e50f0146-6608-472b-93f8-e94eab5d8a52")
+		(property "Reference" "R110"
+			(at 70.104 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 69.85 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 70.739 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.358 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 69.85 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a34a9da-2157-4aa9-9d07-2f7f45d2ba0c")
+		)
+		(pin "1"
+			(uuid "1c0b2508-6875-4482-8782-4a3bdf7da084")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 87.63 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8be2560-e965-4d03-aeb4-98b914742b3e")
+		(property "Reference" "D84"
+			(at 87.63 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 87.63 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35c4187c-9797-42bc-b2d6-26e2e87ea412")
+		)
+		(pin "1"
+			(uuid "8eca8f99-a071-4437-8ecf-21e5b0034618")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 110.49 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec24ae61-d753-4063-80bc-fcbe9216d455")
+		(property "Reference" "D89"
+			(at 110.49 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 110.49 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b177a47d-fd4e-4319-a648-3645a0f124a0")
+		)
+		(pin "1"
+			(uuid "b7cd0fc0-647b-4c40-9588-c15bd954842a")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 86.36 156.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3043342-cc35-4137-8191-366f9d6e3402")
+		(property "Reference" "R111"
+			(at 86.106 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 86.36 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 85.471 160.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.852 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 86.36 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcaff27f-b5e4-411d-a92d-96d5bfe78706")
+		)
+		(pin "1"
+			(uuid "f74d8edd-e658-409f-a0f9-fba8fe00cf9e")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 93.98 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7ffc8da-d995-4399-b47e-933ac2a6329e")
+		(property "Reference" "D85"
+			(at 93.98 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 93.98 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e93c150-758f-43db-9658-fefe46acbae4")
+		)
+		(pin "1"
+			(uuid "6a4a519b-779e-420b-971a-b7573be5a147")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:4.7k")
+		(at 31.75 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa16d3c6-f9e1-4e63-8e26-2cdf58f217f3")
+		(property "Reference" "R107"
+			(at 32.004 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 31.75 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 32.639 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.258 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7kΩ, 1/4W Resistor"
+			(at 31.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4b7ec22-e968-4383-a44e-de7c1f2ad615")
+		)
+		(pin "1"
+			(uuid "b20ca07a-56dd-46e7-a8ff-80155b5c149c")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4148")
+		(at 152.4 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd6b1164-c474-45a0-b0dc-faf9419617c1")
+		(property "Reference" "D92"
+			(at 152.4 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 152.4 29.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4607516f-17cf-4a05-b6bf-1afb98ec94f4")
+		)
+		(pin "1"
+			(uuid "b323db4b-8425-4331-9a7a-b4a5b0655f91")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/9c44984f-fa80-4102-be68-50a7c77252f6"
+					(reference "D92")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

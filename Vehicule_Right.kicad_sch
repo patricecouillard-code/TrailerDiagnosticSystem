@@ -1869,7 +1869,7 @@
 		)
 		(uuid "6397b558-0b5a-425a-a950-f7cb033a1af7")
 	)
-	(text "Left_Vehic_Shunt_Haut"
+	(text "Right_Vehic_Shunt_Haut"
 		(exclude_from_sim no)
 		(at 80.264 105.664 90)
 		(effects
@@ -2445,7 +2445,7 @@
 		)
 		(uuid "ffc1370d-0ac7-46ff-b99b-b5b9e04b819a")
 	)
-	(label "Seuil_Injection_Left"
+	(label "Seuil_Injection_Right"
 		(at 214.63 46.99 0)
 		(effects
 			(font
@@ -2455,7 +2455,7 @@
 		)
 		(uuid "19093480-6ada-4ad1-971b-714a0ea8b54a")
 	)
-	(label "Seuil_Court_Left"
+	(label "Seuil_Court_Right"
 		(at 214.63 83.82 0)
 		(effects
 			(font
@@ -2465,7 +2465,7 @@
 		)
 		(uuid "39ee2517-1021-4c74-889b-5f2cb6053cf2")
 	)
-	(label "Seuil_Ouvert_Left"
+	(label "Seuil_Ouvert_Right"
 		(at 106.68 85.09 180)
 		(effects
 			(font
@@ -2475,7 +2475,7 @@
 		)
 		(uuid "4747c257-5a41-423c-a9a6-10e8f4dd77d5")
 	)
-	(label "Seuil_Ouvert_Left"
+	(label "Seuil_Ouvert_Right"
 		(at 214.63 64.77 0)
 		(effects
 			(font
@@ -2485,7 +2485,7 @@
 		)
 		(uuid "4fc45139-6808-4828-8413-1ca3a9d2fc05")
 	)
-	(label "Q19_Source"
+	(label "Q27_Source"
 		(at 160.02 63.5 0)
 		(effects
 			(font
@@ -2495,7 +2495,7 @@
 		)
 		(uuid "6681b48a-48c0-4c5f-9d28-78f3956246a5")
 	)
-	(label "Seuil_Injection_Left"
+	(label "Seuil_Injection_Right"
 		(at 106.68 72.39 180)
 		(effects
 			(font
@@ -2505,7 +2505,7 @@
 		)
 		(uuid "70be5624-d9da-48f5-aada-088013522e1b")
 	)
-	(label "Seuil_Court_Left"
+	(label "Seuil_Court_Right"
 		(at 106.68 106.68 180)
 		(effects
 			(font
@@ -2515,7 +2515,7 @@
 		)
 		(uuid "a6bda0ec-86f0-4e81-9eb9-807e8a9b1dd9")
 	)
-	(label "Q19_Source"
+	(label "Q27_Source"
 		(at 66.04 132.08 180)
 		(effects
 			(font
@@ -2981,7 +2981,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Veh_Left"
+	(hierarchical_label "Veh_Right"
 		(shape input)
 		(at 151.13 48.26 180)
 		(effects
@@ -2992,7 +2992,7 @@
 		)
 		(uuid "1dc8977a-f1a9-4bee-af87-694a7a9c740f")
 	)
-	(hierarchical_label "Ouvert_Left_Vehic"
+	(hierarchical_label "Ouvert_Right_Vehic"
 		(shape input)
 		(at 172.72 77.47 0)
 		(effects
@@ -3003,7 +3003,7 @@
 		)
 		(uuid "ba75620c-4b40-4206-a516-44206b47853b")
 	)
-	(hierarchical_label "Court_Left_Vehic"
+	(hierarchical_label "Court_Right_Vehic"
 		(shape input)
 		(at 163.83 99.06 0)
 		(effects
@@ -3333,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Pot_Left_Ouvert"
+		(property "Etiquette" "Pot_Right_Ouvert"
 			(at 210.82 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,7 +3621,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "R_Left_LED_Court"
+		(property "Etiquette" "R_Right_LED_Court"
 			(at 152.4 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3953,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Pot_Left_Inject"
+		(property "Etiquette" "Pot_Right_Inject"
 			(at 210.312 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "R_Left_LED_Ouvert"
+		(property "Etiquette" "R_Right_LED_Ouvert"
 			(at 156.21 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Pot_Left_Court"
+		(property "Etiquette" "Pot_Right_Court"
 			(at 211.074 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4289,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Opto_Left"
+		(property "Etiquette" "Opto_Right"
 			(at 170.434 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "R_Left_PU_B"
+		(property "Etiquette" "R_Right_PU_B"
 			(at 130.81 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4790,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Opto_Left"
+		(property "Etiquette" "Opto_Right"
 			(at 179.578 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "R_Left_PU_A"
+		(property "Etiquette" "R_Right_PU_A"
 			(at 130.81 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +4974,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "R_Left_PU_C"
+		(property "Etiquette" "R_Right_PU_C"
 			(at 130.81 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,7 +5065,7 @@
 				)
 			)
 		)
-		(property "Etiquette" "Q_Left_Inject"
+		(property "Etiquette" "Q_Right_Inject"
 			(at 164.084 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
