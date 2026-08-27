@@ -1896,10 +1896,10 @@
 		(uuid "06f843cd-1d17-4bfa-8a12-64ad73f36c21")
 	)
 	(junction
-		(at 138.43 69.85)
+		(at 124.46 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47419256-1b10-49d7-ac6f-e6f567a67602")
+		(uuid "47dbe514-1ea5-4704-856b-e58196ca7197")
 	)
 	(junction
 		(at 82.55 101.6)
@@ -1937,6 +1937,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 69.85) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de73b6d-2889-41d2-af8b-caac8c649827")
+	)
+	(wire
+		(pts
 			(xy 176.53 88.9) (xy 176.53 87.63)
 		)
 		(stroke
@@ -1957,16 +1967,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 55.88) (xy 138.43 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "202913b2-33f0-4c11-a577-703c3cd17fe9")
-	)
-	(wire
-		(pts
 			(xy 167.64 110.49) (xy 163.83 110.49)
 		)
 		(stroke
@@ -1974,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "25b6737c-1937-4f00-9e29-22a513414710")
-	)
-	(wire
-		(pts
-			(xy 138.43 55.88) (xy 138.43 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29851ab5-a1d6-417b-a7c0-f49fc9683179")
 	)
 	(wire
 		(pts
@@ -2117,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f600058-aa19-497e-a7d1-1ea0fdbac221")
+	)
+	(wire
+		(pts
 			(xy 82.55 90.17) (xy 82.55 101.6)
 		)
 		(stroke
@@ -2194,16 +2194,6 @@
 			(type default)
 		)
 		(uuid "80a72f09-4cf0-4944-9f3d-e87d5e49d58f")
-	)
-	(wire
-		(pts
-			(xy 142.24 69.85) (xy 138.43 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84524961-42ae-4b4d-bb20-fdf1a380c39c")
 	)
 	(wire
 		(pts
@@ -2317,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 55.88) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb5cae2-2f60-4281-a466-4718825707c6")
+	)
+	(wire
+		(pts
 			(xy 144.78 87.63) (xy 165.1 87.63)
 		)
 		(stroke
@@ -2357,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 134.62 69.85)
+			(xy 134.62 69.85) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 121.92 69.85)
+			(xy 127 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2464,6 +2464,16 @@
 			(justify right bottom)
 		)
 		(uuid "4747c257-5a41-423c-a9a6-10e8f4dd77d5")
+	)
+	(label "Veh_Right_Inject_Cmd"
+		(at 124.46 55.88 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cc0345a-e597-4f79-b754-2a6face34b66")
 	)
 	(label "Seuil_Ouvert_Right"
 		(at 214.63 64.77 0)

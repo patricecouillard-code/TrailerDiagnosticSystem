@@ -1914,12 +1914,6 @@
 		(uuid "4aad96d2-88ef-4611-b88f-378b6237e0fe")
 	)
 	(junction
-		(at 113.03 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b1e489a-aa1a-4f6f-82e5-1de8e0c7d125")
-	)
-	(junction
 		(at 57.15 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,6 +1924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e15a592b-04a5-40d6-b29c-0c0590d30b1d")
+	)
+	(junction
+		(at 99.06 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5a9cca-31d2-4f2b-a086-0c5c9659684c")
 	)
 	(no_connect
 		(at 96.52 137.16)
@@ -1957,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 96.52 87.63)
+			(xy 101.6 87.63) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1974,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "099c0dc3-8a4b-44d3-9f8d-6320594bd75b")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12db1568-a755-4411-9385-062079f9264f")
 	)
 	(wire
 		(pts
@@ -2067,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cd6c19-da06-44b4-a428-7ac8f9bc75fe")
+	)
+	(wire
+		(pts
 			(xy 144.78 66.04) (xy 144.78 52.07)
 		)
 		(stroke
@@ -2094,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "54aa2f13-cb45-45a8-ae4a-9decdd935ea4")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575be7c6-832e-4c33-8d8c-58ef4053a850")
 	)
 	(wire
 		(pts
@@ -2187,16 +2217,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764af3b4-3fe1-462e-bc15-2d830d17ef2f")
-	)
-	(wire
-		(pts
 			(xy 182.88 63.5) (xy 182.88 60.96)
 		)
 		(stroke
@@ -2227,27 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 116.84 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f99a92-6ad1-4111-a1a4-4cfe44fe5568")
-	)
-	(wire
-		(pts
-			(xy 113.03 73.66) (xy 113.03 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af61df4-fde4-40c9-a9ae-c4ed0af78fd5")
-	)
-	(wire
-		(pts
-			(xy 113.03 87.63) (xy 109.22 87.63)
+			(xy 109.22 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2474,6 +2474,16 @@
 			(justify left bottom)
 		)
 		(uuid "1e56c4fa-a296-43fb-bb9f-dad962c6b016")
+	)
+	(label "Veh_Backup_Inject_Cmd"
+		(at 99.06 73.66 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f93b667-fc51-4e04-acb5-a4e9d8d5ea74")
 	)
 	(label "Seuil_Court_Backup"
 		(at 81.28 124.46 180)

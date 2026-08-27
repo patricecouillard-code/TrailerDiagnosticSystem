@@ -1896,10 +1896,10 @@
 		(uuid "0c6ed4e7-10a4-4bf9-b2e5-d28927f18960")
 	)
 	(junction
-		(at 134.62 69.85)
+		(at 120.65 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "271a7b47-ca57-4a15-9bcc-246be3da4d94")
+		(uuid "12f58c4a-5aca-4ed4-9e6f-dfb3a8b6fdb1")
 	)
 	(junction
 		(at 78.74 101.6)
@@ -1937,13 +1937,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 130.81 69.85)
+			(xy 120.65 55.88) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "011386dc-e237-40f2-9758-cd2adf07173c")
+		(uuid "01f31621-3df1-4b14-8bb1-69c59c0ddc72")
 	)
 	(wire
 		(pts
@@ -2067,6 +2067,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0afc85-7d26-4bc0-a9ef-179796a6eac3")
+	)
+	(wire
+		(pts
 			(xy 140.97 87.63) (xy 161.29 87.63)
 		)
 		(stroke
@@ -2094,16 +2104,6 @@
 			(type default)
 		)
 		(uuid "441ebf2b-31bf-4fe7-a02f-85b4c91dc9b4")
-	)
-	(wire
-		(pts
-			(xy 146.05 55.88) (xy 134.62 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44591269-b38f-46e2-bdf9-60a6bc83ef53")
 	)
 	(wire
 		(pts
@@ -2267,13 +2267,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 134.62 69.85)
+			(xy 120.65 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a561a832-123e-42c6-a7d8-aea70ae256ac")
+		(uuid "b234d7e7-9bde-4f06-b0c4-973c187e6c2c")
 	)
 	(wire
 		(pts
@@ -2377,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 138.43 69.85)
+			(xy 130.81 69.85) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 118.11 69.85)
+			(xy 123.19 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2474,6 +2474,16 @@
 			(justify right bottom)
 		)
 		(uuid "282d818b-9f79-4d33-a8aa-56abcc6c6756")
+	)
+	(label "Veh_Aux_Inject_Cmd"
+		(at 120.65 55.88 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3524f6dd-c9a8-4299-a06d-bf2a26ebc9ee")
 	)
 	(label "Seuil_Court_Aux"
 		(at 102.87 106.68 180)

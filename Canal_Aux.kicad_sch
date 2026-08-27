@@ -7,16 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 50.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117ce551-cc3f-49ae-9314-7b78e659d3fe")
-	)
-	(wire
-		(pts
 			(xy 49.53 27.94) (xy 58.42 27.94)
 		)
 		(stroke
@@ -57,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 30.48) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4482ac34-efae-4ccb-8922-60e15c39797a")
+	)
+	(wire
+		(pts
 			(xy 39.37 41.91) (xy 48.26 41.91)
 		)
 		(stroke
@@ -87,16 +87,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 39.37) (xy 58.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd68eac-75d1-4352-a2a6-dd294cc29b28")
-	)
-	(wire
-		(pts
 			(xy 53.34 41.91) (xy 58.42 41.91)
 		)
 		(stroke
@@ -104,6 +94,26 @@
 			(type default)
 		)
 		(uuid "8dadcee0-e806-42f0-a302-2c60d25d2ceb")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94834c84-51f7-49db-93a7-513efdf13b46")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9880a234-21e3-4455-bf2e-7ffd70fce08e")
 	)
 	(wire
 		(pts
@@ -144,16 +154,6 @@
 			(type default)
 		)
 		(uuid "db0fce92-7ec5-400e-bbb4-c28f3b9478dc")
-	)
-	(wire
-		(pts
-			(xy 48.26 30.48) (xy 58.42 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d1bfb6-538c-4acc-9548-ac91e77a6e70")
 	)
 	(wire
 		(pts
@@ -398,7 +398,7 @@
 			)
 		)
 		(pin "Court_Aux_Trailer" input
-			(at 58.42 30.48 180)
+			(at 58.42 39.37 180)
 			(uuid "bae77ce7-5fa8-44ca-92e9-eca9a219857d")
 			(effects
 				(font
@@ -438,7 +438,7 @@
 			)
 		)
 		(pin "Court_Aux_Vehic" input
-			(at 58.42 39.37 180)
+			(at 58.42 30.48 180)
 			(uuid "768210e5-68ab-46da-a118-5f348b909eff")
 			(effects
 				(font
