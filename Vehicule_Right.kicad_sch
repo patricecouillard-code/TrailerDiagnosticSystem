@@ -2147,16 +2147,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 77.47) (xy 171.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d445d77-d77d-485b-9b71-ce70499a537d")
-	)
-	(wire
-		(pts
 			(xy 82.55 132.08) (xy 86.36 132.08)
 		)
 		(stroke
@@ -2284,6 +2274,16 @@
 			(type default)
 		)
 		(uuid "a79e4032-f05a-4aad-9590-af9983bf8949")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2724ad-3263-4e0c-b467-6680f0fc660c")
 	)
 	(wire
 		(pts
@@ -2994,7 +2994,7 @@
 	)
 	(hierarchical_label "Ouvert_Right_Vehic"
 		(shape input)
-		(at 172.72 77.47 0)
+		(at 176.53 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)

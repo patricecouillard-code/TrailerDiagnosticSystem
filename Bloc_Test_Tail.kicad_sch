@@ -2955,7 +2955,7 @@
 		(uuid "b0ecf8a6-b167-4ca7-90e5-9c74c971fc11")
 	)
 	(label "Court_Tail"
-		(at 64.77 187.96 180)
+		(at 58.42 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
