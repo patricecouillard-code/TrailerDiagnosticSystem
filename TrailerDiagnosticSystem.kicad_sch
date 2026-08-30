@@ -512,24 +512,16 @@
 		)
 	)
 	(no_connect
-		(at 93.98 72.39)
+		(at 100.33 72.39)
 		(uuid "3a9e25ad-c7b6-4a3b-abe5-308cc20b3ddf")
 	)
 	(no_connect
-		(at 93.98 69.85)
-		(uuid "57f9f2fe-7e66-4431-a68a-185f94bdd00b")
-	)
-	(no_connect
-		(at 95.25 107.95)
+		(at 101.6 107.95)
 		(uuid "7f687d32-6e91-4f84-8c93-16345ac0ac78")
-	)
-	(no_connect
-		(at 95.25 105.41)
-		(uuid "e5f75b51-d718-4e81-8f1f-b35923456101")
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 100.33 90.17)
+			(xy 101.6 90.17) (xy 106.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +531,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 95.25) (xy 100.33 95.25)
+			(xy 101.6 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +541,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 99.06 49.53)
+			(xy 92.71 49.53) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 100.33) (xy 100.33 100.33)
+			(xy 101.6 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 95.25 97.79)
+			(xy 106.68 97.79) (xy 101.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 100.33 105.41)
+			(xy 101.6 105.41) (xy 106.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 100.33 102.87)
+			(xy 101.6 102.87) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 100.33 85.09)
+			(xy 96.52 85.09) (xy 106.68 85.09)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 99.06 54.61)
+			(xy 100.33 54.61) (xy 105.41 54.61)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 99.06 52.07)
+			(xy 100.33 52.07) (xy 105.41 52.07)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 99.06 64.77)
+			(xy 100.33 64.77) (xy 105.41 64.77)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +701,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 92.71) (xy 100.33 92.71)
+			(xy 101.6 92.71) (xy 106.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 99.06 67.31)
+			(xy 100.33 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 99.06 57.15)
+			(xy 100.33 57.15) (xy 105.41 57.15)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +731,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 99.06 62.23)
+			(xy 49.53 154.94) (xy 52.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e7b524-2868-4bef-bff2-173b92bd586b")
+	)
+	(wire
+		(pts
+			(xy 100.33 62.23) (xy 105.41 62.23)
 		)
 		(stroke
 			(width 0)
@@ -749,13 +751,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 72.39) (xy 99.06 72.39)
+			(xy 100.33 72.39) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7aadc7b-30ba-406e-8807-93c75f2736c5")
+	)
+	(wire
+		(pts
+			(xy 49.53 152.4) (xy 52.07 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ccd96b-eacc-4648-a102-3b55ebf89959")
 	)
 	(wire
 		(pts
@@ -809,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 100.33 107.95)
+			(xy 101.6 107.95) (xy 106.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 99.06 59.69)
+			(xy 100.33 59.69) (xy 105.41 59.69)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +891,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 99.06 69.85)
+			(xy 100.33 69.85) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 100.33 87.63)
+			(xy 101.6 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +920,7 @@
 		(uuid "03f07227-97fb-46e2-80a0-7e4c2f062885")
 	)
 	(label "Veh_Left"
-		(at 93.98 57.15 180)
+		(at 100.33 57.15 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -928,10 +940,10 @@
 		(uuid "0b22aa9a-c6bd-4e3d-abb0-1fee6c022123")
 	)
 	(label "Trail_Tail"
-		(at 95.25 87.63 180)
+		(at 101.6 87.63 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -948,14 +960,24 @@
 		(uuid "1d9ad5bc-0137-4937-a1ee-ab44d1ba411e")
 	)
 	(label "Trail_Right"
-		(at 95.25 95.25 180)
+		(at 101.6 95.25 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
 		(uuid "21afa196-4076-4771-a4e3-251fac4d61c6")
+	)
+	(label "Masse_Sense_Trail"
+		(at 52.07 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "259ae417-caee-4fae-8945-e239c52eba42")
 	)
 	(label "V12_Rail"
 		(at 54.61 53.34 0)
@@ -968,7 +990,7 @@
 		(uuid "2817be6d-e8e1-4a35-baa9-8ab3abbb55ba")
 	)
 	(label "Veh_Tail"
-		(at 93.98 52.07 180)
+		(at 100.33 52.07 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -976,6 +998,16 @@
 			(justify right bottom)
 		)
 		(uuid "2ae3f3d1-d209-4e79-b23e-66388da07659")
+	)
+	(label "Masse_Sense_Veh"
+		(at 52.07 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bf1beda-dc85-4e03-b3f1-7b0b7a7ae573")
 	)
 	(label "Trail_Right"
 		(at 52.07 97.79 0)
@@ -988,10 +1020,10 @@
 		(uuid "33026c57-ac0e-4ee5-b4cf-e66111d0ac9f")
 	)
 	(label "Trail_Aux"
-		(at 95.25 100.33 180)
+		(at 101.6 100.33 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -1008,7 +1040,7 @@
 		(uuid "3eac28d9-afe2-4189-ac70-f87bc904cbe4")
 	)
 	(label "Detect_Vehicule"
-		(at 93.98 67.31 180)
+		(at 100.33 67.31 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1016,6 +1048,16 @@
 			(justify right bottom)
 		)
 		(uuid "404ef5c0-1311-473e-ac4c-0767f20ad0b3")
+	)
+	(label "Masse_Sense_Veh"
+		(at 100.33 69.85 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "44bdcc4d-f57c-4b91-b26b-e945208bc325")
 	)
 	(label "Trail_Left"
 		(at 54.61 83.82 0)
@@ -1028,7 +1070,7 @@
 		(uuid "4a73ef52-3c81-41a9-af3d-14aff0fba8aa")
 	)
 	(label "Veh_Backup"
-		(at 93.98 62.23 180)
+		(at 100.33 62.23 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1037,11 +1079,21 @@
 		)
 		(uuid "4ab15533-abd2-4ca0-97a7-0cf7f29d095d")
 	)
-	(label "Trail_Brake"
-		(at 95.25 90.17 180)
+	(label "Masse_Sense_Trail"
+		(at 101.6 105.41 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a04a474-bb9a-4d61-9b19-4f699bf0337d")
+	)
+	(label "Trail_Brake"
+		(at 101.6 90.17 180)
+		(effects
+			(font
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -1068,17 +1120,17 @@
 		(uuid "6e149dec-68db-465a-880a-40c652a3abb0")
 	)
 	(label "Detect_Trailer"
-		(at 95.25 102.87 180)
+		(at 101.6 102.87 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
 		(uuid "745f36d6-6dc2-4837-968d-3d6472710d82")
 	)
 	(label "Veh_Brake"
-		(at 93.98 54.61 180)
+		(at 100.33 54.61 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1088,10 +1140,10 @@
 		(uuid "7943a098-2191-4d78-9cde-0177fd5fac02")
 	)
 	(label "Trail_Left"
-		(at 95.25 92.71 180)
+		(at 101.6 92.71 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -1158,10 +1210,10 @@
 		(uuid "9abe2edd-a494-49d4-bc2b-bb8653c51eb4")
 	)
 	(label "Trail_Backup"
-		(at 95.25 97.79 180)
+		(at 101.6 97.79 180)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -1178,7 +1230,7 @@
 		(uuid "b34750a7-d5b7-46ba-81c0-6a8e03e4b7d7")
 	)
 	(label "Veh_Right"
-		(at 93.98 59.69 180)
+		(at 100.33 59.69 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1198,7 +1250,7 @@
 		(uuid "c805dde9-526d-4114-946e-383a5a759809")
 	)
 	(label "Veh_Aux"
-		(at 93.98 64.77 180)
+		(at 100.33 64.77 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1209,7 +1261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 85.09 270)
+		(at 96.52 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1220,7 +1272,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f0b9f13-94d8-4e62-a501-d428c734fe3f")
 		(property "Reference" "#PWR05"
-			(at 83.82 85.09 0)
+			(at 90.17 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1231,7 +1283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 85.0899 90)
+			(at 92.71 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1242,7 +1294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 85.09 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1253,7 +1305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 85.09 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1264,7 +1316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 85.09 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1288,7 +1340,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 104.14 59.69 0)
+		(at 110.49 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1298,7 +1350,7 @@
 		(dnp no)
 		(uuid "3d1ee131-a6de-4d12-84ea-85bc425f9734")
 		(property "Reference" "J3"
-			(at 106.68 59.6899 0)
+			(at 113.03 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1309,7 +1361,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 106.68 62.2299 0)
+			(at 113.03 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1320,7 +1372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 59.69 0)
+			(at 110.49 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,7 +1383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 59.69 0)
+			(at 110.49 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,7 +1394,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 59.69 0)
+			(at 110.49 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1353,7 +1405,7 @@
 			)
 		)
 		(property "Etiquette" "GX16-10 Mâle (Véhicule)"
-			(at 103.886 45.72 0)
+			(at 110.236 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1403,7 +1455,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 105.41 95.25 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1413,7 +1465,7 @@
 		(dnp no)
 		(uuid "85f50d14-29c9-41da-9024-a14b07946d22")
 		(property "Reference" "J4"
-			(at 107.95 95.2499 0)
+			(at 114.3 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1424,7 +1476,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 107.95 97.7899 0)
+			(at 114.3 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1435,7 +1487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 95.25 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1446,7 +1498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 95.25 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1457,7 +1509,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 95.25 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1520,7 @@
 			)
 		)
 		(property "Etiquette" "GX16-10 Femelle (Trailer)"
-			(at 105.664 81.534 0)
+			(at 112.014 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1518,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 49.53 270)
+		(at 92.71 49.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1529,7 +1581,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a3ae647-7828-47f5-b839-f111e8086cea")
 		(property "Reference" "#PWR03"
-			(at 80.01 49.53 0)
+			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +1592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 49.5299 90)
+			(at 88.9 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1551,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 49.53 0)
+			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1562,7 +1614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 49.53 0)
+			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1573,7 +1625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 49.53 0)
+			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1657,6 +1709,72 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 149.86)
+		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "361b48c0-a959-47c9-bb38-aa88a46d3ebb")
+		(property "Sheetname" "Detection_De_Masse"
+			(at 30.48 149.4024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MassDetection.kicad_sch"
+			(at 30.48 157.8614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Masse_Sense_Veh" input
+			(at 49.53 152.4 0)
+			(uuid "108ae149-76db-4131-af75-ec0731af56bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Masse_Sense_Trail" input
+			(at 49.53 154.94 0)
+			(uuid "7f55e96c-69c7-464e-a858-aee7ef992869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(page "28")
 				)
 			)
 		)

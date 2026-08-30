@@ -749,7 +749,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 30.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -784,7 +784,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-15,Q1-54,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,R207,D1-146,LED1-2,OC1-12",
+    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-15,Q1-54,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,R207-209,R211,D1-146,D148-150,LED1-2,OC1-12,VR1",
     "variants": []
   },
   "sheets": [
@@ -895,6 +895,10 @@
     [
       "d25077f7-2868-4779-a1c2-6faeaca9c2d4",
       "Bloc_Test_Aux"
+    ],
+    [
+      "361b48c0-a959-47c9-bb38-aa88a46d3ebb",
+      "Detection_De_Masse"
     ]
   ],
   "text_variables": {},

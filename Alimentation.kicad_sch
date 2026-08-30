@@ -557,25 +557,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 0 17.78 0)
+			(property "Reference" "U"
+				(at -22.86 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "LM74610QDGKRQ1"
-				(at 0 15.24 0)
+				(at -22.86 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "LM74610QDGKRQ1:SOP65P490X110-8N"
@@ -798,6 +799,8 @@
 						)
 					)
 				)
+			)
+			(symbol "LM74610QDGKRQ1_1_0"
 				(pin passive line
 					(at -27.94 0 0)
 					(length 5.08)
