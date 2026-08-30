@@ -2903,7 +2903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 92.71 91.44 0)
 			(hide yes)
 			(show_name no)
