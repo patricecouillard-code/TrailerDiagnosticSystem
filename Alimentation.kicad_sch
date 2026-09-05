@@ -7444,7 +7444,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 147.32) (xy 382.27 147.32)
+			(xy 378.46 147.32) (xy 382.27 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7641,16 +7641,6 @@
 			(justify left bottom)
 		)
 		(uuid "13c4f896-6359-432c-b76d-b65d005aeed8")
-	)
-	(label "Court_Bus_Fault"
-		(at 386.08 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d82e189-e35e-41e3-ae6b-3b87a0813dd5")
 	)
 	(label "Batt_Interne_Pos"
 		(at 50.8 69.85 0)
@@ -8020,6 +8010,17 @@
 			(justify right)
 		)
 		(uuid "3e8120f5-8d95-4cad-ba89-690050e85f5e")
+	)
+	(hierarchical_label "Court_Bus_Fault"
+		(shape input)
+		(at 378.46 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ad4abce-f808-424c-8ce8-dee1ec51f50e")
 	)
 	(hierarchical_label "Surtension_Fault"
 		(shape input)
