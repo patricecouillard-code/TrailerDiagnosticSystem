@@ -611,13 +611,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 54.61 21.59)
+			(xy 62.23 146.05) (xy 62.23 146.685)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26d4f58e-e267-4bfc-8bd8-41bc1e84072d")
+		(uuid "372e622d-0245-4f6a-b60d-c6d977c4953c")
 	)
 	(wire
 		(pts
@@ -661,16 +661,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 24.13) (xy 54.61 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c91959-fa14-4c6c-adf5-6a3d30005f7e")
-	)
-	(wire
-		(pts
 			(xy 49.53 39.37) (xy 54.61 39.37)
 		)
 		(stroke
@@ -688,6 +678,16 @@
 			(type default)
 		)
 		(uuid "5d1c9ecd-fc63-474e-91ae-ade98813a1fa")
+	)
+	(wire
+		(pts
+			(xy 67.31 146.685) (xy 62.23 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a064d47-22e3-4cf1-9a6d-064a54555a4b")
 	)
 	(wire
 		(pts
@@ -781,13 +781,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 152.4) (xy 64.77 152.4)
+			(xy 62.23 154.305) (xy 67.31 154.305)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90e7b524-2868-4bef-bff2-173b92bd586b")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 54.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efdd754-8140-4612-bbcb-d0c840845b2c")
 	)
 	(wire
 		(pts
@@ -811,17 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 19.05) (xy 54.61 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0169005-b438-48bd-89c4-0443d1dfb4ef")
-	)
-	(wire
-		(pts
-			(xy 62.23 149.86) (xy 64.77 149.86)
+			(xy 62.23 150.495) (xy 67.31 150.495)
 		)
 		(stroke
 			(width 0)
@@ -848,6 +848,16 @@
 			(type default)
 		)
 		(uuid "b96276a3-394b-42f3-9ef4-6355a8f5242a")
+	)
+	(wire
+		(pts
+			(xy 49.53 21.59) (xy 54.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3d3732-140c-4e3f-81f6-ce6322bd3114")
 	)
 	(wire
 		(pts
@@ -1011,13 +1021,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 16.51) (xy 54.61 16.51)
+			(xy 49.53 19.05) (xy 54.61 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e67e49a5-facd-47e2-926b-951db72d6532")
+		(uuid "e9a9867d-f594-4e21-8da4-d1dab32d9b8f")
 	)
 	(wire
 		(pts
@@ -1038,6 +1048,16 @@
 			(type default)
 		)
 		(uuid "f177aeb3-fe5b-4a58-bd8a-309ecbee9459")
+	)
+	(wire
+		(pts
+			(xy 49.53 16.51) (xy 54.61 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa837fc4-3289-4b40-b4a7-c4b64ea09aa9")
 	)
 	(wire
 		(pts
@@ -1079,6 +1099,16 @@
 		)
 		(uuid "0b22aa9a-c6bd-4e3d-abb0-1fee6c022123")
 	)
+	(label "Masse_Fault"
+		(at 67.31 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10b0b7f6-4255-4951-a316-79ae36ad4992")
+	)
 	(label "Trail_Tail"
 		(at 101.6 87.63 180)
 		(effects
@@ -1110,7 +1140,7 @@
 		(uuid "21afa196-4076-4771-a4e3-251fac4d61c6")
 	)
 	(label "Masse_Sense_Trail"
-		(at 64.77 152.4 0)
+		(at 67.31 154.305 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,18 +1169,8 @@
 		)
 		(uuid "2ae3f3d1-d209-4e79-b23e-66388da07659")
 	)
-	(label "Court_Bus_Fault"
-		(at 54.61 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b3a0ef2-c1f2-43d5-94ee-5bccc66b6274")
-	)
 	(label "Masse_Sense_Veh"
-		(at 64.77 149.86 0)
+		(at 67.31 150.495 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,6 +1258,16 @@
 			(justify right bottom)
 		)
 		(uuid "4ab15533-abd2-4ca0-97a7-0cf7f29d095d")
+	)
+	(label "V12_Rail"
+		(at 54.61 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52bf73e6-5467-43ea-82bf-15b3a5a62c99")
 	)
 	(label "Injection_Tail_Fault"
 		(at 67.31 165.1 0)
@@ -1339,16 +1369,6 @@
 		)
 		(uuid "7ac83089-5fb1-4315-8753-22b39918b78b")
 	)
-	(label "Buzzer_Trigger"
-		(at 54.61 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c208e5f-4da7-48c6-9150-4ca692b6012f")
-	)
 	(label "Trail_Left"
 		(at 101.6 92.71 180)
 		(effects
@@ -1368,16 +1388,6 @@
 			(justify left bottom)
 		)
 		(uuid "81e41670-2fe4-46e8-ba31-d5bfd1c43449")
-	)
-	(label "V12_Rail"
-		(at 54.61 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8770c314-5630-4ba7-b119-05802300e049")
 	)
 	(label "Buzzer_Trigger"
 		(at 67.31 203.2 0)
@@ -1467,7 +1477,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ae32176c-6825-4ddd-a80b-57913fc3fb9f")
+		(uuid "a51c6bd4-df6a-4efc-a012-a270f3d4c35a")
+	)
+	(label "Court_Bus_Fault"
+		(at 54.61 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aefb9dee-eb09-4808-8480-b1e630d20c33")
 	)
 	(label "Trail_Backup"
 		(at 53.34 105.41 0)
@@ -1538,6 +1558,16 @@
 			(justify right bottom)
 		)
 		(uuid "f29100d0-b6a7-467c-bb1a-ec71ba228469")
+	)
+	(label "Buzzer_Trigger"
+		(at 54.61 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f984b9e5-6e43-4bc9-9c79-657ee2daff0e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1994,8 +2024,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 147.32)
-		(size 31.75 7.62)
+		(at 30.48 144.78)
+		(size 31.75 12.065)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2010,7 +2040,7 @@
 		)
 		(uuid "361b48c0-a959-47c9-bb38-aa88a46d3ebb")
 		(property "Sheetname" "Detection_De_Masse"
-			(at 30.48 146.8624 0)
+			(at 30.48 144.3224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2021,7 +2051,7 @@
 			)
 		)
 		(property "Sheetfile" "MassDetection.kicad_sch"
-			(at 30.48 155.3214 0)
+			(at 30.48 157.2264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2032,7 +2062,7 @@
 			)
 		)
 		(pin "Masse_Sense_Veh" input
-			(at 62.23 149.86 0)
+			(at 62.23 150.495 0)
 			(uuid "108ae149-76db-4131-af75-ec0731af56bd")
 			(effects
 				(font
@@ -2042,8 +2072,18 @@
 			)
 		)
 		(pin "Masse_Sense_Trail" input
-			(at 62.23 152.4 0)
+			(at 62.23 154.305 0)
 			(uuid "7f55e96c-69c7-464e-a858-aee7ef992869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Masse_Fault" input
+			(at 62.23 146.05 0)
+			(uuid "88c30147-69eb-40b5-afc1-9197fae57bf8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,6 +2166,92 @@
 		)
 	)
 	(sheet
+		(at 30.48 13.97)
+		(size 19.05 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56af58a1-2657-4f00-930b-84ffb6766669")
+		(property "Sheetname" "Alimentation"
+			(at 30.48 13.5124 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 30.48 25.7814 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V12_Rail" input
+			(at 49.53 21.59 0)
+			(uuid "144fa684-8f91-4ecc-9e2b-1f20a1133a5a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "Surtension_Fault" input
+			(at 49.53 16.51 0)
+			(uuid "1ffc1595-351e-43f9-8c6d-76a61b43fd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buzzer_Trigger" input
+			(at 49.53 19.05 0)
+			(uuid "d0c146fb-bc44-4104-96ac-37e4188260a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Court_Bus_Fault" input
+			(at 49.53 24.13 0)
+			(uuid "386e66df-7783-4897-a182-629f0a1ad5e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 57.15)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
@@ -2187,92 +2313,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 30.48 13.97)
-		(size 19.05 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9ea9dc6a-4605-4442-bf52-a201ecc40774")
-		(property "Sheetname" "Alimentation"
-			(at 30.48 13.5124 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Alimentation.kicad_sch"
-			(at 30.48 25.7814 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V12_Rail" input
-			(at 49.53 21.59 0)
-			(uuid "09831574-f0ee-4da0-86e0-3b994bb82ed0")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Surtension_Fault" input
-			(at 49.53 16.51 0)
-			(uuid "a87d0675-1710-4b15-bb0a-cd99bcebbff5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Buzzer_Trigger" input
-			(at 49.53 19.05 0)
-			(uuid "c12e7925-707b-4366-bb51-e9428fa7f145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Court_Bus_Fault" input
-			(at 49.53 24.13 0)
-			(uuid "6c397511-b3d4-4c94-8d48-eebe2a5be1d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(page "2")
 				)
 			)
 		)
