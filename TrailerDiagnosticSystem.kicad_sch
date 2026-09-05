@@ -2034,6 +2034,52 @@
 		)
 	)
 	(sheet
+		(at 30.48 163.83)
+		(size 19.05 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cdb1da1d-75aa-4768-93cb-d21a7fd03228")
+		(property "Sheetname" "Alarmes_Buzzer"
+			(at 30.48 163.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alarmes_Buzzer_sch.kicad_sch"
+			(at 30.48 170.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 77.47)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
