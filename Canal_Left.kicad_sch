@@ -157,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c323d0ab-66b5-49df-913e-be1feab235b7")
+	)
+	(wire
+		(pts
 			(xy 127 16.51) (xy 127 49.53)
 		)
 		(stroke
@@ -265,6 +275,17 @@
 			(justify left)
 		)
 		(uuid "6c8031a9-a0c5-4cd2-8488-a0cad2a13037")
+	)
+	(hierarchical_label "Injection_Left_Fault"
+		(shape input)
+		(at 48.26 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d89d3db-0085-4a36-8f6a-a0fa4705ffa6")
 	)
 	(hierarchical_label "Veh_Left"
 		(shape input)
@@ -424,6 +445,16 @@
 		(pin "Veh_Left" input
 			(at 44.45 41.91 0)
 			(uuid "356c6eab-9151-487a-9c1e-be57f3065e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Injection_Left_Fault" input
+			(at 44.45 46.99 0)
+			(uuid "9c6128c8-cab1-4f6e-b237-62ea076b77ac")
 			(effects
 				(font
 					(size 1.27 1.27)

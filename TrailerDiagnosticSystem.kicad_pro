@@ -262,6 +262,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "endpoint_off_grid|495300|742950|33d09dc5-685b-4ffd-a6a5-351ded1aa673|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "label_dangling|546100|596900|a9c616f8-7df2-480f-a79b-a87686a4fb3b|00000000-0000-0000-0000-000000000000|/d4e407a7-3e32-4226-ae57-831ecdb3edf4||",
         ""
       ]
@@ -448,7 +452,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
@@ -784,7 +788,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-15,Q1-54,C1-4,#PWR1-15,F1-7,#FLG1-2,R1-63,R67-71,R75-86,R89-205,R207-209,R211,D1-146,D148-150,LED1-2,OC1-12,VR1",
+    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-17,Q1-64,C1-5,#PWR1-22,F1-7,#FLG1-3,R1-63,R67-71,R75-86,R89-205,R207-209,R211-229,D1-146,D148-150,D152-169,LED1-2,OC1-12,VR1,BZ1",
     "variants": []
   },
   "sheets": [
@@ -793,7 +797,7 @@
       "Racine"
     ],
     [
-      "9ea9dc6a-4605-4442-bf52-a201ecc40774",
+      "56af58a1-2657-4f00-930b-84ffb6766669",
       "Alimentation"
     ],
     [
@@ -899,6 +903,10 @@
     [
       "361b48c0-a959-47c9-bb38-aa88a46d3ebb",
       "Detection_De_Masse"
+    ],
+    [
+      "cdb1da1d-75aa-4768-93cb-d21a7fd03228",
+      "Alarmes_Buzzer"
     ]
   ],
   "text_variables": {},

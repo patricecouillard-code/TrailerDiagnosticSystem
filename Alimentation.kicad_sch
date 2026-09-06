@@ -6368,7 +6368,7 @@
 	)
 	(text "Alarme - Inversion de la Polarité"
 		(exclude_from_sim no)
-		(at 243.84 20.574 0)
+		(at 243.84 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,7 +6378,7 @@
 	)
 	(text "Alarme - Surtension"
 		(exclude_from_sim no)
-		(at 349.758 20.574 0)
+		(at 349.885 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 	)
 	(text "Alarme Court-Circuit"
 		(exclude_from_sim no)
-		(at 351.536 137.16 0)
+		(at 351.79 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6441,6 +6441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "613f07b4-6671-4ca8-818b-04432b60c3f6")
+	)
+	(junction
+		(at 30.48 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d56fa73-8e87-467c-b13e-ea64daac7707")
 	)
 	(junction
 		(at 336.55 172.72)
@@ -6513,6 +6519,10 @@
 	(no_connect
 		(at 365.76 88.9)
 		(uuid "8d8bfac3-efcb-400f-a0c1-a323bd756a6f")
+	)
+	(no_connect
+		(at 365.76 55.88)
+		(uuid "aa899ef6-e340-4120-8211-befc0a22a260")
 	)
 	(no_connect
 		(at 46.99 72.39)
@@ -6644,6 +6654,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.805 62.23) (xy 344.805 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd0f030-5cd0-436e-9a76-663288057a59")
+	)
+	(wire
+		(pts
 			(xy 314.96 36.83) (xy 317.5 36.83)
 		)
 		(stroke
@@ -6694,6 +6714,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 96.52) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a562984-15eb-43fd-b65b-48894c1f3ffa")
+	)
+	(wire
+		(pts
 			(xy 217.17 39.37) (xy 219.71 39.37)
 		)
 		(stroke
@@ -6701,6 +6731,16 @@
 			(type default)
 		)
 		(uuid "2e09c474-4b33-4b18-b980-b9a0e1a54809")
+	)
+	(wire
+		(pts
+			(xy 344.805 58.42) (xy 350.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fee8bed-161a-480b-91bc-a352974ccdb0")
 	)
 	(wire
 		(pts
@@ -6721,6 +6761,16 @@
 			(type default)
 		)
 		(uuid "31dc62af-a154-4d86-9f8c-b5e143ea6334")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d29b01-738a-47dd-be15-c2b1a0affe4b")
 	)
 	(wire
 		(pts
@@ -6764,7 +6814,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 55.88) (xy 321.31 49.53)
+			(xy 319.405 55.88) (xy 319.405 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7094,6 +7144,16 @@
 	)
 	(wire
 		(pts
+			(xy 338.455 53.34) (xy 338.455 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b91bc4d-e535-4e8c-b25a-09bc5dfb567c")
+	)
+	(wire
+		(pts
 			(xy 317.5 46.99) (xy 326.39 46.99)
 		)
 		(stroke
@@ -7101,16 +7161,6 @@
 			(type default)
 		)
 		(uuid "7e0a09e7-1847-447d-9727-f3fb8f575a17")
-	)
-	(wire
-		(pts
-			(xy 321.31 49.53) (xy 346.71 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea18252-95f7-472a-8455-fdef52c8a319")
 	)
 	(wire
 		(pts
@@ -7124,7 +7174,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 60.96) (xy 334.01 60.96)
+			(xy 328.295 60.96) (xy 332.105 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7314,23 +7364,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 60.96) (xy 312.42 60.96)
+			(xy 306.705 60.96) (xy 310.515 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b490d5f2-97ad-4fe9-9030-4565f5145e8b")
-	)
-	(wire
-		(pts
-			(xy 27.94 96.52) (xy 35.56 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cfbba3-e48e-4f4c-8b8f-46fe2cd377c1")
 	)
 	(wire
 		(pts
@@ -7341,6 +7381,16 @@
 			(type default)
 		)
 		(uuid "b83c86bc-f6f5-46d5-bb40-7fc976738809")
+	)
+	(wire
+		(pts
+			(xy 338.455 53.34) (xy 350.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb27ee00-a963-47dc-b2e2-a9ae23042e98")
 	)
 	(wire
 		(pts
@@ -7421,6 +7471,16 @@
 			(type default)
 		)
 		(uuid "d24ec337-eab7-4e61-929a-249b33ebc78b")
+	)
+	(wire
+		(pts
+			(xy 319.405 49.53) (xy 346.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ccb772-441d-4896-87e5-59a9f9d6d155")
 	)
 	(wire
 		(pts
@@ -7554,6 +7614,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f592cf14-dff2-4552-827b-37eaeb77d583")
+	)
+	(wire
+		(pts
 			(xy 323.85 161.29) (xy 323.85 179.07)
 		)
 		(stroke
@@ -7571,6 +7641,16 @@
 			(type default)
 		)
 		(uuid "f64d76b2-8c47-4edf-86c6-0245e591edaf")
+	)
+	(wire
+		(pts
+			(xy 344.17 62.23) (xy 344.805 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c247ab-50be-4de3-a2f7-95da59b7689a")
 	)
 	(wire
 		(pts
@@ -7860,6 +7940,30 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
+		(at 393.7 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72576702-8a56-43cc-8045-976d9955826f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.8257 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
 		(at 344.17 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7908,7 +8012,31 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 308.61 60.96 180)
+		(at 344.17 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "944182fa-dccc-4fc5-a09f-6c5619d8df26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.0443 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 306.705 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7918,7 +8046,7 @@
 		)
 		(uuid "99abac5f-4bcb-4e78-bc53-9a68719bbb3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.4843 60.96 0)
+			(at 298.5793 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8266,14 +8394,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d011c2f-27c1-4e84-8788-e02400f6a8c8")
+			(uuid "4c182b06-e164-47d8-ae60-17606a7e9f32")
 		)
 		(pin "1"
-			(uuid "cea3ea5f-84ac-4d94-8f92-39add05f4467")
+			(uuid "05350865-eaad-4969-b51e-2fd64e831b43")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C4")
 					(unit 1)
 				)
@@ -8346,14 +8474,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8791205d-acd2-4c5b-a458-4090262e0330")
+			(uuid "01138eee-a495-46e1-b292-6645be6d2599")
 		)
 		(pin "2"
-			(uuid "e51db792-4d51-4e2a-99c4-3d0c7438a39b")
+			(uuid "620ac366-4a56-4471-bb3f-419da45eff81")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R215")
 					(unit 1)
 				)
@@ -8437,14 +8565,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d709d8f2-ca85-4281-abd4-539c6c1c4c67")
+			(uuid "017772c2-0c36-4972-b11e-84cd41aa0a8c")
 		)
 		(pin "2"
-			(uuid "bf42fbbf-c981-453f-b505-c8eb5e41e705")
+			(uuid "7c729db7-1bba-423d-873b-d9b358275d72")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "P1")
 					(unit 1)
 				)
@@ -8552,14 +8680,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ff5f877-28fd-49ec-962f-f047f25c45bc")
+			(uuid "16ce5074-9f0a-4879-923c-b1a1af9dab68")
 		)
 		(pin "1"
-			(uuid "f0a9388c-afd8-4d5f-ad11-b5b96866356d")
+			(uuid "15545123-3807-4856-92d6-359376b2aede")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "BT2")
 					(unit 1)
 				)
@@ -8632,15 +8760,93 @@
 			)
 		)
 		(pin "2"
-			(uuid "777dbd13-1050-4b49-9623-53449a4f7ac4")
+			(uuid "3a5f45b9-3dad-4e85-8942-925543cce367")
 		)
 		(pin "1"
-			(uuid "3ad182de-ec25-448d-8cdf-351174590e5d")
+			(uuid "3b322e7e-c550-4fb0-bd4e-7941ace21440")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 338.455 53.975 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15297e4d-e099-47ea-b7f3-f9bd44e2a039")
+		(property "Reference" "#PWR022"
+			(at 338.455 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 338.455 59.055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 338.455 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.455 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 338.455 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30c3eeca-2ccc-4652-9d63-65e16f9493fa")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8712,14 +8918,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "515f9147-32bb-4f5f-b5c0-52ed38d98b60")
+			(uuid "7b21de29-400d-4023-85bc-921a8168a79a")
 		)
 		(pin "2"
-			(uuid "5f3edc8c-deef-4d6c-928d-ba42ccf9c3b6")
+			(uuid "a53ad82d-9898-4b9b-bd45-4676f3a3dec7")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R213")
 					(unit 1)
 				)
@@ -8804,16 +9010,16 @@
 			(uuid "8b46063d-7fb2-43ea-b5cc-741055bc87d6")
 		)
 		(pin "1"
-			(uuid "8eac26bb-ca03-49b7-978d-f88bcad3e0e8")
+			(uuid "5ec7054a-4308-438a-926d-a9b6218595cc")
 		)
 		(pin "4"
 			(uuid "8c1f427c-410b-4771-ba6d-307541ef1dfb")
 		)
 		(pin "7"
-			(uuid "1d1d7a1d-e52f-4c38-a8cb-fc3a787b7e68")
+			(uuid "cbb9ef5e-32b2-42c6-b52e-bd7560723170")
 		)
 		(pin "6"
-			(uuid "a754efa5-710a-4db4-96a1-42cf9d04ad10")
+			(uuid "c7330460-7ed8-46da-846d-85c1f6cf0070")
 		)
 		(pin "2"
 			(uuid "b578eca1-a0c4-4820-9d63-58af7592f1b8")
@@ -8835,7 +9041,7 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U16")
 					(unit 2)
 				)
@@ -8909,11 +9115,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7028e5a-6113-47d8-8b67-145500f2188d")
+			(uuid "788fe027-5065-4eca-aadf-87ba2ef0216c")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -8995,14 +9201,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "88d352ab-b5c2-4471-b56e-744725c2d4a0")
+			(uuid "f2511a08-c63e-48f0-ad1e-aa690030e677")
 		)
 		(pin "2"
-			(uuid "4b0cc583-6a61-4cb5-8a5a-66ebaed7ca04")
+			(uuid "5218d00f-69e9-47aa-8da4-65bd1d267e27")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R221")
 					(unit 1)
 				)
@@ -9078,11 +9284,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f375063-f621-4c57-846f-38f9f19ec911")
+			(uuid "44a5e14b-3d56-4518-bdbe-3e63f1d77136")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -9163,10 +9369,10 @@
 			(uuid "4e985311-852c-4e73-8f9b-295987b7fbe4")
 		)
 		(pin "3"
-			(uuid "347b45dc-d9b3-4787-b62e-b3a01b83f22f")
+			(uuid "e451466c-a497-4b69-99f6-f64a8f6fb7d1")
 		)
 		(pin "12"
-			(uuid "8b46063d-7fb2-43ea-b5cc-741055bc87d7")
+			(uuid "8d6762fa-c197-41e1-932a-b2dd83a3c933")
 		)
 		(pin "1"
 			(uuid "8eac26bb-ca03-49b7-978d-f88bcad3e0e9")
@@ -9200,7 +9406,7 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U16")
 					(unit 5)
 				)
@@ -9274,11 +9480,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cb10cac-d8ec-4eab-8ad0-3e7c9bfafb20")
+			(uuid "29a98192-419d-44fa-a1ae-f712a2314885")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -9352,26 +9558,26 @@
 			)
 		)
 		(pin "B+"
-			(uuid "594f0005-6440-4e7c-8919-55d5ff77fa08")
+			(uuid "346feb21-0618-4f31-96cd-9106a7f1d8f5")
 		)
 		(pin "P+"
-			(uuid "a0a0e2b2-7491-4e6a-8409-b00e6d85421d")
+			(uuid "5c97ec7b-8e02-4b33-ace8-3e7d430af4f1")
 		)
 		(pin "P-"
-			(uuid "c6a1d5a2-c884-47db-a211-3ade38a743f5")
+			(uuid "f0cc67ea-0da9-4ff4-96f7-2b9cb5fd1958")
 		)
 		(pin "B-"
-			(uuid "b20b88cf-305e-4598-9876-1f7f3e930497")
+			(uuid "3e2f5267-3651-4c91-833f-7437187e622b")
 		)
 		(pin "C1"
-			(uuid "98595cc9-fdba-49bf-a4f8-40381c0651d0")
+			(uuid "a16391ab-2d3c-4601-a626-b58df0d756ff")
 		)
 		(pin "C2"
-			(uuid "58250f07-d381-47b3-983c-fdadc9402119")
+			(uuid "3576a208-9b05-4a1e-ace7-e0007b849198")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "BMS3s1")
 					(unit 1)
 				)
@@ -9444,12 +9650,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "a467ca1a-0b8b-415c-92d8-3b64ca0d750d")
+			(uuid "48aa9ca5-7b72-4085-8271-7d046f5cb548")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 99.06 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "394dbfd4-d450-4371-b412-881da1c4dfc1")
+		(property "Reference" "#FLG03"
+			(at 30.48 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 30.48 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 30.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28140dd9-16dc-4245-b6b1-89ef7ab16d8a")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9521,11 +9805,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bed233a-cf46-4c04-841e-bd4d8c0c5c48")
+			(uuid "802d1593-5312-43a3-90ac-e8c72d4497d7")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -9612,17 +9896,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "a344eaf6-2a77-40c9-8a32-0aa23054b454")
+			(uuid "aaf3280e-f721-41f1-85fb-de7f745752cc")
 		)
 		(pin "3"
-			(uuid "c4c11bb9-7655-4f8b-8176-50ac6bc35626")
+			(uuid "76d73abe-d2c8-4534-9baf-24bcbce383bb")
 		)
 		(pin "2"
-			(uuid "22c04d08-0550-4b99-87f1-32870bead882")
+			(uuid "2275efdb-e475-4ba8-945b-2fd33ac76d08")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "Q57")
 					(unit 1)
 				)
@@ -9706,14 +9990,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "061ff93c-6631-4196-aa23-c68b8dfe5196")
+			(uuid "72642d55-41ea-4354-8128-8f6f49900790")
 		)
 		(pin "2"
-			(uuid "c3d1716b-bd93-4e56-8d52-1d764446e0cb")
+			(uuid "653c7139-c0d1-4781-92cd-3e566e4d65b9")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R222")
 					(unit 1)
 				)
@@ -9787,11 +10071,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "30906726-2d1c-4e83-823f-501b727e850d")
+			(uuid "de531f3a-d8a7-4fc3-bb65-350ed84fae58")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -9864,11 +10148,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b04df67-a50f-493f-a6a2-54d115cf80c1")
+			(uuid "a918cd49-3515-49cd-98b6-845e9477ab33")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -9941,17 +10225,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "5516e574-a731-4ef1-98ff-787158aaefb5")
+			(uuid "117fa622-9d7c-4fbf-a4de-9558237f093b")
 		)
 		(pin "1"
-			(uuid "96041060-09fd-4c38-bf97-dec47690cbb5")
+			(uuid "e33b1770-3354-452c-8833-c572f8565bb7")
 		)
 		(pin "2"
-			(uuid "d530dd01-6e46-48ff-b19e-b43a8209fae3")
+			(uuid "643c440e-4a49-4f7f-b16c-31e2b4ecc4a7")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U6")
 					(unit 1)
 				)
@@ -10025,11 +10309,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "34e8bdfd-4e05-4d50-a03f-6d6839c4acae")
+			(uuid "0f6d9c00-d99c-4bcb-8aa6-4f5c3be22833")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -10104,17 +10388,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d5c5a21-629a-46ab-afe2-908ee6d4b671")
+			(uuid "97fe0126-b70f-47c2-b410-baea59f7eefc")
 		)
 		(pin "1"
-			(uuid "f690fb0a-5781-4d96-8240-8b0c3694511c")
+			(uuid "f89a265f-ee8d-4555-8cb3-cee4f4d3a1cf")
 		)
 		(pin "3"
-			(uuid "afb9b3bb-1f75-48f0-9c18-471e62c61d78")
+			(uuid "1b6ab2a5-5e91-402f-a905-e9a3ade07ad3")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -10188,11 +10472,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d15a7b9a-38ef-486a-a672-3c63e94f407c")
+			(uuid "4829fb44-d9cd-4734-ad51-6f614e5c2389")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -10266,14 +10550,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5470f8b6-3bca-4de2-8acb-c4d022d6b59f")
+			(uuid "05d1ecb4-d5dc-492f-9f93-00d074e7417c")
 		)
 		(pin "1"
-			(uuid "f21dc9b7-29ab-4661-aee2-ce1d673f3d54")
+			(uuid "71dc89e7-9f31-482d-8afb-5bc5e8a16096")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R217")
 					(unit 1)
 				)
@@ -10282,7 +10566,7 @@
 	)
 	(symbol
 		(lib_id "3296W-1-103LF:3296W1103LF")
-		(at 321.31 60.96 0)
+		(at 319.405 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10293,7 +10577,7 @@
 		(fields_autoplaced yes)
 		(uuid "7450bd79-56b9-4ab3-a419-3c13a1c9ef88")
 		(property "Reference" "R216"
-			(at 321.31 64.77 0)
+			(at 319.405 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10303,7 +10587,7 @@
 			)
 		)
 		(property "Value" "3296W1103LF"
-			(at 321.31 67.31 0)
+			(at 319.405 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10313,7 +10597,7 @@
 			)
 		)
 		(property "Footprint" "3296W1103LF:TRIM_3296W1103LF"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10325,7 +10609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +10620,7 @@
 			)
 		)
 		(property "Description" "10 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,7 +10632,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10360,7 +10644,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-3 Bourns"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +10656,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10384,7 +10668,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-103%20LF/Bourns/view-part/?ref=eda"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10396,7 +10680,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10692,7 @@
 			)
 		)
 		(property "PARTREV" "05/16"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10704,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-103%20LF/Bourns/view-part/?ref=snap"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10432,7 +10716,7 @@
 			)
 		)
 		(property "MP" "3296W-1-103 LF"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +10728,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,7 +10740,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 321.31 60.96 0)
+			(at 319.405 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,17 +10752,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfc5345a-6b75-491c-8900-ee23efc644ac")
+			(uuid "fcd823e2-c5c9-492e-9373-b347ccdf30a3")
 		)
 		(pin "3"
-			(uuid "737e46a4-8bbd-4d80-8b58-41053ff109f8")
+			(uuid "11525660-8396-4672-8782-47decd98b2ac")
 		)
 		(pin "2"
-			(uuid "e7c50015-e8e0-4731-9cbd-5e7cd098b947")
+			(uuid "5867b5aa-dbed-41e7-b0f2-c3463c14e527")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R216")
 					(unit 1)
 				)
@@ -10552,11 +10836,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "18c97f5e-4dca-495f-be9a-074ed54a7272")
+			(uuid "17395f2d-f948-481e-909a-464cbc68f591")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -10642,17 +10926,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d06fa9e-7a37-40d1-bb35-b4c185525428")
+			(uuid "4be859dc-886c-4aaa-9978-65d62367ccf3")
 		)
 		(pin "3"
-			(uuid "f09e8d02-b776-4f27-af03-1382ee9a038a")
+			(uuid "4a3c1e4b-eee6-4269-841f-de7b06c3d7a5")
 		)
 		(pin "2"
-			(uuid "1ea075ad-6658-46be-aca4-f303bad1b91b")
+			(uuid "78dc1b30-fc1d-46b8-93d9-bcad481398f9")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "Q56")
 					(unit 1)
 				)
@@ -10725,11 +11009,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "49525f64-4d8f-4a8d-ba6f-e6002403a5b8")
+			(uuid "c80fd885-66b2-4947-ac4c-af6ecc2c5f99")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -10803,11 +11087,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3de3a7ec-39dc-4d01-871c-4c680b52c1df")
+			(uuid "14ec2581-f5da-403d-8a5b-1f986cebce21")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -10915,14 +11199,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f2dc91ac-3cc5-480c-884e-0b08419894f8")
+			(uuid "31b8aa17-666e-4142-9879-29b0b5800ad9")
 		)
 		(pin "1"
-			(uuid "9bfe50a3-6eb8-4aaf-92e5-a33ce4a01514")
+			(uuid "9fc6c1f7-5b92-4999-bddb-90d2f22c3986")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "BT3")
 					(unit 1)
 				)
@@ -10996,11 +11280,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "622685ca-cd17-4f3d-9042-4ba6034dc9b6")
+			(uuid "5063baa4-5134-4dc1-a5ea-7c975b8bfeb5")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -11073,14 +11357,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "62a0ee58-ef48-4039-8835-d87cc60744c8")
+			(uuid "34e27765-6b37-434e-bc5e-2bd5ef762649")
 		)
 		(pin "1"
-			(uuid "9c8de8ae-3a01-4011-829d-b7a419e85178")
+			(uuid "02703b2c-1c82-4264-a770-88fc2330fb4c")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "D152")
 					(unit 1)
 				)
@@ -11180,13 +11464,13 @@
 			(uuid "b578eca1-a0c4-4820-9d63-58af7592f1ba")
 		)
 		(pin "10"
-			(uuid "bf601c99-1c68-40f5-a7b9-997fb6fd8d6a")
+			(uuid "ee4c8f10-1eb7-4525-a556-51569f9fa6ab")
 		)
 		(pin "11"
-			(uuid "1041f044-6a6f-4827-aca0-b458455ea8ed")
+			(uuid "3069e16e-5138-4eb2-8f47-9da90ed32546")
 		)
 		(pin "13"
-			(uuid "c03bf197-2846-4dc3-ac0a-628b0fe65c41")
+			(uuid "23133c08-8646-4083-bc4f-848b9aa5e015")
 		)
 		(pin "8"
 			(uuid "33b1dda3-ba0b-4b1b-a1c8-dd5711da258b")
@@ -11196,7 +11480,7 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U16")
 					(unit 3)
 				)
@@ -11269,14 +11553,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ee5d46f-b783-41ad-b976-1576bda90c20")
+			(uuid "4005703d-cca0-405e-a322-3b2a6f43e51f")
 		)
 		(pin "2"
-			(uuid "f16ae872-207b-4f65-9f34-dc8f49e0e985")
+			(uuid "36fe7cf1-0286-4ba4-b10f-2f485ae63b2a")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R212")
 					(unit 1)
 				)
@@ -11351,11 +11635,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "eeaeeaab-bfc0-414b-b0c3-de2e455bc21c")
+			(uuid "6006b595-b7db-4f2f-873a-126fdb3c6cc7")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -11463,14 +11747,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5ef94d52-93a2-4d37-b460-194cfdf25427")
+			(uuid "91b7f0bb-4062-4af0-b6af-0143f0808bf8")
 		)
 		(pin "1"
-			(uuid "28230a98-2e7d-4400-a8bb-8f88d7ed4000")
+			(uuid "d2a31a7d-2f65-462a-8a5a-6f27adc757f2")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "BT1")
 					(unit 1)
 				)
@@ -11556,17 +11840,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "41f65be9-afd0-4eaf-b4ac-e0c19efa99f6")
+			(uuid "a5dbfa3d-e60c-4bb3-b5d2-b0e13fd5defe")
 		)
 		(pin "1"
-			(uuid "571a7163-53cd-4f50-8cb7-5a6ff55a4662")
+			(uuid "9fc88327-8c3b-40b2-8a96-0a50e9fd4de3")
 		)
 		(pin "2"
-			(uuid "2d3ab582-a892-4e12-8a0f-46869e5bfb17")
+			(uuid "1a59d061-7ec0-4cec-ba61-7b5dca2cb59c")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "Q55")
 					(unit 1)
 				)
@@ -11642,7 +11926,7 @@
 			(uuid "600ce896-b765-4aea-8290-e04c6217028c")
 		)
 		(pin "9"
-			(uuid "4e985311-852c-4e73-8f9b-295987b7fbe6")
+			(uuid "b564716e-c811-43a8-b1a1-cd6672a32f1d")
 		)
 		(pin "3"
 			(uuid "347b45dc-d9b3-4787-b62e-b3a01b83f231")
@@ -11675,14 +11959,14 @@
 			(uuid "c03bf197-2846-4dc3-ac0a-628b0fe65c42")
 		)
 		(pin "8"
-			(uuid "33b1dda3-ba0b-4b1b-a1c8-dd5711da258c")
+			(uuid "d87721c9-b8da-45b0-a979-90b691a0f7a1")
 		)
 		(pin "14"
-			(uuid "9ab010a6-090b-4db1-87ca-91b3696dc1a0")
+			(uuid "682a601d-22ad-4083-ae11-ff8013729016")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U16")
 					(unit 4)
 				)
@@ -11757,14 +12041,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "abc72331-873c-4070-b5d4-518f71cf616a")
+			(uuid "07bbf8f4-5bab-4c7e-8753-1f0db7e0f003")
 		)
 		(pin "1"
-			(uuid "49f00b9d-791d-40ee-9287-fcb4036334b5")
+			(uuid "8c9423b8-f9bd-4149-91b3-b2ec39df2e85")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C1")
 					(unit 1)
 				)
@@ -11850,14 +12134,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0420896-cff2-40d3-abd1-441809cec035")
+			(uuid "7329a1da-e655-49a2-95fe-f5000019544f")
 		)
 		(pin "2"
-			(uuid "4a5e84b7-7295-447a-a00c-e433570d9f2b")
+			(uuid "dfe5b288-4760-4448-b642-1255cabb1f94")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "J2")
 					(unit 1)
 				)
@@ -11931,11 +12215,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc7a9388-3657-4dc1-8657-a455a75d99ab")
+			(uuid "cae07a2b-dd6d-4ea2-ac38-4352011f2709")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -11944,7 +12228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 334.01 60.96 0)
+		(at 332.105 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11955,7 +12239,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78160de-5958-46d1-97c8-1d18f64eaf58")
 		(property "Reference" "#PWR015"
-			(at 334.01 67.31 0)
+			(at 332.105 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +12250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 334.01 66.04 0)
+			(at 332.105 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11976,7 +12260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 60.96 0)
+			(at 332.105 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +12271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 60.96 0)
+			(at 332.105 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11998,7 +12282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 334.01 60.96 0)
+			(at 332.105 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12009,11 +12293,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5bc495f-62ef-4fb9-a7d6-e5f38465c7f1")
+			(uuid "3b7fcece-6b79-4ea9-a6b4-ea99c193f409")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -12086,11 +12370,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c4c37bd-06cd-4d63-bb9b-3309952668ab")
+			(uuid "4f04ce49-e5f5-476a-b93c-3cb807ba7a2a")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -12177,13 +12461,13 @@
 			(uuid "64d168a2-51fb-4209-a92a-d72cda512afb")
 		)
 		(pin "1"
-			(uuid "42ab8f3b-22df-41e4-86b9-b2875d650523")
+			(uuid "ed273e38-927b-4087-81cf-43db1401f99c")
 		)
 		(pin "2"
-			(uuid "3d27a9c4-3399-4d59-bf70-08a30960d48d")
+			(uuid "4003ae4f-e521-41ad-bb77-11c383a65cd6")
 		)
 		(pin "3"
-			(uuid "9704abfe-fbd8-498e-a243-708b48c77338")
+			(uuid "8ff8507c-373d-4244-921e-30ff7e11ff39")
 		)
 		(pin "5"
 			(uuid "eb232cd6-50d2-4137-99e6-cc4d68313de5")
@@ -12193,7 +12477,7 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -12401,14 +12685,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee12858b-dffb-4007-8013-bb942810b65d")
+			(uuid "25d728e2-335a-4767-a530-2f2b1c2095ac")
 		)
 		(pin "2"
-			(uuid "d2ed7ba6-b5df-43fd-a976-7f2922961b52")
+			(uuid "55e8f8b1-1b7a-49a3-a9e2-f1f9efa6d429")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C5")
 					(unit 1)
 				)
@@ -12481,14 +12765,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "2de893d6-8847-4cc4-a94c-deac31893ad1")
+			(uuid "70e4cfb0-60e2-4760-8187-2b0fdbea2bf7")
 		)
 		(pin "1"
-			(uuid "3335c75b-1046-478a-85fb-c14a21d9fb2b")
+			(uuid "0c749cc7-6a95-4b99-a26c-f2d48689a231")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "D153")
 					(unit 1)
 				)
@@ -12695,14 +12979,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a0aeba71-151a-4193-ad1c-c2199b72c0c4")
+			(uuid "d29e6462-6534-482f-9d86-870c2441f3b7")
 		)
 		(pin "1"
-			(uuid "53705b3c-6d61-4cd5-936d-809aa1d13fb3")
+			(uuid "84b21de3-9f87-4b47-9414-1f97cccde0b9")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C2")
 					(unit 1)
 				)
@@ -12788,7 +13072,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "404819fe-5d7f-4285-8b44-f2bcaefd6cb8")
+			(uuid "ea4c0a4a-dd94-4e96-bc15-abcadbbe4f55")
 		)
 		(pin "1"
 			(uuid "7ce1ed08-f9fb-4635-8a82-fb0d549fe474")
@@ -12800,14 +13084,14 @@
 			(uuid "60c0d4cf-f19e-4649-bb28-0f0056bdbb17")
 		)
 		(pin "5"
-			(uuid "67a5e144-60dc-4a80-a9d4-78a2a308ec5b")
+			(uuid "146c5e4e-d1ce-45c4-8a59-bc1a05a6db3d")
 		)
 		(pin "6"
-			(uuid "de3693b5-30aa-4c81-96dc-d6a46f81a05d")
+			(uuid "01adb64f-69d8-4f21-ba79-88ecc70ee097")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "SW1")
 					(unit 2)
 				)
@@ -12892,14 +13176,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5e65899-de8e-4510-8e0e-e545fe69d846")
+			(uuid "9fa3b13b-70f5-4304-a3d3-85482d79a27c")
 		)
 		(pin "2"
-			(uuid "4e51a89e-c02f-4e96-ba9b-16d59df4077e")
+			(uuid "c019f7ac-1944-4a5a-a3c1-22223005f413")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R219")
 					(unit 1)
 				)
@@ -12983,14 +13267,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b941465b-fa11-40d5-8f69-1a80d79f8d5b")
+			(uuid "687e5416-8ffe-4cd7-a2cd-e4dd9a2f6ec7")
 		)
 		(pin "2"
-			(uuid "61a06599-d0fa-4091-9efb-5f7609cbd7ef")
+			(uuid "31a0ec6a-99c1-4805-965f-ec8a9b05e435")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R218")
 					(unit 1)
 				)
@@ -13063,7 +13347,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "600ce896-b765-4aea-8290-e04c6217028d")
+			(uuid "ddfe9b77-c57a-4e15-9529-d14937531309")
 		)
 		(pin "9"
 			(uuid "4e985311-852c-4e73-8f9b-295987b7fbe7")
@@ -13078,7 +13362,7 @@
 			(uuid "8eac26bb-ca03-49b7-978d-f88bcad3e0ec")
 		)
 		(pin "4"
-			(uuid "8c1f427c-410b-4771-ba6d-307541ef1dff")
+			(uuid "ede5066b-727c-4951-ba64-2e823caafbd1")
 		)
 		(pin "7"
 			(uuid "1d1d7a1d-e52f-4c38-a8cb-fc3a787b7e6c")
@@ -13087,7 +13371,7 @@
 			(uuid "a754efa5-710a-4db4-96a1-42cf9d04ad14")
 		)
 		(pin "2"
-			(uuid "b578eca1-a0c4-4820-9d63-58af7592f1bc")
+			(uuid "c1df56a4-3781-4ae5-946c-4463392c4fc0")
 		)
 		(pin "10"
 			(uuid "bf601c99-1c68-40f5-a7b9-997fb6fd8d6c")
@@ -13106,7 +13390,7 @@
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U16")
 					(unit 1)
 				)
@@ -13229,32 +13513,32 @@
 			)
 		)
 		(pin "6"
-			(uuid "41a892d6-de0d-4c50-93f3-4cd2d8f580a2")
+			(uuid "ebc7a9cf-3a6f-418e-b74f-331492a0790a")
 		)
 		(pin "3"
-			(uuid "851657f6-ac0d-4763-a97f-5eef01604fa9")
+			(uuid "e7a65b2d-1f26-46ab-abc1-66464d2ff27e")
 		)
 		(pin "7"
-			(uuid "15f1f536-b270-4a4f-b457-46dedaa411a4")
+			(uuid "2d844892-97e1-49db-967e-ffb431df2da0")
 		)
 		(pin "1"
-			(uuid "8c00a71e-cba9-4ce3-b385-8981b0df0235")
+			(uuid "e6640cc4-1a8e-44c6-a3bf-bd749ad65d38")
 		)
 		(pin "4"
-			(uuid "8555a754-7f49-48a1-949e-14be3a1fefac")
+			(uuid "eaa745af-6140-4b6d-9477-33f94ec01674")
 		)
 		(pin "5"
-			(uuid "a92c4213-ee85-4edb-a88c-3b12cee11d34")
+			(uuid "cc923019-2a15-44b5-9782-a942897a19cd")
 		)
 		(pin "8"
-			(uuid "bfe4b9ef-69c7-4aa4-9c4b-f3050f6410a4")
+			(uuid "f65ed903-1a67-4883-9aaf-65a448a2f41b")
 		)
 		(pin "2"
-			(uuid "91c2fa28-af18-44cb-8332-41bd47161ba8")
+			(uuid "a66fc9b8-788f-45f5-9d75-2c4c8ab6705b")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "U1")
 					(unit 1)
 				)
@@ -13328,14 +13612,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "606ba8db-8c05-43e1-8dde-312e26b2b1fe")
+			(uuid "0e4db4ac-09a7-4d68-830d-79439b60d897")
 		)
 		(pin "1"
-			(uuid "be346947-94e9-46d9-a057-be68c5aa68e5")
+			(uuid "4fafedac-f701-4e11-bb3c-a7f0b476afc2")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "F1")
 					(unit 1)
 				)
@@ -13542,14 +13826,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb80e273-90d9-41e0-a7f0-bd33fd4d875d")
+			(uuid "a5b94de7-ce85-4e2b-a8df-a44694691a61")
 		)
 		(pin "2"
-			(uuid "210071d8-5958-40cc-9cf6-53a0523dc285")
+			(uuid "199374b5-3308-4b09-a964-fe4586610411")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C3")
 					(unit 1)
 				)
@@ -13633,14 +13917,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5afa4e16-6fac-4379-81e9-6a0065470074")
+			(uuid "4ea97b7c-4f3b-4538-90be-7122cc7e509a")
 		)
 		(pin "2"
-			(uuid "e781f947-3e3a-4300-a784-5be2d6432858")
+			(uuid "433772a7-e9f8-4298-a232-99c064bcfa8e")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/9ea9dc6a-4605-4442-bf52-a201ecc40774"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "R220")
 					(unit 1)
 				)
