@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 29.21) (xy 40.64 29.21)
+			(xy 38.1 30.48) (xy 40.64 30.48)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 25.4) (xy 48.26 30.48)
+			(xy 48.26 26.67) (xy 48.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 21.59) (xy 49.53 21.59)
+			(xy 38.1 22.86) (xy 49.53 22.86)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 25.4) (xy 48.26 25.4)
+			(xy 38.1 26.67) (xy 48.26 26.67)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 49.53 27.94)
+			(xy 49.53 22.86) (xy 49.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -167,16 +167,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 32.385) (xy 40.64 32.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9347905-4081-47e8-9c30-f2802043a6a0")
-	)
-	(wire
-		(pts
 			(xy 48.26 36.83) (xy 48.26 41.91)
 		)
 		(stroke
@@ -187,7 +177,7 @@
 	)
 	(hierarchical_label "Veh_Aux"
 		(shape input)
-		(at 40.64 29.21 0)
+		(at 40.64 30.48 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -206,17 +196,6 @@
 			(justify left)
 		)
 		(uuid "d21a2504-08f9-4c1a-8d06-7118172ac428")
-	)
-	(hierarchical_label "Injection_Aux_Fault"
-		(shape input)
-		(at 40.64 32.385 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "d7d0383a-d66e-4d76-8c53-7f4547928ccb")
 	)
 	(sheet
 		(at 17.78 19.05)
@@ -257,7 +236,7 @@
 			)
 		)
 		(pin "Court_Aux_Vehic" input
-			(at 38.1 25.4 0)
+			(at 38.1 26.67 0)
 			(uuid "85beaed5-4c71-4606-ba56-068ed376287f")
 			(effects
 				(font
@@ -267,7 +246,7 @@
 			)
 		)
 		(pin "Veh_Aux" input
-			(at 38.1 29.21 0)
+			(at 38.1 30.48 0)
 			(uuid "fe9094f2-4c23-4311-aec6-79c9dd852f41")
 			(effects
 				(font
@@ -277,18 +256,8 @@
 			)
 		)
 		(pin "Ouvert_Aux_Vehic" input
-			(at 38.1 21.59 0)
+			(at 38.1 22.86 0)
 			(uuid "2b0d0424-c6c8-4406-9647-12e50d45bdcd")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Aux_Fault" input
-			(at 38.1 32.385 0)
-			(uuid "3380ffcb-a767-4cce-9cff-12426b6b2768")
 			(effects
 				(font
 					(size 0.762 0.762)

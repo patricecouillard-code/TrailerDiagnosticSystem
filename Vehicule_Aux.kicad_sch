@@ -1920,12 +1920,6 @@
 		(uuid "5953327c-cf47-4b7f-9d80-24936b1cde01")
 	)
 	(junction
-		(at 132.715 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9349aa6b-3f1b-481c-a4fe-62eb84aa5ae7")
-	)
-	(junction
 		(at 152.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2193,16 +2187,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.895) (xy 132.715 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e75afe2-d367-44b4-a484-3180326a0cc9")
-	)
-	(wire
-		(pts
 			(xy 163.83 48.26) (xy 166.37 48.26)
 		)
 		(stroke
@@ -2273,16 +2257,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 55.88) (xy 146.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9310038a-def3-411e-9eda-3371f0650206")
-	)
-	(wire
-		(pts
 			(xy 152.4 59.69) (xy 152.4 63.5)
 		)
 		(stroke
@@ -2293,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 132.715 55.88)
+			(xy 120.65 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2430,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "ee2219ed-263b-4ce4-b4e6-2c5cfe096e37")
-	)
-	(wire
-		(pts
-			(xy 132.715 48.895) (xy 132.715 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f429d0-0817-4d4c-a2fe-d5df97131352")
 	)
 	(wire
 		(pts
@@ -3059,17 +3023,6 @@
 			(justify left)
 		)
 		(uuid "c4f729ca-ec59-4263-a6e6-8d0e48b87a68")
-	)
-	(hierarchical_label "Injection_Aux_Fault"
-		(shape input)
-		(at 124.46 48.895 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa55058e-3987-44bf-b4de-06d9ac2f9a31")
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")

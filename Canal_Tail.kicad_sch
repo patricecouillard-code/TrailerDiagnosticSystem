@@ -97,16 +97,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 60.325) (xy 64.77 60.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60692975-2c35-4dd7-83a9-710718d0c886")
-	)
-	(wire
-		(pts
 			(xy 39.37 82.55) (xy 39.37 35.56)
 		)
 		(stroke
@@ -184,17 +174,6 @@
 			(type default)
 		)
 		(uuid "fdd1d9f4-a850-49f5-8743-176572d71489")
-	)
-	(hierarchical_label "Injection_Tail_Fault"
-		(shape input)
-		(at 64.77 60.325 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f9078e4-b1d3-4c80-b9a5-a8bb5ef16451")
 	)
 	(hierarchical_label "Trail_Tail"
 		(shape input)
@@ -365,16 +344,6 @@
 		(pin "Veh_Tail" input
 			(at 59.69 55.88 0)
 			(uuid "9dca754b-138d-4aad-a249-65e91d61db01")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
-			(at 59.69 60.325 0)
-			(uuid "c5ba4d56-05f2-4274-968b-af5411b6fa27")
 			(effects
 				(font
 					(size 0.762 0.762)
