@@ -2714,7 +2714,7 @@
 		)
 		(uuid "64b68653-34ae-4ed1-95fb-0ffeec2637da")
 	)
-	(label "Vert_Enale_Brake"
+	(label "Vert_Enable_Brake"
 		(at 224.79 146.05 0)
 		(effects
 			(font
