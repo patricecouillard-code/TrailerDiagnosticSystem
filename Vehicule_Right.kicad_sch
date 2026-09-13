@@ -1896,6 +1896,12 @@
 		(uuid "06f843cd-1d17-4bfa-8a12-64ad73f36c21")
 	)
 	(junction
+		(at 134.62 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "237de8ab-bb3f-4ba6-891a-792034a20b74")
+	)
+	(junction
 		(at 124.46 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1934,6 +1940,16 @@
 	(no_connect
 		(at 121.92 119.38)
 		(uuid "6c1053c3-120d-49b9-8c1b-2a8331e4f1ab")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a911317-7f3b-45b4-9129-4e767855b1b7")
 	)
 	(wire
 		(pts
@@ -2087,6 +2103,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 47.625) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55414dad-8508-452d-83de-27ee759e73b6")
+	)
+	(wire
+		(pts
 			(xy 207.01 87.63) (xy 210.82 87.63)
 		)
 		(stroke
@@ -2107,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 149.86 55.88)
+			(xy 124.46 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2234,6 +2260,16 @@
 			(type default)
 		)
 		(uuid "939435d5-f050-43e2-937b-fcfb33a0db05")
+	)
+	(wire
+		(pts
+			(xy 128.27 47.625) (xy 134.62 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9959ed74-2696-4e01-aa6b-9fd237735915")
 	)
 	(wire
 		(pts
@@ -2980,6 +3016,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "Injection_Right_Fault"
+		(shape input)
+		(at 128.27 47.625 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04f60e26-2bc4-4e30-bc7c-39d88f071346")
 	)
 	(hierarchical_label "Veh_Right"
 		(shape input)

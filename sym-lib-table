@@ -6,4 +6,5 @@
 	(lib (name "FG26X7R1E106KRT06") (type "KiCad") (uri "${KIPRJMOD}/FG26X7R1E106KRT06.kicad_sym") (options "") (descr ""))
 	(lib (name "SR305C334KAR") (type "KiCad") (uri "${KIPRJMOD}/SR305C334KAR.kicad_sym") (options "") (descr ""))
 	(lib (name "SR205E104MARAP1") (type "KiCad") (uri "${KIPRJMOD}/SR205E104MARAP1.kicad_sym") (options "") (descr ""))
+	(lib (name "OSX10201-GYR1") (type "KiCad") (uri "${KIPRJMOD}/OSX10201-GYR1.kicad_sym") (options "") (descr ""))
 )

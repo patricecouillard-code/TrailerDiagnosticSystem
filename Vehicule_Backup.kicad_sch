@@ -1920,6 +1920,12 @@
 		(uuid "7571efc2-d89a-4cd9-b7f4-3184c8954344")
 	)
 	(junction
+		(at 111.125 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e245459-0191-4446-8583-0c1658c2a518")
+	)
+	(junction
 		(at 130.81 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1974,6 +1980,16 @@
 			(type default)
 		)
 		(uuid "099c0dc3-8a4b-44d3-9f8d-6320594bd75b")
+	)
+	(wire
+		(pts
+			(xy 111.125 59.69) (xy 111.125 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c33525-3b58-42c2-bd54-c4a0d436744c")
 	)
 	(wire
 		(pts
@@ -2117,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 124.46 73.66)
+			(xy 99.06 73.66) (xy 111.125 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2144,6 +2160,16 @@
 			(type default)
 		)
 		(uuid "5d5826be-0dad-4368-844c-9073ccc3361a")
+	)
+	(wire
+		(pts
+			(xy 104.14 59.69) (xy 111.125 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6ca35b-f3ed-4f0c-b0fe-13f6e0e55f56")
 	)
 	(wire
 		(pts
@@ -2284,6 +2310,16 @@
 			(type default)
 		)
 		(uuid "b0c65c9f-8625-4d6e-a9a7-ff7cbd4749ae")
+	)
+	(wire
+		(pts
+			(xy 111.125 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ac22a6-3027-407b-a69e-94c658fa00db")
 	)
 	(wire
 		(pts
@@ -3023,6 +3059,17 @@
 			(justify right)
 		)
 		(uuid "942fc4a9-5ebb-4d16-bc47-dd9a1ce5db23")
+	)
+	(hierarchical_label "Injection_Backup_Fault"
+		(shape input)
+		(at 104.14 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be330841-89c6-45ce-a3e7-5705b861a044")
 	)
 	(symbol
 		(lib_id "Comparator:LM339")

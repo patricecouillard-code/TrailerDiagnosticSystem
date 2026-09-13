@@ -1902,6 +1902,12 @@
 		(uuid "0f7431fa-a51e-4050-ac7a-69fc13a52fbf")
 	)
 	(junction
+		(at 121.92 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34474bde-826d-44e5-a424-7f459c792f77")
+	)
+	(junction
 		(at 154.94 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1984,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "11836ff5-e005-4027-a710-6bb14d0201b5")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a43263d-be02-4a0c-8ce7-cb3d52d54bcc")
 	)
 	(wire
 		(pts
@@ -2247,16 +2263,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 57.15) (xy 134.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac0597a-34cf-4fd2-9e68-e5c840ae1b73")
-	)
-	(wire
-		(pts
 			(xy 190.5 44.45) (xy 195.58 44.45)
 		)
 		(stroke
@@ -2264,6 +2270,26 @@
 			(type default)
 		)
 		(uuid "adb1890c-77e8-4a5d-953f-b4c180d2f4fb")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2f85e8-38a9-4507-b74e-671cf0ffe43b")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1da5aae-8596-40fe-86db-60135433cb3a")
 	)
 	(wire
 		(pts
@@ -2354,6 +2380,16 @@
 			(type default)
 		)
 		(uuid "dac5eba1-92bf-40df-a9ef-060843ab2203")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1ada99-b51b-40aa-bd46-27f4a381b0c1")
 	)
 	(wire
 		(pts
@@ -2971,6 +3007,17 @@
 			(justify right)
 		)
 		(uuid "0996d7d8-fc37-431e-9a23-e40a54c41c7d")
+	)
+	(hierarchical_label "Injection_Tail_Fault"
+		(shape input)
+		(at 109.22 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "255476f3-606f-4a39-9a3c-cb74ae3ffea1")
 	)
 	(hierarchical_label "Court_Tail_Vehic"
 		(shape input)

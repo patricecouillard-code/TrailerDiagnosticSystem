@@ -264,10 +264,6 @@
       [
         "endpoint_off_grid|495300|742950|33d09dc5-685b-4ffd-a6a5-351ded1aa673|00000000-0000-0000-0000-000000000000|||",
         ""
-      ],
-      [
-        "label_dangling|546100|596900|a9c616f8-7df2-480f-a79b-a87686a4fb3b|00000000-0000-0000-0000-000000000000|/d4e407a7-3e32-4226-ae57-831ecdb3edf4||",
-        ""
       ]
     ],
     "meta": {
@@ -738,6 +734,12 @@
           "label": "Price",
           "name": "Price",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fonction",
+          "name": "Fonction",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -788,7 +790,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,BMS3s1-2,SW1-9,P1-2,BT1-6,U1-17,Q1-64,C1-5,#PWR1-22,F1-7,#FLG1-3,R1-63,R67-71,R75-86,R89-205,R207-209,R211-229,D1-146,D148-150,D152-169,LED1-2,OC1-12,VR1,BZ1",
+    "used_designators": "J1-5,P1-2,BMS3s1-2,SW1-9,BT1-6,U1-17,Q1-65,C1-6,#PWR1-23,F1-7,R1-63,R67-71,R75-86,R89-205,R207-209,R211-231,#FLG1-3,D1-146,D148-150,D152-169,LED1-2,OC1-12,VR1,BZ1",
     "variants": []
   },
   "sheets": [
