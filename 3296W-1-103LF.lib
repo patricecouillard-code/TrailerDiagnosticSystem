@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 3296W-1-103LF
+#/12863328/2161106/2.50/3/4/Variable Resistor
+DEF 3296W-1-103LF VR 0 30 Y Y 1 F N
+F0 "VR" 350 1000 50 H V L CNN
+F1 "3296W-1-103LF" 350 900 50 H V L CNN
+F2 "3296W1503LF" 350 800 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/3296.pdf" 350 700 50 H I L CNN
+F4 "Trimmer Resistors - Through Hole 3/8\" 10Kohms Sealed Vertical Adjust" 350 600 50 H I L CNN "Description"
+F5 "10.28" 350 500 50 H I L CNN "Height"
+F6 "Bourns" 350 400 50 H I L CNN "Manufacturer_Name"
+F7 "3296W-1-103LF" 350 300 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-3296W-1-103LF" 350 200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-103LF?qs=CL3xLxiry19Id6AEaxYcng%3D%3D" 350 100 50 H I L CNN "Mouser Price/Stock"
+F10 "3296W-1-103LF" 350 0 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/3296w-1-103lf/bourns.html?utm_currency=USD&region=nac" 350 -100 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 200 0 200 U 50 50 0 0 P
+X WIPER 2 100 0 200 U 50 50 0 0 P
+X CW 3 0 0 200 U 50 50 0 0 P
+P 5 0 1 6 -100 800 300 800 300 200 -100 200 -100 800 N
+ENDDRAW
+ENDDEF
+#
+#End Library

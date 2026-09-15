@@ -631,6 +631,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 27.94) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3d5cd6-927e-41f6-a477-5f2524a987b4")
+	)
+	(wire
+		(pts
 			(xy 49.53 74.295) (xy 54.61 74.295)
 		)
 		(stroke
@@ -671,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 54.61 39.37)
+			(xy 49.53 40.64) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 34.29) (xy 54.61 34.29)
+			(xy 49.53 35.56) (xy 54.61 35.56)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 54.61 48.26)
+			(xy 49.53 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1021,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 54.61 44.45)
+			(xy 49.53 45.72) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1180,7 @@
 		(uuid "174cd106-70e9-444f-960b-6184532e4455")
 	)
 	(label "Alerte_Incoherence"
-		(at 54.61 44.45 0)
+		(at 54.61 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1200,7 +1210,7 @@
 		(uuid "259ae417-caee-4fae-8945-e239c52eba42")
 	)
 	(label "V12_Rail"
-		(at 54.61 48.26 0)
+		(at 54.61 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1400,7 +1410,7 @@
 		(uuid "69b5bcb1-7db7-429e-a090-350b5b1df330")
 	)
 	(label "Detect_Trailer"
-		(at 54.61 39.37 0)
+		(at 54.61 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,6 +1438,16 @@
 			(justify right bottom)
 		)
 		(uuid "7943a098-2191-4d78-9cde-0177fd5fac02")
+	)
+	(label "Batt_Interne_Pos"
+		(at 54.61 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79b9542e-c592-47b0-9582-7a65dc95c119")
 	)
 	(label "Injection_Aux_Fault"
 		(at 67.31 184.15 0)
@@ -1510,7 +1530,7 @@
 		(uuid "8a647cbc-8462-4fdb-b556-51786747e578")
 	)
 	(label "Detect_Vehicule"
-		(at 54.61 34.29 0)
+		(at 54.61 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,7 +2317,7 @@
 	)
 	(sheet
 		(at 30.48 13.97)
-		(size 19.05 11.43)
+		(size 19.05 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2323,7 +2343,7 @@
 			)
 		)
 		(property "Sheetfile" "Alimentation.kicad_sch"
-			(at 30.48 25.7814 0)
+			(at 30.48 29.5914 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -2374,13 +2394,13 @@
 			)
 		)
 		(pin "Batt_Interne_Pos" input
-			(at 30.48 14.732 180)
+			(at 49.53 27.94 0)
 			(uuid "adeef681-2dea-49cd-9bf2-352ca0a3db5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -2776,8 +2796,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 30.48)
-		(size 19.05 21.59)
+		(at 30.48 33.274)
+		(size 19.05 18.796)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2792,7 +2812,7 @@
 		)
 		(uuid "d808f71c-7914-43fb-8ac9-96d92cd6294f")
 		(property "Sheetname" "Mode_Coherence"
-			(at 30.48 30.0224 0)
+			(at 30.48 32.8164 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -2814,7 +2834,7 @@
 			)
 		)
 		(pin "V12_Rail" input
-			(at 49.53 48.26 0)
+			(at 49.53 49.53 0)
 			(uuid "2bba4dd8-d4a4-45c4-9ad7-ff3576ac1104")
 			(effects
 				(font
@@ -2824,7 +2844,7 @@
 			)
 		)
 		(pin "Alerte_Incoherence" input
-			(at 49.53 44.45 0)
+			(at 49.53 45.72 0)
 			(uuid "9b4d3a96-0050-498d-8164-b57da0edf5a0")
 			(effects
 				(font
@@ -2834,7 +2854,7 @@
 			)
 		)
 		(pin "Detect_Trailer" input
-			(at 49.53 39.37 0)
+			(at 49.53 40.64 0)
 			(uuid "a37e835e-7559-49df-b4a8-abe5262b9e0e")
 			(effects
 				(font
@@ -2844,7 +2864,7 @@
 			)
 		)
 		(pin "Detect_Vehicule" input
-			(at 49.53 34.29 0)
+			(at 49.53 35.56 0)
 			(uuid "8108d672-fa57-4e03-877a-d4357c2b8f36")
 			(effects
 				(font

@@ -7,4 +7,5 @@
 	(lib (name "SR305C334KAR") (type "KiCad") (uri "${KIPRJMOD}/SR305C334KAR.kicad_sym") (options "") (descr ""))
 	(lib (name "SR205E104MARAP1") (type "KiCad") (uri "${KIPRJMOD}/SR205E104MARAP1.kicad_sym") (options "") (descr ""))
 	(lib (name "OSX10201-GYR1") (type "KiCad") (uri "${KIPRJMOD}/OSX10201-GYR1.kicad_sym") (options "") (descr ""))
+	(lib (name "3296-1-102lf") (type "KiCad") (uri "${KIPRJMOD}/3296W-1-102LF.kicad_sym") (options "") (descr ""))
 )
