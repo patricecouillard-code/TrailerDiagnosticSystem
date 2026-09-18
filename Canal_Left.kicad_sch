@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 68.58) (xy 67.31 83.82)
+			(xy 67.31 77.47) (xy 67.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 89.535) (xy 57.785 89.535)
+			(xy 59.69 96.52) (xy 63.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 67.31 68.58)
+			(xy 59.69 77.47) (xy 67.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -77,16 +77,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 96.52) (xy 63.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4c87a1-3f1e-4ffe-ba82-6abec7a57f19")
-	)
-	(wire
-		(pts
 			(xy 44.45 34.29) (xy 62.23 34.29)
 		)
 		(stroke
@@ -107,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 72.39 81.28)
+			(xy 72.39 73.66) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 133.985 86.36)
+			(xy 59.69 91.44) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -127,17 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 89.535) (xy 57.785 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715ce28f-519d-41cb-88d2-2c6920a27450")
-	)
-	(wire
-		(pts
-			(xy 133.985 53.34) (xy 133.985 86.36)
+			(xy 133.35 53.34) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -167,23 +147,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 128.27 83.82)
+			(xy 67.31 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7b76d6f-09ea-495f-b26c-f65056af10e3")
-	)
-	(wire
-		(pts
-			(xy 44.45 46.99) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c323d0ab-66b5-49df-913e-be1feab235b7")
 	)
 	(wire
 		(pts
@@ -197,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.77) (xy 72.39 64.77)
+			(xy 59.69 73.66) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 128.27 83.82)
+			(xy 128.27 57.15) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 53.34) (xy 133.985 53.34)
+			(xy 118.11 53.34) (xy 133.35 53.34)
 		)
 		(stroke
 			(width 0)
@@ -296,17 +266,6 @@
 		)
 		(uuid "6c8031a9-a0c5-4cd2-8488-a0cad2a13037")
 	)
-	(hierarchical_label "Injection_Left_Fault"
-		(shape input)
-		(at 48.26 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d89d3db-0085-4a36-8f6a-a0fa4705ffa6")
-	)
 	(hierarchical_label "Veh_Left"
 		(shape input)
 		(at 48.26 41.91 0)
@@ -319,8 +278,8 @@
 		(uuid "dc7da15c-f46a-4a4e-ba74-8d76a96b9b33")
 	)
 	(sheet
-		(at 17.78 59.69)
-		(size 26.67 32.385)
+		(at 30.48 64.77)
+		(size 29.21 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -335,7 +294,7 @@
 		)
 		(uuid "4b410b73-581c-4913-a7b4-c25621986813")
 		(property "Sheetname" "Trailer_Left"
-			(at 17.78 59.2324 0)
+			(at 30.48 64.3124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -346,7 +305,7 @@
 			)
 		)
 		(property "Sheetfile" "Trailer_Left.kicad_sch"
-			(at 17.78 92.4564 0)
+			(at 30.48 109.6014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -357,7 +316,7 @@
 			)
 		)
 		(pin "Trail_Left" input
-			(at 44.45 89.535 0)
+			(at 59.69 96.52 0)
 			(uuid "1d595ee2-4837-413f-a68e-6860863d9770")
 			(effects
 				(font
@@ -367,7 +326,7 @@
 			)
 		)
 		(pin "Btn_Left_Etat" input
-			(at 44.45 86.36 0)
+			(at 59.69 91.44 0)
 			(uuid "80089d94-54a9-4d72-b1e1-2c2ba1403487")
 			(effects
 				(font
@@ -377,7 +336,7 @@
 			)
 		)
 		(pin "Ouvert_Left_Trailer" input
-			(at 44.45 68.58 0)
+			(at 59.69 77.47 0)
 			(uuid "ec14475e-0d1c-402c-aaa8-1ae45567e9b5")
 			(effects
 				(font
@@ -387,7 +346,7 @@
 			)
 		)
 		(pin "Court_Left_Trailer" input
-			(at 44.45 64.77 0)
+			(at 59.69 73.66 0)
 			(uuid "bdd585dd-f98f-4065-8c3a-89a318c82857")
 			(effects
 				(font
@@ -465,16 +424,6 @@
 		(pin "Veh_Left" input
 			(at 44.45 41.91 0)
 			(uuid "356c6eab-9151-487a-9c1e-be57f3065e5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Left_Fault" input
-			(at 44.45 46.99 0)
-			(uuid "9c6128c8-cab1-4f6e-b237-62ea076b77ac")
 			(effects
 				(font
 					(size 1.27 1.27)
