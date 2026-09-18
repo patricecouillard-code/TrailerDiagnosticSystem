@@ -12077,6 +12077,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 35.56) (xy 78.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9871fce4-591f-4e1d-ae9d-c5108b6f11bd")
+	)
+	(wire
+		(pts
 			(xy 57.15 217.17) (xy 71.12 217.17)
 		)
 		(stroke
@@ -13074,6 +13084,16 @@
 			(justify left bottom)
 		)
 		(uuid "a2b75518-8ef9-42c0-aa8b-17be2b849587")
+	)
+	(label "Batt_Externe_Pos"
+		(at 78.74 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3ccc0b8-e648-41b2-a3fb-c3f7297f7160")
 	)
 	(label "VPwr_Selection"
 		(at 104.14 97.79 180)
