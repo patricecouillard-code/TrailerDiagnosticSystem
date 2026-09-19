@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SL_Devices:Resistor_5W"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 106.299 66.548 0)
 			(hide yes)
 			(show_name no)

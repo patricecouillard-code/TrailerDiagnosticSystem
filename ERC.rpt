@@ -1,57 +1,45 @@
-ERC report (2026-09-18T10:39:17, Encoding UTF8)
+ERC report (2026-09-19T09:05:02, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[unconnected_wire_endpoint]: Unconnected wire endpoint
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
     ; warning
-    @(2.700 in, 6.800 in): Horizontal Wire, length 0.200 in
-[footprint_link_issues]: The current configuration does not include the footprint library '3296W-1-102LF'
+    @(1.700 in, 4.700 in): Symbol C2 [SR305C334KAR]
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
+    ; warning
+    @(1.700 in, 5.150 in): Symbol C3 [FG26X7R1E106KRT06]
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
+    ; warning
+    @(1.700 in, 5.650 in): Symbol C4 [SR205E104MARAP1]
+[lib_symbol_issues]: The symbol library '3296-1-102lf' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W-1-102LF.kicad_sym'
     ; warning
     @(4.050 in, 6.350 in): Symbol VR1 [3296W-1-102LF]
-[footprint_link_issues]: The current configuration does not include the footprint library 'OSX10201-GYR1'
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
     ; warning
-    @(5.150 in, 8.700 in): Symbol D25 [OSX10201-GYR1]
+    @(4.150 in, 7.200 in): Symbol C6 [SR205E104MARAP1]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'OSX10201-GYR1.kicad_sym'
     ; warning
     @(5.150 in, 8.700 in): Symbol D25 [OSX10201-GYR1]
-[lib_symbol_mismatch]: Symbol 'IRLZ44N' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
     ; warning
-    @(8.160 in, 7.040 in): Symbol Q64 [IRLZ44N]
-[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+    @(5.200 in, 2.650 in): Symbol BMS3s1 [BMS_3S]
+[lib_symbol_issues]: The symbol library 'LM74610QDGKRQ1' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/LM74610QDGKRQ1.kicad_sym'
     ; warning
-    @(10.160 in, 6.740 in): Symbol Q65 [2N7000]
-[lib_symbol_mismatch]: Symbol '2N3906' doesn't match copy in library 'PCM_Transistor_BJT_AKL'
+    @(5.200 in, 3.950 in): Symbol U1 [LM74610QDGKRQ1]
+[lib_symbol_issues]: The symbol library '3296W-1-103LF' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W1103LF.kicad_sym'
     ; warning
-    @(12.650 in, 6.150 in): Symbol Q55 [2N3906]
-[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+    @(12.580 in, 2.400 in): Symbol R216 [3296W1103LF]
+[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
     ; warning
-    @(13.000 in, 7.000 in): Symbol Q56 [2N7000]
-[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+    @(13.700 in, 4.550 in): Symbol C5 [SR205E104MARAP1]
+[lib_symbol_issues]: The symbol library '3296W-1-103LF' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W1103LF.kicad_sym'
     ; warning
-    @(14.950 in, 6.600 in): Symbol Q57 [2N7000]
-[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
-    ; warning
-    @(3.250 in, 3.150 in): Symbol R67 [4.7k]
-[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
-    ; warning
-    @(3.650 in, 2.400 in): Symbol R102 [4.7k]
-[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
-    ; warning
-    @(3.700 in, 2.400 in): Symbol R135 [4.7k]
-[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
-    ; warning
-    @(4.350 in, 3.050 in): Symbol R168 [4.7k]
-[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
-    ; warning
-    @(4.150 in, 2.450 in): Symbol R201 [4.7k]
+    @(3.650 in, 3.600 in): Symbol R210 [3296W1103LF]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ;  (excluded)
     @(1.950 in, 2.925 in): Horizontal Wire, length 0.200 in
 
 ***** Sheet /Alimentation/
-[pin_not_connected]: Pin not connected
-    ; error
-    @(2.700 in, 6.800 in): Symbol R232 Pin 2 [Passive, Line]
 
 ***** Sheet /Mode_Coherence/
 
@@ -131,7 +119,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Alarmes_Buzzer/
 
- ** ERC messages: 22  Errors 1  Warnings 20
+ ** ERC messages: 18  Errors 0  Warnings 17
 
  ** Ignored checks:
     - Global label only appears once in the schematic
