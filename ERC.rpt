@@ -1,16 +1,25 @@
-ERC report (2026-09-06T07:40:17, Encoding UTF8)
+ERC report (2026-09-18T10:39:17, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[lib_symbol_issues]: The current configuration does not include the symbol library 'LM74610QDGKRQ1'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
-    @(5.200 in, 3.950 in): Symbol U1 [LM74610QDGKRQ1]
-[footprint_link_issues]: The current configuration does not include the footprint library '3296W1103LF'
+    @(2.700 in, 6.800 in): Horizontal Wire, length 0.200 in
+[footprint_link_issues]: The current configuration does not include the footprint library '3296W-1-102LF'
     ; warning
-    @(12.575 in, 2.400 in): Symbol R216 [3296W1103LF]
-[lib_symbol_issues]: The current configuration does not include the symbol library '3296W-1-103LF'
+    @(4.050 in, 6.350 in): Symbol VR1 [3296W-1-102LF]
+[footprint_link_issues]: The current configuration does not include the footprint library 'OSX10201-GYR1'
     ; warning
-    @(12.575 in, 2.400 in): Symbol R216 [3296W1103LF]
+    @(5.150 in, 8.700 in): Symbol D25 [OSX10201-GYR1]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'OSX10201-GYR1.kicad_sym'
+    ; warning
+    @(5.150 in, 8.700 in): Symbol D25 [OSX10201-GYR1]
+[lib_symbol_mismatch]: Symbol 'IRLZ44N' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+    ; warning
+    @(8.160 in, 7.040 in): Symbol Q64 [IRLZ44N]
+[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
+    ; warning
+    @(10.160 in, 6.740 in): Symbol Q65 [2N7000]
 [lib_symbol_mismatch]: Symbol '2N3906' doesn't match copy in library 'PCM_Transistor_BJT_AKL'
     ; warning
     @(12.650 in, 6.150 in): Symbol Q55 [2N3906]
@@ -20,17 +29,29 @@ Report includes: Errors, Warnings, Exclusions
 [lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'PCM_Transistor_MOSFET_AKL'
     ; warning
     @(14.950 in, 6.600 in): Symbol Q57 [2N7000]
-[lib_symbol_issues]: The current configuration does not include the symbol library '3296W-1-103LF'
+[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
     ; warning
-    @(3.650 in, 3.600 in): Symbol R210 [3296W1103LF]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
+    @(3.250 in, 3.150 in): Symbol R67 [4.7k]
+[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
     ; warning
-    @(6.350 in, 5.500 in): Horizontal Wire, length 0.050 in
+    @(3.650 in, 2.400 in): Symbol R102 [4.7k]
+[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
+    ; warning
+    @(3.700 in, 2.400 in): Symbol R135 [4.7k]
+[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
+    ; warning
+    @(4.350 in, 3.050 in): Symbol R168 [4.7k]
+[footprint_link_issues]: Footprint 'Resistor_5W' not found in library 'PCM_SL_Devices'
+    ; warning
+    @(4.150 in, 2.450 in): Symbol R201 [4.7k]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ;  (excluded)
     @(1.950 in, 2.925 in): Horizontal Wire, length 0.200 in
 
 ***** Sheet /Alimentation/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.700 in, 6.800 in): Symbol R232 Pin 2 [Passive, Line]
 
 ***** Sheet /Mode_Coherence/
 
@@ -51,7 +72,7 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Brake/Vehicule_Brake/
 [multiple_net_names]: Both Veh_Brake_Inject_Cmd and Injection_Brake_Fault are attached to the same items; Veh_Brake_Inject_Cmd will be used in the netlist
     ; warning
-    @(3.550 in, 1.600 in): Label 'Veh_Brake_Inject_Cmd'
+    @(8.300 in, 5.800 in): Label 'Veh_Brake_Inject_Cmd'
     @(3.750 in, 1.300 in): Hierarchical Label 'Injection_Brake_Fault'
 
 ***** Sheet /Canal_Brake/Trailer_Brake/
@@ -110,7 +131,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Alarmes_Buzzer/
 
- ** ERC messages: 15  Errors 0  Warnings 14
+ ** ERC messages: 22  Errors 1  Warnings 20
 
  ** Ignored checks:
     - Global label only appears once in the schematic

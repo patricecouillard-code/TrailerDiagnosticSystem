@@ -3981,7 +3981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_SL_Devices:Resistor_5W"
 			(at 93.599 65.278 0)
 			(hide yes)
 			(show_name no)

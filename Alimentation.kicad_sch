@@ -13015,6 +13015,16 @@
 		)
 		(uuid "1ddb4e93-9ed0-4cf3-8fb8-f0ae18bd2746")
 	)
+	(label "Batt_Interne_Pos"
+		(at 50.8 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e47561-093b-48b0-8abc-8ad8c0c72840")
+	)
 	(label "V12_PostShunt"
 		(at 213.614 189.738 0)
 		(effects
@@ -13024,6 +13034,26 @@
 			(justify left bottom)
 		)
 		(uuid "2f90d9e4-c88b-4e97-8931-7c4230f1a574")
+	)
+	(label "Batt_Interne_Pos"
+		(at 127 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "318738bf-ad47-416c-a80c-be414592842e")
+	)
+	(label "Batt_Interne_Pos"
+		(at 73.66 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34277d2c-65fd-4b23-8bff-12a2090ce21d")
 	)
 	(label "V12_PostShunt"
 		(at 188.722 123.19 0)
@@ -13508,17 +13538,6 @@
 		)
 		(uuid "3e8120f5-8d95-4cad-ba89-690050e85f5e")
 	)
-	(hierarchical_label "Batt_Interne_Pos"
-		(shape input)
-		(at 50.8 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a21a165-a2ca-4f3c-a24e-9587c91e8bd0")
-	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
 		(at 68.58 185.42 180)
@@ -13563,17 +13582,6 @@
 		)
 		(uuid "6b936a0f-dcc6-46a0-aa1e-703dc5fe2b1a")
 	)
-	(hierarchical_label "Batt_Interne_Pos"
-		(shape input)
-		(at 73.66 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3104d73-48a5-4482-938d-f5a871a72986")
-	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
 		(at 314.96 36.83 180)
@@ -13584,17 +13592,6 @@
 			(justify right)
 		)
 		(uuid "c67501b2-8d79-43b7-8bb4-55c36184cfbb")
-	)
-	(hierarchical_label "Batt_Interne_Pos"
-		(shape input)
-		(at 127 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d63abf74-c255-4d92-b63c-a780628db91a")
 	)
 	(symbol
 		(lib_id "power:GND")
