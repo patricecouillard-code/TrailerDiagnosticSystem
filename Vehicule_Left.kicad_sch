@@ -2541,16 +2541,6 @@
 		)
 		(uuid "d5fa11cb-70d9-4f27-b942-f551d2c24872")
 	)
-	(label "Veh_Left_Inject_Cmd"
-		(at 86.36 39.37 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd17aacb-0020-45ff-b59d-f66d25fe9fe9")
-	)
 	(label "Seuil_Court_Left"
 		(at 68.58 90.17 180)
 		(effects

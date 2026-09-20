@@ -2511,16 +2511,6 @@
 		)
 		(uuid "282d818b-9f79-4d33-a8aa-56abcc6c6756")
 	)
-	(label "Veh_Aux_Inject_Cmd"
-		(at 120.65 55.88 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "3524f6dd-c9a8-4299-a06d-bf2a26ebc9ee")
-	)
 	(label "Seuil_Court_Aux"
 		(at 102.87 106.68 180)
 		(effects

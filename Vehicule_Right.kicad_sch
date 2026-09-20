@@ -2501,16 +2501,6 @@
 		)
 		(uuid "4747c257-5a41-423c-a9a6-10e8f4dd77d5")
 	)
-	(label "Veh_Right_Inject_Cmd"
-		(at 124.46 55.88 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cc0345a-e597-4f79-b754-2a6face34b66")
-	)
 	(label "Seuil_Ouvert_Right"
 		(at 214.63 64.77 0)
 		(effects

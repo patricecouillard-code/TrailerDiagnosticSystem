@@ -1,40 +1,7 @@
-ERC report (2026-09-19T09:05:02, Encoding UTF8)
+ERC report (2026-09-19T09:43:09, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(1.700 in, 4.700 in): Symbol C2 [SR305C334KAR]
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(1.700 in, 5.150 in): Symbol C3 [FG26X7R1E106KRT06]
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(1.700 in, 5.650 in): Symbol C4 [SR205E104MARAP1]
-[lib_symbol_issues]: The symbol library '3296-1-102lf' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W-1-102LF.kicad_sym'
-    ; warning
-    @(4.050 in, 6.350 in): Symbol VR1 [3296W-1-102LF]
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(4.150 in, 7.200 in): Symbol C6 [SR205E104MARAP1]
-[lib_symbol_issues]: The current configuration does not include the symbol library 'OSX10201-GYR1.kicad_sym'
-    ; warning
-    @(5.150 in, 8.700 in): Symbol D25 [OSX10201-GYR1]
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(5.200 in, 2.650 in): Symbol BMS3s1 [BMS_3S]
-[lib_symbol_issues]: The symbol library 'LM74610QDGKRQ1' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/LM74610QDGKRQ1.kicad_sym'
-    ; warning
-    @(5.200 in, 3.950 in): Symbol U1 [LM74610QDGKRQ1]
-[lib_symbol_issues]: The symbol library '3296W-1-103LF' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W1103LF.kicad_sym'
-    ; warning
-    @(12.580 in, 2.400 in): Symbol R216 [3296W1103LF]
-[lib_symbol_issues]: The symbol library 'TrailerDiagSymbols' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/TrailerDiagSymbols.kicad_sym'
-    ; warning
-    @(13.700 in, 4.550 in): Symbol C5 [SR205E104MARAP1]
-[lib_symbol_issues]: The symbol library '3296W-1-103LF' was not found at 'C:\Users\Client\Documents\Patrice\Testeur de circuit de remorque\TrailerDiagnosticSystem(Claude)/3296W1103LF.kicad_sym'
-    ; warning
-    @(3.650 in, 3.600 in): Symbol R210 [3296W1103LF]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ;  (excluded)
     @(1.950 in, 2.925 in): Horizontal Wire, length 0.200 in
@@ -60,7 +27,7 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Brake/Vehicule_Brake/
 [multiple_net_names]: Both Veh_Brake_Inject_Cmd and Injection_Brake_Fault are attached to the same items; Veh_Brake_Inject_Cmd will be used in the netlist
     ; warning
-    @(8.300 in, 5.800 in): Label 'Veh_Brake_Inject_Cmd'
+    @(3.550 in, 1.600 in): Label 'Veh_Brake_Inject_Cmd'
     @(3.750 in, 1.300 in): Hierarchical Label 'Injection_Brake_Fault'
 
 ***** Sheet /Canal_Brake/Trailer_Brake/
@@ -119,7 +86,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Alarmes_Buzzer/
 
- ** ERC messages: 18  Errors 0  Warnings 17
+ ** ERC messages: 7  Errors 0  Warnings 6
 
  ** Ignored checks:
     - Global label only appears once in the schematic

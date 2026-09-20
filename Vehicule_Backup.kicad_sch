@@ -2511,16 +2511,6 @@
 		)
 		(uuid "1e56c4fa-a296-43fb-bb9f-dad962c6b016")
 	)
-	(label "Veh_Backup_Inject_Cmd"
-		(at 99.06 73.66 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f93b667-fc51-4e04-acb5-a4e9d8d5ea74")
-	)
 	(label "Seuil_Court_Backup"
 		(at 81.28 124.46 180)
 		(effects

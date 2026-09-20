@@ -2591,7 +2591,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OSX10201-GYR1.kicad_sym:OSX10201-GYR1"
+		(symbol "OSX10201-GYR1:OSX10201-GYR1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -15784,7 +15784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OSX10201-GYR1.kicad_sym:OSX10201-GYR1")
+		(lib_id "OSX10201-GYR1:OSX10201-GYR1")
 		(at 130.81 220.98 0)
 		(unit 1)
 		(body_style 1)

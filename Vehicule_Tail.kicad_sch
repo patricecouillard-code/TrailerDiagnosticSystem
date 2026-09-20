@@ -2501,16 +2501,6 @@
 		)
 		(uuid "a320d653-34f2-4c83-ad8d-3bebfe424f6a")
 	)
-	(label "Veh_Tail_Inject_Cmd"
-		(at 109.22 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad6be26f-8459-42fd-ae6d-c2c7512b2807")
-	)
 	(label "Seuil_Court"
 		(at 91.44 107.95 180)
 		(effects
