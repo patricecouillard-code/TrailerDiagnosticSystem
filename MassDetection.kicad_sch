@@ -2571,7 +2571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 59.69 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2689,7 +2689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 55.88 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3090,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 59.69 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 59.69 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3322,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 59.69 76.2 0)
 			(hide yes)
 			(show_name no)
