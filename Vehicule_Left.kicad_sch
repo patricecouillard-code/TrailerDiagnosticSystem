@@ -3094,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4907,7 +4907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
