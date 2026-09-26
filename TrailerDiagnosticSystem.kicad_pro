@@ -574,10 +574,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -748,11 +748,11 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "1K",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Footprint"
     },
     "bus_aliases": {},
@@ -796,7 +796,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,P1-2,BMS3s1-2,SW1-9,BT1-6,U1-17,Q1-65,C1-6,#PWR1-27,F1-7,R1-63,R67-71,R75-86,R89-205,R207-209,R211-234,#FLG1-3,D1-146,D148-150,D152-169,LED1-2,OC1-12,VR1,BZ1",
+    "used_designators": "J1-5,P1-2,BMS3s1-2,SW1-9,BT1-6,U1-17,Q1-65,C1-6,#PWR1-27,F1-7,R1-63,R67-71,R75-86,R89-205,R207-209,R211-240,#FLG1-3,D1-146,D148-150,D152-169,LED1-2,OC1-12,VR1,BZ1",
     "variants": []
   },
   "sheets": [

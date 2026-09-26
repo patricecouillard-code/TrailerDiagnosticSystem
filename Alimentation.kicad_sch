@@ -12656,6 +12656,17 @@
 		)
 		(uuid "527f682e-b406-4f3e-9930-4e85a837dd43")
 	)
+	(hierarchical_label "VM_Mesure"
+		(shape input)
+		(at 205.74 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c9c660-8ac2-4924-8172-f310a7d16231")
+	)
 	(hierarchical_label "Court_Bus_Fault"
 		(shape input)
 		(at 378.46 147.32 180)
@@ -13801,7 +13812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 356.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14166,7 +14177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 359.41 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16084,7 +16095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 86.36 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -17735,7 +17746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 356.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18298,7 +18309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 356.87 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19722,7 +19733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 356.87 36.83 0)
 			(hide yes)
 			(show_name no)
