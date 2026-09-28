@@ -3673,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" ""
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 106.299 66.548 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" ""
 			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)

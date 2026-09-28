@@ -1435,8 +1435,8 @@
 		(uuid "80a31216-e5d8-4a61-96a6-0f2d4f4957c6")
 	)
 	(rectangle
-		(start 184.658 15.748)
-		(end 228.854 48.768)
+		(start 175.26 13.97)
+		(end 213.36 46.99)
 		(stroke
 			(width 0)
 			(type default)
@@ -1471,8 +1471,8 @@
 		(uuid "91c45d6a-9d55-456a-aea4-7111eded09de")
 	)
 	(rectangle
-		(start 236.474 15.494)
-		(end 265.684 44.704)
+		(start 217.17 16.51)
+		(end 246.38 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -1588,7 +1588,7 @@
 		)
 		(uuid "ab99e718-8e4c-43ed-9a8d-4cc3fdbfd4e2")
 	)
-	(text "Ouvert_T_Actif_Brake\n(Porte ET #4 - 3 entrées)"
+	(text "Ouvert_T_Actif\n(Porte ET #4 - 3 entrées)"
 		(exclude_from_sim yes)
 		(at 97.79 55.88 0)
 		(effects
@@ -2016,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.074 38.608) (xy 211.074 41.148)
+			(xy 195.58 36.83) (xy 195.58 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.074 41.148) (xy 207.264 41.148)
+			(xy 195.58 39.37) (xy 191.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.074 24.638) (xy 212.344 24.638)
+			(xy 195.58 22.86) (xy 196.85 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.074 28.448) (xy 211.074 24.638)
+			(xy 195.58 26.67) (xy 195.58 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 		(uuid "fe0666b7-02e3-4055-816c-6cee85a590c0")
 	)
 	(label "R_Lim_B"
-		(at 246.634 37.084 180)
+		(at 227.33 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2624,7 +2624,7 @@
 		)
 		(uuid "0b87f58a-c956-437b-aa8f-81d3e1651542")
 	)
-	(label "Ouvert_V_Actif_Brake"
+	(label "Ouvert_V_Actif"
 		(at 83.82 158.75 180)
 		(effects
 			(font
@@ -2635,7 +2635,7 @@
 		(uuid "3c904ace-2f2d-4ad6-ac63-afe2529051dd")
 	)
 	(label "R_Lim_R"
-		(at 246.634 26.924 180)
+		(at 227.33 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2645,7 +2645,7 @@
 		(uuid "40ffa977-e404-4bc5-8008-fc463ada1550")
 	)
 	(label "R_Lim_G"
-		(at 246.634 32.004 180)
+		(at 227.33 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2654,7 +2654,7 @@
 		)
 		(uuid "420518bc-9716-44b4-8f84-f53e346e57b2")
 	)
-	(label "Court_V_Actif_Brake"
+	(label "Court_V_Actif"
 		(at 45.72 158.75 180)
 		(effects
 			(font
@@ -2684,7 +2684,7 @@
 		)
 		(uuid "58411de0-8de6-470a-a5a5-611ba33b7757")
 	)
-	(label "Court_T_Actif_Brake"
+	(label "Court_T_Actif"
 		(at 95.25 50.8 0)
 		(effects
 			(font
@@ -2694,7 +2694,7 @@
 		)
 		(uuid "5b48bafa-7364-41e0-ab4d-a7b33baaa927")
 	)
-	(label "Ouvert_V_Actif_Brake"
+	(label "Ouvert_V_Actif"
 		(at 49.53 93.98 0)
 		(effects
 			(font
@@ -2714,7 +2714,7 @@
 		)
 		(uuid "64b68653-34ae-4ed1-95fb-0ffeec2637da")
 	)
-	(label "Vert_Enable_Brake"
+	(label "Vert_Enable"
 		(at 224.79 146.05 0)
 		(effects
 			(font
@@ -2724,7 +2724,7 @@
 		)
 		(uuid "813dfbaa-8acc-495a-8101-176b6fc23388")
 	)
-	(label "Ouvert_T_Actif_Brake"
+	(label "Ouvert_T_Actif"
 		(at 83.82 170.18 180)
 		(effects
 			(font
@@ -2744,8 +2744,8 @@
 		)
 		(uuid "882dbb31-2ba0-471a-ade5-df725d3a8d51")
 	)
-	(label "Vert_Enable_Brake"
-		(at 203.454 33.528 180)
+	(label "Vert_Enable"
+		(at 187.96 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2764,7 +2764,7 @@
 		)
 		(uuid "b9671127-1eb0-4f4f-b44a-78a74c81d241")
 	)
-	(label "Court_T_Actif_Brake"
+	(label "Court_T_Actif"
 		(at 45.72 170.18 180)
 		(effects
 			(font
@@ -2784,7 +2784,7 @@
 		)
 		(uuid "bff8acc8-ba94-4137-8784-e158039665a0")
 	)
-	(label "Fault_Actif_Brake"
+	(label "Fault_Actif"
 		(at 198.12 120.65 0)
 		(effects
 			(font
@@ -2824,7 +2824,7 @@
 		)
 		(uuid "d9314016-8b40-443e-ba2c-03319efd340e")
 	)
-	(label "Court_V_Actif_Brake"
+	(label "Court_V_Actif"
 		(at 50.8 50.8 0)
 		(effects
 			(font
@@ -2834,7 +2834,7 @@
 		)
 		(uuid "da3ea5c2-73ec-4f43-94a4-896146d82331")
 	)
-	(label "Ouvert_T_Actif_Brake"
+	(label "Ouvert_T_Actif"
 		(at 93.98 102.87 0)
 		(effects
 			(font
@@ -2845,7 +2845,7 @@
 		(uuid "e30e5495-bffe-4c28-8f41-709f1bd5ecdd")
 	)
 	(label "R_Lim_G"
-		(at 219.964 24.638 0)
+		(at 204.47 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 207.264 41.148 180)
+		(at 191.77 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2934,7 +2934,7 @@
 		)
 		(uuid "1cc225f9-eeca-4bd8-a707-157672154f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4083 41.148 0)
+			(at 184.9143 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,7 +3284,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 256.794 32.004 0)
+		(at 237.49 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3294,7 +3294,7 @@
 		)
 		(uuid "bc59eb49-b36c-496b-8c40-4feb5ff4cfd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.9197 32.004 0)
+			(at 245.6157 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +4789,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:330ohm")
-		(at 216.154 24.638 0)
+		(at 200.66 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4800,7 +4800,7 @@
 		(fields_autoplaced yes)
 		(uuid "4963221e-038c-41b6-8a38-3315df97b7a3")
 		(property "Reference" "R49"
-			(at 216.154 18.288 0)
+			(at 200.66 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4810,7 +4810,7 @@
 			)
 		)
 		(property "Value" "330ohm"
-			(at 216.154 20.828 0)
+			(at 200.66 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 217.043 28.956 0)
+			(at 201.549 27.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 216.662 24.638 0)
+			(at 201.168 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +4842,7 @@
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
-			(at 216.154 24.638 0)
+			(at 200.66 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +4869,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 208.534 33.528 0)
+		(at 193.04 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4879,7 +4879,7 @@
 		(dnp no)
 		(uuid "4f21822e-96fa-4cdd-a6da-607e686f26f0")
 		(property "Reference" "Q16"
-			(at 214.884 32.2579 0)
+			(at 199.39 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4890,7 +4890,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 213.614 34.798 0)
+			(at 198.12 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4901,7 +4901,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 213.614 35.433 0)
+			(at 198.12 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +4914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 213.614 37.338 0)
+			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +4926,7 @@
 			)
 		)
 		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 208.534 33.528 0)
+			(at 193.04 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,7 +6822,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_ARGB")
-		(at 251.714 32.004 0)
+		(at 232.41 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6833,7 +6833,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7ed3805-827e-44e3-887d-d84f70461791")
 		(property "Reference" "D49"
-			(at 251.714 18.034 0)
+			(at 232.41 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6843,7 +6843,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 251.714 20.574 0)
+			(at 232.41 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6853,7 +6853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.714 33.274 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.714 33.274 0)
+			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +6875,7 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
-			(at 251.714 32.004 0)
+			(at 232.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
