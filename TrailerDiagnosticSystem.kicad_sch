@@ -2950,7 +2950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.229 80.518 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +2972,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1/2W Resistor"
 			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3260,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.229 85.598 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3282,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1/2W Resistor"
 			(at 180.34 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3342,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.229 77.978 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1/2W Resistor"
 			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.229 75.438 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1/2W Resistor"
 			(at 180.34 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3782,7 +3782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.229 67.818 0)
 			(hide yes)
 			(show_name no)
@@ -3804,7 +3804,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1/2W Resistor"
 			(at 180.34 63.5 0)
 			(hide yes)
 			(show_name no)

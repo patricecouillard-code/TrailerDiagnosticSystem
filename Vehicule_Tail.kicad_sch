@@ -3578,7 +3578,7 @@
 				)
 			)
 		)
-		(property "Value" "3 Ohm - 5W"
+		(property "Value" "12 Ohm - 25W"
 			(at 58.42 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 59.309 137.668 0)
 			(hide yes)
 			(show_name no)
@@ -3610,7 +3610,7 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "25W Resistor"
 			(at 58.42 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3990,7 +3990,7 @@
 				)
 			)
 		)
-		(property "Value" ".05R Shunt"
+		(property "Value" "0.2 Ohm Shunt"
 			(at 74.93 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
