@@ -7,4 +7,6 @@
 	(lib (name "TRIM_3296W1103LF") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "OSX10201-GYR1") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "3296W-1-102LF") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
+	(lib (name "TMR 2-1211WIN") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
+	(lib (name "CAPRR508W50L762T381H762") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 )

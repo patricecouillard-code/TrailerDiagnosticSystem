@@ -147,6 +147,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 40.005) (xy 40.64 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01507d2-2198-46c3-bd0a-7c6b435cd8ee")
+	)
+	(wire
+		(pts
 			(xy 38.1 35.56) (xy 40.64 35.56)
 		)
 		(stroke
@@ -175,6 +185,17 @@
 		)
 		(uuid "ccb2ac74-8322-43c3-b063-96257edead87")
 	)
+	(hierarchical_label "Injection_Brake_Fault"
+		(shape input)
+		(at 40.64 40.005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7dcaa71-458e-4b3b-ace4-0baf9b6e8d91")
+	)
 	(hierarchical_label "Trail_Brake"
 		(shape input)
 		(at 40.64 69.85 0)
@@ -199,7 +220,7 @@
 	)
 	(sheet
 		(at 17.78 20.32)
-		(size 20.32 19.05)
+		(size 20.32 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -225,7 +246,7 @@
 			)
 		)
 		(property "Sheetfile" "Vehicule_Brake.kicad_sch"
-			(at 17.78 39.7514 0)
+			(at 17.78 43.5614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -261,6 +282,16 @@
 			(effects
 				(font
 					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "Injection_Brake_Fault" input
+			(at 38.1 40.005 0)
+			(uuid "4b37a819-722d-4765-8aa1-f5bd7ead2ad4")
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)

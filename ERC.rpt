@@ -1,7 +1,10 @@
-ERC report (2026-09-19T09:43:09, Encoding UTF8)
+ERC report (2026-09-29T06:19:36, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
+[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8.250 in, 6.050 in): Symbol Q54 [2N7000]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ;  (excluded)
     @(1.950 in, 2.925 in): Horizontal Wire, length 0.200 in
@@ -13,10 +16,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Tail/
 
 ***** Sheet /Canal_Tail/Vehicule_Tail/
-[multiple_net_names]: Both Veh_Tail_Inject_Cmd and Injection_Tail_Fault are attached to the same items; Veh_Tail_Inject_Cmd will be used in the netlist
-    ; warning
-    @(4.300 in, 2.250 in): Label 'Veh_Tail_Inject_Cmd'
-    @(4.300 in, 1.800 in): Hierarchical Label 'Injection_Tail_Fault'
 
 ***** Sheet /Canal_Tail/Trailer_Tail/
 
@@ -25,10 +24,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Brake/
 
 ***** Sheet /Canal_Brake/Vehicule_Brake/
-[multiple_net_names]: Both Veh_Brake_Inject_Cmd and Injection_Brake_Fault are attached to the same items; Veh_Brake_Inject_Cmd will be used in the netlist
-    ; warning
-    @(3.550 in, 1.600 in): Label 'Veh_Brake_Inject_Cmd'
-    @(3.750 in, 1.300 in): Hierarchical Label 'Injection_Brake_Fault'
 
 ***** Sheet /Canal_Brake/Trailer_Brake/
 
@@ -37,10 +32,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Left/
 
 ***** Sheet /Canal_Left/Vehicule_Left/
-[multiple_net_names]: Both Veh_Left_Inject_Cmd and Injection_Left_Fault are attached to the same items; Veh_Left_Inject_Cmd will be used in the netlist
-    ; warning
-    @(3.400 in, 1.550 in): Label 'Veh_Left_Inject_Cmd'
-    @(3.550 in, 1.100 in): Hierarchical Label 'Injection_Left_Fault'
 
 ***** Sheet /Canal_Left/Trailer_Left/
 
@@ -49,10 +40,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Right/
 
 ***** Sheet /Canal_Right/Vehicule_Right/
-[multiple_net_names]: Both Veh_Right_Inject_Cmd and Injection_Right_Fault are attached to the same items; Veh_Right_Inject_Cmd will be used in the netlist
-    ; warning
-    @(4.900 in, 2.200 in): Label 'Veh_Right_Inject_Cmd'
-    @(5.050 in, 1.875 in): Hierarchical Label 'Injection_Right_Fault'
 
 ***** Sheet /Canal_Right/Trailer_Right/
 
@@ -61,10 +48,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Backup/
 
 ***** Sheet /Canal_Backup/Vehicule_Backup/
-[multiple_net_names]: Both Veh_Backup_Inject_Cmd and Injection_Backup_Fault are attached to the same items; Veh_Backup_Inject_Cmd will be used in the netlist
-    ; warning
-    @(3.900 in, 2.900 in): Label 'Veh_Backup_Inject_Cmd'
-    @(4.100 in, 2.350 in): Hierarchical Label 'Injection_Backup_Fault'
 
 ***** Sheet /Canal_Backup/Trailer_Backup/
 
@@ -73,10 +56,6 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Aux/
 
 ***** Sheet /Canal_Aux/Vehicule_Aux/
-[multiple_net_names]: Both Veh_Aux_Inject_Cmd and Injection_Aux_Fault are attached to the same items; Veh_Aux_Inject_Cmd will be used in the netlist
-    ; warning
-    @(4.750 in, 2.200 in): Label 'Veh_Aux_Inject_Cmd'
-    @(4.900 in, 1.925 in): Hierarchical Label 'Injection_Aux_Fault'
 
 ***** Sheet /Canal_Aux/Trailer_Aux/
 
@@ -86,7 +65,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Alarmes_Buzzer/
 
- ** ERC messages: 7  Errors 0  Warnings 6
+ ** ERC messages: 2  Errors 0  Warnings 1
 
  ** Ignored checks:
     - Global label only appears once in the schematic
