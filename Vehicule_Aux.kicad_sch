@@ -1936,10 +1936,10 @@
 		(uuid "9349aa6b-3f1b-481c-a4fe-62eb84aa5ae7")
 	)
 	(junction
-		(at 100.33 34.29)
+		(at 114.3 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be02c9cc-61db-493e-a0ac-b597303c51ba")
+		(uuid "bbfe7cd1-1d15-47d7-a3f5-0944face593b")
 	)
 	(no_connect
 		(at 118.11 119.38)
@@ -2117,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 34.29) (xy 104.14 34.29)
+			(xy 95.25 34.29) (xy 104.14 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 34.29) (xy 127 34.29)
+			(xy 124.46 34.29) (xy 128.27 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 34.29) (xy 115.57 34.29)
+			(xy 111.76 34.29) (xy 114.3 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2257,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 34.29) (xy 116.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c33b8d1-1624-4dc2-8ed5-a9309cf70d06")
+	)
+	(wire
+		(pts
 			(xy 102.87 90.17) (xy 78.74 90.17)
 		)
 		(stroke
@@ -2307,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 34.29) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53d2407-57f9-4bf2-bbdd-b847b4703585")
+	)
+	(wire
+		(pts
 			(xy 204.47 45.72) (xy 204.47 43.18)
 		)
 		(stroke
@@ -2324,26 +2344,6 @@
 			(type default)
 		)
 		(uuid "b9c2cbf3-aaae-4c52-ba84-0ab7803e8dd2")
-	)
-	(wire
-		(pts
-			(xy 100.33 67.31) (xy 100.33 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c822644e-e4aa-4888-bebc-9e62e228d285")
-	)
-	(wire
-		(pts
-			(xy 95.25 34.29) (xy 100.33 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb3cfa5-2fb7-48f1-9c61-2ee02c281d5c")
 	)
 	(wire
 		(pts
@@ -2374,6 +2374,16 @@
 			(type default)
 		)
 		(uuid "d03d8d69-f0b7-4136-a8c8-034058a7241f")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d481f96d-7807-401f-8f2a-fa00fe5c5947")
 	)
 	(wire
 		(pts
@@ -2474,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "fa8adfcb-3ae5-414a-917b-62f90fc802de")
+	)
+	(wire
+		(pts
+			(xy 100.33 67.31) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe195f64-621e-42d0-a645-874739b50ef1")
 	)
 	(wire
 		(pts
@@ -2595,7 +2615,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 127 34.29 0)
+		(at 128.27 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2625,7 @@
 		)
 		(uuid "19c53ac6-b143-4b4c-b965-42caff35b905")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8557 34.29 0)
+			(at 135.1257 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3147,7 +3167,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 119.38 34.29 0)
+		(at 120.65 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3158,7 +3178,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c4699fb-63f4-4648-b099-43678b6263bf")
 		(property "Reference" "R163"
-			(at 119.38 27.94 0)
+			(at 120.65 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3168,7 +3188,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 30.48 0)
+			(at 120.65 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3178,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 120.269 38.608 0)
+			(at 121.539 38.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +3209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.888 34.29 0)
+			(at 121.158 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3220,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 119.38 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
