@@ -465,6 +465,355 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_LED_AKL:LED_1.8mm_Amber"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_1.8mm_Amber"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_THT_AKL:LED_D1.8mm_W3.3mm_H2.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Amber LED, 1.8mm THT, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode 1.8mm THT amber"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_1.8mm_Amber_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 220 180 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.905) (xy 0.254 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy 1.27 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1.8mm_Amber_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.889) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 220 180 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0.889) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1.8mm_Amber_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LED_1.8mm_Amber_1_2"
+				(polyline
+					(pts
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 220 180 30 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Optocoupler_AKL:PC817"
 			(pin_names
 				(offset 1.016)
@@ -2394,6 +2743,12 @@
 		(color 0 0 0 0)
 		(uuid "bbfe7cd1-1d15-47d7-a3f5-0944face593b")
 	)
+	(junction
+		(at 177.8 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddec8e21-cdd0-4b2f-9903-dc8fc6774de9")
+	)
 	(no_connect
 		(at 118.11 119.38)
 		(uuid "9ef72ade-089e-4331-8e51-4d8d25145733")
@@ -2447,6 +2802,16 @@
 			(type default)
 		)
 		(uuid "274b201b-d34e-4a45-b096-9a404f434d92")
+	)
+	(wire
+		(pts
+			(xy 177.8 132.08) (xy 177.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d0ecfa-2cbc-4184-8398-18bfc7fcf4fb")
 	)
 	(wire
 		(pts
@@ -2560,6 +2925,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 165.1) (xy 177.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412516b4-f638-45c0-9fea-6b861a6a043f")
+	)
+	(wire
+		(pts
 			(xy 170.18 25.4) (xy 78.74 25.4)
 		)
 		(stroke
@@ -2567,6 +2942,16 @@
 			(type default)
 		)
 		(uuid "510caa13-258c-431d-9744-7f674f5cae85")
+	)
+	(wire
+		(pts
+			(xy 158.75 175.26) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5226a49f-964e-4210-8003-4aee98371ba5")
 	)
 	(wire
 		(pts
@@ -2647,6 +3032,26 @@
 			(type default)
 		)
 		(uuid "6e75afe2-d367-44b4-a484-3180326a0cc9")
+	)
+	(wire
+		(pts
+			(xy 135.89 175.26) (xy 139.7 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7109e737-c693-40b7-acf6-ab5d951b5934")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72563eb7-d5d4-4b4f-942c-b3337d4d15b6")
 	)
 	(wire
 		(pts
@@ -2790,6 +3195,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 153.67) (xy 154.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b743747-6969-43d4-ba29-ea633712f52d")
+	)
+	(wire
+		(pts
 			(xy 152.4 59.69) (xy 152.4 63.5)
 		)
 		(stroke
@@ -2807,6 +3222,16 @@
 			(type default)
 		)
 		(uuid "a56651f2-792d-4640-9494-014dc2229b73")
+	)
+	(wire
+		(pts
+			(xy 147.32 175.26) (xy 151.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62fe8b1-cd37-47fb-8f4b-e700ec285d47")
 	)
 	(wire
 		(pts
@@ -2870,6 +3295,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 147.32) (xy 135.89 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba78ef77-a226-4bee-8b4b-1d3c20653f9c")
+	)
+	(wire
+		(pts
 			(xy 180.34 149.86) (xy 180.34 132.08)
 		)
 		(stroke
@@ -2877,6 +3312,16 @@
 			(type default)
 		)
 		(uuid "bdabdea2-1d39-4fe6-a46a-17fcd42ec259")
+	)
+	(wire
+		(pts
+			(xy 161.29 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41d6ce2-d96d-423e-817b-dad54bfa9f72")
 	)
 	(wire
 		(pts
@@ -2910,6 +3355,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e4cc39-657e-47bc-b59b-af0d1788d558")
+	)
+	(wire
+		(pts
 			(xy 100.33 40.64) (xy 114.3 40.64)
 		)
 		(stroke
@@ -2937,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "e1ed3a68-22cb-47f4-821f-42bbbc726913")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75bd7d0-ede9-4cd2-966c-b5a19c0fcff5")
 	)
 	(wire
 		(pts
@@ -2970,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 132.08) (xy 180.34 132.08)
+			(xy 175.26 132.08) (xy 177.8 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3384,6 +3849,30 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 166.37 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96c77200-c578-4d4b-9450-7f910a186bd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.2257 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 203.2 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3491,6 +3980,30 @@
 		(uuid "cd6d2550-e664-4659-9bc9-aa40223d6d0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.4357 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 163.83 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d86143a0-f8cc-4c37-807b-79cfe5c8334d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.9557 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,6 +4395,100 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
+		(at 158.75 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42d7dae7-7212-4687-ba78-d039a336da44")
+		(property "Reference" "Q67"
+			(at 165.1 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 165.1 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
+			(at 163.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
+			(at 158.75 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
+			(at 158.75 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Etiquette" "T_Surch_Aux"
+			(at 169.418 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a0ea8dc-437a-48bd-a2af-e47b83b32f83")
+		)
+		(pin "3"
+			(uuid "b9908023-e1f1-4235-9d26-9cc6740fad2b")
+		)
+		(pin "1"
+			(uuid "090f884d-3555-48aa-a4d0-ab58fd44f46a")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
+					(reference "Q67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
 		(at 127 104.14 0)
 		(unit 1)
@@ -3965,6 +4572,96 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
 					(reference "R159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:100k")
+		(at 143.51 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b925386-f07d-4bb4-99e7-21c0a497b7db")
+		(property "Reference" "R244"
+			(at 143.51 170.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R330 Ohm"
+			(at 143.51 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 144.399 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.018 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100kΩ, 1/4W Resistor"
+			(at 143.51 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Etiquette" "R_Led_Aux"
+			(at 143.51 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99578682-6992-4a7e-8ade-8eb0c6085411")
+		)
+		(pin "2"
+			(uuid "bf838051-b231-4b69-91d0-ecd6ab6e9a14")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
+					(reference "R244")
 					(unit 1)
 				)
 			)
@@ -4392,6 +5089,87 @@
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
 					(reference "U11")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_1.8mm_Amber")
+		(at 154.94 175.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88ac84bb-f557-4071-a53e-96f70d7d57b7")
+		(property "Reference" "LED1"
+			(at 154.94 170.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_1.8mm_Amber"
+			(at 154.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Amber LED, 1.8mm THT, Alternate KiCad Library"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb5e34b8-bd68-4f1b-b5f0-8c7fd06211a3")
+		)
+		(pin "2"
+			(uuid "763e3393-f297-4aac-9dd4-bd6ef3981ba4")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
+					(reference "LED1")
+					(unit 1)
 				)
 			)
 		)
@@ -4891,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Value" "R100 Ohm"
+		(property "Value" "R100kΩ"
 			(at 171.45 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
