@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 162.56 88.9)
+			(xy 142.24 88.9) (xy 146.05 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2734,13 +2734,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 175.26 90.17)
+			(xy 177.8 90.17) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f2b6c92-0185-46d3-88ec-a0ca30859dba")
+		(uuid "2466f85e-f020-4fe8-8a25-b02cd1e32ff8")
 	)
 	(wire
 		(pts
@@ -2761,16 +2761,6 @@
 			(type default)
 		)
 		(uuid "2e8cdaf6-a975-43ba-91e7-52ba84cfbe65")
-	)
-	(wire
-		(pts
-			(xy 175.26 95.25) (xy 168.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9c8de1-89a3-4b06-8c60-cb9273a5bd54")
 	)
 	(wire
 		(pts
@@ -2801,16 +2791,6 @@
 			(type default)
 		)
 		(uuid "3f21bcee-c491-4506-bade-0c475b3caa93")
-	)
-	(wire
-		(pts
-			(xy 158.75 80.01) (xy 158.75 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474dd22c-9a39-4529-9853-1638074f2f5e")
 	)
 	(wire
 		(pts
@@ -2894,6 +2874,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634ca9d7-1bb9-4763-b9f6-e229be790a6d")
+	)
+	(wire
+		(pts
 			(xy 198.12 66.04) (xy 200.66 66.04)
 		)
 		(stroke
@@ -2974,13 +2964,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 158.75 80.01)
+			(xy 142.24 80.01) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89e01340-a545-4dc5-88b5-6479f65f632b")
+		(uuid "8a35cb25-41be-4e57-86d0-7e9af82ce7fa")
 	)
 	(wire
 		(pts
@@ -3204,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 182.88 85.09)
+			(xy 146.05 85.09) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3234,13 +3224,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 175.26 95.25)
+			(xy 146.05 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efb3e556-7617-45c0-8a46-c572efebb352")
+		(uuid "f1c27c48-cbe2-4d97-97ee-64c3492ce9df")
 	)
 	(wire
 		(pts
@@ -3273,7 +3263,7 @@
 		(uuid "12bfdd1c-21a0-48a6-976d-857637c988bd")
 	)
 	(label "Mesure_Aux_Trailer"
-		(at 168.91 95.25 180)
+		(at 177.8 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3390,7 +3380,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 162.56 88.9 0)
+		(at 146.05 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3400,7 +3390,7 @@
 		)
 		(uuid "549b987e-31a4-48b0-b79b-590e905937c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4157 88.9 0)
+			(at 152.9057 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3692,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 162.56 80.01 0)
+		(at 157.48 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3712,7 +3702,7 @@
 		)
 		(uuid "fdc841f1-2939-452a-af2e-221f6e6bb01a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6857 80.01 0)
+			(at 165.6057 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,6 +4961,225 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Resistors:10k")
+		(at 149.86 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88a13b1c-d113-419c-aa58-3b8bda1df0ac")
+		(property "Reference" "R251"
+			(at 149.86 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 149.86 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 150.749 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 150.368 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100kΩ, 1/4W Resistor"
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8e600db-9fa5-4851-a3b0-f647d3f2126f")
+		)
+		(pin "1"
+			(uuid "b0718a49-805b-4f84-a66f-11afb4c622ff")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/b79546ec-0f75-4d28-b009-134d4d8e2d56"
+					(reference "R251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:Potentiometer")
+		(at 142.24 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dbfee2f-62f4-47f3-89e8-4b43125c6880")
+		(property "Reference" "R170"
+			(at 139.7 84.4549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Potentiometer"
+			(at 139.7 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer for Simulation"
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 142.24 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 142.24 103.378 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "r=1k pos=0.4"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Etiquette" "Pot2_Aux_Court"
+			(at 134.874 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "045c0665-2df7-4c78-9a39-c334d7d3a797")
+		)
+		(pin "1"
+			(uuid "1ccf579a-5f0b-40a6-aad0-22ab34906780")
+		)
+		(pin "2"
+			(uuid "e2845e77-71fb-4f90-985c-f3c2fd7a5c5e")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/b79546ec-0f75-4d28-b009-134d4d8e2d56"
+					(reference "R170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_Zener_AKL:1N5242B")
 		(at 63.5 128.27 0)
 		(unit 1)
@@ -5073,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "MF-R160"
 			(at 67.31 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,145 +5733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:Potentiometer")
-		(at 158.75 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef3fe548-f6ed-4536-8b14-ad65b37cb7d1")
-		(property "Reference" "R170"
-			(at 156.21 84.4549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Potentiometer"
-			(at 156.21 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer for Simulation"
-			(at 158.75 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 158.75 105.156 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 158.75 103.378 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "r=1k pos=0.4"
-			(at 156.21 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify right)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Etiquette" "Pot2_Aux_Court"
-			(at 151.384 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e3e82589-66c4-409b-bc1c-8a8d4111f976")
-		)
-		(pin "1"
-			(uuid "ae7d6141-b3ed-456f-b432-09f085c7327b")
-		)
-		(pin "2"
-			(uuid "37dd0e80-b2fb-45a2-af95-f42ebfae4ece")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/b79546ec-0f75-4d28-b009-134d4d8e2d56"
-					(reference "R170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
 		(at 55.88 39.37 0)
 		(unit 1)
@@ -5753,7 +5823,7 @@
 		(dnp no)
 		(uuid "fa5cf729-dbcb-474d-8e03-19f474156611")
 		(property "Reference" "R169"
-			(at 137.668 67.818 0)
+			(at 139.192 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
