@@ -5,10 +5,6 @@
 	(uuid "1fc3788c-25d7-47be-afb9-899921d70c57")
 	(paper "A4")
 	(lib_symbols)
-	(no_connect
-		(at -88.9 46.99)
-		(uuid "872ee164-14a6-4a7c-b4a2-30ac818fdd8c")
-	)
 	(wire
 		(pts
 			(xy 49.53 27.94) (xy 58.42 27.94)
