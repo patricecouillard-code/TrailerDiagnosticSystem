@@ -1341,10 +1341,6 @@
 		(at 101.6 107.95)
 		(uuid "7f687d32-6e91-4f84-8c93-16345ac0ac78")
 	)
-	(no_connect
-		(at 171.45 83.82)
-		(uuid "e560cefc-09f4-4d0a-a24c-7aa156cacc3b")
-	)
 	(wire
 		(pts
 			(xy 101.6 90.17) (xy 106.68 90.17)
@@ -1394,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "15c44c1b-b1b2-4626-a53d-57b7ebde68dc")
+	)
+	(wire
+		(pts
+			(xy 171.45 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ad6204-db6d-4bb4-b028-896890ab6f62")
 	)
 	(wire
 		(pts
@@ -1874,6 +1880,16 @@
 			(type default)
 		)
 		(uuid "cb3b4ae5-859b-493e-bb1d-2dcbcda4d5bb")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3262ff-a726-46df-8b8b-6a0a03663702")
 	)
 	(wire
 		(pts
@@ -2625,6 +2641,16 @@
 		)
 		(uuid "aefb9dee-eb09-4808-8480-b1e630d20c33")
 	)
+	(label "Trail_Aux"
+		(at 187.96 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1dd3b20-7136-4451-a02c-11f57c724d18")
+	)
 	(label "Trail_Backup"
 		(at 53.34 105.41 0)
 		(effects
@@ -2754,6 +2780,88 @@
 			(justify left bottom)
 		)
 		(uuid "fe1ac8c4-659b-46e8-bb5a-831a22351339")
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a74ad8b-211b-4dc3-a9bd-6f236235da69")
+		(property "Reference" "R252"
+			(at 180.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 180.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 181.229 88.138 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.848 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1/2W Resistor"
+			(at 180.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "550682cc-5542-4903-b78c-dd6b79505de9")
+		)
+		(pin "2"
+			(uuid "d665b628-b1f1-42cf-943d-9c749bacc747")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(reference "R252")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
