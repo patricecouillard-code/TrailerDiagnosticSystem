@@ -117,6 +117,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 33.655) (xy 68.58 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94978c70-c5d3-4ac4-a21c-0834ff102949")
+	)
+	(wire
+		(pts
 			(xy 63.5 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -174,6 +184,17 @@
 			(type default)
 		)
 		(uuid "f37976b2-49af-4fd8-8a0a-552869c9289f")
+	)
+	(hierarchical_label "Injection_Right_Fault"
+		(shape input)
+		(at 68.58 33.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fbdbf07-d16a-4169-92ef-b4d8b040495d")
 	)
 	(hierarchical_label "Trail_Right"
 		(shape input)
@@ -422,7 +443,7 @@
 			(uuid "f2dae72d-fad3-404d-a3d6-05964b7bd748")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -432,7 +453,7 @@
 			(uuid "d6b51822-678a-4c23-80cd-e7a78fda85a8")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -442,7 +463,17 @@
 			(uuid "878c28d0-7ef1-44c2-932c-ff3236c3e9ef")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "Injection_Right_Fault" input
+			(at 63.5 33.655 0)
+			(uuid "bda173d0-66cc-4dae-a028-f98e96496a4d")
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)

@@ -1629,6 +1629,12 @@
 		)
 	)
 	(junction
+		(at 146.05 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bccd8a6-127f-4e3b-808b-cbdbe53b5eac")
+	)
+	(junction
 		(at 105.41 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1651,12 +1657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c55b20f2-ab84-4aba-9ec8-0433753388ae")
-	)
-	(junction
-		(at 146.05 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcf6e761-cdc6-4bf4-8097-a4d4160f017b")
 	)
 	(junction
 		(at 146.05 66.04)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 146.05 41.91)
+			(xy 53.34 45.72) (xy 146.05 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 57.15) (xy 53.34 41.91)
+			(xy 53.34 57.15) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1838,13 +1838,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 146.05 80.01)
+			(xy 146.05 99.06) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e5db023-7e94-4c87-bfca-fba5b4d17f99")
+		(uuid "6d5c65e1-08ea-434a-97c3-a85302f8517c")
 	)
 	(wire
 		(pts
@@ -1878,23 +1878,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 146.05 54.61)
+			(xy 140.97 99.06) (xy 146.05 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b25c2c83-81d6-4643-af12-c3aecb4252b4")
-	)
-	(wire
-		(pts
-			(xy 146.05 41.91) (xy 146.05 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9003ac-f21a-4764-ac87-dfa1066d794a")
 	)
 	(wire
 		(pts
@@ -1908,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 54.61) (xy 146.05 66.04)
+			(xy 146.05 45.72) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1988,16 +1978,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6476959-a5dd-4447-bddc-335f89e72680")
-	)
-	(wire
-		(pts
 			(xy 140.97 91.44) (xy 146.05 91.44)
 		)
 		(stroke
@@ -2056,18 +2036,8 @@
 		)
 		(uuid "093f7929-c422-4e37-9ae6-a75512d84678")
 	)
-	(label "Masse_Fault"
-		(at 121.92 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1149680b-b7b2-46be-b56b-04704978f447")
-	)
 	(label "Masse_Sense"
-		(at 142.24 54.61 180)
+		(at 140.97 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2075,16 +2045,6 @@
 			(justify right bottom)
 		)
 		(uuid "7dcc8ae0-2113-4f8c-bde9-b8f4f9e86c10")
-	)
-	(label "Masse_Fault"
-		(at 73.66 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2a8266d-ab51-48e6-a50f-ac91d9733fa5")
 	)
 	(global_label "V_Ref"
 		(shape input)
@@ -2374,6 +2334,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Masse_Fault"
+		(shape input)
+		(at 73.66 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "694305a3-ff99-4cec-9460-1e072b4f7890")
+	)
 	(hierarchical_label "Masse_Sense_Trail"
 		(shape input)
 		(at 130.81 80.01 180)
@@ -2395,6 +2366,17 @@
 			(justify right)
 		)
 		(uuid "aac2bb8a-3340-424f-8b1d-63015e14ad0d")
+	)
+	(hierarchical_label "Masse_Fault"
+		(shape input)
+		(at 121.92 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3870458-393f-454f-9fb1-53cf7d6501a5")
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")

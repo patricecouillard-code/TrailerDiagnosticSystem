@@ -1890,6 +1890,12 @@
 		(uuid "f2c7325a-035e-40c8-8601-358925f8b2ed")
 	)
 	(junction
+		(at 99.06 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dec9cde-b320-4096-bea2-aeb79180730d")
+	)
+	(junction
 		(at 86.36 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2024,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "3fd0b456-557c-4d67-8d9e-7fafe48b824e")
+	)
+	(wire
+		(pts
+			(xy 90.17 27.94) (xy 99.06 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b368d3-fbd0-4aec-96fe-f00dc4c21102")
 	)
 	(wire
 		(pts
@@ -2227,13 +2243,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 39.37) (xy 111.76 39.37)
+			(xy 86.36 39.37) (xy 99.06 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "907c02cf-a657-4968-a1cb-f630bf5936b0")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 99.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95104322-ee35-4741-b3a6-9f3208fb57c6")
 	)
 	(wire
 		(pts
@@ -2354,6 +2380,16 @@
 			(type default)
 		)
 		(uuid "cf92ad03-0632-493d-8550-2cf1086758dc")
+	)
+	(wire
+		(pts
+			(xy 99.06 39.37) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c017aa-a95e-4b39-ba89-82ea32c059e9")
 	)
 	(wire
 		(pts
@@ -2504,16 +2540,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5fa11cb-70d9-4f27-b942-f551d2c24872")
-	)
-	(label "Veh_Left_Inject_Cmd"
-		(at 86.36 39.37 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd17aacb-0020-45ff-b59d-f66d25fe9fe9")
 	)
 	(label "Seuil_Court_Left"
 		(at 68.58 90.17 180)
@@ -3024,6 +3050,17 @@
 		)
 		(uuid "5be341f0-0ba2-473c-98f6-002c2d349eba")
 	)
+	(hierarchical_label "Injection_Left_Fault"
+		(shape input)
+		(at 90.17 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8785726a-119d-4ac7-b9ee-bb529cec4273")
+	)
 	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")
 		(at 172.72 67.31 0)
@@ -3057,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4510,7 +4547,7 @@
 				)
 			)
 		)
-		(property "Value" ".05R Shunt"
+		(property "Value" "0.2 Ohm Shunt"
 			(at 52.07 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4727,7 @@
 				)
 			)
 		)
-		(property "Value" "3 Ohm - 5W"
+		(property "Value" "12 Ohm - 25W"
 			(at 35.56 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 36.449 119.888 0)
 			(hide yes)
 			(show_name no)
@@ -4722,7 +4759,7 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "25W Resistor"
 			(at 35.56 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4870,7 +4907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
