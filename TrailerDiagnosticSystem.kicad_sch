@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "d4e407a7-3e32-4226-ae57-831ecdb3edf4")
-	(paper "B")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
@@ -395,812 +395,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Resistors:Resistor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Resistor"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-				(at 0.889 -4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1/4W Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor_0_1"
-				(rectangle
-					(start -2.286 0.889)
-					(end 2.286 -0.889)
-					(stroke
-						(width 0.24)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.5)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.5)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Rotary_1x12"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Rotary_1x12"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "rotary switch with 12 positions"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "rotary switch 1x12"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Rotary_1x12_0_0"
-				(polyline
-					(pts
-						(xy -5.08 9.525) (xy -5.08 15.24) (xy 11.43 15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 8.89)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -8.89)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -9.525) (xy -5.08 -15.24) (xy 11.43 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.1336 0.6096) (xy -4.826 8.2804)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 5.08)
-					(mid 3.4777 0.949)
-					(end -0.635 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 10.16) (xy -1.905 12.7) (xy 11.43 12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.905 9.525)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.905 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.905 -9.525)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -10.16) (xy -1.905 -12.7) (xy 11.43 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -5.715) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -5.715) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 8.89)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -8.89)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 8.89) (xy 8.255 8.89) (xy 8.255 10.16) (xy 11.43 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -8.89) (xy 8.255 -8.89) (xy 8.255 -10.16) (xy 11.43 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.445 6.985)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.445 -6.985)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 6.985) (xy 9.525 6.985) (xy 9.525 7.62) (xy 11.43 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -6.985) (xy 9.525 -6.985) (xy 9.525 -7.62) (xy 11.43 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 5.08) (xy 11.43 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 11.43 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.905) (xy 9.525 1.905) (xy 9.525 2.54) (xy 11.43 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -1.905) (xy 9.525 -1.905) (xy 9.525 -2.54) (xy 11.43 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Rotary_1x12_1_1"
-				(rectangle
-					(start -11.43 16.51)
-					(end 11.43 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -11.43 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 12.7 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 10.16 180)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 180)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 5.08 180)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 3.81)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 180)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -7.62 180)
-					(length 3.81)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -10.16 180)
-					(length 3.81)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -12.7 180)
-					(length 3.81)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -15.24 180)
-					(length 3.81)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 0 0)
-					(length 3.81)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1318,24 +512,8 @@
 		)
 	)
 	(no_connect
-		(at 171.45 86.36)
-		(uuid "04e62cd6-6332-40fa-af1c-30ac9c6fd8c5")
-	)
-	(no_connect
-		(at 171.45 91.44)
-		(uuid "07c66cfe-aa70-4163-93fb-0ebb1b7699d4")
-	)
-	(no_connect
-		(at 171.45 88.9)
-		(uuid "1b47e13e-ed6a-4c50-8558-8ac419eb9dcd")
-	)
-	(no_connect
 		(at 100.33 72.39)
 		(uuid "3a9e25ad-c7b6-4a3b-abe5-308cc20b3ddf")
-	)
-	(no_connect
-		(at 171.45 93.98)
-		(uuid "3ab5db97-0431-499b-9780-521905cd9d89")
 	)
 	(no_connect
 		(at 101.6 107.95)
@@ -1350,56 +528,6 @@
 			(type default)
 		)
 		(uuid "02a43e01-1a14-40bf-8801-c22183869ada")
-	)
-	(wire
-		(pts
-			(xy 62.23 180.34) (xy 67.31 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbc627d-caa2-472e-940e-ea50fbe862e6")
-	)
-	(wire
-		(pts
-			(xy 62.23 195.58) (xy 67.31 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125a8a8a-e0ae-4d31-bb29-f8bd57bdff1e")
-	)
-	(wire
-		(pts
-			(xy 49.53 132.715) (xy 52.07 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14064555-db63-4858-bf76-daefcfee6244")
-	)
-	(wire
-		(pts
-			(xy 62.23 203.2) (xy 67.31 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c44c1b-b1b2-4626-a53d-57b7ebde68dc")
-	)
-	(wire
-		(pts
-			(xy 171.45 83.82) (xy 176.53 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ad6204-db6d-4bb4-b028-896890ab6f62")
 	)
 	(wire
 		(pts
@@ -1433,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 107.95) (xy 53.34 107.95)
+			(xy 49.53 110.49) (xy 53.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1443,53 +571,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 66.04) (xy 54.61 66.04)
+			(xy 49.53 22.86) (xy 54.61 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25407c5e-5603-4f7a-ba66-aaccf8625674")
+		(uuid "26d4f58e-e267-4bfc-8bd8-41bc1e84072d")
 	)
 	(wire
 		(pts
-			(xy 62.23 184.15) (xy 67.31 184.15)
+			(xy 49.53 125.73) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25613219-b9ae-4c42-8965-1b28e841b365")
-	)
-	(wire
-		(pts
-			(xy 171.45 63.5) (xy 176.53 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8dcf7c-c910-4828-9873-c1a5882ee1f9")
-	)
-	(wire
-		(pts
-			(xy 49.53 74.295) (xy 54.61 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d09dc5-685b-4ffd-a6a5-351ded1aa673")
-	)
-	(wire
-		(pts
-			(xy 184.15 66.04) (xy 187.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f08858-2671-4952-a18a-dff455f2dcc5")
+		(uuid "4547117e-4cbe-4da3-9dd4-6f2a65994d1b")
 	)
 	(wire
 		(pts
@@ -1503,16 +601,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 187.96 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9cd3aa-5f1e-476d-aa1f-9ac6a74f7270")
-	)
-	(wire
-		(pts
 			(xy 101.6 105.41) (xy 106.68 105.41)
 		)
 		(stroke
@@ -1523,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 52.07 135.89)
+			(xy 49.53 138.43) (xy 52.07 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 40.64) (xy 54.61 40.64)
+			(xy 49.53 44.45) (xy 54.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1550,36 +638,6 @@
 			(type default)
 		)
 		(uuid "5d1c9ecd-fc63-474e-91ae-ade98813a1fa")
-	)
-	(wire
-		(pts
-			(xy 171.45 66.04) (xy 176.53 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6086ff5d-521f-4923-96dc-c88b7bc0b7fb")
-	)
-	(wire
-		(pts
-			(xy 171.45 68.58) (xy 176.53 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67901789-b9b5-4bc0-b30f-cac711a44596")
-	)
-	(wire
-		(pts
-			(xy 67.31 146.05) (xy 62.23 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a064d47-22e3-4cf1-9a6d-064a54555a4b")
 	)
 	(wire
 		(pts
@@ -1613,26 +671,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.855) (xy 53.34 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715b1360-c7c6-47cf-b542-3c24a0f7d4f4")
-	)
-	(wire
-		(pts
-			(xy 49.53 76.835) (xy 54.61 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717c6b84-afa6-4829-bd62-69e46f2dd0c7")
-	)
-	(wire
-		(pts
 			(xy 100.33 64.77) (xy 105.41 64.77)
 		)
 		(stroke
@@ -1643,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 105.41) (xy 53.34 105.41)
+			(xy 49.53 107.95) (xy 53.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 91.44) (xy 52.07 91.44)
+			(xy 49.53 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1673,26 +711,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 176.53 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e4c092-8964-4b4d-a77c-481d5b41b196")
-	)
-	(wire
-		(pts
-			(xy 62.23 154.305) (xy 67.31 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88292553-e87c-439b-ad20-9b5eae155c24")
-	)
-	(wire
-		(pts
 			(xy 100.33 67.31) (xy 105.41 67.31)
 		)
 		(stroke
@@ -1700,26 +718,6 @@
 			(type default)
 		)
 		(uuid "8d89047e-0195-407e-b1b1-53b7aade1721")
-	)
-	(wire
-		(pts
-			(xy 62.23 150.495) (xy 67.31 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dcb6c3d-0a10-4ffb-ad63-4d7b66d14a2e")
-	)
-	(wire
-		(pts
-			(xy 49.53 27.94) (xy 54.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e9a946f-d113-462d-bc0d-20580d657614")
 	)
 	(wire
 		(pts
@@ -1733,13 +731,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 24.13) (xy 54.61 24.13)
+			(xy 49.53 154.94) (xy 52.07 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9efdd754-8140-4612-bbcb-d0c840845b2c")
+		(uuid "90e7b524-2868-4bef-bff2-173b92bd586b")
 	)
 	(wire
 		(pts
@@ -1763,77 +761,37 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 67.31 168.91)
+			(xy 49.53 152.4) (xy 52.07 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b96276a3-394b-42f3-9ef4-6355a8f5242a")
+		(uuid "b0ccd96b-eacc-4648-a102-3b55ebf89959")
 	)
 	(wire
 		(pts
-			(xy 184.15 68.58) (xy 187.96 68.58)
+			(xy 49.53 83.82) (xy 54.61 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba9ef0dd-8af7-4dca-ac3e-ee9ac2790488")
+		(uuid "b64425fc-376f-4e61-bbad-7835729bf67d")
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 54.61 21.59)
+			(xy 49.53 80.01) (xy 54.61 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be3d3732-140c-4e3f-81f6-ce6322bd3114")
+		(uuid "bf9711ae-f18e-4304-9f6f-f3c9c1193459")
 	)
 	(wire
 		(pts
-			(xy 62.23 165.1) (xy 67.31 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef24fda-d0e8-49e1-8070-54d16fa63412")
-	)
-	(wire
-		(pts
-			(xy 184.15 81.28) (xy 187.96 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5beecd-d43b-4d7a-a4d8-8a02ae51e920")
-	)
-	(wire
-		(pts
-			(xy 171.45 73.66) (xy 176.53 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04d21d4-d717-4d89-88b0-20f9e288995b")
-	)
-	(wire
-		(pts
-			(xy 171.45 76.2) (xy 176.53 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08f65f5-f90a-42c5-9a85-3c75f1346066")
-	)
-	(wire
-		(pts
-			(xy 49.53 63.5) (xy 54.61 63.5)
+			(xy 49.53 69.85) (xy 54.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +801,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 54.61 35.56)
+			(xy 49.53 39.37) (xy 54.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1853,43 +811,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 54.61 49.53)
+			(xy 49.53 53.34) (xy 54.61 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4e66e04-83e8-4399-b234-5ad590a8fcf6")
-	)
-	(wire
-		(pts
-			(xy 49.53 121.92) (xy 52.07 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5e0fdc5-a2c2-4ca8-8ac1-0d1cae2b9af3")
-	)
-	(wire
-		(pts
-			(xy 49.53 94.615) (xy 52.07 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3b4ae5-859b-493e-bb1d-2dcbcda4d5bb")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 187.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc3262ff-a726-46df-8b8b-6a0a03663702")
 	)
 	(wire
 		(pts
@@ -1903,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 52.07 138.43)
+			(xy 49.53 140.97) (xy 52.07 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1913,27 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 191.77) (xy 67.31 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf080bf0-0b47-4e32-83af-2cfca37bc373")
-	)
-	(wire
-		(pts
-			(xy 184.15 71.12) (xy 187.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0cfbf76-a5eb-4126-b1ea-99e71ebf232a")
-	)
-	(wire
-		(pts
-			(xy 49.53 87.63) (xy 52.07 87.63)
+			(xy 49.53 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 54.61 59.69)
+			(xy 49.53 66.04) (xy 54.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1953,37 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 52.07 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e4b7c1-ad31-4294-822f-c6de642b5d95")
-	)
-	(wire
-		(pts
-			(xy 62.23 199.39) (xy 67.31 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f7f42b-67f6-41b8-9beb-f8d2276f5000")
-	)
-	(wire
-		(pts
-			(xy 62.23 187.96) (xy 67.31 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6dc643e-fb2f-4b03-be9a-f176e2833946")
-	)
-	(wire
-		(pts
-			(xy 49.53 45.72) (xy 54.61 45.72)
+			(xy 49.53 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +871,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 52.07 119.38)
+			(xy 49.53 123.19) (xy 52.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2023,36 +901,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 78.74) (xy 140.97 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c36df4-d7c5-4629-b2b7-f67d1c989a47")
-	)
-	(wire
-		(pts
-			(xy 49.53 19.05) (xy 54.61 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a9867d-f594-4e21-8da4-d1dab32d9b8f")
-	)
-	(wire
-		(pts
-			(xy 62.23 172.72) (xy 67.31 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef636be4-6f79-4638-b112-4de02998f031")
-	)
-	(wire
-		(pts
 			(xy 101.6 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -2061,68 +909,8 @@
 		)
 		(uuid "f177aeb3-fe5b-4a58-bd8a-309ecbee9459")
 	)
-	(wire
-		(pts
-			(xy 184.15 73.66) (xy 187.96 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a73f49-c710-4606-9bf5-78b7210d3536")
-	)
-	(wire
-		(pts
-			(xy 184.15 63.5) (xy 187.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d096c6-4237-4523-8d0c-331f9dae5a13")
-	)
-	(wire
-		(pts
-			(xy 49.53 16.51) (xy 54.61 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa837fc4-3289-4b40-b4a7-c4b64ea09aa9")
-	)
-	(wire
-		(pts
-			(xy 49.53 79.375) (xy 54.61 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf15dae-194e-43da-8b44-025fca308637")
-	)
-	(wire
-		(pts
-			(xy 62.23 176.53) (xy 67.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1cb4ac-65bf-4bb4-86a0-a3d6733b1a21")
-	)
-	(wire
-		(pts
-			(xy 171.45 71.12) (xy 176.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffc0140-de18-4eda-b3c2-4b7abf405bd6")
-	)
 	(label "Trail_Aux"
-		(at 52.07 121.92 0)
+		(at 52.07 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2142,7 +930,7 @@
 		(uuid "09a235af-f789-42fd-bad9-c8ee9d80bef4")
 	)
 	(label "Veh_Left"
-		(at 54.61 74.295 0)
+		(at 54.61 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,16 +938,6 @@
 			(justify left bottom)
 		)
 		(uuid "0b22aa9a-c6bd-4e3d-abb0-1fee6c022123")
-	)
-	(label "Masse_Fault"
-		(at 67.31 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10b0b7f6-4255-4951-a316-79ae36ad4992")
 	)
 	(label "Trail_Tail"
 		(at 101.6 87.63 180)
@@ -2172,7 +950,7 @@
 		(uuid "174cd106-70e9-444f-960b-6184532e4455")
 	)
 	(label "Alerte_Incoherence"
-		(at 54.61 45.72 0)
+		(at 54.61 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2192,7 +970,7 @@
 		(uuid "21afa196-4076-4771-a4e3-251fac4d61c6")
 	)
 	(label "Masse_Sense_Trail"
-		(at 67.31 154.305 0)
+		(at 52.07 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,7 +980,7 @@
 		(uuid "259ae417-caee-4fae-8945-e239c52eba42")
 	)
 	(label "V12_Rail"
-		(at 54.61 49.53 0)
+		(at 54.61 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +1000,7 @@
 		(uuid "2ae3f3d1-d209-4e79-b23e-66388da07659")
 	)
 	(label "Masse_Sense_Veh"
-		(at 67.31 150.495 0)
+		(at 52.07 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2231,18 +1009,8 @@
 		)
 		(uuid "2bf1beda-dc85-4e03-b3f1-7b0b7a7ae573")
 	)
-	(label "Injection_Left_Fault"
-		(at 54.61 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c04b6d3-b981-4754-808c-a8582f280cbd")
-	)
 	(label "Trail_Right"
-		(at 52.07 91.44 0)
+		(at 52.07 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2250,16 +1018,6 @@
 			(justify left bottom)
 		)
 		(uuid "33026c57-ac0e-4ee5-b4cf-e66111d0ac9f")
-	)
-	(label "VM_Mesure"
-		(at 54.61 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3712e487-e9c1-49a3-a294-4db6e3b7bf01")
 	)
 	(label "Trail_Aux"
 		(at 101.6 100.33 180)
@@ -2271,18 +1029,8 @@
 		)
 		(uuid "3c9d9cc4-704b-42b5-ac37-3e029da3be90")
 	)
-	(label "VM_Mesure"
-		(at 138.43 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d3115f4-3ec8-4943-83af-a5a90fab6bf1")
-	)
 	(label "Veh_Backup"
-		(at 53.34 107.95 0)
+		(at 53.34 110.49 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2311,18 +1059,8 @@
 		)
 		(uuid "44bdcc4d-f57c-4b91-b26b-e945208bc325")
 	)
-	(label "Injection_Backup_Fault"
-		(at 67.31 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48c08000-13c0-4100-a72a-90e996683306")
-	)
 	(label "Trail_Left"
-		(at 54.61 76.835 0)
+		(at 54.61 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2341,56 +1079,6 @@
 		)
 		(uuid "4ab15533-abd2-4ca0-97a7-0cf7f29d095d")
 	)
-	(label "Veh_Brake"
-		(at 187.96 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4adce08b-4f2f-4f24-8d1a-ec0afd533064")
-	)
-	(label "V12_Rail"
-		(at 54.61 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52bf73e6-5467-43ea-82bf-15b3a5a62c99")
-	)
-	(label "Injection_Tail_Fault"
-		(at 67.31 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55ea169f-63ce-4d48-9c39-3038a7a92bf5")
-	)
-	(label "Injection_Right_Fault"
-		(at 52.07 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57259be2-326b-4bb5-883c-a256b34e130c")
-	)
-	(label "Veh_Tail"
-		(at 187.96 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5930c8b0-2d71-4641-9591-50eca144c741")
-	)
 	(label "Masse_Sense_Trail"
 		(at 101.6 105.41 180)
 		(effects
@@ -2400,16 +1088,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a04a474-bb9a-4d61-9b19-4f699bf0337d")
-	)
-	(label "Injection_Brake_Fault"
-		(at 67.31 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d7026de-6073-4532-9adc-503739ba24a9")
 	)
 	(label "Trail_Brake"
 		(at 101.6 90.17 180)
@@ -2421,18 +1099,8 @@
 		)
 		(uuid "63358187-9f8d-4615-9df6-00e0f7d73af2")
 	)
-	(label "Alerte_Incoherence"
-		(at 67.31 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6627f827-a3b9-4548-9252-dccb3d054209")
-	)
 	(label "Veh_Aux"
-		(at 52.07 119.38 0)
+		(at 52.07 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,7 +1110,7 @@
 		(uuid "69b5bcb1-7db7-429e-a090-350b5b1df330")
 	)
 	(label "Detect_Trailer"
-		(at 54.61 40.64 0)
+		(at 54.61 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2471,26 +1139,6 @@
 		)
 		(uuid "7943a098-2191-4d78-9cde-0177fd5fac02")
 	)
-	(label "Injection_Aux_Fault"
-		(at 67.31 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ac83089-5fb1-4315-8753-22b39918b78b")
-	)
-	(label "Injection_Backup_Fault"
-		(at 53.34 109.855 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c73f643-7ace-48fa-bd33-fe0537d77ddd")
-	)
 	(label "Trail_Left"
 		(at 101.6 92.71 180)
 		(effects
@@ -2501,18 +1149,8 @@
 		)
 		(uuid "7ed62de6-6e4b-47ad-8bb4-bee607eaf481")
 	)
-	(label "Injection_Aux_Fault"
-		(at 52.07 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80cd91a4-69c8-4f28-a355-fee8a5a47de2")
-	)
 	(label "Trail_Tail"
-		(at 54.61 63.5 0)
+		(at 54.61 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,48 +1159,18 @@
 		)
 		(uuid "81e41670-2fe4-46e8-ba31-d5bfd1c43449")
 	)
-	(label "Buzzer_Trigger"
-		(at 67.31 203.2 0)
+	(label "V12_Rail"
+		(at 54.61 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "88df7530-20d0-4321-b8bf-fc829e8785ab")
-	)
-	(label "Surtension_Fault"
-		(at 67.31 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89e54a6d-ef40-47c7-89cc-6df2fd6eab4d")
-	)
-	(label "Veh_Backup"
-		(at 187.96 76.2 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "89f9dd0b-d25e-4a80-9e11-74c17a301bb1")
-	)
-	(label "Injection_Right_Fault"
-		(at 67.31 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a647cbc-8462-4fdb-b556-51786747e578")
+		(uuid "8770c314-5630-4ba7-b119-05802300e049")
 	)
 	(label "Detect_Vehicule"
-		(at 54.61 35.56 0)
+		(at 54.61 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +1180,7 @@
 		(uuid "8b5162b5-1b76-4356-96b9-3e68d909d8fb")
 	)
 	(label "Trail_Brake"
-		(at 52.07 138.43 0)
+		(at 52.07 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,7 +1190,7 @@
 		(uuid "8f90f41f-a5c2-4a67-b7e4-43141aee000c")
 	)
 	(label "Veh_Right"
-		(at 52.07 87.63 0)
+		(at 52.07 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2591,18 +1199,8 @@
 		)
 		(uuid "92c42d04-c3c3-456d-8813-352a751a81e9")
 	)
-	(label "Veh_Aux"
-		(at 187.96 81.28 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "972e4237-504e-402c-9a73-83cd547e806a")
-	)
 	(label "Veh_Tail"
-		(at 54.61 59.69 0)
+		(at 54.61 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2621,38 +1219,8 @@
 		)
 		(uuid "a1833d9d-bbc8-4642-9e69-bd246d4af15a")
 	)
-	(label "Surtension_Fault"
-		(at 54.61 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a51c6bd4-df6a-4efc-a012-a270f3d4c35a")
-	)
-	(label "Court_Bus_Fault"
-		(at 54.61 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aefb9dee-eb09-4808-8480-b1e630d20c33")
-	)
-	(label "Trail_Aux"
-		(at 187.96 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1dd3b20-7136-4451-a02c-11f57c724d18")
-	)
 	(label "Trail_Backup"
-		(at 53.34 105.41 0)
+		(at 53.34 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,26 +1228,6 @@
 			(justify left bottom)
 		)
 		(uuid "b34750a7-d5b7-46ba-81c0-6a8e03e4b7d7")
-	)
-	(label "Court_Bus_Fault"
-		(at 67.31 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4060ad8-ac19-4e3d-a5f1-8d8fc5d42203")
-	)
-	(label "V12_Rail"
-		(at 187.96 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd495585-afbe-468d-817b-178c96327a2b")
 	)
 	(label "Veh_Right"
 		(at 100.33 59.69 180)
@@ -2691,18 +1239,8 @@
 		)
 		(uuid "c18a77bf-aef0-417a-a1b4-f5ca65b81d1a")
 	)
-	(label "Injection_Tail_Fault"
-		(at 54.61 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c323ec1e-2156-4f3a-8509-90ad76fc7bc2")
-	)
 	(label "Veh_Brake"
-		(at 52.07 135.89 0)
+		(at 52.07 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,46 +1248,6 @@
 			(justify left bottom)
 		)
 		(uuid "c805dde9-526d-4114-946e-383a5a759809")
-	)
-	(label "Veh_Right"
-		(at 187.96 73.66 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "daefc1fb-7eca-4f96-a085-e400cddeb62e")
-	)
-	(label "Injection_Brake_Fault"
-		(at 52.07 132.715 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0f48d8e-4f8b-4f0a-8ac3-94e2e66b302c")
-	)
-	(label "Masse_Fault"
-		(at 67.31 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e12dee6c-20cc-43e8-8f43-5e0cfcdf83eb")
-	)
-	(label "Injection_Left_Fault"
-		(at 67.31 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e76a07a5-7445-41fa-af4f-b95d0ef4e30e")
 	)
 	(label "Veh_Aux"
 		(at 100.33 64.77 180)
@@ -2760,108 +1258,6 @@
 			(justify right bottom)
 		)
 		(uuid "f29100d0-b6a7-467c-bb1a-ec71ba228469")
-	)
-	(label "Buzzer_Trigger"
-		(at 54.61 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f984b9e5-6e43-4bc9-9c79-657ee2daff0e")
-	)
-	(label "Veh_Left"
-		(at 187.96 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe1ac8c4-659b-46e8-bb5a-831a22351339")
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a74ad8b-211b-4dc3-a9bd-6f236235da69")
-		(property "Reference" "R252"
-			(at 180.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 180.34 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "550682cc-5542-4903-b78c-dd6b79505de9")
-		)
-		(pin "2"
-			(uuid "d665b628-b1f1-42cf-943d-9c749bacc747")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R252")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2937,283 +1333,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc2a117-286a-438d-b78f-03b9ddc29d85")
-		(property "Reference" "R235"
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "694de2d4-37ea-43a6-948b-332c8918bb60")
-		)
-		(pin "2"
-			(uuid "f211388e-5f4a-4a6e-b36e-36ef1bb531c5")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R235")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d8a0568-813a-429a-99af-6dfb706b2b48")
-		(property "Reference" "R240"
-			(at 180.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af015e22-f021-445e-bf3f-88f2834a7cd4")
-		)
-		(pin "2"
-			(uuid "6346e8f0-4b84-4b55-bc84-a4431e0b4d96")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R240")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Rotary_1x12")
-		(at 156.21 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3afc2e57-49c3-41fa-96ce-293e55bb2345")
-		(property "Reference" "SW9"
-			(at 156.21 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CKS1503"
-			(at 156.21 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-			(at 156.21 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "rotary switch with 12 positions"
-			(at 156.21 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "12"
-			(uuid "c24fd63a-bf4c-4e74-9e35-3d9e1a791d86")
-		)
-		(pin "3"
-			(uuid "bef211ec-eb9e-48cc-870d-96300cbf1bf3")
-		)
-		(pin "9"
-			(uuid "a0c122b2-1dbe-4c42-b84c-cf2202b0eb43")
-		)
-		(pin "10"
-			(uuid "0558b869-e091-49c9-b9a7-c7ff5cfe0029")
-		)
-		(pin "6"
-			(uuid "f229db84-f5ad-46c4-b754-a4c68fd59af9")
-		)
-		(pin "11"
-			(uuid "77d3ab84-46be-441f-9940-8bb12e080590")
-		)
-		(pin "8"
-			(uuid "0bdf5a4e-74d3-4ac3-bdee-9dc464d51ce4")
-		)
-		(pin "13"
-			(uuid "449ee444-4286-442e-8636-a81d44d8163c")
-		)
-		(pin "5"
-			(uuid "5d0e8fc3-4b5f-424f-9c93-b18d782dfc5a")
-		)
-		(pin "7"
-			(uuid "39b501af-ebe7-480e-a011-01f454673fd2")
-		)
-		(pin "1"
-			(uuid "5a9ceaaf-3f55-4e76-b60c-097969b0dcbc")
-		)
-		(pin "4"
-			(uuid "61e3de32-0faa-4129-ae22-203e9b7e054a")
-		)
-		(pin "2"
-			(uuid "6218ea2d-5608-4a4d-82d6-30a932541206")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -3329,334 +1448,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "619b6c2c-6c22-49c8-83f4-de5260c05500")
-		(property "Reference" "R239"
-			(at 180.34 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 180.34 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 85.598 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92dc9068-0fbd-437d-8f45-90778fe7c580")
-		)
-		(pin "2"
-			(uuid "9660a1b4-1f22-49fc-8a13-841659c30690")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e67b847-cd8c-4354-82a0-a0ea5c6dd8f0")
-		(property "Reference" "R238"
-			(at 180.34 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 77.978 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "672f02a2-5066-4dda-b093-28b28abb6fbf")
-		)
-		(pin "2"
-			(uuid "777c5ce8-3a60-40db-b47a-54262374104d")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7961e474-fe1b-4a67-8075-1aaaa9c90ea8")
-		(property "Reference" "R237"
-			(at 180.34 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 75.438 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "678ad515-3757-4463-881c-42e5224d4603")
-		)
-		(pin "2"
-			(uuid "16ef175f-8bb0-4f36-9222-9d0e3315d33e")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R237")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "835284af-aa74-46c0-a7e0-38216daaa28d")
-		(property "Reference" "R236"
-			(at 180.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1887b53e-17d7-46c5-906a-44540b2bae00")
-		)
-		(pin "2"
-			(uuid "f790340c-08cd-42dd-90a2-a5741d640371")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R236")
 					(unit 1)
 				)
 			)
@@ -3856,91 +1647,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df25c487-3675-409d-bae4-0e494664266f")
-		(property "Reference" "R241"
-			(at 180.34 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6036c828-0ff9-497d-ad09-4836a435bdbe")
-		)
-		(pin "2"
-			(uuid "b293bf3d-d80c-4514-89d9-be77fed6a1d8")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R241")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 30.48 130.175)
-		(size 19.05 10.795)
+		(at 30.48 135.89)
+		(size 19.05 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3955,7 +1664,7 @@
 		)
 		(uuid "1c73cd0e-d554-4457-9021-54aac4b5c0a2")
 		(property "Sheetname" "Canal_Brake"
-			(at 30.48 129.7174 0)
+			(at 30.48 135.4324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,7 +1675,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Brake.kicad_sch"
-			(at 30.48 141.3514 0)
+			(at 30.48 143.8914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3977,7 +1686,7 @@
 			)
 		)
 		(pin "Veh_Brake" input
-			(at 49.53 135.89 0)
+			(at 49.53 138.43 0)
 			(uuid "848e7bb3-64cc-4472-a577-b045a39f05a7")
 			(effects
 				(font
@@ -3987,21 +1696,11 @@
 			)
 		)
 		(pin "Trail_Brake" input
-			(at 49.53 138.43 0)
+			(at 49.53 140.97 0)
 			(uuid "dcccad87-f4dc-4509-b8c3-ef2d7b3f15a8")
 			(effects
 				(font
 					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Brake_Fault" input
-			(at 49.53 132.715 0)
-			(uuid "0ce41014-ee0a-492e-b887-02b82137549d")
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -4015,8 +1714,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 144.78)
-		(size 31.75 12.065)
+		(at 30.48 149.86)
+		(size 19.05 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4031,7 +1730,7 @@
 		)
 		(uuid "361b48c0-a959-47c9-bb38-aa88a46d3ebb")
 		(property "Sheetname" "Detection_De_Masse"
-			(at 30.48 144.3224 0)
+			(at 30.48 149.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4042,7 +1741,7 @@
 			)
 		)
 		(property "Sheetfile" "MassDetection.kicad_sch"
-			(at 30.48 157.2264 0)
+			(at 30.48 157.8614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4053,7 +1752,7 @@
 			)
 		)
 		(pin "Masse_Sense_Veh" input
-			(at 62.23 150.495 0)
+			(at 49.53 152.4 0)
 			(uuid "108ae149-76db-4131-af75-ec0731af56bd")
 			(effects
 				(font
@@ -4063,18 +1762,8 @@
 			)
 		)
 		(pin "Masse_Sense_Trail" input
-			(at 62.23 154.305 0)
+			(at 49.53 154.94 0)
 			(uuid "7f55e96c-69c7-464e-a858-aee7ef992869")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Masse_Fault" input
-			(at 62.23 146.05 0)
-			(uuid "88c30147-69eb-40b5-afc1-9197fae57bf8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,8 +1780,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 85.09)
-		(size 19.05 11.43)
+		(at 30.48 91.44)
+		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4107,7 +1796,7 @@
 		)
 		(uuid "4f89c816-e1c8-4a6d-9631-51fb882801ea")
 		(property "Sheetname" "Canal_Right"
-			(at 30.48 84.6324 0)
+			(at 30.48 90.9824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +1807,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Right.kicad_sch"
-			(at 30.48 96.9014 0)
+			(at 30.48 100.7114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4129,7 +1818,7 @@
 			)
 		)
 		(pin "Veh_Right" input
-			(at 49.53 87.63 0)
+			(at 49.53 93.98 0)
 			(uuid "108f2d09-f746-47ff-9f61-a934bbaa448a")
 			(effects
 				(font
@@ -4139,18 +1828,8 @@
 			)
 		)
 		(pin "Trail_Right" input
-			(at 49.53 91.44 0)
+			(at 49.53 97.79 0)
 			(uuid "1fd245ad-5c0f-4700-bfeb-0d5439d1472b")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Right_Fault" input
-			(at 49.53 94.615 0)
-			(uuid "66e42136-e1ae-47f4-bd47-851242386e2a")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4167,104 +1846,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 13.97)
-		(size 19.05 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "56af58a1-2657-4f00-930b-84ffb6766669")
-		(property "Sheetname" "Alimentation"
-			(at 30.48 13.5124 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Alimentation.kicad_sch"
-			(at 30.48 29.5914 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V12_Rail" input
-			(at 49.53 21.59 0)
-			(uuid "144fa684-8f91-4ecc-9e2b-1f20a1133a5a")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Surtension_Fault" input
-			(at 49.53 16.51 0)
-			(uuid "1ffc1595-351e-43f9-8c6d-76a61b43fd1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Buzzer_Trigger" input
-			(at 49.53 19.05 0)
-			(uuid "d0c146fb-bc44-4104-96ac-37e4188260a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Court_Bus_Fault" input
-			(at 49.53 24.13 0)
-			(uuid "386e66df-7783-4897-a182-629f0a1ad5e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VM_Mesure" input
-			(at 49.53 27.94 0)
-			(uuid "8482cf9e-0185-410e-8e3b-91d31ae9479f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 30.48 57.15)
-		(size 19.05 10.795)
+		(at 30.48 63.5)
+		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4279,7 +1862,7 @@
 		)
 		(uuid "891824ea-a79b-4938-b55f-b811c31e662c")
 		(property "Sheetname" "Canal_Tail"
-			(at 30.48 56.6924 0)
+			(at 30.48 63.0424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4290,7 +1873,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Tail.kicad_sch"
-			(at 30.48 68.3264 0)
+			(at 30.48 72.7714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4301,7 +1884,7 @@
 			)
 		)
 		(pin "Trail_Tail" input
-			(at 49.53 63.5 0)
+			(at 49.53 69.85 0)
 			(uuid "a0c54006-fd9e-4212-8615-479ebea802ae")
 			(effects
 				(font
@@ -4311,18 +1894,8 @@
 			)
 		)
 		(pin "Veh_Tail" input
-			(at 49.53 59.69 0)
-			(uuid "e21f1716-37a0-4da0-b2f2-52969fb15c7e")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
 			(at 49.53 66.04 0)
-			(uuid "b205249f-6e19-48b8-b106-a8c49754eeb6")
+			(uuid "e21f1716-37a0-4da0-b2f2-52969fb15c7e")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4339,7 +1912,63 @@
 		)
 	)
 	(sheet
-		(at 30.48 102.87)
+		(at 30.48 17.78)
+		(size 19.05 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9ea9dc6a-4605-4442-bf52-a201ecc40774")
+		(property "Sheetname" "Alimentation"
+			(at 30.48 17.3224 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 30.48 27.0514 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V12_Rail" input
+			(at 49.53 22.86 0)
+			(uuid "09831574-f0ee-4da0-86e0-3b994bb82ed0")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 105.41)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4355,7 +1984,7 @@
 		)
 		(uuid "b4ff831c-304a-4222-b9bb-487c614afe45")
 		(property "Sheetname" "Canal_Backup"
-			(at 30.48 102.4124 0)
+			(at 30.48 104.9524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4366,7 +1995,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Backup.kicad_sch"
-			(at 30.48 112.1414 0)
+			(at 30.48 114.6814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4377,7 +2006,7 @@
 			)
 		)
 		(pin "Trail_Backup" input
-			(at 49.53 105.41 0)
+			(at 49.53 107.95 0)
 			(uuid "ae749897-480f-42f8-8633-fac977abdd24")
 			(effects
 				(font
@@ -4387,18 +2016,8 @@
 			)
 		)
 		(pin "Veh_Backup" input
-			(at 49.53 107.95 0)
+			(at 49.53 110.49 0)
 			(uuid "6b6fc392-f457-4ea4-930a-61a39125144f")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Backup_Fault" input
-			(at 49.53 109.855 0)
-			(uuid "4afabcb3-499a-4c6a-a68f-6d7803b90c79")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4415,8 +2034,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 162.56)
-		(size 31.75 43.18)
+		(at 68.58 151.13)
+		(size 19.05 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4430,8 +2049,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "cdb1da1d-75aa-4768-93cb-d21a7fd03228")
-		(property "Sheetname" "Alarmes_Buzzer"
-			(at 30.48 161.8484 0)
+		(property "Sheetname" "Alertes"
+			(at 68.58 150.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4441,8 +2060,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alarmes_Buzzer_sch.kicad_sch"
-			(at 30.48 206.3246 0)
+		(property "Sheetfile" "Alertes.kicad_sch"
+			(at 68.58 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4450,116 +2069,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "Surtension_Fault" input
-			(at 62.23 187.96 0)
-			(uuid "151942fb-f34b-42e4-82c7-e1b2b4f7c3ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Alerte_Incoherence" input
-			(at 62.23 199.39 0)
-			(uuid "4122948d-aa3d-4b7a-847d-d76fccbd9d3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Buzzer_Trigger" input
-			(at 62.23 203.2 0)
-			(uuid "955b3311-1fb6-4a48-a01c-e51c334223b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Court_Bus_Fault" input
-			(at 62.23 191.77 0)
-			(uuid "b845480c-9a37-4d90-b0fb-fb36bb088339")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Masse_Fault" input
-			(at 62.23 195.58 0)
-			(uuid "80018acd-23dd-4a49-8d60-327aa698db54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
-			(at 62.23 165.1 0)
-			(uuid "5455c47b-2f2a-4953-af6a-c6105c6d8773")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Left_Fault" input
-			(at 62.23 168.91 0)
-			(uuid "844502f8-be95-4fe4-82d6-391f96899669")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Right_Fault" input
-			(at 62.23 172.72 0)
-			(uuid "00786de5-b6cf-4043-a432-c7583f258d42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Aux_Fault" input
-			(at 62.23 184.15 0)
-			(uuid "e254c305-da8c-465b-ba4b-299d5e9d91d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Brake_Fault" input
-			(at 62.23 176.53 0)
-			(uuid "a5e67dd3-7c5d-4cdb-93d1-3141798bda15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Backup_Fault" input
-			(at 62.23 180.34 0)
-			(uuid "4f9238b3-7798-4f07-a48d-0fd242c4984c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -4571,7 +2080,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 72.39)
+		(at 30.48 77.47)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4587,7 +2096,7 @@
 		)
 		(uuid "d158d25b-993e-468a-8f69-95ddcf9272e8")
 		(property "Sheetname" "Canal_Left"
-			(at 30.48 71.9324 0)
+			(at 30.48 77.0124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4598,7 +2107,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Left.kicad_sch"
-			(at 30.48 81.6614 0)
+			(at 30.48 86.7414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4609,7 +2118,7 @@
 			)
 		)
 		(pin "Trail_Left" input
-			(at 49.53 76.835 0)
+			(at 49.53 83.82 0)
 			(uuid "b408ff10-3fcd-4637-aa8c-4bde70b7539a")
 			(effects
 				(font
@@ -4619,18 +2128,8 @@
 			)
 		)
 		(pin "Veh_Left" input
-			(at 49.53 74.295 0)
+			(at 49.53 80.01 0)
 			(uuid "2a0e2657-3910-46fb-8cec-b8649cdd8951")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Left_Fault" input
-			(at 49.53 79.375 0)
-			(uuid "7008ac2a-b2b9-488d-85c4-6a06110f3c0d")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4647,8 +2146,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 33.274)
-		(size 19.05 18.796)
+		(at 30.48 35.56)
+		(size 19.05 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4663,7 +2162,7 @@
 		)
 		(uuid "d808f71c-7914-43fb-8ac9-96d92cd6294f")
 		(property "Sheetname" "Mode_Coherence"
-			(at 30.48 32.8164 0)
+			(at 30.48 35.1024 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -4674,7 +2173,7 @@
 			)
 		)
 		(property "Sheetfile" "mode_coherence.kicad_sch"
-			(at 30.48 52.4514 0)
+			(at 30.48 57.5314 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -4685,7 +2184,7 @@
 			)
 		)
 		(pin "V12_Rail" input
-			(at 49.53 49.53 0)
+			(at 49.53 53.34 0)
 			(uuid "2bba4dd8-d4a4-45c4-9ad7-ff3576ac1104")
 			(effects
 				(font
@@ -4695,7 +2194,7 @@
 			)
 		)
 		(pin "Alerte_Incoherence" input
-			(at 49.53 45.72 0)
+			(at 49.53 49.53 0)
 			(uuid "9b4d3a96-0050-498d-8164-b57da0edf5a0")
 			(effects
 				(font
@@ -4705,7 +2204,7 @@
 			)
 		)
 		(pin "Detect_Trailer" input
-			(at 49.53 40.64 0)
+			(at 49.53 44.45 0)
 			(uuid "a37e835e-7559-49df-b4a8-abe5262b9e0e")
 			(effects
 				(font
@@ -4715,7 +2214,7 @@
 			)
 		)
 		(pin "Detect_Vehicule" input
-			(at 49.53 35.56 0)
+			(at 49.53 39.37 0)
 			(uuid "8108d672-fa57-4e03-877a-d4357c2b8f36")
 			(effects
 				(font
@@ -4733,7 +2232,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 118.11)
+		(at 30.48 120.65)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4749,7 +2248,7 @@
 		)
 		(uuid "f56287af-99ab-446e-8dde-0a4522148d74")
 		(property "Sheetname" "Canal_Aux"
-			(at 30.48 117.6524 0)
+			(at 30.48 120.1924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,7 +2259,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Aux.kicad_sch"
-			(at 30.48 127.3814 0)
+			(at 30.48 129.9214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +2270,7 @@
 			)
 		)
 		(pin "Veh_Aux" input
-			(at 49.53 119.38 0)
+			(at 49.53 123.19 0)
 			(uuid "0a07f8e7-d9d0-4733-a73d-4ac01fadb545")
 			(effects
 				(font
@@ -4781,18 +2280,8 @@
 			)
 		)
 		(pin "Trail_Aux" input
-			(at 49.53 121.92 0)
+			(at 49.53 125.73 0)
 			(uuid "9d99b4f8-bee6-4651-b57b-dd4406c17980")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Aux_Fault" input
-			(at 49.53 124.46 0)
-			(uuid "2f63a1d2-49d2-4edf-b2e3-fc561d474708")
 			(effects
 				(font
 					(size 0.762 0.762)

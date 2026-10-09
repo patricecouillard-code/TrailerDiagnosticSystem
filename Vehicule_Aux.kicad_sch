@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "666944b2-bd22-4b8b-84f5-83ee07989f21")
-	(paper "USLegal")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Comparator:LM339"
 			(pin_names
@@ -465,355 +465,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_1.8mm_Amber"
-			(body_styles demorgan)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_1.8mm_Amber"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_LED_THT_AKL:LED_D1.8mm_W3.3mm_H2.4mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Amber LED, 1.8mm THT, Alternate KiCad Library"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode 1.8mm THT amber"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_Amber_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 220 180 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_Amber_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 220 180 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_Amber_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_Amber_1_2"
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 220 180 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Optocoupler_AKL:PC817"
 			(pin_names
 				(offset 1.016)
@@ -1145,151 +796,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SL_Devices:Capacitor_NP"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Capacitor_NP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm Capacitor_THT:C_Rect_L29.0mm_W7.6mm_P27.50mm_MKT Capacitor_THT:C_Rect_L24.0mm_W7.0mm_P22.50mm_MKT Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT Capacitor_THT:C_Rect_L9.0mm_W3.6mm_P7.50mm_MKT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor_NP_0_1"
-				(rectangle
-					(start -0.762 2.286)
-					(end -0.508 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.508 2.286)
-					(end 0.762 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Capacitor_NP_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1833,283 +1339,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Transistor_MOSFET_AKL:2N7000"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7000"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet 2N7000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2N7000_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N7000_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Transistor_MOSFET_AKL:IRLZ44N"
 			(pin_names
 				(hide yes)
@@ -2609,192 +1838,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST_Temperature_NC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST_Temperature_NC"
-				(at 1.27 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent, normally closed"
-				(at -1.27 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "temperature switch normally closed"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_Temperature_NC_0_0"
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.54) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.508) (xy -0.762 -0.508) (xy -0.762 0) (xy 0.762 0) (xy 0.762 0.508) (xy 0 0.508)
-						(xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_Temperature_NC_1_1"
-				(rectangle
-					(start -3.175 1.27)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(rectangle
-		(start 78.486 133.35)
-		(end 171.196 196.85)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0a757569-72b8-4220-ba9c-d0630a4699a7")
 	)
 	(text "Non_Utilisé"
 		(exclude_from_sim no)
-		(at 57.15 110.49 0)
+		(at 113.03 114.3 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2804,7 +1851,7 @@
 	)
 	(text "Aux_Vehic_Shunt_Haut"
 		(exclude_from_sim no)
-		(at 20.574 101.854 90)
+		(at 76.454 105.664 90)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2812,19 +1859,9 @@
 		)
 		(uuid "136f630e-f5e4-4d64-a07c-f44c73066add")
 	)
-	(text "Protection contre surchauffe\n"
-		(exclude_from_sim no)
-		(at 121.666 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54e7f449-c023-45cb-8d15-0549ff969c5f")
-	)
 	(text "Injection"
 		(exclude_from_sim no)
-		(at 54.61 60.96 0)
+		(at 110.49 64.77 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2834,7 +1871,7 @@
 	)
 	(text "Court-circuit\n"
 		(exclude_from_sim no)
-		(at 58.42 95.25 0)
+		(at 114.3 99.06 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2842,19 +1879,9 @@
 		)
 		(uuid "b5723360-636f-4395-93b2-2a9f283cdd1c")
 	)
-	(text "Module du voltmetre/ampèremetre"
-		(exclude_from_sim no)
-		(at 204.216 206.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d0c5973d-ae20-4609-8788-d55a439276b5")
-	)
 	(text "Ouvvert\n"
 		(exclude_from_sim no)
-		(at 58.42 78.74 0)
+		(at 114.3 82.55 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2863,68 +1890,54 @@
 		(uuid "eb0445f5-e6ff-4a54-a1d3-7e7eb0289ffb")
 	)
 	(junction
-		(at 64.77 66.04)
+		(at 78.74 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6ed4e7-10a4-4bf9-b2e5-d28927f18960")
+	)
+	(junction
+		(at 120.65 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12f58c4a-5aca-4ed4-9e6f-dfb3a8b6fdb1")
 	)
 	(junction
-		(at 22.86 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b284637-702b-4670-a973-32ece127bd25")
-	)
-	(junction
-		(at 45.72 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f182d54-1733-4001-838b-93ca75f5a65f")
-	)
-	(junction
-		(at 22.86 97.79)
+		(at 78.74 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ac1d96c-9227-44ff-a2e2-f0ebb2d61540")
 	)
 	(junction
-		(at 64.77 83.82)
+		(at 140.97 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e794b0c-635c-446f-8a2c-91682c5b6f3f")
+		(uuid "5532c29d-f38f-421d-bd89-21cf66b5d355")
 	)
 	(junction
-		(at 130.81 147.32)
+		(at 137.16 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92a36d89-9978-4cc1-9342-80faa5919c1c")
+		(uuid "5953327c-cf47-4b7f-9d80-24936b1cde01")
 	)
 	(junction
-		(at 76.835 52.07)
+		(at 152.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9349aa6b-3f1b-481c-a4fe-62eb84aa5ae7")
+		(uuid "9d90d206-3732-4f1e-a4fe-68864a2d8a9c")
 	)
 	(junction
-		(at 58.42 30.48)
+		(at 166.37 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbfe7cd1-1d15-47d7-a3f5-0944face593b")
+		(uuid "ec149ae6-c63e-4cde-a049-3adeffb61567")
 	)
-	(junction
-		(at 128.27 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddec8e21-cdd0-4b2f-9903-dc8fc6774de9")
-	)
-	(junction
-		(at 64.77 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5e3a789-5117-4e60-af97-b3af3f6788fb")
+	(no_connect
+		(at 118.11 119.38)
+		(uuid "9ef72ade-089e-4331-8e51-4d8d25145733")
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 66.04)
+			(xy 120.65 55.88) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2934,37 +1947,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 45.72 124.46)
+			(xy 137.16 104.14) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06f2c801-c3f7-46f6-befc-42d4e521d42e")
+		(uuid "0675ab00-9e6e-4ff1-9c15-9e6a631ba751")
 	)
 	(wire
 		(pts
-			(xy 96.52 43.18) (xy 96.52 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8643fb-9a0f-4441-afa0-9a62cd1a0bf0")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131e6060-ecfe-438e-8f43-c319e3aa7ac7")
-	)
-	(wire
-		(pts
-			(xy 44.45 63.5) (xy 46.99 63.5)
+			(xy 100.33 67.31) (xy 102.87 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2974,57 +1967,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 124.46) (xy 45.72 118.11)
+			(xy 130.81 87.63) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "175a1a44-e90b-4db5-b9e6-7171542e95bc")
+		(uuid "274b201b-d34e-4a45-b096-9a404f434d92")
 	)
 	(wire
 		(pts
-			(xy 72.39 124.46) (xy 76.2 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9006ac-0627-4408-aa34-9275809d2c91")
-	)
-	(wire
-		(pts
-			(xy 45.72 118.11) (xy 46.99 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26164755-519c-430a-b135-bf00da6e11a0")
-	)
-	(wire
-		(pts
-			(xy 128.27 147.32) (xy 128.27 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d0ecfa-2cbc-4184-8398-18bfc7fcf4fb")
-	)
-	(wire
-		(pts
-			(xy 74.93 83.82) (xy 77.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2809c818-3125-49af-91d7-31b64860c5fe")
-	)
-	(wire
-		(pts
-			(xy 116.84 106.68) (xy 113.03 106.68)
+			(xy 163.83 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 151.13 83.82)
+			(xy 203.2 87.63) (xy 207.01 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3044,17 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 100.33) (xy 62.23 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd2bf68-5c1e-4b2b-b3e1-5ffca93852ed")
-	)
-	(wire
-		(pts
-			(xy 147.32 64.77) (xy 151.13 64.77)
+			(xy 203.2 68.58) (xy 207.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3064,17 +2007,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 100.33) (xy 77.47 100.33)
+			(xy 130.81 104.14) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe212ff-04ff-423e-ae2a-141de5780a27")
+		(uuid "2e74a8f0-43ca-4e84-b5eb-8e8f7e19abe5")
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 151.13 46.99)
+			(xy 203.2 50.8) (xy 207.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3084,17 +2027,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 120.65) (xy 137.16 120.65)
+			(xy 152.4 48.26) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31e45f40-856d-45c9-9ed8-ba7eabe83974")
+		(uuid "33934ea1-6d6d-4c04-a0ca-32f16a341c9a")
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 64.77 83.82)
+			(xy 137.16 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361c4aae-e795-4ac3-8d79-7441c421f7e6")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 97.79) (xy 22.86 128.27)
+			(xy 78.74 101.6) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 66.04) (xy 62.23 66.04)
+			(xy 120.65 69.85) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3124,57 +2077,47 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 147.32) (xy 149.86 147.32)
+			(xy 140.97 87.63) (xy 161.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b845814-f4e9-48bf-b7ac-8909ac8fbdb7")
+		(uuid "4036ca22-a46b-4658-9ccb-bde821862f85")
 	)
 	(wire
 		(pts
-			(xy 99.06 86.36) (xy 105.41 86.36)
+			(xy 166.37 48.26) (xy 166.37 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d8707e0-e64f-4365-91c1-090beb936c77")
+		(uuid "408b3363-74f3-4df5-95c0-1e56f6b0dab7")
 	)
 	(wire
 		(pts
-			(xy 105.41 180.34) (xy 128.27 180.34)
+			(xy 156.21 63.5) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "412516b4-f638-45c0-9fea-6b861a6a043f")
+		(uuid "441ebf2b-31bf-4fe7-a02f-85b4c91dc9b4")
 	)
 	(wire
 		(pts
-			(xy 114.3 21.59) (xy 22.86 21.59)
+			(xy 166.37 48.26) (xy 167.64 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "510caa13-258c-431d-9744-7f674f5cae85")
+		(uuid "4a6be7eb-442f-49c8-8755-a40a49092aab")
 	)
 	(wire
 		(pts
-			(xy 109.22 190.5) (xy 114.3 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5226a49f-964e-4210-8003-4aee98371ba5")
-	)
-	(wire
-		(pts
-			(xy 147.32 76.2) (xy 151.13 76.2)
+			(xy 203.2 80.01) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3184,17 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 30.48) (xy 48.26 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a8f25e-845d-4be4-b112-dd8eef975323")
-	)
-	(wire
-		(pts
-			(xy 22.86 128.27) (xy 26.67 128.27)
+			(xy 78.74 132.08) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3204,17 +2137,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 64.77 83.82)
+			(xy 163.83 111.76) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5921248d-f050-4a32-9f55-8e3202da0736")
+		(uuid "5d8a393a-3893-4774-ad13-dda8d4702edb")
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 105.41 72.39)
+			(xy 161.29 77.47) (xy 161.29 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +2157,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 45.72 118.11)
+			(xy 172.72 88.9) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f271b4-528d-4d49-8b41-901122aabb7b")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 102.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 30.48) (xy 72.39 30.48)
+			(xy 175.26 48.26) (xy 179.07 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3244,47 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 64.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c38ef6f-8628-45cc-9d4e-feb715ed6d4d")
-	)
-	(wire
-		(pts
-			(xy 68.58 45.085) (xy 76.835 45.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e75afe2-d367-44b4-a484-3180326a0cc9")
-	)
-	(wire
-		(pts
-			(xy 86.36 190.5) (xy 90.17 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7109e737-c693-40b7-acf6-ab5d951b5934")
-	)
-	(wire
-		(pts
-			(xy 116.84 176.53) (xy 111.76 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72563eb7-d5d4-4b4f-942c-b3337d4d15b6")
-	)
-	(wire
-		(pts
-			(xy 55.88 30.48) (xy 58.42 30.48)
+			(xy 163.83 48.26) (xy 166.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 64.77 100.33)
+			(xy 123.19 104.14) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3304,17 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 21.59) (xy 22.86 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78415efe-6a4e-4070-8258-193aa3105279")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 100.33 72.39)
+			(xy 161.29 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 113.03 83.82)
+			(xy 172.72 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3334,57 +2227,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 118.11 147.32)
+			(xy 140.97 83.82) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8346c450-82e7-443c-a349-ea377e9e3f99")
+		(uuid "7e0abb35-cc82-4895-8f24-7ba93f6fb2c4")
 	)
 	(wire
 		(pts
-			(xy 142.24 158.75) (xy 142.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850181cf-89f9-4c26-a200-0e89aec8bf59")
-	)
-	(wire
-		(pts
-			(xy 142.24 154.94) (xy 146.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ca18c1-663e-48d6-8063-92f43f501949")
-	)
-	(wire
-		(pts
-			(xy 113.03 71.12) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e50281-d20a-453c-9477-658965c0b178")
-	)
-	(wire
-		(pts
-			(xy 58.42 30.48) (xy 60.96 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c33b8d1-1624-4dc2-8ed5-a9309cf70d06")
-	)
-	(wire
-		(pts
-			(xy 46.99 86.36) (xy 22.86 86.36)
+			(xy 102.87 90.17) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3394,47 +2247,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 68.58 87.63)
+			(xy 100.33 34.29) (xy 100.33 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91e08f5b-0020-417c-bce5-2cbc229274f9")
+		(uuid "925fd691-1087-49a5-afad-84711432f371")
 	)
 	(wire
 		(pts
-			(xy 76.835 52.07) (xy 90.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9310038a-def3-411e-9eda-3371f0650206")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 114.3 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c52cd7-22f0-499a-a380-8a4fb91abeba")
-	)
-	(wire
-		(pts
-			(xy 105.41 168.91) (xy 105.41 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b743747-6969-43d4-ba29-ea633712f52d")
-	)
-	(wire
-		(pts
-			(xy 96.52 55.88) (xy 96.52 59.69)
+			(xy 152.4 59.69) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3444,47 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 173.99) (xy 142.24 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56651f2-792d-4640-9494-014dc2229b73")
-	)
-	(wire
-		(pts
-			(xy 97.79 190.5) (xy 101.6 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62fe8b1-cd37-47fb-8f4b-e700ec285d47")
-	)
-	(wire
-		(pts
-			(xy 142.24 168.91) (xy 142.24 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b76228-694f-42ae-a5d4-d1dacc8bd0c0")
-	)
-	(wire
-		(pts
-			(xy 130.81 147.32) (xy 134.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af57daba-9648-46b9-8a3c-d016db365ae9")
-	)
-	(wire
-		(pts
-			(xy 64.77 52.07) (xy 76.835 52.07)
+			(xy 120.65 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3494,17 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 58.42 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53d2407-57f9-4bf2-bbdd-b847b4703585")
-	)
-	(wire
-		(pts
-			(xy 148.59 41.91) (xy 148.59 39.37)
+			(xy 204.47 45.72) (xy 204.47 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 113.03) (xy 46.99 113.03)
+			(xy 100.33 116.84) (xy 102.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3524,47 +2297,47 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 162.56) (xy 86.36 190.5)
+			(xy 166.37 34.29) (xy 100.33 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba78ef77-a226-4bee-8b4b-1d3c20653f9c")
+		(uuid "c7b98f4d-60c5-4e99-85df-08d2e943c7f6")
 	)
 	(wire
 		(pts
-			(xy 130.81 165.1) (xy 130.81 147.32)
+			(xy 73.66 132.08) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdabdea2-1d39-4fe6-a46a-17fcd42ec259")
+		(uuid "ca74cf39-bd07-4df2-86e7-04563e99d05e")
 	)
 	(wire
 		(pts
-			(xy 111.76 162.56) (xy 86.36 162.56)
+			(xy 147.32 48.26) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c41d6ce2-d96d-423e-817b-dad54bfa9f72")
+		(uuid "cbb3cfa5-2fb7-48f1-9c61-2ee02c281d5c")
 	)
 	(wire
 		(pts
-			(xy 64.77 100.33) (xy 64.77 105.41)
+			(xy 152.4 109.22) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbe1d6c9-8f30-4f02-a170-821be673f964")
+		(uuid "cc9e0cde-bb58-4bba-b3fc-417d6205b032")
 	)
 	(wire
 		(pts
-			(xy 22.86 86.36) (xy 22.86 97.79)
+			(xy 78.74 90.17) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3574,7 +2347,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 151.13 39.37)
+			(xy 62.23 132.08) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf987d8-c37e-47f2-8bd6-eddf345981ea")
+	)
+	(wire
+		(pts
+			(xy 204.47 43.18) (xy 207.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3584,27 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 130.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e4cc39-657e-47bc-b59b-af0d1788d558")
-	)
-	(wire
-		(pts
-			(xy 44.45 36.83) (xy 58.42 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d481f96d-7807-401f-8f2a-fa00fe5c5947")
-	)
-	(wire
-		(pts
-			(xy 105.41 93.98) (xy 105.41 95.25)
+			(xy 152.4 97.79) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3614,27 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 36.83 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de255181-1e1b-4586-a366-a3d6bd3f04ea")
-	)
-	(wire
-		(pts
-			(xy 64.77 83.82) (xy 62.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfda6bdd-a237-4d67-bb25-f27d3075a53a")
-	)
-	(wire
-		(pts
-			(xy 74.93 66.04) (xy 82.55 66.04)
+			(xy 130.81 69.85) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3644,17 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 172.72) (xy 111.76 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75bd7d0-ede9-4cd2-966c-b5a19c0fcff5")
-	)
-	(wire
-		(pts
-			(xy 67.31 66.04) (xy 64.77 66.04)
+			(xy 123.19 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3664,17 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 165.1) (xy 130.81 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed642922-946b-45d5-bec5-21612faba8ab")
-	)
-	(wire
-		(pts
-			(xy 22.86 97.79) (xy 46.99 97.79)
+			(xy 78.74 101.6) (xy 102.87 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3684,57 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 105.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea29f9c-a4f0-4b37-b386-d61d71fcf308")
-	)
-	(wire
-		(pts
-			(xy 125.73 147.32) (xy 128.27 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e70fb8-e4e5-42ac-b7c8-b51918bb7ac8")
-	)
-	(wire
-		(pts
-			(xy 93.98 43.18) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f4bebc-4a12-44da-8119-efecc4a4aba2")
-	)
-	(wire
-		(pts
-			(xy 76.835 45.085) (xy 76.835 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f429d0-0817-4d4c-a2fe-d5df97131352")
-	)
-	(wire
-		(pts
-			(xy 82.55 43.18) (xy 86.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b2dde8-74a5-495c-8c43-df2f49c2688e")
-	)
-	(wire
-		(pts
-			(xy 144.78 41.91) (xy 148.59 41.91)
+			(xy 200.66 45.72) (xy 204.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 113.03 105.41)
+			(xy 160.02 110.49) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3754,37 +2427,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 105.41) (xy 105.41 105.41)
+			(xy 152.4 48.26) (xy 156.21 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f978a9bd-6299-4522-9784-ea054cbf9a33")
+		(uuid "f9937b8d-cc06-4cb4-8013-ce29f444194b")
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 114.3 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8adfcb-3ae5-414a-917b-62f90fc802de")
-	)
-	(wire
-		(pts
-			(xy 44.45 63.5) (xy 44.45 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe195f64-621e-42d0-a645-874739b50ef1")
-	)
-	(wire
-		(pts
-			(xy 147.32 57.15) (xy 151.13 57.15)
+			(xy 203.2 60.96) (xy 207.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3792,28 +2445,8 @@
 		)
 		(uuid "fee4dc2a-037b-4c93-8a2e-541a064e41be")
 	)
-	(label "To_C9_1"
-		(at 124.46 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01b0e330-7a4c-4275-ac59-908ba4a9f80d")
-	)
-	(label "To_C9_1"
-		(at 44.45 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "148e7dc3-368b-4f41-ac21-f0d18f530299")
-	)
 	(label "Seuil_Ouvert_Aux"
-		(at 154.94 60.96 0)
+		(at 210.82 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3823,7 +2456,7 @@
 		(uuid "1c6a94f9-a205-4bd4-b5a9-5068a841cfb1")
 	)
 	(label "Seuil_Injection_Aux"
-		(at 154.94 43.18 0)
+		(at 210.82 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3833,7 +2466,7 @@
 		(uuid "20392872-383e-40fe-9768-cb0ec566829f")
 	)
 	(label "Seuil_Ouvert_Aux"
-		(at 46.99 81.28 180)
+		(at 102.87 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3842,28 +2475,18 @@
 		)
 		(uuid "282d818b-9f79-4d33-a8aa-56abcc6c6756")
 	)
-	(label "To_U11_14"
-		(at 99.06 86.36 180)
+	(label "Veh_Aux_Inject_Cmd"
+		(at 120.65 55.88 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
-		(uuid "608fcc56-79cd-4e7c-a799-edd501e9af76")
-	)
-	(label "To_C9_1"
-		(at 68.58 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "677f1007-4993-49cf-9f38-f0d9e773ec41")
+		(uuid "3524f6dd-c9a8-4299-a06d-bf2a26ebc9ee")
 	)
 	(label "Seuil_Court_Aux"
-		(at 46.99 102.87 180)
+		(at 102.87 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3872,18 +2495,28 @@
 		)
 		(uuid "79421e9d-b4b9-4ed5-ace7-885137b3239d")
 	)
-	(label "To_U11_14"
-		(at 64.77 115.57 0)
+	(label "Q43_Source"
+		(at 156.21 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aea12435-b1ce-4865-b681-e699b7580a53")
+		(uuid "8f737368-19bb-4bba-838a-a63f22be6a59")
+	)
+	(label "Q43_Source"
+		(at 62.23 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcf3ffe1-a186-430e-9880-fbb7fd0edb34")
 	)
 	(label "Seuil_Court_Aux"
-		(at 154.94 80.01 0)
+		(at 210.82 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,7 +2526,7 @@
 		(uuid "be7da844-fa25-4ce0-9605-79ded2e1d36e")
 	)
 	(label "Seuil_Injection_Aux"
-		(at 46.99 68.58 180)
+		(at 102.87 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,7 +2537,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 147.32 64.77 180)
+		(at 203.2 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3914,7 +2547,7 @@
 		)
 		(uuid "06909076-9ea3-4d70-8413-59cc26ae28b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4643 64.77 0)
+			(at 196.3443 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,33 +2559,9 @@
 			)
 		)
 	)
-	(global_label "V_Ref"
-		(shape input)
-		(at 77.47 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f2e7b22-9d32-4801-a2ae-6f5ac72fddab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5957 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
-		(at 60.96 132.08 0)
+		(at 116.84 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3962,7 +2571,7 @@
 		)
 		(uuid "12c67ef3-8634-4a30-a780-08ce7a09baff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8157 132.08 0)
+			(at 123.6957 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,31 +2585,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 76.2 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12c91be3-bb1f-418a-b67b-0be833f478de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.0557 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 72.39 30.48 0)
+		(at 179.07 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4010,7 +2595,7 @@
 		)
 		(uuid "19c53ac6-b143-4b4c-b965-42caff35b905")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.2457 30.48 0)
+			(at 185.9257 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +2609,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 147.32 57.15 180)
+		(at 203.2 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4034,7 +2619,7 @@
 		)
 		(uuid "1fe47d7c-8029-4bd7-8363-b3cb23b2d9f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1943 57.15 0)
+			(at 195.0743 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,55 +2633,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 34.29 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "261b1d82-282e-40fb-9e40-27d7b879b3ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1643 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 137.16 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31657567-dbf4-4252-b94a-286e1824bca5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.0157 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V_Ref"
-		(shape input)
-		(at 97.79 93.98 180)
+		(at 144.78 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4106,7 +2643,7 @@
 		)
 		(uuid "38bc9f81-2aef-4669-a28c-ccdf6bd4f1ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6643 93.98 0)
+			(at 136.6543 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4120,7 +2657,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 147.32 76.2 180)
+		(at 203.2 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4130,7 +2667,7 @@
 		)
 		(uuid "395fafde-a544-479a-b6c5-feac49e0e3c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1943 76.2 0)
+			(at 195.0743 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +2681,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 147.32 46.99 180)
+		(at 203.2 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4154,7 +2691,31 @@
 		)
 		(uuid "6f39f92f-f4e3-4615-9af4-68d33231264a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4643 46.99 0)
+			(at 196.3443 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 101.6 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89e3b6aa-3ea1-4a8f-b9d0-3b793d0e23a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.4743 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,31 +2729,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 149.86 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88f59d8e-6163-49f8-974b-172ed9d64c4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7157 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 116.84 83.82 0)
+		(at 172.72 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4202,7 +2739,7 @@
 		)
 		(uuid "8a73d6b7-677a-4079-ab10-7cc620377bf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.6957 83.82 0)
+			(at 179.5757 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,7 +2753,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 82.55 66.04 0)
+		(at 138.43 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4226,7 +2763,7 @@
 		)
 		(uuid "8b5be3ab-4d5c-4957-9655-a9dffe29debf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6757 66.04 0)
+			(at 146.5557 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,31 +2777,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 116.84 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96c77200-c578-4d4b-9450-7f910a186bd9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.6957 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 147.32 83.82 180)
+		(at 203.2 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4274,7 +2787,7 @@
 		)
 		(uuid "a6bea82f-0167-413a-a104-039b67e3b2c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4643 83.82 0)
+			(at 196.3443 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +2801,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 34.29 128.27 0)
+		(at 90.17 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4298,7 +2811,7 @@
 		)
 		(uuid "abb8aedf-29fd-4710-93e5-ed2b33fc159e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.4037 128.27 0)
+			(at 94.2837 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,31 +2825,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 113.03 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac0f23f1-faf0-4560-b73a-69c7c443a85c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.9043 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "V_Ref"
-		(shape input)
-		(at 45.72 132.08 180)
+		(at 101.6 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4346,7 +2835,7 @@
 		)
 		(uuid "afd1e19e-c467-4599-98bf-cd209b37745d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5943 132.08 0)
+			(at 93.4743 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,81 +2847,9 @@
 			)
 		)
 	)
-	(global_label "V_Ref"
-		(shape input)
-		(at 77.47 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4fea15f-840a-43bc-9297-cd3106b46740")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5957 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
-		(at 146.05 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd6d2550-e664-4659-9bc9-aa40223d6d0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.9057 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V_Ref"
-		(shape input)
-		(at 114.3 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d86143a0-f8cc-4c37-807b-79cfe5c8334d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.4257 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 116.84 106.68 0)
+		(at 163.83 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4442,7 +2859,7 @@
 		)
 		(uuid "da0520f8-98e8-497c-bef9-5ed4c2edfd02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.6957 106.68 0)
+			(at 170.6857 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4456,7 +2873,55 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 92.71 72.39 180)
+		(at 140.97 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec09c359-c636-4b8f-a4c8-86a4350e2630")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.0957 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 137.16 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edad93df-42e7-40ec-8fcf-484729463e7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.2857 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_Ref"
+		(shape input)
+		(at 148.59 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4466,7 +2931,7 @@
 		)
 		(uuid "edfff73a-f507-4f0b-8c8c-1ede3f521958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.5843 72.39 0)
+			(at 140.4643 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +2945,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 144.78 41.91 180)
+		(at 200.66 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4490,7 +2955,7 @@
 		)
 		(uuid "f3c7c313-74f5-4203-aa0c-225fa66d3a61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6543 41.91 0)
+			(at 192.5343 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,20 +2967,33 @@
 			)
 		)
 	)
-	(hierarchical_label "Injection_Aux_Fault"
+	(global_label "GND"
 		(shape input)
-		(at 146.05 154.94 0)
+		(at 100.33 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5e75c066-8c3c-463a-91ce-a32d4fe26b3a")
+		(uuid "f932e3e1-62e2-4532-8e87-23a105a3fd8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.4743 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "Veh_Aux"
 		(shape input)
-		(at 39.37 30.48 180)
+		(at 147.32 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4526,7 +3004,7 @@
 	)
 	(hierarchical_label "Ouvert_Aux_Vehic"
 		(shape input)
-		(at 113.03 71.12 0)
+		(at 168.91 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4537,7 +3015,7 @@
 	)
 	(hierarchical_label "Court_Aux_Vehic"
 		(shape input)
-		(at 113.03 95.25 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4546,111 +3024,9 @@
 		)
 		(uuid "c4f729ca-ec59-4263-a6e6-8d0e48b87a68")
 	)
-	(hierarchical_label "Veh_Aux"
-		(shape input)
-		(at 82.55 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2463896-5390-4854-840a-b7d3dab5f042")
-	)
-	(hierarchical_label "Injection_Aux_Fault"
-		(shape input)
-		(at 68.58 45.085 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa55058e-3987-44bf-b4de-06d9ac2f9a31")
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:10k")
-		(at 40.64 118.11 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e2c26ac-17a8-400f-a0f2-fcd597affc4e")
-		(property "Reference" "R245"
-			(at 40.64 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 40.64 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.529 113.792 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.148 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 40.64 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c1308de9-fcdb-4c8d-8179-82d20501f2d9")
-		)
-		(pin "1"
-			(uuid "3d31943c-f74b-4633-975b-8e3af0c38f5a")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "R245")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 96.52 72.39 0)
+		(at 152.4 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4660,7 +3036,7 @@
 		(dnp no)
 		(uuid "27718503-4f47-4c32-a084-2969150ebb9b")
 		(property "Reference" "R161"
-			(at 96.52 66.04 0)
+			(at 152.4 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +3046,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 96.52 68.58 0)
+			(at 152.4 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4680,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 97.409 76.708 0)
+			(at 153.289 80.518 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +3067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.028 72.39 0)
+			(at 152.908 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +3078,7 @@
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 96.52 72.39 0)
+			(at 152.4 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,8 +3089,7 @@
 			)
 		)
 		(property "Etiquette" "R_Aux_LED_Ouvert"
-			(at 96.52 70.358 0)
-			(hide yes)
+			(at 152.4 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4740,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 64.77 30.48 0)
+		(at 171.45 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4751,7 +3126,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c4699fb-63f4-4648-b099-43678b6263bf")
 		(property "Reference" "R163"
-			(at 64.77 24.13 0)
+			(at 171.45 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4761,7 +3136,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 64.77 26.67 0)
+			(at 171.45 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +3146,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 65.659 34.798 0)
+			(at 172.339 52.578 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.278 30.48 0)
+			(at 171.958 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +3168,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 64.77 30.48 0)
+			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,102 +3194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
-		(at 109.22 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "42d7dae7-7212-4687-ba78-d039a336da44")
-		(property "Reference" "Q67"
-			(at 115.57 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 115.57 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
-			(at 114.3 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
-			(at 109.22 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
-			(at 109.22 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Etiquette" "T_Surch_Aux"
-			(at 119.888 170.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a0ea8dc-437a-48bd-a2af-e47b83b32f83")
-		)
-		(pin "3"
-			(uuid "b9908023-e1f1-4235-9d26-9cc6740fad2b")
-		)
-		(pin "1"
-			(uuid "090f884d-3555-48aa-a4d0-ab58fd44f46a")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "Q67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 71.12 100.33 0)
+		(at 127 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4924,7 +3205,7 @@
 		(dnp no)
 		(uuid "5b67a13d-607e-48ee-ab20-f15e63cbb428")
 		(property "Reference" "R159"
-			(at 71.12 93.98 0)
+			(at 127 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4934,7 +3215,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 71.12 96.52 0)
+			(at 127 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4944,7 +3225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.009 104.648 0)
+			(at 127.889 108.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,7 +3236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.628 100.33 0)
+			(at 127.508 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +3247,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ, 1/4W Resistor"
-			(at 71.12 100.33 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +3258,7 @@
 			)
 		)
 		(property "Etiquette" "R_Aux_PU_C"
-			(at 71.12 98.044 0)
+			(at 127 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5002,98 +3283,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:100k")
-		(at 93.98 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b925386-f07d-4bb4-99e7-21c0a497b7db")
-		(property "Reference" "R244"
-			(at 93.98 185.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R330 Ohm"
-			(at 93.98 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 94.869 194.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.488 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 93.98 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Etiquette" "R_Led_Aux"
-			(at 93.98 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99578682-6992-4a7e-8ade-8eb0c6085411")
-		)
-		(pin "2"
-			(uuid "bf838051-b231-4b69-91d0-ecd6ab6e9a14")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "R244")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")
-		(at 151.13 60.96 0)
+		(at 207.01 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5103,7 +3294,7 @@
 		(dnp no)
 		(uuid "62eaf34e-bd8d-4763-bbe4-63923c20c567")
 		(property "Reference" "R165"
-			(at 148.59 60.3249 0)
+			(at 204.47 64.1349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5114,7 +3305,7 @@
 			)
 		)
 		(property "Value" "Potentiometer"
-			(at 148.59 60.96 90)
+			(at 204.47 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,8 +3315,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
-			(at 151.13 60.96 0)
+		(property "Footprint" ""
+			(at 207.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +3327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 60.96 0)
+			(at 207.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,7 +3338,7 @@
 			)
 		)
 		(property "Description" "Potentiometer for Simulation"
-			(at 151.13 74.93 0)
+			(at 207.01 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +3349,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 151.13 81.026 0)
+			(at 207.01 84.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5169,7 +3360,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 151.13 79.248 0)
+			(at 207.01 83.058 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +3371,7 @@
 			)
 		)
 		(property "Sim.Params" "r=1k pos=0.4"
-			(at 148.59 62.23 0)
+			(at 204.47 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +3383,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 151.13 60.96 0)
+			(at 207.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +3394,7 @@
 			)
 		)
 		(property "Field9" ""
-			(at 151.13 60.96 0)
+			(at 207.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +3405,7 @@
 			)
 		)
 		(property "Etiquette" "Pot_Aux_Ouvert"
-			(at 151.13 54.61 0)
+			(at 207.01 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,87 +3434,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Resistor_5W")
-		(at 90.17 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66f1fe87-85ac-481a-a5d2-ea49905661ca")
-		(property "Reference" "R155"
-			(at 90.17 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4,7 Ohm - 50W"
-			(at 90.17 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 91.059 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.678 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50W Resistor"
-			(at 90.17 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "02267dd4-9713-4c87-ab27-66fe3d862a51")
-		)
-		(pin "1"
-			(uuid "db3b6289-e26a-40d1-ab47-1007bf137bf8")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "R155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Devices:Resistor_5W")
-		(at 30.48 128.27 0)
+		(at 86.36 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5334,7 +3445,7 @@
 		(fields_autoplaced yes)
 		(uuid "757c1ebb-3d46-4d6a-8bb7-a353434bd4f8")
 		(property "Reference" "R156"
-			(at 30.48 121.92 0)
+			(at 86.36 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5344,7 +3455,7 @@
 			)
 		)
 		(property "Value" ".05R Shunt"
-			(at 30.48 124.46 0)
+			(at 86.36 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5354,7 +3465,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
-			(at 31.369 132.588 0)
+			(at 87.249 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +3476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.988 128.27 0)
+			(at 86.868 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5376,7 +3487,7 @@
 			)
 		)
 		(property "Description" "5W Resistor"
-			(at 30.48 128.27 0)
+			(at 86.36 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5402,98 +3513,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Devices:Capacitor_NP")
-		(at 130.81 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86758d0e-098f-45da-b4e8-63e45971e9c8")
-		(property "Reference" "C9"
-			(at 130.556 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7µF 63V"
-			(at 130.556 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor 4.7µF 63V"
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MKS4C044704D00KSSD 10%"
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "edaff4a7-8a9d-4e2c-975d-83e7913941e0")
-		)
-		(pin "1"
-			(uuid "73cd83b2-770b-4125-9a54-cf4c82fb46c9")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM339")
-		(at 54.61 100.33 0)
+		(at 110.49 104.14 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5504,7 +3525,7 @@
 		(fields_autoplaced yes)
 		(uuid "86e31659-41bf-4f50-9e71-60231a512a41")
 		(property "Reference" "U11"
-			(at 54.61 90.17 0)
+			(at 110.49 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5514,7 +3535,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 54.61 92.71 0)
+			(at 110.49 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5524,7 +3545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 97.79 0)
+			(at 109.22 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +3556,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 55.88 95.25 0)
+			(at 111.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +3567,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 54.61 100.33 0)
+			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,9 +3629,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_1.8mm_Amber")
-		(at 105.41 190.5 0)
-		(mirror y)
+		(lib_id "PCM_SL_Devices:Resistor_5W")
+		(at 69.85 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5618,9 +3638,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "88ac84bb-f557-4071-a53e-96f70d7d57b7")
-		(property "Reference" "LED1"
-			(at 105.41 185.674 0)
+		(fields_autoplaced yes)
+		(uuid "8c03e7b1-fb83-427f-a372-852ca5b25000")
+		(property "Reference" "R155"
+			(at 69.85 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5629,9 +3650,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_1.8mm_Amber"
-			(at 105.41 185.42 0)
-			(hide yes)
+		(property "Value" "3 Ohm - 5W"
+			(at 69.85 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5640,8 +3660,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D1.8mm_W3.3mm_H2.4mm"
-			(at 105.41 190.5 0)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+			(at 70.739 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +3672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 190.5 0)
+			(at 70.358 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,8 +3682,8 @@
 				)
 			)
 		)
-		(property "Description" "Amber LED, 1.8mm THT, Alternate KiCad Library"
-			(at 105.41 190.5 0)
+		(property "Description" "5W Resistor"
+			(at 69.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,17 +3692,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "cb5e34b8-bd68-4f1b-b5f0-8c7fd06211a3")
 		)
 		(pin "2"
-			(uuid "763e3393-f297-4aac-9dd4-bd6ef3981ba4")
+			(uuid "82326788-fab3-4a03-83b7-3e2e4aa5d85d")
+		)
+		(pin "1"
+			(uuid "6aae630c-b29f-4022-8896-d4b210198741")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "LED1")
+					(reference "R155")
 					(unit 1)
 				)
 			)
@@ -5690,7 +3710,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 54.61 83.82 0)
+		(at 110.49 87.63 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5701,7 +3721,7 @@
 		(fields_autoplaced yes)
 		(uuid "967f289e-c93e-4d9b-a5fd-db3b48af66dd")
 		(property "Reference" "U11"
-			(at 54.61 73.66 0)
+			(at 110.49 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5711,7 +3731,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 54.61 76.2 0)
+			(at 110.49 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5721,7 +3741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 81.28 0)
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 55.88 78.74 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +3763,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 54.61 83.82 0)
+			(at 110.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +3826,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 101.6 93.98 0)
+		(at 148.59 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5816,7 +3836,7 @@
 		(dnp no)
 		(uuid "992c04bd-58bc-46bc-a8fd-12182c4ef39c")
 		(property "Reference" "R160"
-			(at 101.6 89.154 0)
+			(at 148.59 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5826,7 +3846,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 101.6 91.44 0)
+			(at 148.59 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5836,7 +3856,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 102.489 98.298 0)
+			(at 149.479 102.108 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +3867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.108 93.98 0)
+			(at 149.098 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,7 +3878,7 @@
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 101.6 93.98 0)
+			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,8 +3889,7 @@
 			)
 		)
 		(property "Etiquette" "R_Aux_LED_Court"
-			(at 101.6 91.948 0)
-			(hide yes)
+			(at 148.59 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5896,7 +3915,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Optocoupler_AKL:PC817")
-		(at 109.22 100.33 0)
+		(at 156.21 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5906,7 +3925,7 @@
 		(dnp no)
 		(uuid "993f1f3c-adf3-4e9e-8e96-fc948d3c52f3")
 		(property "Reference" "OC9"
-			(at 116.84 99.0599 0)
+			(at 163.83 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5917,7 +3936,7 @@
 			)
 		)
 		(property "Value" "PC817"
-			(at 116.84 101.5999 0)
+			(at 163.83 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5928,7 +3947,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads"
-			(at 115.57 99.06 0)
+			(at 162.56 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +3960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/7534c9f89aa4b1eba4ec90182e378328/PC817_2_3_47.pdf"
-			(at 109.22 100.33 0)
+			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +3972,7 @@
 			)
 		)
 		(property "Description" "DIP-4 Optocoupler, Transistor output, 5kV, 4us, Alternate KiCAD Library"
-			(at 109.22 100.33 0)
+			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5964,8 +3983,7 @@
 			)
 		)
 		(property "Etiquette" "Opto_Aux"
-			(at 119.634 103.632 0)
-			(hide yes)
+			(at 166.624 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5997,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 71.12 83.82 0)
+		(at 127 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6007,7 +4025,7 @@
 		(dnp no)
 		(uuid "9cb795b8-4472-4c23-9bbd-8b4d6a13bdf4")
 		(property "Reference" "R158"
-			(at 71.12 77.47 0)
+			(at 127 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6016,8 +4034,8 @@
 				)
 			)
 		)
-		(property "Value" "330kΩ"
-			(at 71.12 80.01 0)
+		(property "Value" "4.7k"
+			(at 127 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6027,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.009 88.138 0)
+			(at 127.889 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.628 83.82 0)
+			(at 127.508 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +4067,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ, 1/4W Resistor"
-			(at 71.12 83.82 0)
+			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,8 +4078,7 @@
 			)
 		)
 		(property "Etiquette" "R_Aux_PU_B"
-			(at 71.12 81.788 0)
-			(hide yes)
+			(at 127 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6086,177 +4103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST_Temperature_NC")
-		(at 139.7 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1fa50f8-f6c7-4107-9705-b961d08c3a5d")
-		(property "Reference" "SW10"
-			(at 139.7 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TH_Aux"
-			(at 139.7 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent, normally closed"
-			(at 138.43 151.892 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3fddf5ce-a7d2-4d8c-a7bb-3678fe558532")
-		)
-		(pin "1"
-			(uuid "273e3ac8-e489-467c-8702-f0c234023e48")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:100k")
-		(at 121.92 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6e0fe19-d476-4028-9b9d-54512e728e5d")
-		(property "Reference" "R243"
-			(at 121.92 140.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R100kΩ"
-			(at 121.92 142.494 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 122.809 151.638 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 122.428 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 121.92 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Etiquette" "R_Surch_Aux"
-			(at 121.92 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "586a5a60-1999-40a9-adc5-c0d9d7d6c286")
-		)
-		(pin "2"
-			(uuid "265309ea-580a-4523-919e-bfc0ad627780")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "R243")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")
-		(at 151.13 43.18 0)
+		(at 207.01 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6266,7 +4114,7 @@
 		(dnp no)
 		(uuid "ba706180-e03e-4cdb-8021-a9e62125afe8")
 		(property "Reference" "R164"
-			(at 149.098 43.942 0)
+			(at 204.47 46.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6277,7 +4125,7 @@
 			)
 		)
 		(property "Value" "Potentiometer"
-			(at 148.59 43.18 90)
+			(at 204.47 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,8 +4135,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
-			(at 151.13 43.18 0)
+		(property "Footprint" ""
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +4147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 43.18 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +4158,7 @@
 			)
 		)
 		(property "Description" "Potentiometer for Simulation"
-			(at 151.13 57.15 0)
+			(at 207.01 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6321,7 +4169,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 151.13 63.246 0)
+			(at 207.01 67.056 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,7 +4180,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 151.13 61.468 0)
+			(at 207.01 65.278 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +4191,7 @@
 			)
 		)
 		(property "Sim.Params" "r=1k pos=0.4"
-			(at 148.59 44.45 0)
+			(at 204.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6355,7 +4203,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 151.13 43.18 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +4214,7 @@
 			)
 		)
 		(property "Etiquette" "Pot_Aux_Inject"
-			(at 150.622 36.83 0)
+			(at 206.502 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6376,7 +4224,7 @@
 			)
 		)
 		(property "Field10" ""
-			(at 151.13 43.18 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +4254,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:IRLZ44N")
-		(at 93.98 50.8 0)
+		(at 149.86 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6416,7 +4264,7 @@
 		(dnp no)
 		(uuid "d731831b-0d8d-482a-8cc5-0493807ee72f")
 		(property "Reference" "Q43"
-			(at 100.33 49.5299 0)
+			(at 156.21 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6427,7 +4275,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 100.33 52.0699 0)
+			(at 156.21 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6438,7 +4286,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
-			(at 99.06 48.26 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,7 +4297,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/71cf1899624764088671ce6de5d15eb4/irlz44n.pdf"
-			(at 93.98 50.8 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,7 +4308,7 @@
 			)
 		)
 		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 55V, 47A, 110W, Alternate KiCAD Library"
-			(at 93.98 50.8 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6471,7 +4319,7 @@
 			)
 		)
 		(property "Etiquette" "Q_Aux_Inject"
-			(at 104.394 54.102 0)
+			(at 160.274 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6500,7 +4348,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")
-		(at 151.13 80.01 0)
+		(at 207.01 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6510,7 +4358,7 @@
 		(dnp no)
 		(uuid "d82515f1-58c4-4ae1-bc85-610098c2ae55")
 		(property "Reference" "R166"
-			(at 148.59 79.3749 0)
+			(at 204.47 83.1849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6521,7 +4369,7 @@
 			)
 		)
 		(property "Value" "Potentiometer"
-			(at 148.59 80.01 90)
+			(at 204.47 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,8 +4379,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
-			(at 151.13 80.01 0)
+		(property "Footprint" ""
+			(at 207.01 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,7 +4391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 80.01 0)
+			(at 207.01 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +4402,7 @@
 			)
 		)
 		(property "Description" "Potentiometer for Simulation"
-			(at 151.13 93.98 0)
+			(at 207.01 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,7 +4413,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 151.13 100.076 0)
+			(at 207.01 103.886 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +4424,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 151.13 98.298 0)
+			(at 207.01 102.108 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6587,7 +4435,7 @@
 			)
 		)
 		(property "Sim.Params" "r=1k pos=0.4"
-			(at 148.59 81.28 0)
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6599,7 +4447,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 151.13 80.01 0)
+			(at 207.01 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +4458,7 @@
 			)
 		)
 		(property "Etiquette" "Pot_Aux_Court"
-			(at 151.384 73.914 0)
+			(at 207.264 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6639,7 +4487,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 54.61 115.57 0)
+		(at 110.49 119.38 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6650,7 +4498,7 @@
 		(fields_autoplaced yes)
 		(uuid "db0ea149-b447-4c5a-b6af-f51bb563ae60")
 		(property "Reference" "U11"
-			(at 54.61 105.41 0)
+			(at 110.49 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,7 +4508,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 54.61 107.95 0)
+			(at 110.49 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6670,7 +4518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 113.03 0)
+			(at 109.22 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 55.88 110.49 0)
+			(at 111.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,7 +4540,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 54.61 115.57 0)
+			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6754,88 +4602,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:10k")
-		(at 68.58 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcb1a84e-41b3-4fbb-b485-db0b3736208c")
-		(property "Reference" "R246"
-			(at 68.58 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 68.58 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 69.469 128.778 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.088 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 68.58 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21d5bbf6-0c55-4c66-b4ca-a593e6ded3aa")
-		)
-		(pin "2"
-			(uuid "339b7c65-64bf-4d1b-b74a-5d2676220e05")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "R246")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM339")
-		(at 53.34 129.54 90)
+		(at 109.22 133.35 90)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6845,7 +4613,7 @@
 		(dnp no)
 		(uuid "e47ba0e2-a2f1-4740-a0b0-930f1b139d42")
 		(property "Reference" "U11"
-			(at 52.0699 130.81 0)
+			(at 107.9499 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6856,7 +4624,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 54.6099 130.81 0)
+			(at 110.4899 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6867,7 +4635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 130.81 0)
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6878,7 +4646,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 48.26 128.27 0)
+			(at 104.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6889,7 +4657,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 53.34 129.54 0)
+			(at 109.22 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6952,7 +4720,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Optocoupler_AKL:PC817")
-		(at 109.22 78.74 0)
+		(at 165.1 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6962,7 +4730,7 @@
 		(dnp no)
 		(uuid "eb383534-4d16-4995-9b0c-9e9088afaa98")
 		(property "Reference" "OC10"
-			(at 116.84 77.2159 0)
+			(at 172.72 81.0259 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6973,7 +4741,7 @@
 			)
 		)
 		(property "Value" "PC817"
-			(at 116.84 79.7559 0)
+			(at 172.72 83.5659 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6984,7 +4752,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads"
-			(at 115.57 77.47 0)
+			(at 171.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +4765,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/7534c9f89aa4b1eba4ec90182e378328/PC817_2_3_47.pdf"
-			(at 109.22 78.74 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7009,7 +4777,7 @@
 			)
 		)
 		(property "Description" "DIP-4 Optocoupler, Transistor output, 5kV, 4us, Alternate KiCAD Library"
-			(at 109.22 78.74 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7020,8 +4788,7 @@
 			)
 		)
 		(property "Etiquette" "Opto_Aux"
-			(at 119.888 81.788 0)
-			(hide yes)
+			(at 175.768 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7053,7 +4820,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 71.12 66.04 0)
+		(at 127 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7063,7 +4830,7 @@
 		(dnp no)
 		(uuid "fa862f5b-b9f2-47dc-be17-def9b94df4a7")
 		(property "Reference" "R157"
-			(at 71.12 59.69 0)
+			(at 127 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7073,7 +4840,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 71.12 62.23 0)
+			(at 127 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7083,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.009 70.358 0)
+			(at 127.889 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +4861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.628 66.04 0)
+			(at 127.508 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7105,7 +4872,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ, 1/4W Resistor"
-			(at 71.12 66.04 0)
+			(at 127 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,7 +4883,7 @@
 			)
 		)
 		(property "Etiquette" "R_Aux_PU_A"
-			(at 71.12 63.5 0)
+			(at 127 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7142,7 +4909,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:100k")
-		(at 52.07 30.48 0)
+		(at 160.02 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7153,7 +4920,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcefae70-7186-4c0a-a6a4-a1503884607d")
 		(property "Reference" "R162"
-			(at 52.07 24.13 0)
+			(at 160.02 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7163,7 +4930,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 52.07 26.67 0)
+			(at 160.02 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7173,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 52.959 34.798 0)
+			(at 160.909 52.578 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +4951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.578 30.48 0)
+			(at 160.528 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +4962,7 @@
 			)
 		)
 		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 52.07 30.48 0)
+			(at 160.02 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +4989,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 54.61 66.04 0)
+		(at 110.49 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7233,7 +5000,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd4135a8-eafe-479d-9616-63757578ee00")
 		(property "Reference" "U11"
-			(at 54.61 55.88 0)
+			(at 110.49 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7243,7 +5010,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 54.61 58.42 0)
+			(at 110.49 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7253,7 +5020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 63.5 0)
+			(at 109.22 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +5031,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 55.88 60.96 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 54.61 66.04 0)
+			(at 110.49 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7331,100 +5098,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
-		(at 139.7 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fda709f6-4585-4bee-aa04-f812ba083d87")
-		(property "Reference" "Q66"
-			(at 146.05 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 146.05 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
-			(at 144.78 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
-			(at 139.7 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
-			(at 139.7 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Etiquette" "T_Surch_Aux"
-			(at 150.368 167.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4ad1518c-b841-439d-8310-0512e220dc8d")
-		)
-		(pin "3"
-			(uuid "6f711d0f-8c1e-4597-844f-eaf70d1057d2")
-		)
-		(pin "1"
-			(uuid "fdad144f-6e57-4adc-b630-8dea75710bd5")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/f56287af-99ab-446e-8dde-0a4522148d74/8bf9eb37-7b7a-46ec-8575-d84af1a08848"
-					(reference "Q66")
 					(unit 1)
 				)
 			)

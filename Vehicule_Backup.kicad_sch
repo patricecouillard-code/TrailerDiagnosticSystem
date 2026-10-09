@@ -1920,12 +1920,6 @@
 		(uuid "7571efc2-d89a-4cd9-b7f4-3184c8954344")
 	)
 	(junction
-		(at 111.125 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e245459-0191-4446-8583-0c1658c2a518")
-	)
-	(junction
 		(at 130.81 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1980,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "099c0dc3-8a4b-44d3-9f8d-6320594bd75b")
-	)
-	(wire
-		(pts
-			(xy 111.125 59.69) (xy 111.125 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c33525-3b58-42c2-bd54-c4a0d436744c")
 	)
 	(wire
 		(pts
@@ -2133,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 111.125 73.66)
+			(xy 99.06 73.66) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2160,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "5d5826be-0dad-4368-844c-9073ccc3361a")
-	)
-	(wire
-		(pts
-			(xy 104.14 59.69) (xy 111.125 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6ca35b-f3ed-4f0c-b0fe-13f6e0e55f56")
 	)
 	(wire
 		(pts
@@ -2310,16 +2284,6 @@
 			(type default)
 		)
 		(uuid "b0c65c9f-8625-4d6e-a9a7-ff7cbd4749ae")
-	)
-	(wire
-		(pts
-			(xy 111.125 73.66) (xy 124.46 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ac22a6-3027-407b-a69e-94c658fa00db")
 	)
 	(wire
 		(pts
@@ -2510,6 +2474,16 @@
 			(justify left bottom)
 		)
 		(uuid "1e56c4fa-a296-43fb-bb9f-dad962c6b016")
+	)
+	(label "Veh_Backup_Inject_Cmd"
+		(at 99.06 73.66 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f93b667-fc51-4e04-acb5-a4e9d8d5ea74")
 	)
 	(label "Seuil_Court_Backup"
 		(at 81.28 124.46 180)
@@ -3050,17 +3024,6 @@
 		)
 		(uuid "942fc4a9-5ebb-4d16-bc47-dd9a1ce5db23")
 	)
-	(hierarchical_label "Injection_Backup_Fault"
-		(shape input)
-		(at 104.14 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be330841-89c6-45ce-a3e7-5705b861a044")
-	)
 	(symbol
 		(lib_id "Comparator:LM339")
 		(at 88.9 105.41 0)
@@ -3210,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" ""
 			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3527,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2 Ohm Shunt"
+		(property "Value" ".05R Shunt"
 			(at 64.77 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" ""
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4446,7 +4409,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm - 25W"
+		(property "Value" "3 Ohm - 5W"
 			(at 48.26 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4456,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 49.149 154.178 0)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Description" "25W Resistor"
+		(property "Description" "5W Resistor"
 			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4943,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TRIM_3296W1103LF:TRIM_3296W1103LF"
+		(property "Footprint" ""
 			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)

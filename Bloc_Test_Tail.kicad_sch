@@ -2276,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 115.57) (xy 123.19 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8780998b-63ff-44db-ac51-dd5831dec98e")
-	)
-	(wire
-		(pts
 			(xy 81.28 116.84) (xy 76.2 116.84)
 		)
 		(stroke
@@ -2453,16 +2443,6 @@
 			(type default)
 		)
 		(uuid "b50aee62-089e-44ae-8133-9c9c87982ec3")
-	)
-	(wire
-		(pts
-			(xy 106.68 115.57) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6777363-a46d-4361-aef5-cf085e4c9d98")
 	)
 	(wire
 		(pts
@@ -2823,16 +2803,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fc3ab33-a6b9-4152-a129-741c15ae5b31")
-	)
-	(label "Court_T_Actif"
-		(at 106.68 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4038c9d4-c88e-4bd7-88f8-7fc3f801c480")
 	)
 	(label "Fault_Actif"
 		(at 220.98 125.73 0)
@@ -3628,17 +3598,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "Btn_Tail_Etat"
-		(shape input)
-		(at 123.19 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07b8719e-a11e-4434-aaff-537cb120b269")
 	)
 	(hierarchical_label "Court_Tail_Vehic"
 		(shape input)
@@ -6103,85 +6062,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/891824ea-a79b-4938-b55f-b811c31e662c/16a46d25-c71f-43e3-999b-a92ed112d481"
 					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 114.3 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bdab88fc-3ea6-4c73-b330-95ede60e1fd5")
-		(property "Reference" "D171"
-			(at 114.3 110.236 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 114.3 112.522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 114.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 114.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 114.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9368235a-541b-4166-90e6-1477ed5a6c97")
-		)
-		(pin "1"
-			(uuid "c8e4ec9a-26e3-4af8-8555-3914416a7f02")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/891824ea-a79b-4938-b55f-b811c31e662c/16a46d25-c71f-43e3-999b-a92ed112d481"
-					(reference "D171")
 					(unit 1)
 				)
 			)
