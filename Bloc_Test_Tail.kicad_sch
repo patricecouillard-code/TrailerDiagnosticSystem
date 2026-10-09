@@ -2276,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 115.57 123.19)
+			(xy 118.11 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 102.87 123.19)
+			(xy 106.68 115.57) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2774,16 +2774,6 @@
 		)
 		(uuid "137af7e1-16b6-4d5f-919f-34bb300d8d87")
 	)
-	(label "Not_Btn_Tail"
-		(at 115.57 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22022271-ab51-47c2-a5f3-74b6290072c6")
-	)
 	(label "Ouvert_Tail"
 		(at 153.67 25.4 180)
 		(effects
@@ -2835,7 +2825,7 @@
 		(uuid "3fc3ab33-a6b9-4152-a129-741c15ae5b31")
 	)
 	(label "Court_T_Actif"
-		(at 99.06 123.19 180)
+		(at 106.68 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,6 +3628,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "Btn_Tail_Etat"
+		(shape input)
+		(at 123.19 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07b8719e-a11e-4434-aaff-537cb120b269")
 	)
 	(hierarchical_label "Court_Tail_Vehic"
 		(shape input)
@@ -6109,7 +6110,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 106.68 123.19 0)
+		(at 114.3 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6119,7 +6120,7 @@
 		(dnp no)
 		(uuid "bdab88fc-3ea6-4c73-b330-95ede60e1fd5")
 		(property "Reference" "D171"
-			(at 106.68 117.856 0)
+			(at 114.3 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6129,7 +6130,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 106.68 120.142 0)
+			(at 114.3 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6139,7 +6140,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 106.68 123.19 0)
+			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6151,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 106.68 123.19 0)
+			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6162,7 @@
 			)
 		)
 		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 106.68 123.19 0)
+			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
