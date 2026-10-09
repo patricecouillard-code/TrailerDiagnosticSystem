@@ -2128,6 +2128,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 170.18) (xy 43.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d63378-3344-471e-ba8b-f451bca73e4a")
+	)
+	(wire
+		(pts
 			(xy 229.87 34.29) (xy 229.87 45.72)
 		)
 		(stroke
@@ -2678,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 104.14) (xy 55.88 104.14)
+			(xy 35.56 104.14) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2838,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 168.91) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb390e17-7253-4bb1-a45f-bd98ae9137f1")
+	)
+	(wire
+		(pts
 			(xy 237.49 34.29) (xy 242.57 34.29)
 		)
 		(stroke
@@ -2947,7 +2967,7 @@
 		(uuid "3fa0a6c1-0cc5-4f5b-aaf2-62bb40df0953")
 	)
 	(label "Vert_Enable_Right"
-		(at 99.06 168.91 0)
+		(at 101.6 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2997,7 +3017,7 @@
 		(uuid "613ba8ce-bd18-4e35-b549-b9021fb47be3")
 	)
 	(label "Ouvert_Ou_Bleu_Right"
-		(at 40.64 170.18 0)
+		(at 43.18 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3187,7 +3207,7 @@
 		(uuid "f5888596-fb9a-49a7-903e-264be43263f7")
 	)
 	(label "Ouvert_Right"
-		(at 34.29 104.14 180)
+		(at 35.56 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)

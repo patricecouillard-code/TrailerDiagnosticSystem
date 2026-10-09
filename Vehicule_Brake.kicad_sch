@@ -2694,16 +2694,6 @@
 		)
 		(uuid "212328a3-a621-4b19-97c9-59a55298c56b")
 	)
-	(text "Brake_Vehic_Shunt_Haut"
-		(exclude_from_sim no)
-		(at 45.72 90.17 90)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "f2e650fe-cf9e-453c-8340-b5399fe75b65")
-	)
 	(junction
 		(at 90.17 54.61)
 		(diameter 0)
@@ -2717,28 +2707,16 @@
 		(uuid "1c37c219-8ee9-47a1-a247-761fc25e15da")
 	)
 	(junction
-		(at 48.26 116.84)
+		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "266438c3-d289-402d-83c1-ef56c1b1fe92")
+		(uuid "453867b5-2766-4a59-9b6d-95ef081d9a3c")
 	)
 	(junction
-		(at 110.49 72.39)
+		(at 48.26 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40c594c1-70e5-43c2-a214-560fde6ca0b2")
-	)
-	(junction
-		(at 121.92 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e7e326-74d4-4c80-928b-9f01ca9ef77b")
-	)
-	(junction
-		(at 106.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77adc4d1-c173-4f03-a247-c70a84d3f76e")
+		(uuid "6c452c10-7926-4f6e-9529-90a46617c585")
 	)
 	(junction
 		(at 99.695 40.64)
@@ -2747,10 +2725,16 @@
 		(uuid "d51be331-b4e2-4d02-b902-10cefd0daa30")
 	)
 	(junction
-		(at 135.89 33.02)
+		(at 135.89 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9f8137c-c538-417c-b536-b0b99ad4e8a9")
+	)
+	(junction
+		(at 87.63 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e83f4f78-7f32-476e-834d-e78b1c9c3244")
 	)
 	(junction
 		(at 123.19 147.32)
@@ -2774,23 +2758,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 121.92 33.02)
+			(xy 116.84 27.94) (xy 125.73 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07e267c9-f19a-4a5c-a151-69e7b4e9a2f2")
-	)
-	(wire
-		(pts
-			(xy 106.68 93.98) (xy 100.33 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dae3f6-f2ad-44cf-bc93-352f0d1f1c07")
 	)
 	(wire
 		(pts
@@ -2821,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "0ff2fed1-e509-4c3e-bae8-dfb22266edc3")
-	)
-	(wire
-		(pts
-			(xy 110.49 72.39) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141413ad-3c46-4be8-b31e-f3fc4e7de499")
 	)
 	(wire
 		(pts
@@ -2874,6 +2838,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7e5ba3-2786-4a40-ba0f-602e5e7bc41f")
+	)
+	(wire
+		(pts
+			(xy 48.26 86.36) (xy 48.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d088a79-00fd-454e-baa0-cc95065aa08b")
+	)
+	(wire
+		(pts
 			(xy 92.71 88.9) (xy 87.63 88.9)
 		)
 		(stroke
@@ -2884,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 138.43 72.39)
+			(xy 147.32 72.39) (xy 138.43 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2914,33 +2898,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 100.33 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d1bffe4-e5d1-4fb9-9890-bd428f51218f")
-	)
-	(wire
-		(pts
-			(xy 31.75 116.84) (xy 35.56 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3587bf29-1d68-4d3d-a62e-d09ddc932f4a")
-	)
-	(wire
-		(pts
-			(xy 133.35 33.02) (xy 135.89 33.02)
+			(xy 133.35 27.94) (xy 135.89 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35b1fad6-2650-4193-828f-de2ec8c0a52d")
+	)
+	(wire
+		(pts
+			(xy 72.39 135.89) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376bcc32-429d-45eb-a2d5-17da6586be37")
 	)
 	(wire
 		(pts
@@ -2961,16 +2935,6 @@
 			(type default)
 		)
 		(uuid "3b3b3ecb-94a5-47a1-bd1e-62d5d67d3c0f")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe923aa-c62b-4351-9888-82f43ca095b4")
 	)
 	(wire
 		(pts
@@ -3004,26 +2968,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 86.36) (xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487b3e1e-e4ee-4939-81d0-470dcea4f3ab")
-	)
-	(wire
-		(pts
-			(xy 121.92 33.02) (xy 121.92 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49570706-1bf2-4605-b8b4-f0158689e60a")
-	)
-	(wire
-		(pts
 			(xy 152.4 153.67) (xy 156.21 153.67)
 		)
 		(stroke
@@ -3051,6 +2995,16 @@
 			(type default)
 		)
 		(uuid "52d2f319-6084-4013-aa26-439e4ee084c8")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553a25bf-0ff8-4b21-a755-32d2129281ed")
 	)
 	(wire
 		(pts
@@ -3094,7 +3048,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 30.48) (xy 173.99 30.48)
+			(xy 69.85 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c01f5a3-c595-416b-a092-c39b8ddb33ba")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb7c2c6-dc47-4ec6-878c-6f2b703db1ad")
+	)
+	(wire
+		(pts
+			(xy 172.72 27.94) (xy 176.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3104,33 +3078,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 106.68 93.98)
+			(xy 121.92 93.98) (xy 121.92 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "731a8d31-d8e8-4dd3-93d0-7ac2bf67e6dc")
+		(uuid "79c1a149-1c56-4b4c-adcf-d48848e30c82")
 	)
 	(wire
 		(pts
-			(xy 121.92 33.02) (xy 125.73 33.02)
+			(xy 121.92 45.72) (xy 121.92 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73f69034-3385-46c8-83cd-6f8c27665bcc")
-	)
-	(wire
-		(pts
-			(xy 121.92 44.45) (xy 121.92 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cb9fca-7661-4a8d-afe6-80cda0823cb7")
+		(uuid "7af58e12-4e03-4ad2-a084-ddd9c52327d6")
 	)
 	(wire
 		(pts
@@ -3144,13 +3108,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 127) (xy 48.26 127)
+			(xy 80.01 135.89) (xy 82.55 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d9a4718-1dbd-4c7f-973b-de81447cce0a")
+		(uuid "8281997e-0d5f-4a31-95f8-bb5456dfdda3")
 	)
 	(wire
 		(pts
@@ -3184,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 135.89 19.05)
+			(xy 135.89 27.94) (xy 135.89 19.05)
 		)
 		(stroke
 			(width 0)
@@ -3224,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 88.9) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a359c13d-5f21-44d4-b479-8fd5c5e6f586")
+	)
+	(wire
+		(pts
 			(xy 212.09 147.32) (xy 212.09 148.59)
 		)
 		(stroke
@@ -3231,16 +3205,6 @@
 			(type default)
 		)
 		(uuid "a561f765-8c23-480c-9875-3b84b29dc518")
-	)
-	(wire
-		(pts
-			(xy 142.24 73.66) (xy 142.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a42acc-64c3-46bb-8285-69740ccb56c1")
 	)
 	(wire
 		(pts
@@ -3264,6 +3228,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 72.39) (xy 130.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e8644-3520-455f-aa11-80eca9cdaca7")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b202b8f0-c1c0-4180-9219-7e4efd178ec4")
+	)
+	(wire
+		(pts
 			(xy 133.35 96.52) (xy 133.35 95.25)
 		)
 		(stroke
@@ -3284,13 +3268,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 48.26 116.84)
+			(xy 100.33 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c05f4ccd-ed09-41d8-b724-9468419858a4")
+		(uuid "bd38591e-3d5f-4fbb-bc6b-b50ded40272e")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 48.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5459f0f-e1de-4382-b961-d4de2fea4aa8")
 	)
 	(wire
 		(pts
@@ -3304,16 +3298,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 30.48) (xy 173.99 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83f336e-f126-40b3-aa19-8fa43265b280")
-	)
-	(wire
-		(pts
 			(xy 121.92 82.55) (xy 121.92 83.82)
 		)
 		(stroke
@@ -3324,13 +3308,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 27.94) (xy 176.53 27.94)
+			(xy 43.18 127) (xy 48.26 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbc509b1-1888-4871-88e4-ebf53277104f")
+		(uuid "cb7bc507-ab34-4a68-ad0a-bb122426aa1e")
+	)
+	(wire
+		(pts
+			(xy 69.85 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf400805-49c6-4814-aeaa-ba024c680a8f")
 	)
 	(wire
 		(pts
@@ -3384,23 +3378,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 33.02) (xy 148.59 33.02)
+			(xy 144.78 27.94) (xy 148.59 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5a90340-8a17-40b1-8f53-5e9f3dc7ed0c")
-	)
-	(wire
-		(pts
-			(xy 125.73 48.26) (xy 121.92 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f554e0-f0c9-42d8-951b-a639092bed02")
 	)
 	(wire
 		(pts
@@ -3424,16 +3408,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 116.84) (xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda42fbc-4a3e-4106-a7e2-ce79c84f4cc8")
-	)
-	(wire
-		(pts
 			(xy 87.63 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -3444,13 +3418,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 137.16 33.02)
+			(xy 135.89 27.94) (xy 137.16 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f189d1ac-fe39-46a3-8ca3-96d5e072fa04")
+	)
+	(wire
+		(pts
+			(xy 41.91 133.35) (xy 48.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20462c3-535b-4df7-bca1-398ebdbe4148")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37037be-9a07-4f8f-a5e2-cb9ee2c2c87b")
 	)
 	(wire
 		(pts
@@ -3482,6 +3476,26 @@
 		)
 		(uuid "fd0050f9-d683-4274-a9f1-57b66ffe57bf")
 	)
+	(label "Brake_Vehic_Shunt_Haut"
+		(at 41.91 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0772d95a-da28-4160-b585-79f6b95de847")
+	)
+	(label "Q51_Drain"
+		(at 82.55 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c8117ee-9e5b-4167-bd0d-5b654aa965d4")
+	)
 	(label "Seuil_Injection_Brake"
 		(at 180.34 31.75 0)
 		(effects
@@ -3492,18 +3506,18 @@
 		)
 		(uuid "25575989-63cf-4ec7-94a8-961d7440f3da")
 	)
-	(label "Q51_Source"
-		(at 125.73 48.26 0)
+	(label "Q51_Drain"
+		(at 113.03 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2b721a71-e8a4-4df4-b343-1226ad1d4816")
+		(uuid "35de2bf8-ed02-49bc-8628-ca5445b3d3a8")
 	)
 	(label "Seuil_Ouvert_Brake"
-		(at 72.39 69.85 180)
+		(at 69.85 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3532,6 +3546,36 @@
 		)
 		(uuid "6008f7e6-a47e-4660-87b5-8cedacd9dfb3")
 	)
+	(label "Opto_Court_Brake"
+		(at 121.92 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68ed3644-77a4-4bbc-8591-62413e6d5f11")
+	)
+	(label "Brake_Vehic_Shunt_Haut"
+		(at 124.46 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dd31846-0ce9-4d73-b3bd-c5b8ba6b130b")
+	)
+	(label "Opto_Court_Brake"
+		(at 87.63 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ce96e7f-8364-4fc3-a1f0-ebbfa38a0bfa")
+	)
 	(label "Surchauffe_Brake"
 		(at 152.4 153.67 180)
 		(effects
@@ -3553,7 +3597,7 @@
 		(uuid "b178775c-5900-4db7-aa06-4ab2ed80b332")
 	)
 	(label "Seuil_Injection_Brake"
-		(at 72.39 57.15 180)
+		(at 69.85 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3561,6 +3605,16 @@
 			(justify right bottom)
 		)
 		(uuid "b75f7ac7-6b67-4b69-84cd-a602c561c03b")
+	)
+	(label "Opto_Ouvert_Brake"
+		(at 87.63 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbcfe48e-5d8e-4543-9419-11de3ba5734d")
 	)
 	(label "Injection_Brake_Fault"
 		(at 210.82 147.32 180)
@@ -3572,18 +3626,18 @@
 		)
 		(uuid "d331e3b1-b1c6-4cec-8fd6-85bf84ea0245")
 	)
-	(label "Q51_Source"
-		(at 31.75 116.84 180)
+	(label "Opto_Ouvert_Brake"
+		(at 133.35 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "dedf4dc3-aefd-4244-97e7-b5fa4807ef26")
+		(uuid "effc137b-9ebc-4a63-907e-cd157be4d2b5")
 	)
 	(label "Seuil_Court_Brake"
-		(at 72.39 91.44 180)
+		(at 69.85 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3628,7 +3682,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 142.24 73.66 0)
+		(at 147.32 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3638,7 +3692,7 @@
 		)
 		(uuid "0fe5fdcd-ef7e-461b-a688-c65558a183ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0957 73.66 0)
+			(at 154.1757 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +3706,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 170.18 30.48 180)
+		(at 172.72 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3662,7 +3716,7 @@
 		)
 		(uuid "2683203e-ede7-41d1-8597-963e780b219c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.0543 30.48 0)
+			(at 164.5943 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4090,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 148.59 33.02 0)
+		(at 148.59 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4046,7 +4100,7 @@
 		)
 		(uuid "9b909ead-4f6a-45af-86a1-fe25fd478542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4457 33.02 0)
+			(at 155.4457 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,6 +4232,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Veh_Brake"
+		(shape input)
+		(at 69.85 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12454139-5d2a-4e6c-987d-d6582b055018")
+	)
 	(hierarchical_label "Ouvert_Brake_Vehic"
 		(shape input)
 		(at 138.43 62.23 0)
@@ -4213,7 +4278,7 @@
 	)
 	(hierarchical_label "Veh_Brake"
 		(shape input)
-		(at 116.84 33.02 180)
+		(at 116.84 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,6 +4353,7 @@
 		)
 		(property "Etiquette" "R_Brake_PU_A"
 			(at 96.52 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4377,6 +4443,7 @@
 		)
 		(property "Etiquette" "R_Brake_LED_Court"
 			(at 118.11 80.518 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,6 +4706,7 @@
 		)
 		(property "Etiquette" "Opto_Brake"
 			(at 145.288 70.358 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +4738,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Resistor_5W")
-		(at 39.37 116.84 0)
+		(at 76.2 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4681,7 +4749,7 @@
 		(fields_autoplaced yes)
 		(uuid "2955639c-932f-4604-8e44-ea1089b9c703")
 		(property "Reference" "R188"
-			(at 39.37 110.49 0)
+			(at 76.2 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4691,7 +4759,7 @@
 			)
 		)
 		(property "Value" "12 Ohm - 25W"
-			(at 39.37 113.03 0)
+			(at 76.2 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4701,7 +4769,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 40.259 121.158 0)
+			(at 77.089 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.878 116.84 0)
+			(at 76.708 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4791,7 @@
 			)
 		)
 		(property "Description" "25W Resistor"
-			(at 39.37 116.84 0)
+			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5171,6 +5239,7 @@
 		)
 		(property "Etiquette" "R_Brake_LED_Ouvert"
 			(at 121.92 58.928 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,6 +5334,7 @@
 		)
 		(property "Etiquette" "Opto_Brake"
 			(at 136.144 92.202 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5296,7 +5366,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:100k")
-		(at 129.54 33.02 0)
+		(at 129.54 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5307,7 +5377,7 @@
 		(fields_autoplaced yes)
 		(uuid "77a553b9-f986-485a-b1fc-230231cece89")
 		(property "Reference" "R195"
-			(at 129.54 26.67 0)
+			(at 129.54 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5317,7 +5387,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 129.54 29.21 0)
+			(at 129.54 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5327,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 130.429 37.338 0)
+			(at 130.429 32.258 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5338,7 +5408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.048 33.02 0)
+			(at 130.048 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +5419,7 @@
 			)
 		)
 		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 129.54 33.02 0)
+			(at 129.54 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,6 +6241,7 @@
 		)
 		(property "Etiquette" "Q_Brake_Inject"
 			(at 129.794 42.672 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6440,6 +6511,7 @@
 		)
 		(property "Etiquette" "R_Brake_PU_B"
 			(at 96.52 70.358 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6465,7 +6537,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 140.97 33.02 0)
+		(at 140.97 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6476,7 +6548,7 @@
 		(fields_autoplaced yes)
 		(uuid "e446da69-c19d-4ec1-be62-6045dd7b0f64")
 		(property "Reference" "R196"
-			(at 140.97 26.67 0)
+			(at 140.97 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6486,7 +6558,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 140.97 29.21 0)
+			(at 140.97 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6496,7 +6568,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 141.859 37.338 0)
+			(at 141.859 32.258 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.478 33.02 0)
+			(at 141.478 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6590,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 140.97 33.02 0)
+			(at 140.97 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

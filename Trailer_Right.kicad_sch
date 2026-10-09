@@ -1822,10 +1822,10 @@
 		(uuid "1862ee03-0e70-464d-8bac-600c20c40ebc")
 	)
 	(junction
-		(at 120.65 60.96)
+		(at 93.98 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4771d8a9-fbca-44f2-893e-ae8dd586a443")
+		(uuid "1a5e2c79-65f9-4981-bb8f-8eb630f9a736")
 	)
 	(junction
 		(at 151.13 71.12)
@@ -1855,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 133.35 60.96)
+			(xy 88.9 60.96) (xy 93.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 88.9 60.96)
+			(xy 77.47 60.96) (xy 81.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1935,13 +1935,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 120.65 60.96)
+			(xy 93.98 60.96) (xy 133.35 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3534de3b-344a-4a28-8dbf-6fe3e954efc2")
+		(uuid "3cd01753-8fce-4041-9efa-dcc7e47e1086")
 	)
 	(wire
 		(pts
@@ -2082,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "8f43bf0e-8300-4cd9-a5a8-874724631eb6")
-	)
-	(wire
-		(pts
-			(xy 120.65 64.77) (xy 120.65 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbc4e5d-2636-4b75-97f2-97edf514a88e")
 	)
 	(wire
 		(pts
@@ -2255,16 +2245,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 120.65 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6eb2563-a726-478d-b455-a12388b92162")
-	)
-	(wire
-		(pts
 			(xy 127 116.84) (xy 130.81 116.84)
 		)
 		(stroke
@@ -2305,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 72.39) (xy 93.98 64.77)
+			(xy 93.98 60.96) (xy 93.98 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2854,7 @@
 	)
 	(hierarchical_label "Trail_Right"
 		(shape input)
-		(at 85.09 60.96 180)
+		(at 77.47 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3210,7 +3190,7 @@
 		(dnp no)
 		(uuid "40367fa6-ef56-4f87-b6d7-b10745af43bc")
 		(property "Reference" "R103"
-			(at 94.488 50.038 0)
+			(at 95.504 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3289,7 +3269,7 @@
 		(property "Sim.Params" "r=1k pos=0.4"
 			(at 96.52 52.07 0)
 			(hide yes)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -3311,6 +3291,7 @@
 		)
 		(property "Etiquette" "Pot_Right_Ouvert"
 			(at 92.964 51.562 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3822,7 +3803,7 @@
 		(dnp no)
 		(uuid "bb833f46-bfed-4298-ac09-a4d1c9883caa")
 		(property "Reference" "R104"
-			(at 107.95 71.7549 0)
+			(at 107.188 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3923,6 +3904,7 @@
 		)
 		(property "Etiquette" "Pot2_Right_Court"
 			(at 104.394 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3951,7 +3933,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 92.71 60.96 0)
+		(at 85.09 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3962,7 +3944,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd527458-3b76-4f42-9001-c0eefb20883f")
 		(property "Reference" "R102"
-			(at 92.71 54.61 0)
+			(at 85.09 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3972,7 +3954,7 @@
 			)
 		)
 		(property "Value" ".1 ohm"
-			(at 92.71 57.15 0)
+			(at 85.09 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3982,7 +3964,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
-			(at 93.599 65.278 0)
+			(at 85.979 65.278 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.218 60.96 0)
+			(at 85.598 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +3986,7 @@
 			)
 		)
 		(property "Description" ".1 ohm , 2"
-			(at 92.71 60.96 0)
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
