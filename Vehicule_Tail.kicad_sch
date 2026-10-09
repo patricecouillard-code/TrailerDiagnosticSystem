@@ -1910,10 +1910,10 @@
 		(uuid "91132fa1-a948-4468-9265-e8ebda946709")
 	)
 	(junction
-		(at 140.97 49.53)
+		(at 67.31 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aed5e726-dea7-45da-9537-c387004d9036")
+		(uuid "d9437be9-87b9-4617-8e53-22511d09877a")
 	)
 	(no_connect
 		(at 106.68 120.65)
@@ -1931,6 +1931,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 97.79) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06de7944-fb42-4298-a71c-c1567e65a7a7")
+	)
+	(wire
+		(pts
 			(xy 191.77 88.9) (xy 195.58 88.9)
 		)
 		(stroke
@@ -1941,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 91.44) (xy 67.31 102.87)
+			(xy 67.31 91.44) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1958,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "1a43263d-be02-4a0c-8ce7-cb3d52d54bcc")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 67.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c62793e-eea5-4e34-bb62-030520f12166")
 	)
 	(wire
 		(pts
@@ -2068,16 +2088,6 @@
 			(type default)
 		)
 		(uuid "4556cdf8-5fe1-480a-ba9f-7a1c8e0a3a20")
-	)
-	(wire
-		(pts
-			(xy 140.97 49.53) (xy 144.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4696513b-66dc-4dc2-ba6d-61f11ef99690")
 	)
 	(wire
 		(pts
@@ -2251,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 43.18) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa880329-f799-4496-a895-7639ff7f4aa2")
+	)
+	(wire
+		(pts
 			(xy 109.22 91.44) (xy 109.22 88.9)
 		)
 		(stroke
@@ -2381,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf63727-d9c2-4570-8805-fc252243cbe6")
+	)
+	(wire
+		(pts
 			(xy 66.04 148.59) (xy 71.12 148.59)
 		)
 		(stroke
@@ -2478,6 +2508,16 @@
 			(justify left bottom)
 		)
 		(uuid "51ce5bcb-60fa-430a-9244-991b6a2c63e5")
+	)
+	(label "Tail_Vehic_Shunt_Haut"
+		(at 62.23 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "610ac0a0-962d-451b-be90-0e6e15933f60")
 	)
 	(label "Seuil_Injection"
 		(at 199.39 48.26 0)
@@ -3030,6 +3070,17 @@
 	)
 	(hierarchical_label "Veh_Tail"
 		(shape input)
+		(at 135.89 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b112c90e-d54e-47ce-9304-c092e0f40d67")
+	)
+	(hierarchical_label "Veh_Tail"
+		(shape input)
 		(at 54.61 156.21 180)
 		(effects
 			(font
@@ -3038,17 +3089,6 @@
 			(justify right)
 		)
 		(uuid "c5d70dfb-39b3-446c-bb41-a753180963ad")
-	)
-	(hierarchical_label "Veh_Tail"
-		(shape input)
-		(at 49.53 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6bb1777-3fa2-4506-ba4e-bfec1a3c1325")
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
