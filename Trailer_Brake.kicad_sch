@@ -818,7 +818,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMBJ33A"
+		(symbol "PCM_Diode_TVS_AKL:P6KE39A"
 			(body_styles demorgan)
 			(pin_numbers
 				(hide yes)
@@ -842,7 +842,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ33A"
+			(property "Value" "P6KE39A"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -852,7 +852,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
+			(property "Footprint" "PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -863,7 +863,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/6b488a936123e1f9ccf03f4f9186b150/P6KE_ser.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -874,7 +874,7 @@
 					)
 				)
 			)
-			(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
+			(property "Description" "DO-15 Unidirectional TVS diode, 39V, 600W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -885,7 +885,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode unidirectional TVS SMBJ-A"
+			(property "ki_keywords" "diode unidirectional TVS P6KE-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -907,7 +907,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ33A_0_1"
+			(symbol "P6KE39A_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -957,7 +957,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ33A_0_2"
+			(symbol "P6KE39A_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -1007,7 +1007,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ33A_1_1"
+			(symbol "P6KE39A_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -1045,7 +1045,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ33A_1_2"
+			(symbol "P6KE39A_1_2"
 				(pin passive line
 					(at 2.54 2.54 180)
 					(length 0)
@@ -4883,7 +4883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMBJ33A")
+		(lib_id "PCM_Diode_TVS_AKL:P6KE39A")
 		(at 199.39 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -4903,7 +4903,7 @@
 				)
 			)
 		)
-		(property "Value" "SMBJ33A"
+		(property "Value" "P6KE39A"
 			(at 199.39 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener"
 			(at 199.39 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/6b488a936123e1f9ccf03f4f9186b150/P6KE_ser.pdf"
 			(at 199.39 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4935,7 +4935,7 @@
 				)
 			)
 		)
-		(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
+		(property "Description" "DO-15 Unidirectional TVS diode, 39V, 600W, Alternate KiCAD Library"
 			(at 199.39 109.22 0)
 			(hide yes)
 			(show_name no)
