@@ -14449,6 +14449,16 @@
 		)
 		(uuid "34277d2c-65fd-4b23-8bff-12a2090ce21d")
 	)
+	(label "V12_Bus_Raw"
+		(at 104.14 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4005644c-758b-4b84-a558-b9bfc2d51ff2")
+	)
 	(label "VM_Shunt_Batt"
 		(at 224.79 226.06 180)
 		(effects
@@ -14508,16 +14518,6 @@
 			(justify left bottom)
 		)
 		(uuid "62ddf781-16fe-481d-9a84-c77e5f52c849")
-	)
-	(label "V12_Rail"
-		(at 104.14 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "693164b6-0a7c-4cf6-8446-ec6883c24929")
 	)
 	(label "V12_PostShunt"
 		(at 213.36 168.91 0)
