@@ -5039,7 +5039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 233.68 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5685,7 +5685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 236.22 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5881,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 233.68 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6926,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "MF-R700"
 			(at 115.57 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 234.95 104.14 0)
 			(hide yes)
 			(show_name no)
