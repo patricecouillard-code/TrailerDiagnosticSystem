@@ -2477,7 +2477,7 @@
 		)
 		(uuid "404ef5c0-1311-473e-ac4c-0767f20ad0b3")
 	)
-	(label "Masse_Sense_Veh"
+	(label "Pince_Veh"
 		(at 100.33 69.85 180)
 		(effects
 			(font
@@ -2577,7 +2577,7 @@
 		)
 		(uuid "5930c8b0-2d71-4641-9591-50eca144c741")
 	)
-	(label "Masse_Sense_Trail"
+	(label "Pince_Trail"
 		(at 101.6 105.41 180)
 		(effects
 			(font
