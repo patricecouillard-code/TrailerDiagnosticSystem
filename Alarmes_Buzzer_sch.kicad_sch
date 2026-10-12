@@ -1983,6 +1983,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 162.56) (xy 161.29 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c739aba8-b526-45bb-9bdc-f41139eeeea0")
+	)
+	(wire
+		(pts
 			(xy 140.97 77.47) (xy 140.97 69.85)
 		)
 		(stroke
@@ -2070,6 +2080,16 @@
 			(type default)
 		)
 		(uuid "e1e6c07f-61c1-42fb-96e5-0c0155d55155")
+	)
+	(wire
+		(pts
+			(xy 144.78 162.56) (xy 149.86 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4323249-71d4-4ac8-b92b-53c36f03fc09")
 	)
 	(wire
 		(pts
@@ -2210,6 +2230,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a55c221-fde4-491a-840a-2a9f496f133c")
+	)
+	(label "Alarme_Actif"
+		(at 161.29 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e379f788-067c-428e-91b6-5884c1cbbb38")
 	)
 	(global_label "GND"
 		(shape input)
@@ -2546,6 +2576,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "Masse_Fault"
+		(shape input)
+		(at 144.78 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "133b3bf0-d0a7-4c49-aed7-8f975b276405")
 	)
 	(hierarchical_label "Injection_Tail_Fault"
 		(shape input)
