@@ -1452,16 +1452,8 @@
 		)
 	)
 	(no_connect
-		(at 171.45 86.36)
-		(uuid "04e62cd6-6332-40fa-af1c-30ac9c6fd8c5")
-	)
-	(no_connect
 		(at 171.45 91.44)
 		(uuid "07c66cfe-aa70-4163-93fb-0ebb1b7699d4")
-	)
-	(no_connect
-		(at 171.45 88.9)
-		(uuid "1b47e13e-ed6a-4c50-8558-8ac419eb9dcd")
 	)
 	(no_connect
 		(at 100.33 72.39)
@@ -1507,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 132.715) (xy 52.07 132.715)
+			(xy 49.53 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1577,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f9bf29-c84a-4186-b148-7b712918fbb7")
+	)
+	(wire
+		(pts
 			(xy 49.53 66.04) (xy 54.61 66.04)
 		)
 		(stroke
@@ -1607,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 74.295) (xy 54.61 74.295)
+			(xy 49.53 74.93) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1664,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "4fab5212-f8de-4525-937e-66e853b5d558")
+	)
+	(wire
+		(pts
+			(xy 184.15 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554b7e16-b5c5-49d1-b105-1c180c0c3062")
 	)
 	(wire
 		(pts
@@ -1747,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.855) (xy 53.34 109.855)
+			(xy 49.53 110.49) (xy 53.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.835) (xy 54.61 76.835)
+			(xy 49.53 77.47) (xy 54.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1817,13 +1829,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 154.305) (xy 67.31 154.305)
+			(xy 62.23 154.94) (xy 67.31 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88292553-e87c-439b-ad20-9b5eae155c24")
+	)
+	(wire
+		(pts
+			(xy 171.45 86.36) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bded972-d4b4-4aee-b2a8-1480ef193aa9")
 	)
 	(wire
 		(pts
@@ -1837,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 150.495) (xy 67.31 150.495)
+			(xy 62.23 151.13) (xy 67.31 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 94.615) (xy 52.07 94.615)
+			(xy 49.53 95.25) (xy 52.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2197,6 +2219,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f232e431-f8bc-4b8f-b2a8-c422a9249293")
+	)
+	(wire
+		(pts
 			(xy 184.15 73.66) (xy 187.96 73.66)
 		)
 		(stroke
@@ -2227,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 79.375) (xy 54.61 79.375)
+			(xy 49.53 80.01) (xy 54.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2265,6 +2297,16 @@
 		)
 		(uuid "03f07227-97fb-46e2-80a0-7e4c2f062885")
 	)
+	(label "Pince_Veh"
+		(at 187.96 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06ed73eb-1f3e-4d4f-bc37-f2e8d81e20ab")
+	)
 	(label "Veh_Left"
 		(at 100.33 57.15 180)
 		(effects
@@ -2276,7 +2318,7 @@
 		(uuid "09a235af-f789-42fd-bad9-c8ee9d80bef4")
 	)
 	(label "Veh_Left"
-		(at 54.61 74.295 0)
+		(at 54.61 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2325,8 +2367,8 @@
 		)
 		(uuid "21afa196-4076-4771-a4e3-251fac4d61c6")
 	)
-	(label "Masse_Sense_Trail"
-		(at 67.31 154.305 0)
+	(label "Pince_Trail"
+		(at 67.31 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2355,8 +2397,8 @@
 		)
 		(uuid "2ae3f3d1-d209-4e79-b23e-66388da07659")
 	)
-	(label "Masse_Sense_Veh"
-		(at 67.31 150.495 0)
+	(label "Pince_Veh"
+		(at 67.31 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2366,7 +2408,7 @@
 		(uuid "2bf1beda-dc85-4e03-b3f1-7b0b7a7ae573")
 	)
 	(label "Injection_Left_Fault"
-		(at 54.61 79.375 0)
+		(at 54.61 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2498,7 @@
 		(uuid "48c08000-13c0-4100-a72a-90e996683306")
 	)
 	(label "Trail_Left"
-		(at 54.61 76.835 0)
+		(at 54.61 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,6 +2537,16 @@
 		)
 		(uuid "52bf73e6-5467-43ea-82bf-15b3a5a62c99")
 	)
+	(label "Pince_Trail"
+		(at 187.96 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54419c2e-c128-4719-9ab6-beb4553b4a8d")
+	)
 	(label "Injection_Tail_Fault"
 		(at 67.31 165.1 0)
 		(effects
@@ -2506,7 +2558,7 @@
 		(uuid "55ea169f-63ce-4d48-9c39-3038a7a92bf5")
 	)
 	(label "Injection_Right_Fault"
-		(at 52.07 94.615 0)
+		(at 52.07 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2668,7 @@
 		(uuid "7ac83089-5fb1-4315-8753-22b39918b78b")
 	)
 	(label "Injection_Backup_Fault"
-		(at 53.34 109.855 0)
+		(at 53.34 110.49 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2856,7 +2908,7 @@
 		(uuid "daefc1fb-7eca-4f96-a085-e400cddeb62e")
 	)
 	(label "Injection_Brake_Fault"
-		(at 52.07 132.715 0)
+		(at 52.07 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:1k")
-		(at 195.58 93.98 0)
+		(at 180.34 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3009,7 +3061,8 @@
 		(dnp no)
 		(uuid "16d11379-7efc-4985-8736-d6822cbdfb57")
 		(property "Reference" "R309"
-			(at 195.58 88.9 0)
+			(at 180.34 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3019,7 +3072,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 195.58 91.44 0)
+			(at 180.34 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3029,7 +3083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 196.469 98.298 0)
+			(at 181.229 93.218 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.088 93.98 0)
+			(at 180.848 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3105,7 @@
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 195.58 93.98 0)
+			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +3849,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:1k")
-		(at 186.69 95.25 0)
+		(at 180.34 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3805,7 +3859,8 @@
 		(dnp no)
 		(uuid "7e83aa42-6336-46bc-b607-4e8a89c2dc00")
 		(property "Reference" "R308"
-			(at 186.69 90.17 0)
+			(at 180.34 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3815,7 +3870,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 186.69 92.71 0)
+			(at 180.34 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3825,7 +3881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 187.579 99.568 0)
+			(at 181.229 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.198 95.25 0)
+			(at 180.848 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +3903,7 @@
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 186.69 95.25 0)
+			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4231,8 +4287,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 130.175)
-		(size 19.05 10.795)
+		(at 30.48 130.81)
+		(size 19.05 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4247,7 +4303,7 @@
 		)
 		(uuid "1c73cd0e-d554-4457-9021-54aac4b5c0a2")
 		(property "Sheetname" "Canal_Brake"
-			(at 30.48 129.7174 0)
+			(at 30.48 130.3524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4258,7 +4314,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Brake.kicad_sch"
-			(at 30.48 141.3514 0)
+			(at 30.48 141.9864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4289,7 +4345,7 @@
 			)
 		)
 		(pin "Injection_Brake_Fault" input
-			(at 49.53 132.715 0)
+			(at 49.53 133.35 0)
 			(uuid "0ce41014-ee0a-492e-b887-02b82137549d")
 			(effects
 				(font
@@ -4308,7 +4364,7 @@
 	)
 	(sheet
 		(at 30.48 144.78)
-		(size 31.75 12.065)
+		(size 31.75 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4344,29 +4400,29 @@
 				(justify left top)
 			)
 		)
-		(pin "Masse_Sense_Veh" input
-			(at 62.23 150.495 0)
-			(uuid "108ae149-76db-4131-af75-ec0731af56bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Masse_Sense_Trail" input
-			(at 62.23 154.305 0)
-			(uuid "7f55e96c-69c7-464e-a858-aee7ef992869")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Masse_Fault" input
 			(at 62.23 146.05 0)
 			(uuid "88c30147-69eb-40b5-afc1-9197fae57bf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pince_Trail" input
+			(at 62.23 154.94 0)
+			(uuid "0067cf2b-5d2e-4c10-8551-27bb0c35f771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pince_Veh" input
+			(at 62.23 151.13 0)
+			(uuid "a6dd9142-f0e1-4927-ae31-2e878a7ba6e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4497,7 @@
 			)
 		)
 		(pin "Injection_Right_Fault" input
-			(at 49.53 94.615 0)
+			(at 49.53 95.25 0)
 			(uuid "66e42136-e1ae-47f4-bd47-851242386e2a")
 			(effects
 				(font
@@ -4556,7 +4612,7 @@
 	)
 	(sheet
 		(at 30.48 57.15)
-		(size 19.05 10.795)
+		(size 19.05 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4689,7 +4745,7 @@
 			)
 		)
 		(pin "Injection_Backup_Fault" input
-			(at 49.53 109.855 0)
+			(at 49.53 110.49 0)
 			(uuid "4afabcb3-499a-4c6a-a68f-6d7803b90c79")
 			(effects
 				(font
@@ -4901,7 +4957,7 @@
 			)
 		)
 		(pin "Trail_Left" input
-			(at 49.53 76.835 0)
+			(at 49.53 77.47 0)
 			(uuid "b408ff10-3fcd-4637-aa8c-4bde70b7539a")
 			(effects
 				(font
@@ -4911,7 +4967,7 @@
 			)
 		)
 		(pin "Veh_Left" input
-			(at 49.53 74.295 0)
+			(at 49.53 74.93 0)
 			(uuid "2a0e2657-3910-46fb-8cec-b8649cdd8951")
 			(effects
 				(font
@@ -4921,7 +4977,7 @@
 			)
 		)
 		(pin "Injection_Left_Fault" input
-			(at 49.53 79.375 0)
+			(at 49.53 80.01 0)
 			(uuid "7008ac2a-b2b9-488d-85c4-6a06110f3c0d")
 			(effects
 				(font
@@ -4939,8 +4995,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 33.274)
-		(size 19.05 18.796)
+		(at 30.48 33.02)
+		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4955,7 +5011,7 @@
 		)
 		(uuid "d808f71c-7914-43fb-8ac9-96d92cd6294f")
 		(property "Sheetname" "Mode_Coherence"
-			(at 30.48 32.8164 0)
+			(at 30.48 32.5624 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -4966,7 +5022,7 @@
 			)
 		)
 		(property "Sheetfile" "mode_coherence.kicad_sch"
-			(at 30.48 52.4514 0)
+			(at 30.48 52.1974 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
