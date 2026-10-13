@@ -6353,7 +6353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTC_Bourns_MF-R:PTC_Bourns_MF-R_P5.10mm_W12.0mm"
 			(at 110.49 77.47 0)
 			(hide yes)
 			(show_name no)

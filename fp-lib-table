@@ -9,4 +9,5 @@
 	(lib (name "3296W-1-102LF") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "TMR 2-1211WIN") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "CAPRR508W50L762T381H762") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
+	(lib (name "PTC_Bourns_MF-R") (type "KiCad") (uri "${KIPRJMOD}/PTC_Bourns_MF-R.pretty") (options "") (descr ""))
 )
