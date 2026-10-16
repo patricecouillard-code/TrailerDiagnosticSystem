@@ -1509,16 +1509,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 203.2) (xy 67.31 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c44c1b-b1b2-4626-a53d-57b7ebde68dc")
-	)
-	(wire
-		(pts
 			(xy 171.45 83.82) (xy 176.53 83.82)
 		)
 		(stroke
@@ -1616,16 +1606,6 @@
 			(type default)
 		)
 		(uuid "33d09dc5-685b-4ffd-a6a5-351ded1aa673")
-	)
-	(wire
-		(pts
-			(xy 184.15 66.04) (xy 187.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f08858-2671-4952-a18a-dff455f2dcc5")
 	)
 	(wire
 		(pts
@@ -2189,16 +2169,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 19.05) (xy 54.61 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a9867d-f594-4e21-8da4-d1dab32d9b8f")
-	)
-	(wire
-		(pts
 			(xy 62.23 172.72) (xy 67.31 172.72)
 		)
 		(stroke
@@ -2707,16 +2677,6 @@
 		)
 		(uuid "81e41670-2fe4-46e8-ba31-d5bfd1c43449")
 	)
-	(label "Buzzer_Trigger"
-		(at 67.31 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88df7530-20d0-4321-b8bf-fc829e8785ab")
-	)
 	(label "Surtension_Fault"
 		(at 67.31 187.96 0)
 		(effects
@@ -2857,16 +2817,6 @@
 		)
 		(uuid "b4060ad8-ac19-4e3d-a5f1-8d8fc5d42203")
 	)
-	(label "V12_Rail"
-		(at 187.96 66.04 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd495585-afbe-468d-817b-178c96327a2b")
-	)
 	(label "Veh_Right"
 		(at 100.33 59.69 180)
 		(effects
@@ -2946,16 +2896,6 @@
 			(justify right bottom)
 		)
 		(uuid "f29100d0-b6a7-467c-bb1a-ec71ba228469")
-	)
-	(label "Buzzer_Trigger"
-		(at 54.61 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f984b9e5-6e43-4bc9-9c79-657ee2daff0e")
 	)
 	(label "Veh_Left"
 		(at 187.96 71.12 0)
@@ -3204,88 +3144,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 180.34 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc2a117-286a-438d-b78f-03b9ddc29d85")
-		(property "Reference" "R235"
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 181.229 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/2W Resistor"
-			(at 180.34 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "694de2d4-37ea-43a6-948b-332c8918bb60")
-		)
-		(pin "2"
-			(uuid "f211388e-5f4a-4a6e-b36e-36ef1bb531c5")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
-					(reference "R235")
 					(unit 1)
 				)
 			)
@@ -4572,16 +4430,6 @@
 				(justify right)
 			)
 		)
-		(pin "Buzzer_Trigger" input
-			(at 49.53 19.05 0)
-			(uuid "d0c146fb-bc44-4104-96ac-37e4188260a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Court_Bus_Fault" input
 			(at 49.53 24.13 0)
 			(uuid "386e66df-7783-4897-a182-629f0a1ad5e8")
@@ -4813,16 +4661,6 @@
 		(pin "Alerte_Incoherence" input
 			(at 62.23 199.39 0)
 			(uuid "4122948d-aa3d-4b7a-847d-d76fccbd9d3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Buzzer_Trigger" input
-			(at 62.23 203.2 0)
-			(uuid "955b3311-1fb6-4a48-a01c-e51c334223b9")
 			(effects
 				(font
 					(size 1.27 1.27)

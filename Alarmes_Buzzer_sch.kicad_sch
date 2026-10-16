@@ -2687,17 +2687,6 @@
 		)
 		(uuid "7e57f5b8-6e96-4289-be40-764bc33e032d")
 	)
-	(hierarchical_label "Buzzer_Trigger"
-		(shape input)
-		(at 241.3 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "865c77ff-d812-49f5-8d67-1e9f9cc529a6")
-	)
 	(hierarchical_label "Court_Bus_Fault"
 		(shape input)
 		(at 289.56 53.34 180)
@@ -2741,17 +2730,6 @@
 			(justify right)
 		)
 		(uuid "d366fef4-6c4a-4cd1-950c-34386477fd0b")
-	)
-	(hierarchical_label "Buzzer_Trigger"
-		(shape input)
-		(at 321.31 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de1f0d49-785f-426a-bf30-0c7184d2d11e")
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:1k")

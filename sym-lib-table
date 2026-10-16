@@ -10,4 +10,5 @@
 	(lib (name "3296-1-102lf") (type "KiCad") (uri "${KIPRJMOD}/3296W-1-102LF.kicad_sym") (options "") (descr ""))
 	(lib (name "TMR 2-1211WIN") (type "KiCad") (uri "${KIPRJMOD}/TMR_2-1211WIN.kicad_sym") (options "") (descr ""))
 	(lib (name "SR655C106KAR") (type "KiCad") (uri "${KIPRJMOD}/SR655C106KAR.kicad_sym") (options "") (descr ""))
+	(lib (name "FG24X7R1H225KRT06") (type "KiCad") (uri "${KIPRJMOD}/FG24X7R1H225KRT06.kicad_sym") (options "") (descr ""))
 )

@@ -5640,6 +5640,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Diode_TVS_AKL:1.5KE20A"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5KE20A"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201_P12.70mm_Horizontal_Zener"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/574f55cd54a0c134073ea930418e1e69/1_5KE_ser.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DO-201 Unidirectional TVS diode, 20V, 1500W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode unidirectional TVS 1.5KE-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1.5KE20A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5KE20A_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5KE20A_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1.5KE20A_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_Zener_AKL:1N5242B"
 			(body_styles demorgan)
 			(pin_numbers
@@ -6955,140 +7222,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Resistors:100ohm"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100ohm"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-				(at 0.889 -4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100Ω, 1/4W Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "100ohm_0_1"
-				(rectangle
-					(start -2.286 0.889)
-					(end 2.286 -0.889)
-					(stroke
-						(width 0.24)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100ohm_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.5)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.5)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SL_Resistors:10k"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7720,6 +7853,140 @@
 				)
 			)
 			(symbol "4.7k_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1/4W Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.5)
@@ -11688,7 +11955,7 @@
 		(uuid "5371cd59-f990-4f3b-beb8-ca94231ef32c")
 	)
 	(rectangle
-		(start 295.91 24.13)
+		(start 295.91 18.288)
 		(end 407.67 125.73)
 		(stroke
 			(width 0)
@@ -11713,7 +11980,7 @@
 	)
 	(rectangle
 		(start 207.264 76.962)
-		(end 292.608 124.968)
+		(end 292.608 125.984)
 		(stroke
 			(width 0)
 			(type default)
@@ -11745,7 +12012,7 @@
 	)
 	(text "Alarme - Surtension"
 		(exclude_from_sim no)
-		(at 350.52 20.32 0)
+		(at 350.52 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11784,10 +12051,22 @@
 		(uuid "dd494480-7c7a-4d8a-93dd-a8c9759d1410")
 	)
 	(junction
+		(at 172.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00cfe72c-83a1-4fd7-8e16-e34819ef0c39")
+	)
+	(junction
 		(at 45.72 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01dc521b-837d-41f3-98b7-1fe2d6eacd8d")
+	)
+	(junction
+		(at 345.44 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0465f6d8-b330-41df-b3db-ef08456b98be")
 	)
 	(junction
 		(at 92.71 208.28)
@@ -11874,12 +12153,6 @@
 		(uuid "46e2316d-8543-4bbe-9485-790e58bfb806")
 	)
 	(junction
-		(at 358.14 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "487ab585-d116-4e46-a89d-dc1442455a53")
-	)
-	(junction
 		(at 140.97 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11896,6 +12169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6433310c-9cf8-485e-937a-f5ff98e9c2b4")
+	)
+	(junction
+		(at 269.24 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64849127-cf11-43f2-843d-3690f9567d5e")
 	)
 	(junction
 		(at 382.27 157.48)
@@ -12000,12 +12279,6 @@
 		(uuid "abcf3646-4392-4542-b82e-c0c21698c194")
 	)
 	(junction
-		(at 345.44 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad3f4491-7efa-4391-a24d-65ee8e05c25e")
-	)
-	(junction
 		(at 45.72 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12024,10 +12297,22 @@
 		(uuid "b84fbddc-0972-49da-a7dd-652990105ab4")
 	)
 	(junction
+		(at 369.57 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb9c9749-a0cb-4c63-b510-9d17295fa4c2")
+	)
+	(junction
 		(at 34.29 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc062d74-ae21-4dba-adcc-78bab561817c")
+	)
+	(junction
+		(at 358.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60733d5-6633-4f4a-ad5f-d8e4df87f56d")
 	)
 	(junction
 		(at 92.71 233.68)
@@ -12052,6 +12337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4592f6c-a43f-4b33-a2a7-f74b0aa797c2")
+	)
+	(junction
+		(at 345.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebafd3f6-2e62-4ed1-ba21-62d1ab4b3ba5")
 	)
 	(junction
 		(at 172.72 105.41)
@@ -12143,6 +12434,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 21.59) (xy 345.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0676b9b9-c245-4250-9643-b60eb119d348")
+	)
+	(wire
+		(pts
 			(xy 335.28 36.83) (xy 339.09 36.83)
 		)
 		(stroke
@@ -12230,16 +12531,6 @@
 			(type default)
 		)
 		(uuid "11cdc9e7-db26-4927-886d-bb8d73638587")
-	)
-	(wire
-		(pts
-			(xy 229.87 60.96) (xy 233.68 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13330ae8-b39f-4a61-8e12-eadce0087cfe")
 	)
 	(wire
 		(pts
@@ -12383,16 +12674,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 62.23) (xy 345.44 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd0f030-5cd0-436e-9a76-663288057a59")
-	)
-	(wire
-		(pts
 			(xy 120.65 238.76) (xy 118.11 238.76)
 		)
 		(stroke
@@ -12400,6 +12681,16 @@
 			(type default)
 		)
 		(uuid "1e60ea10-7bdd-442c-b14a-968cb24e0129")
+	)
+	(wire
+		(pts
+			(xy 372.11 29.21) (xy 369.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210f2faa-4b3d-412e-a731-3a6fb5bcf38a")
 	)
 	(wire
 		(pts
@@ -12583,16 +12874,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 58.42) (xy 350.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fee8bed-161a-480b-91bc-a352974ccdb0")
-	)
-	(wire
-		(pts
 			(xy 176.53 105.41) (xy 176.53 113.03)
 		)
 		(stroke
@@ -12603,13 +12884,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 60.96) (xy 246.38 60.96)
+			(xy 345.44 99.06) (xy 358.14 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31dc62af-a154-4d86-9f8c-b5e143ea6334")
+		(uuid "31f14c29-a12b-42d4-b84a-909180e3a5f2")
 	)
 	(wire
 		(pts
@@ -12743,6 +13024,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 21.59) (xy 345.44 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7b47c0-c7a4-42fd-81c1-f0d1a9477982")
+	)
+	(wire
+		(pts
 			(xy 345.44 99.06) (xy 345.44 115.57)
 		)
 		(stroke
@@ -12810,6 +13101,16 @@
 			(type default)
 		)
 		(uuid "4143ff2b-3f5e-4ca8-bfde-e79342481bde")
+	)
+	(wire
+		(pts
+			(xy 269.24 124.46) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4260c5d7-d653-4a04-a569-43736b29f2d7")
 	)
 	(wire
 		(pts
@@ -13173,16 +13474,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 99.06) (xy 358.14 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a24421-96c9-4cc4-ba25-e9638c87a9ab")
-	)
-	(wire
-		(pts
 			(xy 50.8 135.89) (xy 60.96 135.89)
 		)
 		(stroke
@@ -13283,7 +13574,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 78.74) (xy 345.44 78.74)
+			(xy 344.17 74.93) (xy 350.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13363,6 +13654,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 55.88) (xy 384.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73baf5dc-376b-4c51-a7b9-a166027eb716")
+	)
+	(wire
+		(pts
 			(xy 365.76 39.37) (xy 369.57 39.37)
 		)
 		(stroke
@@ -13373,7 +13674,17 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 83.82) (xy 350.52 83.82)
+			(xy 384.81 54.61) (xy 398.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c36d3b-ba0c-418a-bf75-115bcb529026")
+	)
+	(wire
+		(pts
+			(xy 340.36 86.36) (xy 350.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13443,16 +13754,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 53.34) (xy 339.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b91bc4d-e535-4e8c-b25a-09bc5dfb567c")
-	)
-	(wire
-		(pts
 			(xy 317.5 46.99) (xy 326.39 46.99)
 		)
 		(stroke
@@ -13473,6 +13774,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 124.46) (xy 269.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f36538b-9383-40ee-b22f-60fb52bc071d")
+	)
+	(wire
+		(pts
 			(xy 312.42 168.91) (xy 309.88 168.91)
 		)
 		(stroke
@@ -13480,6 +13791,16 @@
 			(type default)
 		)
 		(uuid "7f92a64b-945b-4336-a3be-f12bba8094ac")
+	)
+	(wire
+		(pts
+			(xy 382.27 29.21) (xy 382.27 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8072366c-b93e-4919-8d66-19b91fe95005")
 	)
 	(wire
 		(pts
@@ -13573,7 +13894,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 172.72 115.57)
+			(xy 172.72 105.41) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13583,7 +13904,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 115.57) (xy 358.14 115.57)
+			(xy 355.6 115.57) (xy 358.14 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13763,16 +14084,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 83.82) (xy 350.52 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9786de80-4ffb-45af-9907-17e70425ab5b")
-	)
-	(wire
-		(pts
 			(xy 382.27 147.32) (xy 382.27 157.48)
 		)
 		(stroke
@@ -13810,6 +14121,16 @@
 			(type default)
 		)
 		(uuid "99809250-c406-4d45-9d1e-59b07b52046f")
+	)
+	(wire
+		(pts
+			(xy 345.44 115.57) (xy 347.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0ece97-ac0f-44e0-bf18-3abc36afb5fb")
 	)
 	(wire
 		(pts
@@ -13913,16 +14234,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 78.74) (xy 345.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6515b3b-68ca-4154-a73b-b62c321b964e")
-	)
-	(wire
-		(pts
 			(xy 129.54 261.62) (xy 129.54 203.2)
 		)
 		(stroke
@@ -13930,6 +14241,16 @@
 			(type default)
 		)
 		(uuid "a6b7c98a-62cc-408b-918f-10c0c2b7913d")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7510424-3927-4bcf-93c4-97adbddcfe6b")
 	)
 	(wire
 		(pts
@@ -14020,6 +14341,16 @@
 			(type default)
 		)
 		(uuid "afc1ed0b-18a5-4797-9392-1f0bc349c056")
+	)
+	(wire
+		(pts
+			(xy 369.57 62.23) (xy 369.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc7885e-69bd-40e9-80fc-7593ee675d64")
 	)
 	(wire
 		(pts
@@ -14303,6 +14634,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 68.58) (xy 384.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca121835-c402-451f-8dcb-02d70c78b127")
+	)
+	(wire
+		(pts
 			(xy 81.28 259.08) (xy 127 259.08)
 		)
 		(stroke
@@ -14330,6 +14671,16 @@
 			(type default)
 		)
 		(uuid "cf1e3d32-350e-4654-bff4-d840edcee63d")
+	)
+	(wire
+		(pts
+			(xy 398.78 54.61) (xy 398.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2d0d77-b49c-4875-8ffc-150462d0a607")
 	)
 	(wire
 		(pts
@@ -14370,6 +14721,26 @@
 			(type default)
 		)
 		(uuid "d13ec10e-44b8-4fdc-b06b-e40510adebd3")
+	)
+	(wire
+		(pts
+			(xy 379.73 29.21) (xy 382.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14be713-1426-4a34-b345-2c9e763ba78f")
+	)
+	(wire
+		(pts
+			(xy 378.46 62.23) (xy 369.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ea570c-8899-4927-a03f-7bbd761a37cd")
 	)
 	(wire
 		(pts
@@ -14463,6 +14834,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ac00bb-0ccc-4b3e-9da8-b31bc97bd7a2")
+	)
+	(wire
+		(pts
 			(xy 85.09 255.27) (xy 123.19 255.27)
 		)
 		(stroke
@@ -14500,6 +14881,16 @@
 			(type default)
 		)
 		(uuid "d9b156bc-7b9a-42f4-825f-f190048dd89a")
+	)
+	(wire
+		(pts
+			(xy 388.62 68.58) (xy 384.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da196794-1838-48c1-a184-acb56a5d89f9")
 	)
 	(wire
 		(pts
@@ -14590,16 +14981,6 @@
 			(type default)
 		)
 		(uuid "e2134b8b-ddaf-4232-a52f-b6e6fd610af1")
-	)
-	(wire
-		(pts
-			(xy 345.44 74.93) (xy 350.52 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e8de46-b14d-487b-bd24-d01a210d8cb7")
 	)
 	(wire
 		(pts
@@ -14833,7 +15214,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 62.23) (xy 345.44 62.23)
+			(xy 344.17 58.42) (xy 350.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14863,16 +15244,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 60.96) (xy 259.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f78900aa-6610-46db-ab3a-2d7add8d4551")
-	)
-	(wire
-		(pts
 			(xy 382.27 158.75) (xy 386.08 158.75)
 		)
 		(stroke
@@ -14883,7 +15254,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 99.06) (xy 345.44 99.06)
+			(xy 344.17 99.06) (xy 345.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -14900,6 +15271,16 @@
 			(type default)
 		)
 		(uuid "f9fcfc48-d075-4f6e-a879-b8bc9d3c82ae")
+	)
+	(wire
+		(pts
+			(xy 369.57 29.21) (xy 369.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb64d6ee-d396-43e5-8f61-c18f731ba004")
 	)
 	(wire
 		(pts
@@ -14920,6 +15301,16 @@
 			(type default)
 		)
 		(uuid "ffbd0730-b983-4a3f-a784-ab127c4b79d1")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd66951-a294-4c94-9ef0-0e79c62840e0")
 	)
 	(label "Sig_Jauge"
 		(at 39.37 148.59 180)
@@ -15070,16 +15461,6 @@
 			(justify right bottom)
 		)
 		(uuid "5bfa90ab-73b1-44c5-9a20-2230c29840e4")
-	)
-	(label "VPwr_Selection"
-		(at 259.08 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62ddf781-16fe-481d-9a84-c77e5f52c849")
 	)
 	(label "Batt_Interne_Pos"
 		(at 33.02 74.93 180)
@@ -15403,7 +15784,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 340.36 99.06 180)
+		(at 344.17 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15413,7 +15794,7 @@
 		)
 		(uuid "193c4312-8bcb-4186-b85b-dc7ccc5f4354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.2343 99.06 0)
+			(at 336.0443 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15523,7 +15904,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 344.17 78.74 180)
+		(at 344.17 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15533,7 +15914,7 @@
 		)
 		(uuid "730ea216-3b5a-4c53-8540-194614e08ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.0443 78.74 0)
+			(at 336.0443 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15571,7 +15952,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 344.17 62.23 180)
+		(at 344.17 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15581,7 +15962,7 @@
 		)
 		(uuid "944182fa-dccc-4fc5-a09f-6c5619d8df26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.0443 62.23 0)
+			(at 336.0443 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15664,17 +16045,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "Buzzer_Trigger"
-		(shape input)
-		(at 229.87 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16ed20fc-29cd-40ab-9de7-ab30336ae6c2")
 	)
 	(hierarchical_label "Court_Bus_Fault"
 		(shape input)
@@ -17166,8 +17536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 339.09 54.61 0)
+		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
+		(at 382.27 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17176,9 +17546,93 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "146a3723-428e-46cc-b632-9b404b426960")
+		(property "Reference" "Q84"
+			(at 388.62 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 388.62 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
+			(at 387.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
+			(at 382.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
+			(at 382.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9a27dce2-c068-439e-b934-1c686f545d4c")
+		)
+		(pin "2"
+			(uuid "394241af-4aef-4f88-99c0-fb1b72d4e783")
+		)
+		(pin "1"
+			(uuid "8d28d690-01a4-4cdc-9d5b-586142add9bb")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "Q84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "15297e4d-e099-47ea-b7f3-f9bd44e2a039")
 		(property "Reference" "#PWR022"
-			(at 339.09 60.96 0)
+			(at 332.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,7 +17643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 59.69 0)
+			(at 337.82 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17199,7 +17653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 54.61 0)
+			(at 339.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +17664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 54.61 0)
+			(at 339.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17221,7 +17675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 54.61 0)
+			(at 339.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17238,86 +17692,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:100ohm")
-		(at 250.19 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18b3d4a1-6be9-4274-9539-d4ee2e06ba2a")
-		(property "Reference" "R213"
-			(at 250.19 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100ohm"
-			(at 250.19 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 251.079 65.278 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.698 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100Ω, 1/4W Resistor"
-			(at 250.19 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b21de29-400d-4023-85bc-921a8168a79a")
-		)
-		(pin "2"
-			(uuid "a53ad82d-9898-4b9b-bd45-4676f3a3dec7")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
-					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -17944,6 +18318,86 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 375.92 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c004ce7-f0ef-48aa-bb02-db5e55cca975")
+		(property "Reference" "R314"
+			(at 375.92 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1MΩ"
+			(at 375.92 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 376.809 33.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 376.428 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 375.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0208315a-82e9-4592-a5e3-6ceea60a4d81")
+		)
+		(pin "2"
+			(uuid "43a928d8-70da-463a-acc2-44247e040fc0")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "R314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 339.09 36.83 0)
 		(unit 1)
@@ -18116,7 +18570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 83.82 0)
+		(at 340.36 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18126,7 +18580,7 @@
 		(dnp no)
 		(uuid "34563bf5-f9c8-42e8-be76-766795c49922")
 		(property "Reference" "#PWR018"
-			(at 340.36 90.17 0)
+			(at 334.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18137,7 +18591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 340.106 88.392 0)
+			(at 339.09 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18147,7 +18601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 83.82 0)
+			(at 340.36 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18158,7 +18612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 83.82 0)
+			(at 340.36 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18169,7 +18623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 83.82 0)
+			(at 340.36 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18850,7 +19304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 69.85 0)
+		(at 340.36 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18858,10 +19312,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "536a0423-01a5-491b-aa5b-bf0c3bbd7489")
 		(property "Reference" "#PWR017"
-			(at 340.36 76.2 0)
+			(at 334.01 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18872,7 +19325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 340.36 74.93 0)
+			(at 339.09 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19893,6 +20346,86 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:1.5KE20A")
+		(at 165.1 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a9c1c7-c750-4704-a948-989f7904bf87")
+		(property "Reference" "D182"
+			(at 165.1 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5KE20A"
+			(at 165.1 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/574f55cd54a0c134073ea930418e1e69/1_5KE_ser.pdf"
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DO-201 Unidirectional TVS diode, 20V, 1500W, Alternate KiCAD Library"
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d263fcc4-d751-4b10-b428-43aa189b4538")
+		)
+		(pin "1"
+			(uuid "782acb46-2afa-4b32-a2ec-8a7b7d3c3e06")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "D182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
 		(at 375.92 39.37 0)
 		(mirror y)
@@ -20336,7 +20869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:4.7k")
+		(lib_id "PCM_SL_Resistors:100k")
 		(at 264.16 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -20356,7 +20889,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7kΩ"
+		(property "Value" "100k"
 			(at 264.16 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20388,7 +20921,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "100kΩ, 1/4W Resistor"
 			(at 264.16 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -22217,6 +22750,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b958b6d1-e18e-44a7-8ffb-ec1b97d8581e")
+		(property "Reference" "#PWR031"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.956 114.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dae6331-7b93-4dc4-8277-0a8aaf702b52")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 140.97 26.67 0)
 		(unit 1)
@@ -22810,7 +23420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF_50V"
+		(property "Value" "2.2uF 50V X7R"
 			(at 173.99 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22821,7 +23431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 166.37 74.422 0)
 			(hide yes)
 			(show_name no)
@@ -22843,7 +23453,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2uF, 50V Electrolytic Capacitor"
+		(property "Description" "2.2µF 50V X7R céramique — TDK FG24X7R1H225KRT06"
 			(at 170.18 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -23300,7 +23910,7 @@
 	)
 	(symbol
 		(lib_id "TrailerDiagSymbols:SR205E104MARAP1")
-		(at 347.98 115.57 0)
+		(at 350.52 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23311,7 +23921,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6dbf08-2678-40a4-a624-18620e89c2c0")
 		(property "Reference" "C5"
-			(at 349.25 109.22 0)
+			(at 351.79 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23321,7 +23931,7 @@
 			)
 		)
 		(property "Value" "SR205E104MARAP1"
-			(at 349.25 111.76 0)
+			(at 351.79 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23332,7 +23942,7 @@
 			)
 		)
 		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23344,7 +23954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23355,7 +23965,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23367,7 +23977,7 @@
 			)
 		)
 		(property "MF" "AVX"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23379,7 +23989,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23391,7 +24001,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23403,7 +24013,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23415,7 +24025,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23427,7 +24037,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23439,7 +24049,7 @@
 			)
 		)
 		(property "PARTREV" "081816"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23451,7 +24061,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23463,7 +24073,7 @@
 			)
 		)
 		(property "MP" "SR205E104MARAP1"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23475,7 +24085,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23487,7 +24097,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KYOCERA AVX"
-			(at 347.98 115.57 0)
+			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23508,86 +24118,6 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 237.49 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2987f73-72c8-439d-b30f-c39559a6ddea")
-		(property "Reference" "D153"
-			(at 237.49 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 237.49 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 237.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 237.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 237.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70e4cfb0-60e2-4760-8187-2b0fdbea2bf7")
-		)
-		(pin "1"
-			(uuid "0c749cc7-6a95-4b99-a26c-f2d48689a231")
-		)
-		(instances
-			(project "TrailerDiagnosticSystem"
-				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
-					(reference "D153")
 					(unit 1)
 				)
 			)
@@ -23802,6 +24332,84 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 68.58 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8543235-1b92-4ce9-a980-8dcb53c665c5")
+		(property "Reference" "#PWR032"
+			(at 394.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 390.144 70.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f2c9c53-c280-45ad-85f4-741f6dff1022")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
