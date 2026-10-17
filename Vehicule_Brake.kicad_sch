@@ -3536,6 +3536,16 @@
 		)
 		(uuid "46b35c16-52af-41c4-b03e-eaad52fed2f0")
 	)
+	(label "Injection_Brake_Fault"
+		(at 95.25 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52b38961-d1f3-4d24-848c-18a86e4bc87a")
+	)
 	(label "Surchauffe_Brake"
 		(at 200.66 153.67 180)
 		(effects
@@ -4264,17 +4274,6 @@
 			(justify left)
 		)
 		(uuid "68adc2ed-a33d-4496-8da9-9cd22c87c2e8")
-	)
-	(hierarchical_label "Injection_Brake_Fault"
-		(shape input)
-		(at 95.25 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "caf495db-ab4f-442f-b405-38d9193dca9c")
 	)
 	(hierarchical_label "Veh_Brake"
 		(shape input)

@@ -2655,6 +2655,16 @@
 		)
 		(uuid "93dd41b2-6341-40bd-98de-089c5432f88b")
 	)
+	(label "Injection_Left_Fault"
+		(at 90.17 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5fd1928-6398-4214-a22e-0fb1e843b662")
+	)
 	(label "Seuil_Ouvert_Left"
 		(at 176.53 48.26 0)
 		(effects
@@ -3204,17 +3214,6 @@
 			(justify right)
 		)
 		(uuid "5be341f0-0ba2-473c-98f6-002c2d349eba")
-	)
-	(hierarchical_label "Injection_Left_Fault"
-		(shape input)
-		(at 90.17 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8785726a-119d-4ac7-b9ee-bb529cec4273")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")

@@ -7,36 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 63.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02245be3-05ec-47bd-8507-f43d93354f94")
-	)
-	(wire
-		(pts
-			(xy 54.61 40.64) (xy 63.5 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d6f41c-8dd1-420e-85b8-d8543901b670")
-	)
-	(wire
-		(pts
-			(xy 52.07 43.18) (xy 52.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ddadbe0-7688-4ffa-8101-959fbf23272e")
-	)
-	(wire
-		(pts
 			(xy 39.37 29.21) (xy 41.91 29.21)
 		)
 		(stroke
@@ -47,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 49.53 40.64)
+			(xy 39.37 40.64) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
@@ -57,23 +27,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 52.07 43.18)
+			(xy 39.37 43.18) (xy 63.5 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e310453-412f-4444-9595-96e445c0e69a")
-	)
-	(wire
-		(pts
-			(xy 41.91 31.115) (xy 39.37 31.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1c2d2a-0990-4ea6-9ed2-139daf7d735a")
 	)
 	(wire
 		(pts
@@ -87,67 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 40.64) (xy 49.53 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7457e3b8-da43-465e-ae29-bad6d07dd316")
-	)
-	(wire
-		(pts
-			(xy 59.69 31.75) (xy 63.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5d7142-5ae0-457f-a76e-39fb20408cb9")
-	)
-	(wire
-		(pts
-			(xy 52.07 29.21) (xy 63.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839786b4-7a5a-40ba-a293-03efbf26c2a8")
-	)
-	(wire
-		(pts
-			(xy 52.07 24.13) (xy 52.07 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895a9d20-1494-4306-9af4-d04fb248bf77")
-	)
-	(wire
-		(pts
-			(xy 54.61 45.72) (xy 54.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90699e18-25e4-4d29-abef-7575f7207347")
-	)
-	(wire
-		(pts
-			(xy 49.53 35.56) (xy 63.5 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9b75e8-304e-4df5-9cf1-02f77b6a71f5")
-	)
-	(wire
-		(pts
-			(xy 39.37 24.13) (xy 52.07 24.13)
+			(xy 39.37 24.13) (xy 63.5 24.13)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 54.61 45.72)
+			(xy 39.37 45.72) (xy 63.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -167,43 +67,13 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 29.845) (xy 59.69 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf3381e-3a6e-4fe0-946e-eaf94deaab6b")
-	)
-	(wire
-		(pts
-			(xy 39.37 26.67) (xy 51.435 26.67)
+			(xy 39.37 26.67) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db7a783a-9078-48c2-adc5-b0f6b2b3280a")
-	)
-	(wire
-		(pts
-			(xy 59.69 29.845) (xy 59.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1cc092b-ceb8-44f7-9824-7cef7b2ae55a")
-	)
-	(wire
-		(pts
-			(xy 51.435 26.67) (xy 51.435 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc872642-9cc4-476c-b339-d92bbdd8ed19")
 	)
 	(hierarchical_label "Trail_Backup"
 		(shape input)
@@ -215,17 +85,6 @@
 			(justify left)
 		)
 		(uuid "3957af4e-e5e0-4202-84b7-84aae61d7ed5")
-	)
-	(hierarchical_label "Injection_Backup_Fault"
-		(shape input)
-		(at 41.91 31.115 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "7372ae86-c1fa-4956-aaca-8324a7d1c4f6")
 	)
 	(hierarchical_label "Veh_Backup"
 		(shape input)
@@ -239,8 +98,8 @@
 		(uuid "cc478a6a-117b-4105-bb46-92d1b1c28c9d")
 	)
 	(sheet
-		(at 19.05 38.1)
-		(size 20.32 12.7)
+		(at 19.05 38.354)
+		(size 20.32 12.192)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -255,7 +114,7 @@
 		)
 		(uuid "18872dd6-0ef4-4a27-9be8-9bc7a3e7d142")
 		(property "Sheetname" "Trailer_Backup"
-			(at 19.05 37.6424 0)
+			(at 19.05 37.8964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -266,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "Trailer_Backup.kicad_sch"
-			(at 19.05 51.1814 0)
+			(at 19.05 50.9274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -325,8 +184,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 25.4)
-		(size 19.05 19.05)
+		(at 63.5 22.86)
+		(size 19.05 27.686)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -341,7 +200,7 @@
 		)
 		(uuid "3c1e0037-3393-4d0b-90ae-4005503ff1f2")
 		(property "Sheetname" "Bloc_Test_Backup"
-			(at 63.5 24.9424 0)
+			(at 63.5 22.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -352,7 +211,7 @@
 			)
 		)
 		(property "Sheetfile" "Bloc_Test_Backup.kicad_sch"
-			(at 63.5 44.8314 0)
+			(at 63.5 50.9274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -363,7 +222,7 @@
 			)
 		)
 		(pin "Ouvert_Backup_Vehic" input
-			(at 63.5 29.21 180)
+			(at 63.5 24.13 180)
 			(uuid "ed52f5a0-4cf5-43fc-8208-1fbc1e69ae6a")
 			(effects
 				(font
@@ -373,7 +232,7 @@
 			)
 		)
 		(pin "Ouvert_Backup_Trailer" input
-			(at 63.5 35.56 180)
+			(at 63.5 40.64 180)
 			(uuid "84d23908-8452-4e03-a571-82070680a136")
 			(effects
 				(font
@@ -383,7 +242,7 @@
 			)
 		)
 		(pin "Btn_Backup_Etat" input
-			(at 63.5 40.64 180)
+			(at 63.5 45.72 180)
 			(uuid "e174ec53-1b92-4fb5-88e6-0a6de9ee7456")
 			(effects
 				(font
@@ -393,7 +252,7 @@
 			)
 		)
 		(pin "Court_Backup_Vehic" input
-			(at 63.5 31.75 180)
+			(at 63.5 26.67 180)
 			(uuid "fe00f178-df3a-4c10-8b1d-8eacfc37de8d")
 			(effects
 				(font
@@ -403,7 +262,7 @@
 			)
 		)
 		(pin "Court_Backup_Trailer" input
-			(at 63.5 38.1 180)
+			(at 63.5 43.18 180)
 			(uuid "6dc46b59-5e1d-4011-9a86-2ade5e6ef193")
 			(effects
 				(font
@@ -422,7 +281,7 @@
 	)
 	(sheet
 		(at 19.05 22.86)
-		(size 20.32 10.16)
+		(size 20.32 8.128)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -448,7 +307,7 @@
 			)
 		)
 		(property "Sheetfile" "Vehicule_Backup.kicad_sch"
-			(at 19.05 33.4014 0)
+			(at 19.05 31.3694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -484,16 +343,6 @@
 			(effects
 				(font
 					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Backup_Fault" input
-			(at 39.37 31.115 0)
-			(uuid "3f9632a2-2d80-4ae7-a05c-ffc06678309d")
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 				(justify right)
 			)

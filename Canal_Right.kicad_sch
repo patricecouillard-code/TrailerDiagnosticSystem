@@ -7,33 +7,13 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 85.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0893ebb9-1032-4768-8cf1-4e646087d1bb")
-	)
-	(wire
-		(pts
-			(xy 63.5 71.12) (xy 92.71 71.12)
+			(xy 63.5 71.12) (xy 95.25 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d6f0237-4ec0-43d9-a32f-8f32821af018")
-	)
-	(wire
-		(pts
-			(xy 92.71 59.69) (xy 95.25 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13007eeb-ab0d-4446-8b9a-c07ac2b4fbc9")
 	)
 	(wire
 		(pts
@@ -47,17 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 95.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf4c1f9-1072-4f25-b248-f451ed55486a")
-	)
-	(wire
-		(pts
-			(xy 63.5 36.83) (xy 88.9 36.83)
+			(xy 63.5 36.83) (xy 95.25 36.83)
 		)
 		(stroke
 			(width 0)
@@ -67,33 +37,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 85.09 60.96)
+			(xy 63.5 60.96) (xy 95.25 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53da5a59-7d24-4a2a-9ca1-31fb4eed2653")
-	)
-	(wire
-		(pts
-			(xy 88.9 36.83) (xy 88.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4ac37a-5d82-40fb-880b-f0ac9ae19476")
-	)
-	(wire
-		(pts
-			(xy 85.09 45.72) (xy 95.25 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6270bdb4-5517-4c28-9880-e716b6982ac2")
 	)
 	(wire
 		(pts
@@ -107,27 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 85.09 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee39675-d695-42c6-bcc6-343250c8bcda")
-	)
-	(wire
-		(pts
-			(xy 63.5 33.655) (xy 68.58 33.655)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94978c70-c5d3-4ac4-a21c-0834ff102949")
-	)
-	(wire
-		(pts
-			(xy 63.5 66.04) (xy 88.9 66.04)
+			(xy 63.5 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -137,64 +67,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 95.25 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c1d125-8403-41d2-a9e9-e17dc3bf87ab")
-	)
-	(wire
-		(pts
-			(xy 92.71 71.12) (xy 92.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8eeca3-c108-4ebe-9467-27d2eb0de057")
-	)
-	(wire
-		(pts
-			(xy 63.5 40.64) (xy 85.09 40.64)
+			(xy 63.5 40.64) (xy 95.25 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2c5d9aa-a4d1-4ea1-be4a-fb07439454a0")
-	)
-	(wire
-		(pts
-			(xy 88.9 54.61) (xy 95.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e72090-740d-43a7-97d8-1fa9b47021b4")
-	)
-	(wire
-		(pts
-			(xy 88.9 66.04) (xy 88.9 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37976b2-49af-4fd8-8a0a-552869c9289f")
-	)
-	(hierarchical_label "Injection_Right_Fault"
-		(shape input)
-		(at 68.58 33.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fbdbf07-d16a-4169-92ef-b4d8b040495d")
 	)
 	(hierarchical_label "Trail_Right"
 		(shape input)
@@ -305,8 +184,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 39.37)
-		(size 46.99 35.56)
+		(at 95.25 30.48)
+		(size 46.99 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -321,7 +200,7 @@
 		)
 		(uuid "9c44984f-fa80-4102-be68-50a7c77252f6")
 		(property "Sheetname" "Bloc_Test_Right"
-			(at 95.25 38.9124 0)
+			(at 95.25 30.0224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -343,7 +222,7 @@
 			)
 		)
 		(pin "Btn_Right_Etat" input
-			(at 95.25 59.69 180)
+			(at 95.25 71.12 180)
 			(uuid "f3926b68-83bd-465f-b5f2-4f72c15fda5e")
 			(effects
 				(font
@@ -353,7 +232,7 @@
 			)
 		)
 		(pin "Court_Right_Trailer" input
-			(at 95.25 50.8 180)
+			(at 95.25 60.96 180)
 			(uuid "69eddd81-0573-41b4-a17c-97e0b12cde79")
 			(effects
 				(font
@@ -363,7 +242,7 @@
 			)
 		)
 		(pin "Court_Right_Vehic" input
-			(at 95.25 41.91 180)
+			(at 95.25 36.83 180)
 			(uuid "e6b325a4-203b-44c2-aec0-d4af9e9f41ed")
 			(effects
 				(font
@@ -373,7 +252,7 @@
 			)
 		)
 		(pin "Ouvert_Right_Trailer" input
-			(at 95.25 54.61 180)
+			(at 95.25 66.04 180)
 			(uuid "42c6b5bf-9c01-49ab-8461-eee8072a6908")
 			(effects
 				(font
@@ -383,7 +262,7 @@
 			)
 		)
 		(pin "Ouvert_Right_Vehic" input
-			(at 95.25 45.72 180)
+			(at 95.25 40.64 180)
 			(uuid "49e29099-8584-469c-ab2e-fd5201f78dcd")
 			(effects
 				(font
@@ -461,16 +340,6 @@
 		(pin "Veh_Right" input
 			(at 63.5 44.45 0)
 			(uuid "878c28d0-7ef1-44c2-932c-ff3236c3e9ef")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Right_Fault" input
-			(at 63.5 33.655 0)
-			(uuid "bda173d0-66cc-4dae-a028-f98e96496a4d")
 			(effects
 				(font
 					(size 1.016 1.016)

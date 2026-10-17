@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 64.77 55.88)
+			(xy 59.69 53.34) (xy 64.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 53.34) (xy 63.5 20.32)
+			(xy 63.5 50.8) (xy 63.5 20.32)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 62.23 50.8)
+			(xy 59.69 48.26) (xy 62.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 64.77 87.63)
+			(xy 59.69 69.85) (xy 64.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 31.75) (xy 35.56 85.09)
+			(xy 35.56 31.75) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -97,17 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 60.325) (xy 64.77 60.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60692975-2c35-4dd7-83a9-710718d0c886")
-	)
-	(wire
-		(pts
-			(xy 39.37 82.55) (xy 39.37 35.56)
+			(xy 39.37 64.77) (xy 39.37 35.56)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 82.55) (xy 39.37 82.55)
+			(xy 43.18 64.77) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 90.17) (xy 31.75 90.17)
+			(xy 43.18 72.39) (xy 31.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 62.23 24.13)
+			(xy 62.23 48.26) (xy 62.23 24.13)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 90.17) (xy 31.75 27.94)
+			(xy 31.75 72.39) (xy 31.75 27.94)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 85.09) (xy 43.18 85.09)
+			(xy 35.56 67.31) (xy 43.18 67.31)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 63.5 53.34)
+			(xy 59.69 50.8) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -185,20 +175,9 @@
 		)
 		(uuid "fdd1d9f4-a850-49f5-8743-176572d71489")
 	)
-	(hierarchical_label "Injection_Tail_Fault"
-		(shape input)
-		(at 64.77 60.325 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f9078e4-b1d3-4c80-b9a5-a8bb5ef16451")
-	)
 	(hierarchical_label "Trail_Tail"
 		(shape input)
-		(at 64.77 87.63 0)
+		(at 64.77 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -209,7 +188,7 @@
 	)
 	(hierarchical_label "Veh_Tail"
 		(shape input)
-		(at 64.77 55.88 0)
+		(at 64.77 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -219,8 +198,8 @@
 		(uuid "fae63228-9d7c-4e24-8b99-b7316b977860")
 	)
 	(sheet
-		(at 43.18 80.01)
-		(size 16.51 22.86)
+		(at 43.18 62.23)
+		(size 16.51 12.446)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -235,7 +214,7 @@
 		)
 		(uuid "035734f9-00a0-40ca-8dd5-aaa090d3fd2b")
 		(property "Sheetname" "Trailer_Tail"
-			(at 43.18 79.5524 0)
+			(at 43.18 61.7724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -246,7 +225,7 @@
 			)
 		)
 		(property "Sheetfile" "Trailer_Tail.kicad_sch"
-			(at 43.18 103.2514 0)
+			(at 43.18 75.0574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -257,7 +236,7 @@
 			)
 		)
 		(pin "Trail_Tail" input
-			(at 59.69 87.63 0)
+			(at 59.69 69.85 0)
 			(uuid "77a7d469-f97c-4470-8b37-26705a2ccc79")
 			(effects
 				(font
@@ -267,7 +246,7 @@
 			)
 		)
 		(pin "Ouvert_Tail_Trailer" input
-			(at 43.18 90.17 180)
+			(at 43.18 72.39 180)
 			(uuid "cc0af3be-8b07-4748-a991-afd47d20fc84")
 			(effects
 				(font
@@ -277,7 +256,7 @@
 			)
 		)
 		(pin "Court_Tail_Trailer" input
-			(at 43.18 85.09 180)
+			(at 43.18 67.31 180)
 			(uuid "1e695a83-823d-4138-8f67-42f20cfa0de1")
 			(effects
 				(font
@@ -287,7 +266,7 @@
 			)
 		)
 		(pin "Btn_Tail_Etat" input
-			(at 43.18 82.55 180)
+			(at 43.18 64.77 180)
 			(uuid "0db1041a-501a-4038-a7b2-7123b3966e95")
 			(effects
 				(font
@@ -305,8 +284,8 @@
 		)
 	)
 	(sheet
-		(at 43.18 48.26)
-		(size 16.51 24.13)
+		(at 43.18 45.72)
+		(size 16.51 9.652)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -321,7 +300,7 @@
 		)
 		(uuid "165a78d8-d8b3-469f-bb34-1685382cbb2d")
 		(property "Sheetname" "Vehicule_Tail"
-			(at 43.18 47.8024 0)
+			(at 43.18 45.2624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -332,7 +311,7 @@
 			)
 		)
 		(property "Sheetfile" "Vehicule_Tail.kicad_sch"
-			(at 43.18 72.7714 0)
+			(at 43.18 55.7534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -343,7 +322,7 @@
 			)
 		)
 		(pin "Ouvert_Tail_Vehic" input
-			(at 59.69 50.8 0)
+			(at 59.69 48.26 0)
 			(uuid "e1556f6e-b883-48f1-811a-a62947488ffb")
 			(effects
 				(font
@@ -353,7 +332,7 @@
 			)
 		)
 		(pin "Court_Tail_Vehic" input
-			(at 59.69 53.34 0)
+			(at 59.69 50.8 0)
 			(uuid "0253287e-4366-4f49-bada-b70f69078f7d")
 			(effects
 				(font
@@ -363,18 +342,8 @@
 			)
 		)
 		(pin "Veh_Tail" input
-			(at 59.69 55.88 0)
+			(at 59.69 53.34 0)
 			(uuid "9dca754b-138d-4aad-a249-65e91d61db01")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
-			(at 59.69 60.325 0)
-			(uuid "c5ba4d56-05f2-4274-968b-af5411b6fa27")
 			(effects
 				(font
 					(size 0.762 0.762)

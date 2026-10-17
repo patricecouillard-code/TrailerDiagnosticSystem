@@ -2021,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 88.9 35.56)
+			(xy 154.94 35.56) (xy 86.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2321,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 68.58) (xy 91.44 68.58)
+			(xy 86.36 68.58) (xy 91.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 35.56) (xy 88.9 68.58)
+			(xy 86.36 35.56) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2528,6 +2528,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e47172b-bf4c-4447-8a60-d3c15bd24c47")
+	)
+	(label "Injection_Tail_Fault"
+		(at 109.22 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0e8d945-4baa-4a41-ade9-f7e2f48cb7c2")
 	)
 	(label "Seuil_Ouvert"
 		(at 91.44 86.36 180)
@@ -3034,17 +3044,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "Injection_Tail_Fault"
-		(shape input)
-		(at 109.22 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "255476f3-606f-4a39-9a3c-cb74ae3ffea1")
 	)
 	(hierarchical_label "Court_Tail_Vehic"
 		(shape input)

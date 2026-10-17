@@ -1890,22 +1890,22 @@
 		(uuid "759e0cbf-7458-4e37-a86f-db28c305d153")
 	)
 	(junction
-		(at 170.18 48.26)
+		(at 170.18 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06f843cd-1d17-4bfa-8a12-64ad73f36c21")
 	)
 	(junction
-		(at 134.62 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "237de8ab-bb3f-4ba6-891a-792034a20b74")
-	)
-	(junction
 		(at 124.46 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47dbe514-1ea5-4704-856b-e58196ca7197")
+		(uuid "1583ea96-f9ea-45cf-b9e5-71b372b39891")
+	)
+	(junction
+		(at 134.62 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16292c53-03e6-4b90-bc68-ffd31b8151dd")
 	)
 	(junction
 		(at 82.55 101.6)
@@ -1919,13 +1919,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 149.86 55.88)
+			(xy 134.62 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a911317-7f3b-45b4-9129-4e767855b1b7")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b07302b-19ba-479a-98b6-2982197a0d99")
 	)
 	(wire
 		(pts
@@ -1939,16 +1949,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 59.69) (xy 156.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "123552e1-5371-4b80-968e-a40d3fcea5a1")
-	)
-	(wire
-		(pts
 			(xy 176.53 88.9) (xy 176.53 87.63)
 		)
 		(stroke
@@ -1956,16 +1956,6 @@
 			(type default)
 		)
 		(uuid "1a94a2a9-434c-4e2c-a9dd-f6c8be994136")
-	)
-	(wire
-		(pts
-			(xy 156.21 49.53) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8c09a0-87e3-4c47-b262-e76ddda5266b")
 	)
 	(wire
 		(pts
@@ -2029,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 170.18 34.29)
+			(xy 170.18 46.99) (xy 170.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 171.45 48.26)
+			(xy 170.18 46.99) (xy 171.45 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 48.26) (xy 182.88 48.26)
+			(xy 179.07 46.99) (xy 182.88 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2096,16 +2086,6 @@
 			(type default)
 		)
 		(uuid "55094819-0cff-4104-b265-e9736008124d")
-	)
-	(wire
-		(pts
-			(xy 134.62 47.625) (xy 134.62 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55414dad-8508-452d-83de-27ee759e73b6")
 	)
 	(wire
 		(pts
@@ -2129,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 134.62 55.88)
+			(xy 124.46 58.42) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2176,6 +2156,16 @@
 			(type default)
 		)
 		(uuid "6bdf9861-7da9-46e6-bc2a-eb5d230df38b")
+	)
+	(wire
+		(pts
+			(xy 134.62 46.99) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db4ab2d-f237-448b-8228-1b3d828d4ee2")
 	)
 	(wire
 		(pts
@@ -2229,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 48.26) (xy 160.02 48.26)
+			(xy 151.13 46.99) (xy 160.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 47.625) (xy 134.62 47.625)
+			(xy 128.27 46.99) (xy 134.62 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 170.18 48.26)
+			(xy 167.64 46.99) (xy 170.18 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 124.46 69.85)
+			(xy 124.46 58.42) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2406,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "ec749613-6aec-4376-ad9a-4faf6f467497")
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0048da-8b63-456d-9f68-2b1acfda1ddd")
 	)
 	(wire
 		(pts
@@ -2476,6 +2476,16 @@
 			(justify left bottom)
 		)
 		(uuid "19093480-6ada-4ad1-971b-714a0ea8b54a")
+	)
+	(label "Injection_Right_Fault"
+		(at 128.27 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f0f6e80-96b5-4287-8346-51560f38fcab")
 	)
 	(label "Seuil_Court_Right"
 		(at 214.63 83.82 0)
@@ -2578,7 +2588,7 @@
 		(uuid "d7153efd-7768-45da-924a-8330248a5283")
 	)
 	(label "Q27_Drain"
-		(at 153.67 49.53 180)
+		(at 151.13 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2911,7 +2921,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 182.88 48.26 0)
+		(at 182.88 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2921,7 +2931,7 @@
 		)
 		(uuid "f0fce923-48b1-4fb3-b4a6-541769f49bc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.7357 48.26 0)
+			(at 189.7357 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,20 +3063,9 @@
 			)
 		)
 	)
-	(hierarchical_label "Injection_Right_Fault"
-		(shape input)
-		(at 128.27 47.625 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04f60e26-2bc4-4e30-bc7c-39d88f071346")
-	)
 	(hierarchical_label "Veh_Right"
 		(shape input)
-		(at 151.13 48.26 180)
+		(at 151.13 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3573,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:100k")
-		(at 163.83 48.26 0)
+		(at 163.83 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3584,7 +3583,7 @@
 		(fields_autoplaced yes)
 		(uuid "52c8ce9f-b307-43bb-b488-212089c8d01d")
 		(property "Reference" "R96"
-			(at 163.83 41.91 0)
+			(at 163.83 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3594,7 +3593,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 163.83 44.45 0)
+			(at 163.83 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3604,7 +3603,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 164.719 52.578 0)
+			(at 164.719 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 164.338 48.26 0)
+			(at 164.338 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,7 +3625,7 @@
 			)
 		)
 		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 163.83 48.26 0)
+			(at 163.83 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3857,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 175.26 48.26 0)
+		(at 175.26 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3869,7 +3868,7 @@
 		(fields_autoplaced yes)
 		(uuid "77502ef3-0fa6-44c4-b113-b4bfda1001f8")
 		(property "Reference" "R97"
-			(at 175.26 41.91 0)
+			(at 175.26 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3879,7 +3878,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 175.26 44.45 0)
+			(at 175.26 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3889,7 +3888,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 176.149 52.578 0)
+			(at 176.149 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +3899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.768 48.26 0)
+			(at 175.768 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3910,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 175.26 48.26 0)
+			(at 175.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5095,7 +5094,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:IRLZ44N")
-		(at 153.67 54.61 0)
+		(at 153.67 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5105,17 +5104,6 @@
 		(dnp no)
 		(uuid "f3c0afda-09b1-4267-9739-4b88681b9539")
 		(property "Reference" "Q27"
-			(at 160.02 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
 			(at 160.02 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,8 +5114,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "IRLZ44N"
+			(at 160.02 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
-			(at 158.75 52.07 0)
+			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5137,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/71cf1899624764088671ce6de5d15eb4/irlz44n.pdf"
-			(at 153.67 54.61 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +5148,7 @@
 			)
 		)
 		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 55V, 47A, 110W, Alternate KiCAD Library"
-			(at 153.67 54.61 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5159,8 @@
 			)
 		)
 		(property "Etiquette" "Q_Right_Inject"
-			(at 164.084 57.912 0)
+			(at 164.084 60.452 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

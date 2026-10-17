@@ -2812,26 +2812,6 @@
 		)
 		(uuid "54e7f449-c023-45cb-8d15-0549ff969c5f")
 	)
-	(text "Injection"
-		(exclude_from_sim no)
-		(at 68.58 54.61 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "6059a48b-ad4d-4692-baf3-f74d0b6a57c8")
-	)
-	(text "Court-circuit\n"
-		(exclude_from_sim no)
-		(at 72.39 91.44 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "b5723360-636f-4395-93b2-2a9f283cdd1c")
-	)
 	(text "Module du voltmetre/ampèremetre"
 		(exclude_from_sim no)
 		(at 204.216 206.756 0)
@@ -2841,16 +2821,6 @@
 			)
 		)
 		(uuid "d0c5973d-ae20-4609-8788-d55a439276b5")
-	)
-	(text "Ouvvert\n"
-		(exclude_from_sim no)
-		(at 72.39 74.93 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "eb0445f5-e6ff-4a54-a1d3-7e7eb0289ffb")
 	)
 	(junction
 		(at 78.74 59.69)
@@ -2871,10 +2841,16 @@
 		(uuid "3f182d54-1733-4001-838b-93ca75f5a65f")
 	)
 	(junction
-		(at 90.805 45.72)
+		(at 78.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43c4fbcf-8b30-4cd0-87a8-f5b641d40902")
+		(uuid "4397d6d5-357b-46cb-8ebe-557a4ecf63f3")
+	)
+	(junction
+		(at 36.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e07f548-ddd1-478d-9f2f-45a355ea4e07")
 	)
 	(junction
 		(at 78.74 80.01)
@@ -2893,12 +2869,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a36d89-9978-4cc1-9342-80faa5919c1c")
-	)
-	(junction
-		(at 36.83 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93d84aa3-168c-4c7a-a86a-b9eb238650d6")
 	)
 	(junction
 		(at 270.51 55.88)
@@ -2944,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 21.59) (xy 36.83 82.55)
+			(xy 34.29 20.32) (xy 34.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3001,6 +2971,16 @@
 			(type default)
 		)
 		(uuid "26164755-519c-430a-b135-bf00da6e11a0")
+	)
+	(wire
+		(pts
+			(xy 34.29 82.55) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ed0bb-40db-47d4-9453-3d2f6ff44c21")
 	)
 	(wire
 		(pts
@@ -3154,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 21.59) (xy 36.83 21.59)
+			(xy 124.46 20.32) (xy 34.29 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 80.01)
+			(xy 78.74 85.09) (xy 78.74 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3261,16 +3241,6 @@
 			(type default)
 		)
 		(uuid "6c38ef6f-8628-45cc-9d4e-feb715ed6d4d")
-	)
-	(wire
-		(pts
-			(xy 82.55 40.64) (xy 90.805 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e75afe2-d367-44b4-a484-3180326a0cc9")
 	)
 	(wire
 		(pts
@@ -3384,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 82.55 83.82)
+			(xy 78.74 85.09) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3394,17 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 45.72) (xy 104.14 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9310038a-def3-411e-9eda-3371f0650206")
-	)
-	(wire
-		(pts
-			(xy 124.46 52.07) (xy 124.46 21.59)
+			(xy 124.46 52.07) (xy 124.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 90.805 45.72)
+			(xy 78.74 45.72) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3674,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 40.64) (xy 90.805 45.72)
+			(xy 78.74 38.1) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3763,7 @@
 		(uuid "608fcc56-79cd-4e7c-a799-edd501e9af76")
 	)
 	(label "To_C9_1"
-		(at 82.55 83.82 0)
+		(at 82.55 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3841,6 +3801,16 @@
 			(justify left bottom)
 		)
 		(uuid "be7da844-fa25-4ce0-9605-79ded2e1d36e")
+	)
+	(label "Injection_Aux_Fault"
+		(at 78.74 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da27c7be-b9fc-437c-84c7-ed2716256dfa")
 	)
 	(label "Seuil_Injection_Aux"
 		(at 60.96 62.23 180)
@@ -4507,17 +4477,6 @@
 		)
 		(uuid "f2463896-5390-4854-840a-b7d3dab5f042")
 	)
-	(hierarchical_label "Injection_Aux_Fault"
-		(shape input)
-		(at 82.55 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa55058e-3987-44bf-b4de-06d9ac2f9a31")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
 		(at 54.61 115.57 0)
@@ -4928,6 +4887,7 @@
 		)
 		(property "Etiquette" "R_Aux_PU_C"
 			(at 85.09 94.234 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
