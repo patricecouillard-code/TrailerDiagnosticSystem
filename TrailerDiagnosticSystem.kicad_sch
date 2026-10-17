@@ -1479,17 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 180.34) (xy 67.31 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbc627d-caa2-472e-940e-ea50fbe862e6")
-	)
-	(wire
-		(pts
-			(xy 62.23 195.58) (xy 67.31 195.58)
+			(xy 62.23 180.848) (xy 67.31 180.848)
 		)
 		(stroke
 			(width 0)
@@ -1506,6 +1496,16 @@
 			(type default)
 		)
 		(uuid "14064555-db63-4858-bf76-daefcfee6244")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c680e-5427-4c00-857a-466daad75b2c")
 	)
 	(wire
 		(pts
@@ -1576,26 +1576,6 @@
 			(type default)
 		)
 		(uuid "24f9bf29-c84a-4186-b148-7b712918fbb7")
-	)
-	(wire
-		(pts
-			(xy 49.53 66.04) (xy 54.61 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25407c5e-5603-4f7a-ba66-aaccf8625674")
-	)
-	(wire
-		(pts
-			(xy 62.23 184.15) (xy 67.31 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25613219-b9ae-4c42-8965-1b28e841b365")
 	)
 	(wire
 		(pts
@@ -1719,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 62.23 146.05)
+			(xy 62.23 149.86) (xy 67.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1756,16 +1736,6 @@
 			(type default)
 		)
 		(uuid "7057a219-6549-4edc-bc1f-0a345925d85c")
-	)
-	(wire
-		(pts
-			(xy 49.53 110.49) (xy 53.34 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715b1360-c7c6-47cf-b542-3c24a0f7d4f4")
 	)
 	(wire
 		(pts
@@ -1829,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 154.94) (xy 67.31 154.94)
+			(xy 62.23 157.48) (xy 67.31 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 151.13) (xy 67.31 151.13)
+			(xy 62.23 153.67) (xy 67.31 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1919,16 +1889,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 67.31 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96276a3-394b-42f3-9ef4-6355a8f5242a")
-	)
-	(wire
-		(pts
 			(xy 184.15 68.58) (xy 187.96 68.58)
 		)
 		(stroke
@@ -1946,16 +1906,6 @@
 			(type default)
 		)
 		(uuid "be3d3732-140c-4e3f-81f6-ce6322bd3114")
-	)
-	(wire
-		(pts
-			(xy 62.23 165.1) (xy 67.31 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef24fda-d0e8-49e1-8070-54d16fa63412")
 	)
 	(wire
 		(pts
@@ -2029,16 +1979,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.25) (xy 52.07 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3b4ae5-859b-493e-bb1d-2dcbcda4d5bb")
-	)
-	(wire
-		(pts
 			(xy 184.15 83.82) (xy 187.96 83.82)
 		)
 		(stroke
@@ -2069,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 191.77) (xy 67.31 191.77)
+			(xy 62.23 177.038) (xy 67.31 177.038)
 		)
 		(stroke
 			(width 0)
@@ -2109,17 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 52.07 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e4b7c1-ad31-4294-822f-c6de642b5d95")
-	)
-	(wire
-		(pts
-			(xy 62.23 199.39) (xy 67.31 199.39)
+			(xy 62.23 184.658) (xy 67.31 184.658)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 187.96) (xy 67.31 187.96)
+			(xy 62.23 173.228) (xy 67.31 173.228)
 		)
 		(stroke
 			(width 0)
@@ -2189,16 +2119,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 172.72) (xy 67.31 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef636be4-6f79-4638-b112-4de02998f031")
-	)
-	(wire
-		(pts
 			(xy 101.6 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -2246,26 +2166,6 @@
 			(type default)
 		)
 		(uuid "fa837fc4-3289-4b40-b4a7-c4b64ea09aa9")
-	)
-	(wire
-		(pts
-			(xy 49.53 80.01) (xy 54.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf15dae-194e-43da-8b44-025fca308637")
-	)
-	(wire
-		(pts
-			(xy 62.23 176.53) (xy 67.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1cb4ac-65bf-4bb4-86a0-a3d6733b1a21")
 	)
 	(wire
 		(pts
@@ -2318,7 +2218,7 @@
 		(uuid "0b22aa9a-c6bd-4e3d-abb0-1fee6c022123")
 	)
 	(label "Masse_Fault"
-		(at 67.31 146.05 0)
+		(at 67.31 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2358,7 +2258,7 @@
 		(uuid "21afa196-4076-4771-a4e3-251fac4d61c6")
 	)
 	(label "Pince_Trail"
-		(at 67.31 154.94 0)
+		(at 67.31 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2388,7 +2288,7 @@
 		(uuid "2ae3f3d1-d209-4e79-b23e-66388da07659")
 	)
 	(label "Pince_Veh"
-		(at 67.31 151.13 0)
+		(at 67.31 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,16 +2296,6 @@
 			(justify left bottom)
 		)
 		(uuid "2bf1beda-dc85-4e03-b3f1-7b0b7a7ae573")
-	)
-	(label "Injection_Left_Fault"
-		(at 54.61 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c04b6d3-b981-4754-808c-a8582f280cbd")
 	)
 	(label "Trail_Right"
 		(at 52.07 91.44 0)
@@ -2477,16 +2367,6 @@
 		)
 		(uuid "44bdcc4d-f57c-4b91-b26b-e945208bc325")
 	)
-	(label "Injection_Backup_Fault"
-		(at 67.31 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48c08000-13c0-4100-a72a-90e996683306")
-	)
 	(label "Trail_Left"
 		(at 54.61 77.47 0)
 		(effects
@@ -2537,26 +2417,6 @@
 		)
 		(uuid "54419c2e-c128-4719-9ab6-beb4553b4a8d")
 	)
-	(label "Injection_Tail_Fault"
-		(at 67.31 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55ea169f-63ce-4d48-9c39-3038a7a92bf5")
-	)
-	(label "Injection_Right_Fault"
-		(at 52.07 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57259be2-326b-4bb5-883c-a256b34e130c")
-	)
 	(label "Veh_Tail"
 		(at 187.96 68.58 0)
 		(effects
@@ -2576,16 +2436,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a04a474-bb9a-4d61-9b19-4f699bf0337d")
-	)
-	(label "Injection_Brake_Fault"
-		(at 67.31 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d7026de-6073-4532-9adc-503739ba24a9")
 	)
 	(label "V12_PostShunt"
 		(at 187.96 66.04 0)
@@ -2608,7 +2458,7 @@
 		(uuid "63358187-9f8d-4615-9df6-00e0f7d73af2")
 	)
 	(label "Alerte_Incoherence"
-		(at 67.31 199.39 0)
+		(at 67.31 184.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2657,26 +2507,6 @@
 		)
 		(uuid "7943a098-2191-4d78-9cde-0177fd5fac02")
 	)
-	(label "Injection_Aux_Fault"
-		(at 67.31 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ac83089-5fb1-4315-8753-22b39918b78b")
-	)
-	(label "Injection_Backup_Fault"
-		(at 53.34 110.49 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c73f643-7ace-48fa-bd33-fe0537d77ddd")
-	)
 	(label "Trail_Left"
 		(at 101.6 92.71 180)
 		(effects
@@ -2686,16 +2516,6 @@
 			(justify right bottom)
 		)
 		(uuid "7ed62de6-6e4b-47ad-8bb4-bee607eaf481")
-	)
-	(label "Injection_Aux_Fault"
-		(at 52.07 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80cd91a4-69c8-4f28-a355-fee8a5a47de2")
 	)
 	(label "Trail_Tail"
 		(at 54.61 63.5 0)
@@ -2708,7 +2528,7 @@
 		(uuid "81e41670-2fe4-46e8-ba31-d5bfd1c43449")
 	)
 	(label "Surtension_Fault"
-		(at 67.31 187.96 0)
+		(at 67.31 173.228 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,16 +2546,6 @@
 			(justify left bottom)
 		)
 		(uuid "89f9dd0b-d25e-4a80-9e11-74c17a301bb1")
-	)
-	(label "Injection_Right_Fault"
-		(at 67.31 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a647cbc-8462-4fdb-b556-51786747e578")
 	)
 	(label "Detect_Vehicule"
 		(at 54.61 35.56 0)
@@ -2848,7 +2658,7 @@
 		(uuid "b34750a7-d5b7-46ba-81c0-6a8e03e4b7d7")
 	)
 	(label "Court_Bus_Fault"
-		(at 67.31 191.77 0)
+		(at 67.31 177.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2866,16 +2676,6 @@
 			(justify right bottom)
 		)
 		(uuid "c18a77bf-aef0-417a-a1b4-f5ca65b81d1a")
-	)
-	(label "Injection_Tail_Fault"
-		(at 54.61 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c323ec1e-2156-4f3a-8509-90ad76fc7bc2")
 	)
 	(label "Veh_Brake"
 		(at 52.07 135.89 0)
@@ -2897,18 +2697,8 @@
 		)
 		(uuid "daefc1fb-7eca-4f96-a085-e400cddeb62e")
 	)
-	(label "Injection_Brake_Fault"
-		(at 52.07 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0f48d8e-4f8b-4f0a-8ac3-94e2e66b302c")
-	)
 	(label "Masse_Fault"
-		(at 67.31 195.58 0)
+		(at 67.31 180.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2916,16 +2706,6 @@
 			(justify left bottom)
 		)
 		(uuid "e12dee6c-20cc-43e8-8f43-5e0cfcdf83eb")
-	)
-	(label "Injection_Left_Fault"
-		(at 67.31 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e76a07a5-7445-41fa-af4f-b95d0ef4e30e")
 	)
 	(label "Veh_Aux"
 		(at 100.33 64.77 180)
@@ -4324,16 +4104,6 @@
 				(justify right)
 			)
 		)
-		(pin "Injection_Brake_Fault" input
-			(at 49.53 133.35 0)
-			(uuid "0ce41014-ee0a-492e-b887-02b82137549d")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
@@ -4343,8 +4113,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 144.78)
-		(size 31.75 12.7)
+		(at 30.48 147.32)
+		(size 31.75 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4359,7 +4129,7 @@
 		)
 		(uuid "361b48c0-a959-47c9-bb38-aa88a46d3ebb")
 		(property "Sheetname" "Detection_De_Masse"
-			(at 30.48 144.3224 0)
+			(at 30.48 146.8624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4370,7 +4140,7 @@
 			)
 		)
 		(property "Sheetfile" "MassDetection.kicad_sch"
-			(at 30.48 157.2264 0)
+			(at 30.48 161.6714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4381,7 +4151,7 @@
 			)
 		)
 		(pin "Masse_Fault" input
-			(at 62.23 146.05 0)
+			(at 62.23 149.86 0)
 			(uuid "88c30147-69eb-40b5-afc1-9197fae57bf8")
 			(effects
 				(font
@@ -4391,7 +4161,7 @@
 			)
 		)
 		(pin "Pince_Trail" input
-			(at 62.23 154.94 0)
+			(at 62.23 157.48 0)
 			(uuid "0067cf2b-5d2e-4c10-8551-27bb0c35f771")
 			(effects
 				(font
@@ -4401,7 +4171,7 @@
 			)
 		)
 		(pin "Pince_Veh" input
-			(at 62.23 151.13 0)
+			(at 62.23 153.67 0)
 			(uuid "a6dd9142-f0e1-4927-ae31-2e878a7ba6e9")
 			(effects
 				(font
@@ -4469,16 +4239,6 @@
 		(pin "Trail_Right" input
 			(at 49.53 91.44 0)
 			(uuid "1fd245ad-5c0f-4700-bfeb-0d5439d1472b")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Right_Fault" input
-			(at 49.53 95.25 0)
-			(uuid "66e42136-e1ae-47f4-bd47-851242386e2a")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4593,7 +4353,7 @@
 	)
 	(sheet
 		(at 30.48 57.15)
-		(size 19.05 11.43)
+		(size 19.05 10.668)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4619,7 +4379,7 @@
 			)
 		)
 		(property "Sheetfile" "Canal_Tail.kicad_sch"
-			(at 30.48 68.3264 0)
+			(at 30.48 68.1994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4642,16 +4402,6 @@
 		(pin "Veh_Tail" input
 			(at 49.53 59.69 0)
 			(uuid "e21f1716-37a0-4da0-b2f2-52969fb15c7e")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
-			(at 49.53 66.04 0)
-			(uuid "b205249f-6e19-48b8-b106-a8c49754eeb6")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4725,16 +4475,6 @@
 				(justify right)
 			)
 		)
-		(pin "Injection_Backup_Fault" input
-			(at 49.53 110.49 0)
-			(uuid "4afabcb3-499a-4c6a-a68f-6d7803b90c79")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
@@ -4744,8 +4484,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 162.56)
-		(size 31.75 43.18)
+		(at 30.48 168.91)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4760,7 +4500,7 @@
 		)
 		(uuid "cdb1da1d-75aa-4768-93cb-d21a7fd03228")
 		(property "Sheetname" "Alarmes_Buzzer"
-			(at 30.48 161.8484 0)
+			(at 30.48 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +4511,7 @@
 			)
 		)
 		(property "Sheetfile" "Alarmes_Buzzer_sch.kicad_sch"
-			(at 30.48 206.3246 0)
+			(at 30.48 188.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4782,7 +4522,7 @@
 			)
 		)
 		(pin "Surtension_Fault" input
-			(at 62.23 187.96 0)
+			(at 62.23 173.228 0)
 			(uuid "151942fb-f34b-42e4-82c7-e1b2b4f7c3ca")
 			(effects
 				(font
@@ -4792,7 +4532,7 @@
 			)
 		)
 		(pin "Alerte_Incoherence" input
-			(at 62.23 199.39 0)
+			(at 62.23 184.658 0)
 			(uuid "4122948d-aa3d-4b7a-847d-d76fccbd9d3b")
 			(effects
 				(font
@@ -4802,7 +4542,7 @@
 			)
 		)
 		(pin "Court_Bus_Fault" input
-			(at 62.23 191.77 0)
+			(at 62.23 177.038 0)
 			(uuid "b845480c-9a37-4d90-b0fb-fb36bb088339")
 			(effects
 				(font
@@ -4812,68 +4552,8 @@
 			)
 		)
 		(pin "Masse_Fault" input
-			(at 62.23 195.58 0)
+			(at 62.23 180.848 0)
 			(uuid "80018acd-23dd-4a49-8d60-327aa698db54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Tail_Fault" input
-			(at 62.23 165.1 0)
-			(uuid "5455c47b-2f2a-4953-af6a-c6105c6d8773")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Left_Fault" input
-			(at 62.23 168.91 0)
-			(uuid "844502f8-be95-4fe4-82d6-391f96899669")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Right_Fault" input
-			(at 62.23 172.72 0)
-			(uuid "00786de5-b6cf-4043-a432-c7583f258d42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Aux_Fault" input
-			(at 62.23 184.15 0)
-			(uuid "e254c305-da8c-465b-ba4b-299d5e9d91d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Brake_Fault" input
-			(at 62.23 176.53 0)
-			(uuid "a5e67dd3-7c5d-4cdb-93d1-3141798bda15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Backup_Fault" input
-			(at 62.23 180.34 0)
-			(uuid "4f9238b3-7798-4f07-a48d-0fd242c4984c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,16 +4620,6 @@
 		(pin "Veh_Left" input
 			(at 49.53 74.93 0)
 			(uuid "2a0e2657-3910-46fb-8cec-b8649cdd8951")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Left_Fault" input
-			(at 49.53 80.01 0)
-			(uuid "7008ac2a-b2b9-488d-85c4-6a06110f3c0d")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5102,16 +4772,6 @@
 		(pin "Trail_Aux" input
 			(at 49.53 121.92 0)
 			(uuid "9d99b4f8-bee6-4651-b57b-dd4406c17980")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "Injection_Aux_Fault" input
-			(at 49.53 124.46 0)
-			(uuid "2f63a1d2-49d2-4edf-b2e3-fc561d474708")
 			(effects
 				(font
 					(size 0.762 0.762)
