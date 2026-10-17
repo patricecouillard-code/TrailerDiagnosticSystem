@@ -12315,6 +12315,12 @@
 		(uuid "c60733d5-6633-4f4a-ad5f-d8e4df87f56d")
 	)
 	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8f2aaac-5641-4efe-9571-18e1f2a9abc6")
+	)
+	(junction
 		(at 92.71 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12531,6 +12537,16 @@
 			(type default)
 		)
 		(uuid "11cdc9e7-db26-4927-886d-bb8d73638587")
+	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ea77dc-3659-42fd-b339-396d79f0f593")
 	)
 	(wire
 		(pts
@@ -13734,6 +13750,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 105.41) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797f4480-d293-4be4-a455-0321fad40950")
+	)
+	(wire
+		(pts
 			(xy 386.08 46.99) (xy 369.57 46.99)
 		)
 		(stroke
@@ -14604,6 +14630,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 107.95) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b3cde8-cd00-4428-a6e6-a3748d8d6894")
+	)
+	(wire
+		(pts
 			(xy 312.42 156.21) (xy 316.23 156.21)
 		)
 		(stroke
@@ -14654,7 +14690,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.41) (xy 187.96 105.41)
+			(xy 185.42 105.41) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -16078,6 +16114,17 @@
 			(justify right)
 		)
 		(uuid "87afbc04-acf0-41dd-bd85-3ba14e4215e2")
+	)
+	(hierarchical_label "V12_PostShunt"
+		(shape input)
+		(at 187.96 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9712e4bb-3bd0-4c84-9895-fe6a24853c5c")
 	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
