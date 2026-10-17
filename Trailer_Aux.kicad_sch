@@ -1931,7 +1931,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1942,7 +1942,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1951,8 +1951,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1973,6 +1973,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1983,7 +1994,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1994,21 +2005,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -2019,7 +2019,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -2030,8 +2030,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -2041,9 +2052,20 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2061,7 +2083,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2071,6 +2093,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2573,6 +2613,12 @@
 		(uuid "23dde5c6-8f69-4978-81df-ecc7afe20d0f")
 	)
 	(junction
+		(at 48.26 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311e1ad2-ede9-4fca-ac05-6e233c76b2fa")
+	)
+	(junction
 		(at 57.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,12 +2647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c4affa-0d7b-4333-b0f1-e0db86e8e319")
-	)
-	(junction
-		(at 48.26 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bebf176a-2283-4073-bc58-9564618032d5")
 	)
 	(junction
 		(at 72.39 128.27)
@@ -2854,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 48.26 39.37)
+			(xy 48.26 31.75) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2871,6 +2911,16 @@
 			(type default)
 		)
 		(uuid "574fff4b-dc6a-416d-a2ff-ee554f90e7a9")
+	)
+	(wire
+		(pts
+			(xy 33.02 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad6c635-bddf-4404-ae46-9055863b0fa5")
 	)
 	(wire
 		(pts
@@ -2894,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 31.75) (xy 36.83 31.75)
+			(xy 33.02 29.21) (xy 36.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2964,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 44.45) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86663367-014a-4b28-8dbe-b0f21eed2ce4")
+	)
+	(wire
+		(pts
 			(xy 142.24 80.01) (xy 142.24 81.28)
 		)
 		(stroke
@@ -2971,16 +3031,6 @@
 			(type default)
 		)
 		(uuid "8a35cb25-41be-4e57-86d0-7e9af82ce7fa")
-	)
-	(wire
-		(pts
-			(xy 53.34 31.75) (xy 48.26 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c64c946-a1f7-4156-a93d-ec70c837ee04")
 	)
 	(wire
 		(pts
@@ -3051,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "a5d2e86c-f4c2-4fb3-b12c-c0b595e523ad")
+	)
+	(wire
+		(pts
+			(xy 33.02 34.29) (xy 36.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66147fd-aa60-446f-93bb-048c12aaf544")
 	)
 	(wire
 		(pts
@@ -3184,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 39.37) (xy 52.07 39.37)
+			(xy 48.26 44.45) (xy 44.45 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3201,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "e9f5aca2-13af-4646-b750-ae143b0be4c3")
+	)
+	(wire
+		(pts
+			(xy 33.02 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae4d66a-e81d-4e97-9ba5-7098036a9905")
 	)
 	(wire
 		(pts
@@ -3284,17 +3354,17 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 59.69 39.37 0)
+		(at 33.02 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0db15732-36c1-4648-9928-e353bb5ad14e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.5457 39.37 0)
+			(at 26.1643 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,7 +3372,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3356,7 +3426,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 33.02 31.75 180)
+		(at 33.02 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3366,7 +3436,7 @@
 		)
 		(uuid "3921292b-a6f6-4f96-8788-b6e48d928132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8943 31.75 0)
+			(at 24.8943 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,6 +3760,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c3196b-7b4b-4f89-baa2-449127f14036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1643 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "V_Ref"
 		(shape input)
 		(at 157.48 80.01 0)
@@ -3713,17 +3807,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "Btn_Aux_Etat"
-		(shape input)
-		(at 53.34 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "165b0817-f7eb-4834-b44b-0b5bde4b2e09")
 	)
 	(hierarchical_label "Trail_Aux"
 		(shape input)
@@ -3790,6 +3873,17 @@
 			(justify left)
 		)
 		(uuid "5c2deff6-a556-448e-b190-211b72597055")
+	)
+	(hierarchical_label "Btn_Aux_Etat"
+		(shape input)
+		(at 33.02 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c51aaa9e-1e36-413a-a284-f15366c34c40")
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
@@ -4881,8 +4975,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
+		(lib_id "Switch:SW_SPDT")
 		(at 41.91 31.75 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4890,10 +4985,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8030a0d5-8679-414f-843b-2fe043838b80")
 		(property "Reference" "SW7"
-			(at 41.91 25.4 0)
+			(at 41.91 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,8 +4996,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 41.91 27.94 0)
+		(property "Value" "SW_SPDT"
+			(at 41.91 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4934,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "Switch, single pole double throw"
 			(at 41.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4950,6 +5044,9 @@
 		)
 		(pin "2"
 			(uuid "b7c31a66-3481-4321-b882-8e1c2801b4e1")
+		)
+		(pin "3"
+			(uuid "c2a8f870-8018-49aa-9948-4db543d9ac05")
 		)
 		(instances
 			(project "TrailerDiagnosticSystem"
@@ -5734,7 +5831,8 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 55.88 39.37 0)
+		(at 40.64 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5744,7 +5842,7 @@
 		(dnp no)
 		(uuid "f0f69453-0ebe-4afc-a7a3-ab4fd51cb205")
 		(property "Reference" "R167"
-			(at 55.88 35.052 0)
+			(at 40.64 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5754,7 +5852,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 55.88 36.83 0)
+			(at 40.64 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5764,7 +5862,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 56.769 43.688 0)
+			(at 39.751 48.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,7 +5873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.388 39.37 0)
+			(at 40.132 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +5884,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 55.88 39.37 0)
+			(at 40.64 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
