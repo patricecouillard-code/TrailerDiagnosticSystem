@@ -2792,16 +2792,6 @@
 		)
 		(uuid "0a757569-72b8-4220-ba9c-d0630a4699a7")
 	)
-	(text "Non_Utilisé"
-		(exclude_from_sim no)
-		(at 71.12 107.95 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "10a04ae7-315e-49a4-969a-60c8a8c4f662")
-	)
 	(text "Protection contre surchauffe\n"
 		(exclude_from_sim no)
 		(at 272.796 39.878 0)
@@ -2829,12 +2819,6 @@
 		(uuid "12f58c4a-5aca-4ed4-9e6f-dfb3a8b6fdb1")
 	)
 	(junction
-		(at 36.83 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21126253-89f1-42cf-a2dc-88f31e461a5a")
-	)
-	(junction
 		(at 59.69 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2847,16 +2831,22 @@
 		(uuid "4397d6d5-357b-46cb-8ebe-557a4ecf63f3")
 	)
 	(junction
-		(at 36.83 82.55)
+		(at 34.29 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e07f548-ddd1-478d-9f2f-45a355ea4e07")
+		(uuid "69525ca5-55bb-4536-8dbf-12ad78d530df")
 	)
 	(junction
 		(at 78.74 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e794b0c-635c-446f-8a2c-91682c5b6f3f")
+	)
+	(junction
+		(at 34.29 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e2c71e-83a0-433d-9f42-3a882f698244")
 	)
 	(junction
 		(at 58.42 30.48)
@@ -2974,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 82.55) (xy 36.83 82.55)
+			(xy 34.29 82.55) (xy 60.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 36.83 128.27)
+			(xy 34.29 93.98) (xy 34.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 128.27) (xy 31.75 128.27)
+			(xy 34.29 128.27) (xy 29.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 82.55) (xy 36.83 93.98)
+			(xy 34.29 82.55) (xy 34.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3471,16 +3461,6 @@
 			(type default)
 		)
 		(uuid "ba78ef77-a226-4bee-8b4b-1d3c20653f9c")
-	)
-	(wire
-		(pts
-			(xy 36.83 82.55) (xy 60.96 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbed5231-4224-4fb0-bfd5-7ffbd97f4163")
 	)
 	(wire
 		(pts
@@ -3594,16 +3574,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 60.96 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2219ed-263b-4ce4-b4e6-2c5cfe096e37")
-	)
-	(wire
-		(pts
 			(xy 148.59 82.55) (xy 148.59 85.09)
 		)
 		(stroke
@@ -3631,6 +3601,16 @@
 			(type default)
 		)
 		(uuid "f0f4bebc-4a12-44da-8119-efecc4a4aba2")
+	)
+	(wire
+		(pts
+			(xy 34.29 93.98) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1aaff05-dc99-4b64-a348-d71a4e37ec64")
 	)
 	(wire
 		(pts
@@ -3751,6 +3731,16 @@
 			(justify right bottom)
 		)
 		(uuid "282d818b-9f79-4d33-a8aa-56abcc6c6756")
+	)
+	(label "Injection_Aux_Fault"
+		(at 288.29 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5b20bd-95ac-4b9b-9b51-e98b713f77a1")
 	)
 	(label "To_U11_14"
 		(at 142.24 85.09 180)
@@ -4208,7 +4198,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 24.13 128.27 180)
+		(at 21.59 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4218,7 +4208,7 @@
 		)
 		(uuid "abb8aedf-29fd-4710-93e5-ed2b33fc159e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.0163 128.27 0)
+			(at 17.4763 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,17 +4411,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "Injection_Aux_Fault"
-		(shape input)
-		(at 288.29 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e75c066-8c3c-463a-91ce-a32d4fe26b3a")
 	)
 	(hierarchical_label "Veh_Aux"
 		(shape input)
@@ -5233,7 +5212,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Resistor_5W")
-		(at 27.94 128.27 0)
+		(at 25.4 128.27 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5245,7 +5224,7 @@
 		(fields_autoplaced yes)
 		(uuid "757c1ebb-3d46-4d6a-8bb7-a353434bd4f8")
 		(property "Reference" "R156"
-			(at 27.94 121.92 0)
+			(at 25.4 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5255,7 +5234,7 @@
 			)
 		)
 		(property "Value" ".05R Shunt"
-			(at 27.94 124.46 0)
+			(at 25.4 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
-			(at 27.051 132.588 0)
+			(at 24.511 132.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5276,7 +5255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.432 128.27 0)
+			(at 24.892 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,7 +5266,7 @@
 			)
 		)
 		(property "Description" "5W Resistor"
-			(at 27.94 128.27 0)
+			(at 25.4 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
