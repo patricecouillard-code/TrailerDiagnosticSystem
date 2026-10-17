@@ -1673,6 +1673,12 @@
 		(uuid "41677cb9-6186-4192-bed9-6d9f1754b859")
 	)
 	(junction
+		(at 165.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62443f44-37e5-46ba-be61-d83044a376d3")
+	)
+	(junction
 		(at 121.92 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1755,12 +1761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c139a270-2678-4c91-825b-3cc52527222e")
-	)
-	(junction
-		(at 165.1 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3359f0f-d66c-46d2-ac08-1ed5e2e3c5e6")
 	)
 	(junction
 		(at 214.63 85.09)
@@ -1896,6 +1896,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e19ecb0-11fa-4dd3-a822-1534de226274")
+	)
+	(wire
+		(pts
 			(xy 165.1 36.83) (xy 165.1 46.99)
 		)
 		(stroke
@@ -1996,6 +2006,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 147.32) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4b4633-cef9-4571-8e1b-a2cecf5e8cf3")
+	)
+	(wire
+		(pts
 			(xy 156.21 86.36) (xy 161.29 86.36)
 		)
 		(stroke
@@ -2046,6 +2066,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 49.53) (xy 167.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47255805-e842-485b-b625-d1f1ff26b2f7")
+	)
+	(wire
+		(pts
 			(xy 99.06 64.77) (xy 99.06 74.93)
 		)
 		(stroke
@@ -2053,6 +2083,16 @@
 			(type default)
 		)
 		(uuid "4baadc77-0d35-4e25-8ded-e45e01ed8f35")
+	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a6bcc1-de18-4c7c-8a09-d62c3ffb67c0")
 	)
 	(wire
 		(pts
@@ -2086,16 +2126,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 165.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1cc632-03e6-4cec-875d-b9c966f29d91")
-	)
-	(wire
-		(pts
 			(xy 58.42 78.74) (xy 58.42 86.36)
 		)
 		(stroke
@@ -2103,6 +2133,16 @@
 			(type default)
 		)
 		(uuid "5c6f0290-cbe0-49d7-b40f-da1331d790ca")
+	)
+	(wire
+		(pts
+			(xy 107.95 185.42) (xy 110.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec6b363-ebae-4fd6-bd40-4f8e970ce7b0")
 	)
 	(wire
 		(pts
@@ -2196,16 +2236,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 165.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "792326b5-c0df-4e5a-a5ba-6b75f7797940")
-	)
-	(wire
-		(pts
 			(xy 59.69 173.99) (xy 62.23 173.99)
 		)
 		(stroke
@@ -2286,6 +2316,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 128.27) (xy 68.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c11cc9-230a-482f-936c-00f957036fda")
+	)
+	(wire
+		(pts
 			(xy 81.28 116.84) (xy 76.2 116.84)
 		)
 		(stroke
@@ -2293,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "8a1babdc-11a9-44ee-aad4-4a6d0dbe5f1b")
+	)
+	(wire
+		(pts
+			(xy 151.13 46.99) (xy 153.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9019ebd8-941c-4eca-8248-3c1559023070")
 	)
 	(wire
 		(pts
@@ -2476,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 116.84) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fa474b-b9a5-477d-b344-2c919dcd2b58")
+	)
+	(wire
+		(pts
 			(xy 214.63 125.73) (xy 214.63 134.62)
 		)
 		(stroke
@@ -2553,16 +2613,6 @@
 			(type default)
 		)
 		(uuid "cca09e43-39be-46d8-9cf8-a432cf6619de")
-	)
-	(wire
-		(pts
-			(xy 153.67 81.28) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6ce91d-db2f-4c83-beb2-a9828daf53b0")
 	)
 	(wire
 		(pts
@@ -2726,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 165.1 50.8)
+			(xy 165.1 46.99) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2915,7 @@
 		(uuid "48f94b33-8680-4c01-b474-097c4522ad23")
 	)
 	(label "Not_Btn_Tail"
-		(at 68.58 128.27 180)
+		(at 67.31 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2933,6 +2983,16 @@
 			(justify right bottom)
 		)
 		(uuid "7cc35d21-fec3-4a92-9f6b-cd6732b01601")
+	)
+	(label "Ouvert_Ou_Bleu_Tail"
+		(at 151.13 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "824cfef1-83f9-45b8-b0ac-679959b1104c")
 	)
 	(label "Not_Btn_Tail"
 		(at 162.56 115.57 180)
@@ -3024,6 +3084,16 @@
 		)
 		(uuid "bf445e77-9193-4153-8bbb-2d7920cc2bb4")
 	)
+	(label "Ouvert_Ou_Bleu_Tail"
+		(at 167.64 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0e849e4-e9b9-4e3b-a10f-b9db09ba69f8")
+	)
 	(label "Court_V_Actif"
 		(at 62.23 50.8 0)
 		(effects
@@ -3056,7 +3126,7 @@
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
-		(at 68.58 116.84 180)
+		(at 67.31 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3066,7 +3136,7 @@
 		)
 		(uuid "0881290c-a2a1-4d86-9e5d-81b1d17a831a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4184 116.84 0)
+			(at 82.1484 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,7 +3413,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 110.49 185.42 180)
+		(at 107.95 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3353,7 +3423,7 @@
 		)
 		(uuid "74ec361e-a412-4e35-9f69-d2fbaa63dcae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6343 185.42 0)
+			(at 101.0943 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3437,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 153.67 46.99 180)
+		(at 151.13 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3377,7 +3447,7 @@
 		)
 		(uuid "86794768-7752-43d5-9788-26a38e25f369")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.8143 46.99 0)
+			(at 144.2743 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3485,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 203.2 147.32 180)
+		(at 200.66 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3425,7 +3495,7 @@
 		)
 		(uuid "891aeb14-1772-4080-96fd-4922a1c02024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3443 147.32 0)
+			(at 193.8043 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 207.01 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4043,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 218.44 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4145,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 218.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4123,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100kΩ"
 			(at 114.3 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4225,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "100kΩ, 1/4W Resistor"
 			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4510,6 +4580,7 @@
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
 		(at 72.39 128.27 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4589,6 +4660,7 @@
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
 		(at 72.39 116.84 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4687,7 +4759,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100kΩ"
 			(at 64.77 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4791,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "100kΩ, 1/4W Resistor"
 			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5094,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 157.48 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
