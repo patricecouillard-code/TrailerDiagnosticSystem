@@ -1529,6 +1529,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfb3446-43b3-4b52-86bf-921815b060fb")
+	)
+	(wire
+		(pts
 			(xy 92.71 49.53) (xy 105.41 49.53)
 		)
 		(stroke
@@ -2551,7 +2561,7 @@
 		(at 187.96 68.58 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -2576,6 +2586,16 @@
 			(justify left bottom)
 		)
 		(uuid "5d7026de-6073-4532-9adc-503739ba24a9")
+	)
+	(label "V12_PostShunt"
+		(at 187.96 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ec4768b-f761-46b5-9557-1ead22326b65")
 	)
 	(label "Trail_Brake"
 		(at 101.6 90.17 180)
@@ -2921,11 +2941,93 @@
 		(at 187.96 71.12 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
 		(uuid "fe1ac8c4-659b-46e8-bb5a-831a22351339")
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 180.34 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02e8bb70-ae54-4a69-8d16-fcd23836bc77")
+		(property "Reference" "R235"
+			(at 180.34 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 181.229 70.358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.848 66.04 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1/2W Resistor"
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "353a291e-0730-4c41-82b1-16e72c6b078e")
+		)
+		(pin "2"
+			(uuid "73a2e915-7bb8-4bac-8453-d5d0c4b8b57a")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4"
+					(reference "R235")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
