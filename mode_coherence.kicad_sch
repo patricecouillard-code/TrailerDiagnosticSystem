@@ -1497,46 +1497,30 @@
 		)
 	)
 	(junction
-		(at 36.83 100.33)
+		(at 40.64 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fb7efbf-c1a7-4169-9587-9f66f7283b3b")
 	)
 	(junction
-		(at 133.35 64.77)
+		(at 137.16 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "404723e8-8189-40d0-9e50-147980d42438")
 	)
 	(junction
-		(at 35.56 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7591e36-f1bd-4a9f-88df-36b4a432043d")
-	)
-	(junction
-		(at 35.56 67.31)
+		(at 39.37 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5bac598-cfd3-4275-b78e-2e3b1ceadffd")
 	)
 	(no_connect
-		(at 40.64 31.75)
+		(at 44.45 59.69)
 		(uuid "2497d008-4376-4b0f-bf6c-7bcf9e260b0b")
 	)
 	(wire
 		(pts
-			(xy 29.21 78.74) (xy 35.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004f42ac-f79f-4a1d-9059-59abd10b668b")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 142.24 74.93)
+			(xy 146.05 99.06) (xy 146.05 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 64.77) (xy 133.35 71.12)
+			(xy 137.16 92.71) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1556,17 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 78.74) (xy 35.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd10f53-0875-4436-bf6f-83694b431915")
-	)
-	(wire
-		(pts
-			(xy 133.35 64.77) (xy 134.62 64.77)
+			(xy 137.16 92.71) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 124.46 80.01)
+			(xy 124.46 107.95) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 57.15 95.25)
+			(xy 60.96 116.84) (xy 60.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 53.34 78.74)
+			(xy 50.8 106.68) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 36.83 40.64)
+			(xy 40.64 67.31) (xy 40.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 64.77) (xy 121.92 64.77)
+			(xy 121.92 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 100.33) (xy 36.83 111.76)
+			(xy 40.64 128.27) (xy 40.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 71.12) (xy 133.35 71.12)
+			(xy 146.05 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 35.56 67.31)
+			(xy 33.02 95.25) (xy 39.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 124.46 106.68)
+			(xy 124.46 134.62) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 137.16) (xy 74.93 140.97)
+			(xy 78.74 165.1) (xy 78.74 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 90.17) (xy 87.63 90.17)
+			(xy 90.17 118.11) (xy 91.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 35.56 78.74)
+			(xy 39.37 106.68) (xy 43.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 46.99) (xy 120.65 46.99)
+			(xy 120.65 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 100.33 90.17)
+			(xy 99.06 118.11) (xy 104.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 40.64) (xy 40.64 40.64)
+			(xy 40.64 68.58) (xy 44.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +1700,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 153.67 64.77)
+			(xy 39.37 95.25) (xy 39.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d20c50f-a306-4b63-bff5-0325bb059885")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 39.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5bf106-5b96-49c9-9c4b-3da5d09a8153")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 157.48 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 68.58 133.35)
+			(xy 72.39 137.16) (xy 72.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 111.76) (xy 36.83 111.76)
+			(xy 38.1 139.7) (xy 40.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 111.76) (xy 26.67 111.76)
+			(xy 25.4 139.7) (xy 30.48 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 105.41) (xy 57.15 109.22)
+			(xy 60.96 133.35) (xy 60.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 67.31) (xy 39.37 67.31)
+			(xy 39.37 95.25) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 44.45) (xy 40.64 44.45)
+			(xy 40.64 72.39) (xy 44.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1796,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 46.99 67.31)
+			(xy 55.88 95.25) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 134.62 80.01)
+			(xy 135.89 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 36.83 100.33)
+			(xy 38.1 128.27) (xy 40.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 100.33) (xy 38.1 100.33)
+			(xy 40.64 128.27) (xy 41.91 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1836,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 55.88) (xy 52.07 55.88)
+			(xy 50.8 83.82) (xy 55.88 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 55.88) (xy 35.56 55.88)
+			(xy 43.18 83.82) (xy 39.37 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1856,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 128.27 46.99)
+			(xy 135.89 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 40.64 31.75)
+			(xy 40.64 59.69) (xy 44.45 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 86.36 127)
+			(xy 78.74 154.94) (xy 90.17 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 64.77) (xy 133.35 64.77)
+			(xy 133.35 92.71) (xy 137.16 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 49.53 100.33)
+			(xy 49.53 128.27) (xy 53.34 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +1900,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 36.83) (xy 40.64 36.83)
+			(xy 40.64 64.77) (xy 44.45 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 67.31)
+			(xy 39.37 83.82) (xy 39.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 88.9) (xy 57.15 88.9)
+			(xy 53.34 116.84) (xy 60.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 137.16 106.68)
+			(xy 135.89 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1939,7 @@
 		(uuid "fbe8a4ac-6eb5-4810-9408-5ad2c237ba49")
 	)
 	(label "Incoh_T"
-		(at 49.53 88.9 180)
+		(at 53.34 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1955,18 +1949,18 @@
 		(uuid "2def9bef-658f-4f22-99db-8781ddcdf9b4")
 	)
 	(label "Incoh_T"
-		(at 29.21 78.74 180)
+		(at 34.29 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "38ac2ee0-9d9f-411f-9f9d-52739365b254")
+		(uuid "6e6a05bf-e6e3-4d20-90fc-d2cb974e73bb")
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
-		(at 116.84 46.99 180)
+		(at 120.65 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1976,7 +1970,7 @@
 		)
 		(uuid "0062d5e0-89da-4332-87cd-75a400af0421")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.0016 46.99 0)
+			(at 105.8116 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +1984,7 @@
 	)
 	(global_label "V_Arm_Trailer"
 		(shape input)
-		(at 40.64 36.83 0)
+		(at 44.45 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2000,7 +1994,7 @@
 		)
 		(uuid "15c98364-5a52-4593-94c5-41febd0c13af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2647 36.83 0)
+			(at 60.0747 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2008,7 @@
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
-		(at 68.58 109.22 0)
+		(at 72.39 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2024,7 +2018,7 @@
 		)
 		(uuid "1ffd6dd6-7f55-4860-9178-115058fe367b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4184 109.22 0)
+			(at 87.2284 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2038,7 +2032,7 @@
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
-		(at 26.67 41.91 180)
+		(at 30.48 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2048,7 +2042,7 @@
 		)
 		(uuid "27fb0264-bb99-452c-9bbf-e0ba35d7462b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.8316 41.91 0)
+			(at 15.6416 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,7 +2056,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 21.59 111.76 180)
+		(at 25.4 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2072,7 +2066,7 @@
 		)
 		(uuid "5a4162b7-1aba-4778-bf48-571451c547dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4643 111.76 0)
+			(at 17.2743 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2080,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 21.59 67.31 180)
+		(at 25.4 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2096,7 +2090,7 @@
 		)
 		(uuid "662f90fb-9bc8-4c7c-b613-430bc9130d23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4643 67.31 0)
+			(at 17.2743 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2104,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 120.65 106.68 180)
+		(at 124.46 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2120,7 +2114,7 @@
 		)
 		(uuid "6fa9198c-c554-424f-9f7c-f48e9601627b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.5243 106.68 0)
+			(at 116.3343 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2128,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 100.33 90.17 0)
+		(at 104.14 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2144,7 +2138,7 @@
 		)
 		(uuid "72110445-7f66-4ea6-bc8e-20e3dd1f02f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4557 90.17 0)
+			(at 112.2657 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2152,7 @@
 	)
 	(global_label "Mode_Vehicule"
 		(shape input)
-		(at 86.36 90.17 180)
+		(at 90.17 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,7 +2162,7 @@
 		)
 		(uuid "7c423424-55e7-4017-a6e8-380a2e76dcd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6468 90.17 0)
+			(at 73.4568 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2176,7 @@
 	)
 	(global_label "Mode_Vehicule"
 		(shape input)
-		(at 52.07 55.88 0)
+		(at 55.88 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2192,7 +2186,7 @@
 		)
 		(uuid "8405816a-aa83-415d-b556-0d317da66de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.7832 55.88 0)
+			(at 72.5932 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2200,7 @@
 	)
 	(global_label "Mode_Trailer"
 		(shape input)
-		(at 118.11 64.77 180)
+		(at 121.92 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2216,7 +2210,7 @@
 		)
 		(uuid "bb46b476-ffb1-43cc-9f99-a3689af3e72a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2716 64.77 0)
+			(at 107.0816 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2224,7 @@
 	)
 	(global_label "V_Ref"
 		(shape input)
-		(at 40.64 44.45 0)
+		(at 44.45 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2240,7 +2234,7 @@
 		)
 		(uuid "d2d7a47b-0af1-454a-b23a-bf265cb685f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7657 44.45 0)
+			(at 52.5757 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2248,7 @@
 	)
 	(global_label "Mode_Vehicule"
 		(shape input)
-		(at 86.36 127 0)
+		(at 90.17 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2264,7 +2258,7 @@
 		)
 		(uuid "dbb1a987-5652-4431-be72-7a14adf5926f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0732 127 0)
+			(at 106.8832 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2278,7 +2272,7 @@
 	)
 	(hierarchical_label "Detect_Vehicule"
 		(shape input)
-		(at 137.16 106.68 0)
+		(at 140.97 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2289,7 +2283,7 @@
 	)
 	(hierarchical_label "Detect_Trailer"
 		(shape input)
-		(at 34.29 100.33 180)
+		(at 38.1 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,7 +2294,7 @@
 	)
 	(hierarchical_label "V12_Rail"
 		(shape input)
-		(at 26.67 34.29 180)
+		(at 30.48 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2311,7 +2305,29 @@
 	)
 	(hierarchical_label "Alerte_Incoherence"
 		(shape input)
-		(at 52.07 67.31 0)
+		(at 39.37 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d5421b3-4e7e-4312-a809-af534eff9d1b")
+	)
+	(hierarchical_label "Alerte_Incoherence"
+		(shape input)
+		(at 39.37 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af894c65-c6c0-495d-af6e-28a83e35ce6f")
+	)
+	(hierarchical_label "Alerte_Incoherence"
+		(shape input)
+		(at 55.88 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2322,7 +2338,7 @@
 	)
 	(hierarchical_label "Alerte_Incoherence"
 		(shape input)
-		(at 153.67 64.77 0)
+		(at 157.48 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2333,7 +2349,7 @@
 	)
 	(hierarchical_label "Detect_Vehicule"
 		(shape input)
-		(at 120.65 80.01 180)
+		(at 124.46 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2344,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 125.73 64.77 0)
+		(at 129.54 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2354,7 +2370,7 @@
 		(dnp no)
 		(uuid "05104830-8959-46c8-8d67-9838bd14cec3")
 		(property "Reference" "R4"
-			(at 125.73 59.69 0)
+			(at 129.54 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2364,7 +2380,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 125.73 62.23 0)
+			(at 129.54 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2374,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 126.619 69.088 0)
+			(at 130.429 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.238 64.77 0)
+			(at 130.048 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2412,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ, 1/4W Resistor"
-			(at 125.73 64.77 0)
+			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2439,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 30.48 111.76 0)
+		(at 34.29 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2434,7 +2450,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e3e0e3-18f2-4d63-a2f5-43d164b68d69")
 		(property "Reference" "R311"
-			(at 30.48 105.41 0)
+			(at 34.29 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2444,7 +2460,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 30.48 107.95 0)
+			(at 34.29 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2454,7 +2470,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.369 116.078 0)
+			(at 35.179 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.988 111.76 0)
+			(at 34.798 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2492,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 30.48 111.76 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2519,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:2N7000")
-		(at 72.39 132.08 0)
+		(at 76.2 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2514,7 +2530,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e3be3ba-bd56-4746-a458-f728ae619807")
 		(property "Reference" "Q83"
-			(at 78.74 130.8099 0)
+			(at 82.55 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2525,7 +2541,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 78.74 133.3499 0)
+			(at 82.55 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2536,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
-			(at 77.47 129.54 0)
+			(at 81.28 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +2563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/7df5cae36abdfcedddb681f5be886f05/2N7000.pdf"
-			(at 72.39 132.08 0)
+			(at 76.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2558,7 +2574,7 @@
 			)
 		)
 		(property "Description" "TO-92 N-MOSFET enchancement mode transistor, 60V, 200mA, 400mW, Alternate KiCAD Library"
-			(at 72.39 132.08 0)
+			(at 76.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2604,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:100k")
-		(at 43.18 78.74 0)
+		(at 46.99 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2599,7 +2615,7 @@
 		(fields_autoplaced yes)
 		(uuid "24acb079-daf0-424c-9ae5-c9d5a85ae09f")
 		(property "Reference" "R313"
-			(at 43.18 72.39 0)
+			(at 46.99 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,7 +2625,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 43.18 74.93 0)
+			(at 46.99 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2619,7 +2635,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 44.069 83.058 0)
+			(at 47.879 110.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.688 78.74 0)
+			(at 47.498 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,7 +2657,7 @@
 			)
 		)
 		(property "Description" "100kΩ, 1/4W Resistor"
-			(at 43.18 78.74 0)
+			(at 46.99 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2684,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 85.09 0)
+		(at 146.05 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2679,7 +2695,7 @@
 		(fields_autoplaced yes)
 		(uuid "2568de78-f11a-4e65-b55b-358c37622e7a")
 		(property "Reference" "#PWR07"
-			(at 142.24 91.44 0)
+			(at 146.05 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +2706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 90.17 0)
+			(at 146.05 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2700,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 85.09 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 85.09 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 85.09 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,7 +2762,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 40.64 90)
+		(at 44.45 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2757,7 +2773,7 @@
 		(fields_autoplaced yes)
 		(uuid "295e8832-d4fd-4a25-9080-482dfcd79866")
 		(property "Reference" "#PWR08"
-			(at 46.99 40.64 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +2784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 40.6399 90)
+			(at 48.26 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2779,7 +2795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 40.64 0)
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 40.64 0)
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 40.64 0)
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 140.97 0)
+		(at 78.74 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2836,7 +2852,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c30e16f-e846-40c0-9d5a-ea7aea268618")
 		(property "Reference" "#PWR033"
-			(at 74.93 147.32 0)
+			(at 78.74 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 146.05 0)
+			(at 78.74 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2857,7 +2873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 140.97 0)
+			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +2884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 140.97 0)
+			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,7 +2895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 140.97 0)
+			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
-		(at 25.4 67.31 0)
+		(at 29.21 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2913,7 +2929,7 @@
 		(dnp no)
 		(uuid "3d24cbbb-57c2-4fb2-a396-9fa588b36172")
 		(property "Reference" "R3"
-			(at 25.4 62.23 0)
+			(at 29.21 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2923,7 +2939,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 25.4 64.77 0)
+			(at 29.21 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2933,7 +2949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 26.289 71.628 0)
+			(at 30.099 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +2960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.908 67.31 0)
+			(at 29.718 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2971,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ, 1/4W Resistor"
-			(at 25.4 67.31 0)
+			(at 29.21 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +2998,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 41.91 100.33 0)
+		(at 45.72 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2992,7 +3008,7 @@
 		(dnp no)
 		(uuid "4df452a9-a057-4d0c-8cbd-c6671716a232")
 		(property "Reference" "R312"
-			(at 41.656 93.98 0)
+			(at 45.466 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3002,7 +3018,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 96.52 0)
+			(at 45.72 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3012,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 42.799 104.648 0)
+			(at 46.609 132.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.418 100.33 0)
+			(at 46.228 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3050,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 41.91 100.33 0)
+			(at 45.72 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +3077,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 43.18 55.88 0)
+		(at 46.99 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3071,7 +3087,7 @@
 		(dnp no)
 		(uuid "558d0bbf-ea06-4ce1-a55d-2c9b7aa51035")
 		(property "Reference" "D1"
-			(at 43.18 49.53 0)
+			(at 46.99 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3081,7 +3097,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 43.18 52.07 0)
+			(at 46.99 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3091,7 +3107,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 43.18 55.88 0)
+			(at 46.99 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 43.18 55.88 0)
+			(at 46.99 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,7 +3129,7 @@
 			)
 		)
 		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 43.18 55.88 0)
+			(at 46.99 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3156,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 31.75 41.91 0)
+		(at 35.56 69.85 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3151,7 +3167,7 @@
 		(fields_autoplaced yes)
 		(uuid "5703c099-5ea1-43e7-9c9e-a9c36bd74d44")
 		(property "Reference" "SW2"
-			(at 31.75 33.02 0)
+			(at 35.56 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3178,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 31.75 35.56 0)
+			(at 35.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 41.91 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 41.91 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3195,7 +3211,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 31.75 41.91 0)
+			(at 35.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 78.74 90)
+		(at 57.15 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3245,7 +3261,7 @@
 		(fields_autoplaced yes)
 		(uuid "65992d20-b266-43eb-8588-6f22252d86b5")
 		(property "Reference" "#PWR034"
-			(at 59.69 78.74 0)
+			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3272,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 78.7399 90)
+			(at 60.96 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 78.74 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +3294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 78.74 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 78.74 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3313,7 +3329,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_BJT_AKL:2N3904")
-		(at 54.61 100.33 0)
+		(at 58.42 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3324,7 +3340,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e723f08-779e-425a-8f56-95f290d2fc21")
 		(property "Reference" "Q2"
-			(at 59.69 99.0599 0)
+			(at 63.5 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,7 +3351,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 59.69 101.5999 0)
+			(at 63.5 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3346,7 +3362,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC"
-			(at 59.69 97.79 0)
+			(at 63.5 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/12bff749841e3a356e683e9a8e7e4119/2N3904BU-DTE.pdf"
-			(at 54.61 100.33 0)
+			(at 58.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3384,7 @@
 			)
 		)
 		(property "Description" "NPN TO-92 transistor, 40V, 200mA, 625mW, Complementary to 2N3906, Alternate KiCAD Library"
-			(at 54.61 100.33 0)
+			(at 58.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,7 +3414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 46.99 0)
+		(at 135.89 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3409,7 +3425,7 @@
 		(fields_autoplaced yes)
 		(uuid "90f43ef4-d7c9-4288-b0bd-a40c90e499a7")
 		(property "Reference" "#PWR09"
-			(at 132.08 53.34 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +3436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 52.07 0)
+			(at 135.89 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3430,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 46.99 0)
+			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 46.99 0)
+			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 46.99 0)
+			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +3492,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 128.27 106.68 0)
+		(at 132.08 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3487,7 +3503,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3611252-4da7-4a16-a5a1-65f6f834dca5")
 		(property "Reference" "R310"
-			(at 128.27 100.33 0)
+			(at 132.08 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3497,7 +3513,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.27 102.87 0)
+			(at 132.08 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3507,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 129.159 110.998 0)
+			(at 132.969 138.938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.778 106.68 0)
+			(at 132.588 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,7 +3545,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 128.27 106.68 0)
+			(at 132.08 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 124.46 46.99 0)
+		(at 128.27 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3566,7 +3582,7 @@
 		(dnp no)
 		(uuid "b873dc4d-b5ca-4088-a9f0-2abfcfee342e")
 		(property "Reference" "R2"
-			(at 124.46 41.91 0)
+			(at 128.27 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3576,7 +3592,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 124.46 44.45 0)
+			(at 128.27 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3586,7 +3602,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 125.349 51.308 0)
+			(at 129.159 79.248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.968 46.99 0)
+			(at 128.778 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3624,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 124.46 46.99 0)
+			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3651,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 31.75 34.29 0)
+		(at 35.56 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3646,7 +3662,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2e64742-4b03-47fa-b5bd-35922cd68780")
 		(property "Reference" "SW2"
-			(at 31.75 25.4 0)
+			(at 35.56 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,7 +3672,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 31.75 27.94 0)
+			(at 35.56 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3666,7 +3682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 34.29 0)
+			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3677,7 +3693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 34.29 0)
+			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3704,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 31.75 34.29 0)
+			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3727,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 109.22 0)
+		(at 60.96 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3738,7 +3754,7 @@
 		(fields_autoplaced yes)
 		(uuid "d61b8dc2-bf53-4366-965a-1e5f62e53aee")
 		(property "Reference" "#PWR06"
-			(at 57.15 115.57 0)
+			(at 60.96 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 114.3 0)
+			(at 60.96 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3759,7 +3775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 109.22 0)
+			(at 60.96 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 109.22 0)
+			(at 60.96 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 109.22 0)
+			(at 60.96 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3821,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 91.44 90.17 0)
+		(at 95.25 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3815,7 +3831,7 @@
 		(dnp no)
 		(uuid "e35c3908-c78f-4474-8f96-8e490d7f26bc")
 		(property "Reference" "R1"
-			(at 91.44 85.09 0)
+			(at 95.25 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3825,7 +3841,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 87.63 0)
+			(at 95.25 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3835,7 +3851,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 92.329 94.488 0)
+			(at 96.139 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +3862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.948 90.17 0)
+			(at 95.758 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +3873,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 91.44 90.17 0)
+			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +3900,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_BJT_AKL:2N3904")
-		(at 139.7 80.01 0)
+		(at 143.51 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3895,7 +3911,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3dfac94-7a55-4dc3-8af4-85b15db316db")
 		(property "Reference" "Q4"
-			(at 144.78 78.7399 0)
+			(at 148.59 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3906,7 +3922,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 144.78 81.2799 0)
+			(at 148.59 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3917,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC"
-			(at 144.78 77.47 0)
+			(at 148.59 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/12bff749841e3a356e683e9a8e7e4119/2N3904BU-DTE.pdf"
-			(at 139.7 80.01 0)
+			(at 143.51 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3955,7 @@
 			)
 		)
 		(property "Description" "NPN TO-92 transistor, 40V, 200mA, 625mW, Complementary to 2N3906, Alternate KiCAD Library"
-			(at 139.7 80.01 0)
+			(at 143.51 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3985,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
-		(at 128.27 80.01 0)
+		(at 132.08 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3979,7 +3995,7 @@
 		(dnp no)
 		(uuid "f7766956-65a9-4108-9362-4983f8adbe49")
 		(property "Reference" "R5"
-			(at 128.27 74.93 0)
+			(at 132.08 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3989,7 +4005,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.27 77.47 0)
+			(at 132.08 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3999,7 +4015,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 129.159 84.328 0)
+			(at 132.969 112.268 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4010,7 +4026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.778 80.01 0)
+			(at 132.588 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4037,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 128.27 80.01 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4064,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 43.18 67.31 0)
+		(at 46.99 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4058,7 +4074,7 @@
 		(dnp no)
 		(uuid "f7c44958-4eb5-4679-90be-98ee1c1217b3")
 		(property "Reference" "D2"
-			(at 43.18 60.96 0)
+			(at 46.99 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4068,7 +4084,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 43.18 63.5 0)
+			(at 46.99 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4078,7 +4094,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 43.18 67.31 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,7 +4105,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 43.18 67.31 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4116,7 @@
 			)
 		)
 		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 43.18 67.31 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")
-		(at 138.43 64.77 0)
+		(at 142.24 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4137,7 +4153,7 @@
 		(dnp no)
 		(uuid "fbeeb70c-5556-482a-a2b0-b627a133e637")
 		(property "Reference" "D181"
-			(at 138.43 58.42 0)
+			(at 142.24 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4147,7 +4163,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 138.43 60.96 0)
+			(at 142.24 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4157,7 +4173,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 138.43 64.77 0)
+			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4184,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 138.43 64.77 0)
+			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4195,7 @@
 			)
 		)
 		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 138.43 64.77 0)
+			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
