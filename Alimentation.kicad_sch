@@ -20624,7 +20624,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7KΩ"
+		(property "Value" "4.7kΩ"
 			(at 375.92 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)

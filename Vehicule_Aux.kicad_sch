@@ -4911,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Value" "R330Ω"
+		(property "Value" "330Ω"
 			(at 236.22 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,7 +6076,7 @@
 				)
 			)
 		)
-		(property "Value" "R100kΩ"
+		(property "Value" "100kΩ"
 			(at 264.16 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,6 +6121,7 @@
 		)
 		(property "Etiquette" "R_Surch_Aux"
 			(at 264.16 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

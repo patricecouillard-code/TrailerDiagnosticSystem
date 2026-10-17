@@ -4798,7 +4798,7 @@
 				)
 			)
 		)
-		(property "Value" "1 kΩ"
+		(property "Value" "1kΩ"
 			(at 48.26 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Value" "39 kΩ"
+		(property "Value" "39kΩ"
 			(at 129.54 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)

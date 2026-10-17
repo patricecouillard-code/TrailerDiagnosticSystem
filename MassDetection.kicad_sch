@@ -3012,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Value" "100KΩ"
+		(property "Value" "100kΩ"
 			(at 163.83 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,7 +3700,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ"
 			(at 163.83 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
