@@ -3592,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 163.83 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 152.4 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +3877,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 175.26 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4106,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 156.21 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,7 +4746,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 130.81 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 130.81 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 130.81 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)

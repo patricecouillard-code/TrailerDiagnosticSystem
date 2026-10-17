@@ -2730,7 +2730,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2812,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 180.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2893,7 +2893,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3054,7 +3054,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 180.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3528,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3609,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3967,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 180.34 59.69 0)
 			(hide yes)
 			(show_name no)

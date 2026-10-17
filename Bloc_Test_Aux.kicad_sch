@@ -4068,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Value" "330ohm"
+		(property "Value" "330Ω"
 			(at 234.95 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4481,7 @@
 				)
 			)
 		)
-		(property "Value" "330ohm"
+		(property "Value" "330Ω"
 			(at 234.95 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,7 +4813,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 110.49 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 205.74 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Value" "330ohm"
+		(property "Value" "330Ω"
 			(at 234.95 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 152.4 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 31.75 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 69.85 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 95.25 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 233.68 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
