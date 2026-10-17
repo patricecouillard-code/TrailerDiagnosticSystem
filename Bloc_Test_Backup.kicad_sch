@@ -3236,7 +3236,7 @@
 		)
 		(uuid "fcf7e052-273e-45e1-89f8-12b52fbb2623")
 	)
-	(global_label "GND"
+	(global_label "V_Ref"
 		(shape input)
 		(at 242.57 55.88 0)
 		(fields_autoplaced yes)
@@ -3248,7 +3248,7 @@
 		)
 		(uuid "031c5108-b44a-4eda-9ef4-3dd549f9b92b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4257 55.88 0)
+			(at 250.6957 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100k"
 			(at 87.63 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4542,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 148.59 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,7 +4946,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 40.64 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5824,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100k"
 			(at 48.26 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470kΩ"
 			(at 86.36 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)

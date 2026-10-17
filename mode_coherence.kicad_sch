@@ -2305,17 +2305,6 @@
 	)
 	(hierarchical_label "Alerte_Incoherence"
 		(shape input)
-		(at 39.37 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d5421b3-4e7e-4312-a809-af534eff9d1b")
-	)
-	(hierarchical_label "Alerte_Incoherence"
-		(shape input)
 		(at 39.37 106.68 180)
 		(effects
 			(font
