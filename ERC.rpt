@@ -1,15 +1,23 @@
-ERC report (2026-09-29T06:19:36, Encoding UTF8)
+ERC report (2026-10-18T10:47:18, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[lib_symbol_mismatch]: Symbol '2N7000' doesn't match copy in library 'Transistor_FET'
+[multiple_net_names]: Both Fac_VM_Mesure and VM_Mesure are attached to the same items; Fac_VM_Mesure will be used in the netlist
     ; warning
-    @(8.250 in, 6.050 in): Symbol Q54 [2N7000]
+    @(5.450 in, 3.400 in): Global Label 'Fac_VM_Mesure'
+    @(2.150 in, 1.100 in): Label 'VM_Mesure'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(1.800 in, 2.350 in): Global Label 'Fac_Tail_B'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ;  (excluded)
-    @(1.950 in, 2.925 in): Horizontal Wire, length 0.200 in
+    @(1.950 in, 2.950 in): Horizontal Wire, length 0.200 in
 
 ***** Sheet /Alimentation/
+[multiple_net_names]: Both Fac_VLed_Jauge and VLed_Jauge are attached to the same items; Fac_VLed_Jauge will be used in the netlist
+    ; warning
+    @(3.650 in, 6.950 in): Global Label 'Fac_VLed_Jauge'
+    @(3.650 in, 7.150 in): Label 'VLed_Jauge'
 
 ***** Sheet /Mode_Coherence/
 
@@ -18,22 +26,54 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Tail/Vehicule_Tail/
 
 ***** Sheet /Canal_Tail/Trailer_Tail/
+[multiple_net_names]: Both Fac_Btn_Tail and Btn_Tail_Etat are attached to the same items; Fac_Btn_Tail will be used in the netlist
+    ; warning
+    @(2.800 in, 2.300 in): Global Label 'Fac_Btn_Tail'
+    @(2.550 in, 3.250 in): Hierarchical Label 'Btn_Tail_Etat'
 
 ***** Sheet /Canal_Tail/Bloc_Test_Tail/
+[multiple_net_names]: Both Fac_Tail_G and R_Lim_B are attached to the same items; Fac_Tail_G will be used in the netlist
+    ; warning
+    @(6.950 in, 2.600 in): Global Label 'Fac_Tail_G'
+    @(6.950 in, 2.900 in): Label 'R_Lim_B'
+[multiple_net_names]: Both Fac_Tail_R and R_Lim_R are attached to the same items; Fac_Tail_R will be used in the netlist
+    ; warning
+    @(9.700 in, 2.400 in): Global Label 'Fac_Tail_R'
+    @(9.700 in, 2.650 in): Label 'R_Lim_R'
 
 ***** Sheet /Canal_Brake/
 
 ***** Sheet /Canal_Brake/Vehicule_Brake/
 
 ***** Sheet /Canal_Brake/Trailer_Brake/
+[multiple_net_names]: Both Fac_Btn_Brake and Btn_Brake_Etat are attached to the same items; Fac_Btn_Brake will be used in the netlist
+    ; warning
+    @(2.800 in, 2.300 in): Global Label 'Fac_Btn_Brake'
+    @(2.550 in, 3.250 in): Hierarchical Label 'Btn_Brake_Etat'
 
 ***** Sheet /Canal_Brake/Bloc_Test_Brake/
+[multiple_net_names]: Both Fac_Brake_R and R_Lim_R are attached to the same items; Fac_Brake_R will be used in the netlist
+    ; warning
+    @(9.000 in, 2.350 in): Global Label 'Fac_Brake_R'
+    @(9.000 in, 2.650 in): Label 'R_Lim_R'
+[multiple_net_names]: Both Fac_Brake_G and R_Lim_G are attached to the same items; Fac_Brake_G will be used in the netlist
+    ; warning
+    @(8.700 in, 0.750 in): Global Label 'Fac_Brake_G'
+    @(9.700 in, 1.250 in): Label 'R_Lim_G'
+[multiple_net_names]: Both Fac_Brake_B and R_Lim_B are attached to the same items; Fac_Brake_B will be used in the netlist
+    ; warning
+    @(6.250 in, 2.700 in): Global Label 'Fac_Brake_B'
+    @(9.700 in, 1.450 in): Label 'R_Lim_B'
 
 ***** Sheet /Canal_Left/
 
 ***** Sheet /Canal_Left/Vehicule_Left/
 
 ***** Sheet /Canal_Left/Trailer_Left/
+[multiple_net_names]: Both Fac_Btn_Left and Btn_Left_Etat are attached to the same items; Fac_Btn_Left will be used in the netlist
+    ; warning
+    @(2.800 in, 2.350 in): Global Label 'Fac_Btn_Left'
+    @(2.550 in, 3.250 in): Hierarchical Label 'Btn_Left_Etat'
 
 ***** Sheet /Canal_Left/Bloc_Test_Left/
 
@@ -42,6 +82,10 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Right/Vehicule_Right/
 
 ***** Sheet /Canal_Right/Trailer_Right/
+[multiple_net_names]: Both Fac_Btn_Right and Btn_Right_Etat are attached to the same items; Fac_Btn_Right will be used in the netlist
+    ; warning
+    @(2.800 in, 2.300 in): Global Label 'Fac_Btn_Right'
+    @(2.550 in, 3.250 in): Hierarchical Label 'Btn_Right_Etat'
 
 ***** Sheet /Canal_Right/Bloc_Test_Right/
 
@@ -50,6 +94,10 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Backup/Vehicule_Backup/
 
 ***** Sheet /Canal_Backup/Trailer_Backup/
+[multiple_net_names]: Both Fac_Btn_Backup and Btn_Backup_Etat are attached to the same items; Fac_Btn_Backup will be used in the netlist
+    ; warning
+    @(2.800 in, 2.350 in): Global Label 'Fac_Btn_Backup'
+    @(2.550 in, 3.250 in): Hierarchical Label 'Btn_Backup_Etat'
 
 ***** Sheet /Canal_Backup/Bloc_Test_Backup/
 
@@ -58,6 +106,10 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /Canal_Aux/Vehicule_Aux/
 
 ***** Sheet /Canal_Aux/Trailer_Aux/
+[multiple_net_names]: Both Fac_Btn_Aux and Btn_Aux_Etat are attached to the same items; Fac_Btn_Aux will be used in the netlist
+    ; warning
+    @(2.200 in, 1.250 in): Global Label 'Fac_Btn_Aux'
+    @(1.300 in, 1.950 in): Hierarchical Label 'Btn_Aux_Etat'
 
 ***** Sheet /Canal_Aux/Bloc_Test_Aux/
 
@@ -65,7 +117,11 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Alarmes_Buzzer/
 
- ** ERC messages: 2  Errors 0  Warnings 1
+***** Sheet /Alimentation/Limite_Pack_Int/
+
+***** Sheet /Connecteurs_Facade/
+
+ ** ERC messages: 15  Errors 0  Warnings 14
 
  ** Ignored checks:
     - Global label only appears once in the schematic
