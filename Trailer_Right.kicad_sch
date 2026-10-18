@@ -5713,7 +5713,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b850f4c-9f08-452e-8df8-932a09f30eb3")
