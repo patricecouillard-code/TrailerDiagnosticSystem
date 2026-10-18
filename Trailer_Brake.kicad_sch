@@ -4944,7 +4944,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f478d11-66b6-4358-80bb-0c3682b3de0b")
