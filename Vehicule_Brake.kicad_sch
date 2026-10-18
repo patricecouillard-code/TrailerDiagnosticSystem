@@ -2719,6 +2719,12 @@
 		(uuid "6c452c10-7926-4f6e-9529-90a46617c585")
 	)
 	(junction
+		(at 175.26 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4adead3-f73a-49bc-95cf-841318815e81")
+	)
+	(junction
 		(at 99.695 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3028,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 133.35) (xy 175.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622af11e-b02c-4f35-b747-0f760ab64a54")
+	)
+	(wire
+		(pts
 			(xy 72.39 74.93) (xy 48.26 74.93)
 		)
 		(stroke
@@ -3218,6 +3234,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 142.24) (xy 176.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa53c47c-7d1f-4100-be2c-457f1b63f6e5")
+	)
+	(wire
+		(pts
 			(xy 35.56 127) (xy 24.13 127)
 		)
 		(stroke
@@ -3265,6 +3291,16 @@
 			(type default)
 		)
 		(uuid "b5f30418-c0e4-4bad-b67e-5b158d0a1aa5")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1f6a5b-d946-4104-96a3-0cf0b9b14222")
 	)
 	(wire
 		(pts
@@ -3458,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 142.24) (xy 176.53 142.24)
+			(xy 171.45 142.24) (xy 175.26 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4146,6 +4182,42 @@
 			)
 		)
 	)
+	(global_label "Fac_D147_K"
+		(shape input)
+		(at 180.34 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8decd20-14a5-4c80-842c-69373413c99a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.7551 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" ""
+			(at 180.34 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 172.72 35.56 180)
@@ -4828,7 +4900,7 @@
 		(dnp no)
 		(uuid "35bf73d8-9f4e-47a2-aa13-6a06cdee5503")
 		(property "Reference" "D147"
-			(at 180.34 133.35 0)
+			(at 180.594 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

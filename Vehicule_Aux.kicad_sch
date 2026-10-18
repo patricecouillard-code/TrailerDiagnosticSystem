@@ -2831,6 +2831,12 @@
 		(uuid "4397d6d5-357b-46cb-8ebe-557a4ecf63f3")
 	)
 	(junction
+		(at 242.57 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46df1383-af39-40ea-8d4d-9799b9048023")
+	)
+	(junction
 		(at 34.29 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2891,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "06f2c801-c3f7-46f6-befc-42d4e521d42e")
+	)
+	(wire
+		(pts
+			(xy 242.57 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1b9033-eb8f-47e8-88f3-9c320b7bf279")
 	)
 	(wire
 		(pts
@@ -3021,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "2cd2bf68-5c1e-4b2b-b3e1-5ffca93852ed")
+	)
+	(wire
+		(pts
+			(xy 256.54 102.87) (xy 242.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7d2c69-e317-4a7a-9506-54e16922532f")
 	)
 	(wire
 		(pts
@@ -3214,6 +3240,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 102.87) (xy 242.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65277333-e030-4d45-9330-e0589dfc4432")
+	)
+	(wire
+		(pts
 			(xy 68.58 30.48) (xy 71.12 30.48)
 		)
 		(stroke
@@ -3404,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 99.06) (xy 243.84 99.06)
+			(xy 240.03 99.06) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4383,6 +4419,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Fac_LED1_K"
+		(shape input)
+		(at 256.54 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f04d3658-bba3-41bf-96a3-3cbc1335a615")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.7132 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" ""
+			(at 256.54 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)

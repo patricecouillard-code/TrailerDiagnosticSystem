@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a2e7f846-188b-41d9-971e-cdc1299ef04e")
+	(uuid "e56441d0-d789-4e82-8004-ae1b8cf33af3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
@@ -2452,12 +2452,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 57.15 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63143b4d-a177-49e3-9b03-06e14143c346")
-	)
 	(wire
 		(pts
 			(xy 69.85 39.37) (xy 74.93 39.37)
@@ -2547,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "1ef09584-18f2-4840-b128-759d864f9b67")
-	)
-	(wire
-		(pts
-			(xy 57.15 92.71) (xy 58.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2704fc6b-b065-4a72-8da1-154411670e2e")
 	)
 	(wire
 		(pts
@@ -2990,6 +2974,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 74.93) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b483d7d8-397f-43fe-849b-e98b35f6f269")
+	)
+	(wire
+		(pts
 			(xy 66.04 123.19) (xy 76.2 123.19)
 		)
 		(stroke
@@ -3037,16 +3031,6 @@
 			(type default)
 		)
 		(uuid "c09ae7d6-268a-4075-a4f4-2032b70d27a4")
-	)
-	(wire
-		(pts
-			(xy 45.72 92.71) (xy 57.15 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c51cf4f3-53e3-4e4d-a16e-dc55d5783825")
 	)
 	(wire
 		(pts
@@ -3110,13 +3094,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 74.93) (xy 57.15 74.93)
+			(xy 45.72 92.71) (xy 57.15 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da04eb13-da04-414c-8219-fa2e27403310")
+		(uuid "da96ede7-e044-4c54-af92-c3991815cff9")
 	)
 	(wire
 		(pts
