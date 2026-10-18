@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "OSX10201-GYR1") (type "KiCad") (uri "${KIPRJMOD}/../OSX10201-GYR1.kicad_sym") (options "") (descr "Bargraph D25, lu dans le projet principal"))
+)
