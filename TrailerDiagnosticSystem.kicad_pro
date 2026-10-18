@@ -676,7 +676,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Etiquette",
           "name": "Etiquette",
           "show": true
@@ -746,14 +746,20 @@
           "label": "Purchase-URL",
           "name": "Purchase-URL",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
-      "filter_string": "1K",
+      "filter_string": "r295",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -796,7 +802,7 @@
         "uuid": "d4e407a7-3e32-4226-ae57-831ecdb3edf4"
       }
     ],
-    "used_designators": "J1-5,P1-2,BMS3s1-2,SW1-11,BT1-6,U1-17,Q1-70,Q79-83,C1-12,#PWR1-32,F1-8,R1-63,R67-71,R75-86,R89-205,R207-209,R211-259,R288-309,#FLG1-5,D1-146,D148-150,D152-172,D176,D180,LED1-2,OC1-12,VR1-2,BZ1,PS1,DZ1-2,DZ7",
+    "used_designators": "J1-9,P1-2,BMS3s1-2,SW1-12,BT1-6,U1-17,Q1-70,Q79-83,Q85,C1-12,#PWR1-40,F1-8,R1-63,R67-71,R75-86,R89-205,R207-209,R211-259,R288-313,R315-320,#FLG1-5,D1-146,D148-172,D176,D180,D183,LED1-2,OC1-12,VR1-2,BZ1,PS1,DZ1-2,DZ7",
     "variants": []
   },
   "sheets": [
@@ -919,6 +925,10 @@
     [
       "c2c7fe29-9e82-4292-ba5a-c901376e77e6",
       "Limite_Pack_Int"
+    ],
+    [
+      "bfa6d45a-419b-4fd2-9733-45fa892a7af6",
+      "Connecteurs_Facade"
     ]
   ],
   "text_variables": {},
