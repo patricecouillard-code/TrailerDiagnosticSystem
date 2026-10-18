@@ -1635,6 +1635,12 @@
 		(uuid "1f96afff-0d05-4216-b49d-bf12789f5e81")
 	)
 	(junction
+		(at 240.03 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21eb55ac-8dec-41b5-bedb-a3d9ef9eb219")
+	)
+	(junction
 		(at 148.59 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1645,6 +1651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c58138a-7e5a-4acc-be4c-1c9c5e8e829a")
+	)
+	(junction
+		(at 240.03 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423264b4-f04d-4f80-8f50-3e45183f2f3c")
 	)
 	(junction
 		(at 102.87 140.97)
@@ -1681,6 +1693,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f435bd9-c422-4200-ba0f-5708524ac101")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d37ab6d-3e06-471f-974e-332e2f9a4da5")
 	)
 	(junction
 		(at 157.48 152.4)
@@ -1928,6 +1946,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 142.24) (xy 260.35 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b5b983-914b-4a59-88ff-b42da2c07425")
+	)
+	(wire
+		(pts
 			(xy 55.88 86.36) (xy 55.88 97.79)
 		)
 		(stroke
@@ -2025,6 +2053,16 @@
 			(type default)
 		)
 		(uuid "380b7858-b168-4247-b150-34e1d57ea219")
+	)
+	(wire
+		(pts
+			(xy 240.03 137.16) (xy 240.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e74fb0-3b1c-41b2-9ffb-a6e787fbd774")
 	)
 	(wire
 		(pts
@@ -2188,6 +2226,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 118.11) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c05e6e-31dd-4522-81ba-c2540435cd9a")
+	)
+	(wire
+		(pts
 			(xy 83.82 132.08) (xy 90.17 132.08)
 		)
 		(stroke
@@ -2268,13 +2316,23 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 257.81 142.24)
+			(xy 260.35 119.38) (xy 260.35 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69633ee5-ac4b-46d0-a538-72562a0b5543")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 264.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb21f3b-8e6a-4f5b-b2b8-ccac2684a442")
 	)
 	(wire
 		(pts
@@ -2448,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 142.24) (xy 257.81 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e2038e-5925-4c97-bfc1-2240e4d2ccde")
-	)
-	(wire
-		(pts
 			(xy 26.67 60.96) (xy 29.21 60.96)
 		)
 		(stroke
@@ -2568,6 +2616,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 118.11) (xy 240.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b4d0ca-513a-4364-a894-6e97027c66ac")
+	)
+	(wire
+		(pts
 			(xy 35.56 53.34) (xy 39.37 53.34)
 		)
 		(stroke
@@ -2578,17 +2636,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 100.33) (xy 264.16 100.33)
+			(xy 232.41 100.33) (xy 231.14 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7783d25-3620-40dd-8f87-a16526c1c8de")
+		(uuid "bb4552ee-9a84-4108-8645-3b6d6bf00006")
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 251.46 121.92)
+			(xy 259.08 114.3) (xy 259.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2615,6 +2673,16 @@
 			(type default)
 		)
 		(uuid "c28accdb-932a-4211-beea-69adc5140b20")
+	)
+	(wire
+		(pts
+			(xy 243.84 96.52) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3746782-def5-4ebd-bf92-ed9a58d2bfb9")
 	)
 	(wire
 		(pts
@@ -2718,6 +2786,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 121.92) (xy 231.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b51738-e333-4034-abdf-9daf5ab4a353")
+	)
+	(wire
+		(pts
 			(xy 90.17 156.21) (xy 102.87 156.21)
 		)
 		(stroke
@@ -2758,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 264.16 119.38)
+			(xy 260.35 119.38) (xy 264.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2768,13 +2846,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 264.16 114.3)
+			(xy 259.08 114.3) (xy 264.16 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfbaf36e-ac6f-4d33-b7bb-12bf4cdd583a")
+	)
+	(wire
+		(pts
+			(xy 240.03 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dca94b-da12-43aa-bd43-2715fd7f12f8")
 	)
 	(wire
 		(pts
@@ -2838,6 +2926,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 137.16) (xy 240.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea443947-36e5-41d1-ac50-5b7b0e903689")
+	)
+	(wire
+		(pts
 			(xy 264.16 100.33) (xy 264.16 109.22)
 		)
 		(stroke
@@ -2898,13 +2996,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 121.92) (xy 251.46 121.92)
+			(xy 232.41 142.24) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3a04b8d-a7d7-44c2-a3d6-315d2607638f")
+		(uuid "f2fc1be0-6482-4d79-b610-e1799705e1e2")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41cf92b-b1ae-4db6-b138-a91469a49f31")
 	)
 	(wire
 		(pts
@@ -3404,6 +3512,30 @@
 			)
 		)
 	)
+	(global_label "Fac_Right_R"
+		(shape input)
+		(at 243.84 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63a6810e-75a0-4f5a-9fc8-7a54c7418d34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2551 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 137.16 152.4 180)
@@ -3521,6 +3653,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Fac_Right_G"
+		(shape input)
+		(at 243.84 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c30e7e8-379f-4427-a82f-cb9ac05793f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2551 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3713,6 +3869,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Fac_Right_B"
+		(shape input)
+		(at 243.84 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbf46b64-4cf0-453f-a3d9-97505faa35b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2551 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4611,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:330ohm")
-		(at 234.95 142.24 0)
+		(at 236.22 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4621,7 +4801,7 @@
 		(dnp no)
 		(uuid "2e372c54-87be-4932-b86c-cf70f3a5fb66")
 		(property "Reference" "R121"
-			(at 234.95 137.414 0)
+			(at 236.22 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4631,7 +4811,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 234.95 139.954 0)
+			(at 236.22 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4641,7 +4821,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 235.839 146.558 0)
+			(at 237.109 146.558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4652,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 235.458 142.24 0)
+			(at 236.728 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4663,7 +4843,7 @@
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
-			(at 234.95 142.24 0)
+			(at 236.22 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4949,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:330ohm")
-		(at 234.95 100.33 0)
+		(at 236.22 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4779,7 +4959,7 @@
 		(dnp no)
 		(uuid "46f187e7-24bf-455f-acd5-3b11db1d110e")
 		(property "Reference" "R119"
-			(at 234.95 95.504 0)
+			(at 236.22 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4789,7 +4969,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 234.95 98.044 0)
+			(at 236.22 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4799,7 +4979,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 235.839 104.648 0)
+			(at 237.109 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 235.458 100.33 0)
+			(at 236.728 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +5001,7 @@
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
-			(at 234.95 100.33 0)
+			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5360,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:330ohm")
-		(at 234.95 121.92 0)
+		(at 236.22 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5190,7 +5370,7 @@
 		(dnp no)
 		(uuid "57a9c1f2-da90-4726-894a-31e3364cd360")
 		(property "Reference" "R120"
-			(at 234.95 117.094 0)
+			(at 236.22 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5200,7 +5380,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 234.95 119.634 0)
+			(at 236.22 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5210,7 +5390,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 235.839 126.238 0)
+			(at 237.109 126.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 235.458 121.92 0)
+			(at 236.728 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +5412,7 @@
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
-			(at 234.95 121.92 0)
+			(at 236.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

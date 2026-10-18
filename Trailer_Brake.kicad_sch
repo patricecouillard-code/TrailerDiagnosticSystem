@@ -3251,6 +3251,12 @@
 		(uuid "5c614410-bc8b-4a1f-a834-a461a7e558d6")
 	)
 	(junction
+		(at 68.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eaec1f6-bf11-4296-afa4-e68f67864ab8")
+	)
+	(junction
 		(at 68.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3574,6 +3580,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 58.42) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df38947-b81e-4e67-8da7-46dcea308384")
+	)
+	(wire
+		(pts
 			(xy 227.33 54.61) (xy 227.33 57.15)
 		)
 		(stroke
@@ -3821,6 +3837,16 @@
 			(type default)
 		)
 		(uuid "ac754576-6afc-41a6-ae8a-e0556516f698")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf0166d-7cb4-4305-9129-41a4d492d71c")
 	)
 	(wire
 		(pts
@@ -4461,6 +4487,30 @@
 		(uuid "665d3172-4dd0-4c29-91c2-3be5794344eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.3547 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Brake"
+		(shape input)
+		(at 71.12 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e0001df-704f-4748-ac83-00f8b5175546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8332 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

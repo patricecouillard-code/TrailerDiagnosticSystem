@@ -3239,6 +3239,12 @@
 		(uuid "1f2ae436-456e-49ec-953c-b0989a352b82")
 	)
 	(junction
+		(at 68.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25066501-18ed-4758-82f3-cf0e528bae71")
+	)
+	(junction
 		(at 176.53 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3764,6 +3770,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 58.42) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f577929-e618-46fa-8c73-4be0297a1f99")
+	)
+	(wire
+		(pts
 			(xy 223.52 109.22) (xy 228.6 109.22)
 		)
 		(stroke
@@ -3811,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "88c45b92-24b0-4a30-bd96-6e01dd2bfe31")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c15be9c-7561-4d9a-aaed-fcd057e95e9b")
 	)
 	(wire
 		(pts
@@ -4301,6 +4327,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Right"
+		(shape input)
+		(at 71.12 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f8ba27e-d6c7-4cb8-b73e-b91c155f4f3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.4098 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5668,7 +5718,7 @@
 		(dnp no)
 		(uuid "5b850f4c-9f08-452e-8df8-932a09f30eb3")
 		(property "Reference" "SW5"
-			(at 60.706 56.134 0)
+			(at 60.96 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

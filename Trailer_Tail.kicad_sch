@@ -3227,6 +3227,12 @@
 		(uuid "0eea5854-1676-414f-8123-746effe6792f")
 	)
 	(junction
+		(at 68.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e88b29-e696-483d-a1b3-d05942f67245")
+	)
+	(junction
 		(at 107.95 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3674,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 58.42) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54912360-c61f-46c3-956d-b0b56fa68656")
+	)
+	(wire
+		(pts
 			(xy 107.95 58.42) (xy 176.53 58.42)
 		)
 		(stroke
@@ -3731,6 +3747,16 @@
 			(type default)
 		)
 		(uuid "6a8e3698-86a4-498d-8983-bce7dc817641")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebc8d45-d071-4fdd-a0a3-80a2a1c5ae08")
 	)
 	(wire
 		(pts
@@ -4307,6 +4333,30 @@
 		(uuid "23a5b524-3f0e-447c-9c67-de1916237252")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.9357 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Tail"
+		(shape input)
+		(at 71.12 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25eea12b-1f25-471f-b129-533af22ff999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.8979 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

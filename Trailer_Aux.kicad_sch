@@ -2619,6 +2619,12 @@
 		(uuid "311e1ad2-ede9-4fca-ac05-6e233c76b2fa")
 	)
 	(junction
+		(at 48.26 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5076dfd5-e8ea-4024-8f21-34f93090cd81")
+	)
+	(junction
 		(at 57.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3194,6 +3200,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 31.75) (xy 55.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd176ba-7052-45a5-a8c9-83787a788ce2")
+	)
+	(wire
+		(pts
 			(xy 41.91 107.95) (xy 41.91 106.68)
 		)
 		(stroke
@@ -3709,6 +3725,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Aux"
+		(shape input)
+		(at 55.88 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ff1974-f538-4f6f-8504-7ec487e9981e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.537 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
