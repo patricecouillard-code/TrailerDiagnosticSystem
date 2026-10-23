@@ -2,9 +2,151 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid a22adf74-3f4e-45d1-a847-1db98a43facb)
-	(paper "A4")
+	(uuid "a22adf74-3f4e-45d1-a847-1db98a43facb")
+	(paper "USLedger")
+	(title_block
+		(title "Trailer Diagnostic System - Façade")
+		(date "2026-10-18")
+	)
 	(lib_symbols)
+	(sheet
+		(at 30.988 19.304)
+		(size 376.682 74.168)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f2414e1-a7cd-42f9-b8b3-08fad12baea6")
+		(property "Sheetname" "Top_Zone"
+			(at 30.988 18.5924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Top_Zone.kicad_sch"
+			(at 30.988 94.0566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Facade"
+				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.004 106.172)
+		(size 376.936 55.372)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a3f7627-bbce-4fa5-95a4-89d1a4c1541c")
+		(property "Sheetname" "Center_Zone"
+			(at 32.004 105.4604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Center_Zone.kicad_sch"
+			(at 32.004 162.1286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Facade"
+				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.766 170.688)
+		(size 375.666 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f98cd382-243e-45f7-9974-0d319b3467e9")
+		(property "Sheetname" "Bottom_Zone"
+			(at 32.766 169.9764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bottom_Zone.kicad_sch"
+			(at 32.766 220.8026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Facade"
+				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

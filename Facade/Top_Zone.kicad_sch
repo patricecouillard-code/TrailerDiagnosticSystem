@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5c18b9cc-06df-4203-9695-300ae2b9789c")
+	(paper "A4")
+	(title_block
+		(title "Trailer Diagnostic System - Façade")
+	)
+	(lib_symbols)
+)
