@@ -434,7 +434,7 @@
         "uuid": "a22adf74-3f4e-45d1-a847-1db98a43facb"
       }
     ],
-    "used_designators": "BZ1,J1-2,J23-26,LED1-5,#PWR1-25,D1-6,D27-31,D148,D157,SW1,SW4-8",
+    "used_designators": "#FLG1,BZ1,J1-2,J23-26,LED1-5,#PWR1-25,D1-6,D27-31,D148,D157,SW1,SW4-8",
     "variants": []
   },
   "sheets": [

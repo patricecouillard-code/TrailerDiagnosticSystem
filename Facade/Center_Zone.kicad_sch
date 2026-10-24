@@ -4811,7 +4811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 230.378 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4822,7 +4822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 205.74 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 212.852 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +5888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 210.82 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +6291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 204.47 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6450,7 +6450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 211.328 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6546,7 +6546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-…_1x03_… (fil 0,25 à 0,5 mm²)"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
 			(at 57.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 211.836 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7194,7 +7194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verouillable"
+		(property "Value" "Bouton verrouillable"
 			(at 211.582 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
+		(property "Footprint" ""
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
