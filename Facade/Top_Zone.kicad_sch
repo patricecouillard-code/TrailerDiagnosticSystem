@@ -6433,7 +6433,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6562,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "Conn_01x05 (Fils soudés)"
 			(at 69.85 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6636,8 +6636,8 @@
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6901,7 +6901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x06 (Fils soudés)"
 			(at 70.358 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,7 +7572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Conn_01x03 (Fils soudés)"
 			(at 69.85 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
