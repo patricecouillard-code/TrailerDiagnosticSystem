@@ -6562,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x05"
 			(at 69.85 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical"
 			(at 67.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6901,7 +6901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x06"
 			(at 70.358 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical"
 			(at 67.31 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7572,7 +7572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 69.85 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7583,7 +7583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)

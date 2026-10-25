@@ -2168,16 +2168,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 62.23) (xy 148.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150e314d-1f86-4c80-9339-302b47bdac37")
-	)
-	(wire
-		(pts
 			(xy 142.24 133.35) (xy 144.78 133.35)
 		)
 		(stroke
@@ -2508,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 142.24 92.71)
+			(xy 142.24 92.71) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2985,16 +2975,6 @@
 			(type default)
 		)
 		(uuid "c62b0b6b-324b-4ff1-82b0-afdaa061750c")
-	)
-	(wire
-		(pts
-			(xy 148.59 62.23) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78f04ee-4d0c-4375-84cc-70509c7c201d")
 	)
 	(wire
 		(pts
@@ -3677,7 +3657,7 @@
 		(uuid "a37a9493-261d-46f4-a43f-090626846d79")
 	)
 	(label "V_Ref"
-		(at 154.94 62.23 0)
+		(at 152.4 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +4078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4811,7 +4791,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 230.378 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 212.852 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +5953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 210.82 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6450,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 211.328 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03 (Fils soudés)"
+		(property "Value" "Micro-Fit 3.0 1x03"
 			(at 59.69 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 57.15 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 211.836 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,7 +7174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bouton verrouillable"
+		(property "Value" "82-5153.2000"
 			(at 211.582 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
