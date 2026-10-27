@@ -4791,7 +4791,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 230.378 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5857,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 212.852 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6260,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 210.82 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 211.328 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 211.836 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +7174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82-5153.2000"
+		(property "Value" "82-4153.2000"
 			(at 211.582 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
