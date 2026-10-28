@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "82-4153.2000"
 			(at 41.91 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)

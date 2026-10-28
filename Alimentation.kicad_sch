@@ -25235,7 +25235,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "Cole Hersee 5592"
 			(at 41.91 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -25846,7 +25846,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "Cole Hersee 5592"
 			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)

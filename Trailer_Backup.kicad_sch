@@ -6317,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "82-4153.2000"
 			(at 60.96 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
