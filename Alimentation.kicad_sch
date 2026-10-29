@@ -12558,12 +12558,6 @@
 		(uuid "3342f9fa-eba1-464b-b2df-9fd2b2422d13")
 	)
 	(junction
-		(at 43.18 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ed7743e-226d-46e0-b5f1-56588b2cb903")
-	)
-	(junction
 		(at 92.71 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12598,6 +12592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4890cd4f-d53e-4945-bac6-c9ccd1e2d286")
+	)
+	(junction
+		(at 43.18 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5099dd3d-39e3-426a-a6b7-6ecf019d1060")
 	)
 	(junction
 		(at 121.92 233.68)
@@ -12732,6 +12732,12 @@
 		(uuid "9d93a122-8215-433e-a10a-aa36fee40453")
 	)
 	(junction
+		(at 63.5 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c22a74-831e-491f-ad80-b0f2a903fb5c")
+	)
+	(junction
 		(at 124.46 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12774,18 +12780,6 @@
 		(uuid "b0d6da80-c426-4e6a-821f-11af86632947")
 	)
 	(junction
-		(at 68.58 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b71c763b-a5c8-47be-9e30-8445cd6ca7cd")
-	)
-	(junction
-		(at 68.58 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b84fbddc-0972-49da-a7dd-652990105ab4")
-	)
-	(junction
 		(at 369.57 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12814,6 +12808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d08a8861-e3b1-43b3-9b35-46ab500d9898")
+	)
+	(junction
+		(at 66.04 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d13bdf77-a984-4658-8dd8-2dba211e111e")
 	)
 	(junction
 		(at 140.97 36.83)
@@ -13157,6 +13157,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 26.67) (xy 69.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af06d26-0bae-4117-aa29-c100f5e044fc")
+	)
+	(wire
+		(pts
 			(xy 223.52 85.09) (xy 276.86 85.09)
 		)
 		(stroke
@@ -13277,13 +13287,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 25.4) (xy 78.74 25.4)
+			(xy 62.23 30.48) (xy 63.5 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "265c89b7-1fe5-4d08-b6e1-7dd28bc7deb6")
+		(uuid "26fcbfb4-88f2-4485-a3d6-17bd129e971a")
 	)
 	(wire
 		(pts
@@ -13374,6 +13384,16 @@
 			(type default)
 		)
 		(uuid "2b93ce4b-63fe-4a1c-896a-324036b365fa")
+	)
+	(wire
+		(pts
+			(xy 66.04 26.67) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c67fe89-f186-4c2e-afae-dccef153c26a")
 	)
 	(wire
 		(pts
@@ -13597,6 +13617,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 33.02) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3952f749-2e5e-4375-b6e9-64266aebeb64")
+	)
+	(wire
+		(pts
 			(xy 257.81 31.75) (xy 257.81 27.94)
 		)
 		(stroke
@@ -13627,16 +13657,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 33.02) (xy 53.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e614d44-441c-4375-9e44-79778682d453")
-	)
-	(wire
-		(pts
 			(xy 369.57 157.48) (xy 335.28 157.48)
 		)
 		(stroke
@@ -13654,16 +13674,6 @@
 			(type default)
 		)
 		(uuid "3f9a7a84-3cb5-44c1-aa01-cc1dddbd4493")
-	)
-	(wire
-		(pts
-			(xy 53.34 33.02) (xy 53.34 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4072e68d-7e0c-4c39-8736-5070ebd5b423")
 	)
 	(wire
 		(pts
@@ -14037,6 +14047,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 22.86) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e074ae7-e4af-48c8-8440-a3960aa87e30")
+	)
+	(wire
+		(pts
 			(xy 226.06 121.92) (xy 229.87 121.92)
 		)
 		(stroke
@@ -14257,6 +14277,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 30.48) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727a3f50-00cf-47d0-8ea5-4cc22932e2ac")
+	)
+	(wire
+		(pts
 			(xy 170.18 148.59) (xy 173.99 148.59)
 		)
 		(stroke
@@ -14344,16 +14374,6 @@
 			(type default)
 		)
 		(uuid "77210966-0461-45a5-bcd3-7c5f7741b5ae")
-	)
-	(wire
-		(pts
-			(xy 43.18 22.86) (xy 68.58 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78322e7e-97da-4a26-a60a-aab7566e8efa")
 	)
 	(wire
 		(pts
@@ -14767,16 +14787,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 22.86) (xy 78.74 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9871fce4-591f-4e1d-ae9d-c5108b6f11bd")
-	)
-	(wire
-		(pts
 			(xy 31.75 217.17) (xy 45.72 217.17)
 		)
 		(stroke
@@ -15054,6 +15064,16 @@
 			(type default)
 		)
 		(uuid "b08818ea-465e-4836-a68f-2c7859a54322")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 50.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1af194d-1c58-44a2-9646-518102b565a0")
 	)
 	(wire
 		(pts
@@ -15557,6 +15577,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 26.67) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6113425-900f-49d1-8ba3-52048c4466c0")
+	)
+	(wire
+		(pts
 			(xy 49.53 50.8) (xy 55.88 50.8)
 		)
 		(stroke
@@ -15774,16 +15804,6 @@
 			(type default)
 		)
 		(uuid "e78d1bf6-c1ab-46ec-ac80-37ac73bdc666")
-	)
-	(wire
-		(pts
-			(xy 53.34 25.4) (xy 68.58 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88c6ca6-0b0c-48f4-a68e-aa0e4aac1088")
 	)
 	(wire
 		(pts
@@ -16396,12 +16416,12 @@
 		(uuid "a2b75518-8ef9-42c0-aa8b-17be2b849587")
 	)
 	(label "Batt_Externe_Pos"
-		(at 78.74 22.86 0)
+		(at 62.23 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a3ccc0b8-e648-41b2-a3fb-c3f7297f7160")
 	)
@@ -16526,7 +16546,7 @@
 		(uuid "d58bc8df-9761-40fc-b7bb-a04695779cfb")
 	)
 	(label "Batt_Neg"
-		(at 78.74 25.4 0)
+		(at 69.85 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17819,7 +17839,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ae86669-3e0b-4c3c-b2ed-9ef281eb6ca0")
@@ -23100,7 +23120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "Micro-Fit 3.0 1x05"
 			(at 181.61 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23111,7 +23131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical"
 			(at 179.07 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -24890,8 +24910,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P3.50mm")
-		(at 64.77 24.13 0)
-		(mirror y)
+		(at 64.77 22.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24901,7 +24920,7 @@
 		(dnp no)
 		(uuid "c579665a-d6be-4f10-a50b-46a999430807")
 		(property "Reference" "J2"
-			(at 65.4051 20.32 0)
+			(at 65.786 18.796 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24912,7 +24931,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_2_P3.50mm"
-			(at 62.8651 20.32 90)
+			(at 60.96 20.9551 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24924,7 +24943,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 63.5 30.48 0)
+			(at 71.12 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24935,7 +24954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 24.13 0)
+			(at 64.77 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24946,7 +24965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 24.13 0)
+			(at 64.77 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24957,7 +24976,7 @@
 			)
 		)
 		(property "Étiquette" "Source Externe (GX16-2)"
-			(at 65.405 16.129 0)
+			(at 63.754 15.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26536,18 +26555,18 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 72.39 22.86 270)
+		(at 54.61 26.67 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef39c361-57e9-40cd-a6a2-527297fbd0fe")
 		(property "Reference" "F1"
-			(at 72.39 16.51 90)
+			(at 54.61 20.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26558,7 +26577,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 72.39 19.05 90)
+			(at 54.61 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26568,7 +26587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 21.082 90)
+			(at 54.61 24.892 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26579,7 +26598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 22.86 0)
+			(at 54.61 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26590,7 +26609,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 72.39 22.86 0)
+			(at 54.61 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
