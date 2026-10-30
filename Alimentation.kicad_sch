@@ -13522,6 +13522,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 35.56) (xy 113.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2731a0fb-b627-4e80-814e-234dcc74ef6c")
+	)
+	(wire
+		(pts
 			(xy 90.17 13.97) (xy 81.28 13.97)
 		)
 		(stroke
@@ -14112,6 +14122,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e0bd30-4d96-489c-bb27-c23b6a9a11cf")
+	)
+	(wire
+		(pts
 			(xy 172.72 93.98) (xy 172.72 105.41)
 		)
 		(stroke
@@ -14549,16 +14569,6 @@
 			(type default)
 		)
 		(uuid "731b0b86-d7cf-4eb5-a80b-05c32edf9cb4")
-	)
-	(wire
-		(pts
-			(xy 127 38.1) (xy 114.3 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732cdf17-0308-47dd-aba2-469c78a51a92")
 	)
 	(wire
 		(pts
@@ -15189,16 +15199,6 @@
 			(type default)
 		)
 		(uuid "a2632099-d811-486f-ba35-657ef1662472")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 114.3 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c6e010-1980-4036-997e-5385b9ddecc8")
 	)
 	(wire
 		(pts
@@ -15899,6 +15899,16 @@
 			(type default)
 		)
 		(uuid "d31a554d-df47-44c2-8f1b-dc7e802de7f4")
+	)
+	(wire
+		(pts
+			(xy 113.03 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34f7295-7e1f-4261-9917-6be4eecec66b")
 	)
 	(wire
 		(pts
@@ -17071,7 +17081,7 @@
 		(uuid "f1551b2f-20a2-4c39-ba3f-246eb2df6e12")
 	)
 	(label "Batt_Neg"
-		(at 114.3 35.56 180)
+		(at 113.03 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
