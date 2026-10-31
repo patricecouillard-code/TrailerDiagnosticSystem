@@ -4366,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 191.77 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4562,7 +4562,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 190.5 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 191.77 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4919,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 177.8 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +4941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 180.34 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 190.5 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5601,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5696,7 +5696,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 190.5 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)

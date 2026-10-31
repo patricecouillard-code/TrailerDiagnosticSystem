@@ -3465,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 76.2 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 77.47 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3581,7 +3581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 76.1999 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4221,7 +4221,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 76.2 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4242,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4506,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 76.2 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4527,7 +4527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 77.47 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM2901N"
 			(at 76.2 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5223,7 +5223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2901.pdf"
 			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
