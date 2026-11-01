@@ -13586,6 +13586,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 222.25) (xy 279.4 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eab461c-7f20-425b-b473-3dc1be92e96a")
+	)
+	(wire
+		(pts
 			(xy 372.11 29.21) (xy 369.57 29.21)
 		)
 		(stroke
@@ -14233,6 +14243,16 @@
 			(type default)
 		)
 		(uuid "52211020-7b9b-4ace-bfd5-3677dd3af06b")
+	)
+	(wire
+		(pts
+			(xy 274.32 229.87) (xy 279.4 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52375fb7-3bb1-4bbe-a600-98ca233844dd")
 	)
 	(wire
 		(pts
@@ -16805,6 +16825,16 @@
 		(uuid "2a479a10-d2ff-4e7e-9cbe-340cfc72494a")
 	)
 	(label "Batt_Interne_Pos"
+		(at 279.4 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e5a1e77-7b25-4b75-8664-c999111a6ea9")
+	)
+	(label "Batt_Interne_Pos"
 		(at 55.88 148.59 0)
 		(effects
 			(font
@@ -16943,6 +16973,16 @@
 			(justify left bottom)
 		)
 		(uuid "66c12264-94a9-42c9-8930-0ee8af2a6e2e")
+	)
+	(label "Batt_Neg"
+		(at 279.4 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68c9f1de-a64f-4fdb-8be2-848e4757f995")
 	)
 	(label "VM_Shunt_Gnd"
 		(at 170.18 177.8 0)
