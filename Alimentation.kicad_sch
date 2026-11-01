@@ -28033,6 +28033,72 @@
 		)
 	)
 	(sheet
+		(at 246.38 218.44)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b65cae5a-0721-42eb-91e2-88a6a3316c7c")
+		(property "Sheetname" "Recharge_Pack"
+			(at 246.38 217.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Recharge_Pack.kicad_sch"
+			(at 246.38 234.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Batt_Neg" input
+			(at 274.32 222.25 0)
+			(uuid "176f8f20-caa5-4da9-b59c-77a86b1cd310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Batt_Interne_Pos" input
+			(at 274.32 229.87 0)
+			(uuid "f66cd1fc-868f-4103-b840-a74968bba661")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 312.42 201.93)
 		(size 29.972 19.304)
 		(exclude_from_sim no)
