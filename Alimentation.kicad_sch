@@ -17856,6 +17856,30 @@
 			)
 		)
 	)
+	(global_label "Fac_VM_Mesure"
+		(shape input)
+		(at 246.38 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd36cd01-b5fe-4874-ae3d-9b7a6a29e724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0015 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Fac_Jauge_4"
 		(shape input)
 		(at 140.97 228.6 0)
@@ -17949,17 +17973,6 @@
 			(justify left)
 		)
 		(uuid "601c932d-ad82-4cd5-8e0f-15eac5e9f1a9")
-	)
-	(hierarchical_label "VM_Mesure"
-		(shape input)
-		(at 246.38 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "87afbc04-acf0-41dd-bd85-3ba14e4215e2")
 	)
 	(hierarchical_label "V12_PostShunt"
 		(shape input)
