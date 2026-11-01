@@ -2418,16 +2418,6 @@
 		)
 		(uuid "9647e8ec-c44e-4e11-9d68-7df60404dc72")
 	)
-	(label "Batt_Neg"
-		(at 97.79 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "983057e1-2e3b-4fc1-b35f-8c4e8e468520")
-	)
 	(label "Recharge_Therm"
 		(at 130.81 59.69 0)
 		(effects
@@ -2498,6 +2488,17 @@
 			(justify right)
 		)
 		(uuid "9c28554e-8c6b-4481-bdd4-ce03196de4e9")
+	)
+	(hierarchical_label "Batt_Neg"
+		(shape input)
+		(at 97.79 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9cb3fc7-ae41-4b2e-9694-4f8cb39e89c3")
 	)
 	(hierarchical_label "Batt_Interne_Pos"
 		(shape input)
@@ -2754,7 +2755,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55bf1992-fd7c-4d5e-a75c-7b5deb35bd5d")
@@ -2768,7 +2769,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED bleue 5mm COLD"
 			(at 72.39 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
