@@ -1,4 +1,4 @@
-ERC report (2026-10-18T11:48:41, Encoding UTF8)
+ERC report (2026-11-01T09:00:15, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -7,14 +7,13 @@ Report includes: Errors, Warnings, Exclusions
     @(1.950 in, 2.950 in): Horizontal Wire, length 0.200 in
 [multiple_net_names]: Both Fac_VM_Mesure and VM_Mesure are attached to the same items; Fac_VM_Mesure will be used in the netlist
     ; warning (excluded)
-    @(5.450 in, 3.400 in): Global Label 'Fac_VM_Mesure'
+    @(6.150 in, 3.400 in): Global Label 'Fac_VM_Mesure'
     @(2.150 in, 1.100 in): Label 'VM_Mesure'
 
 ***** Sheet /Alimentation/
-[multiple_net_names]: Both Fac_VLed_Jauge and VLed_Jauge are attached to the same items; Fac_VLed_Jauge will be used in the netlist
+[multiple_net_names]: More than one name given to this bus or net
     ; warning (excluded)
-    @(3.650 in, 6.950 in): Global Label 'Fac_VLed_Jauge'
-    @(3.650 in, 7.150 in): Label 'VLed_Jauge'
+    @(3.500 in, 6.950 in): Global Label 'Fac_VLed_Jauge'
 
 ***** Sheet /Mode_Coherence/
 
@@ -134,7 +133,21 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /Connecteurs_Facade/
 
- ** ERC messages: 18  Errors 0  Warnings 17
+***** Sheet /Alimentation/Recharge_Pack/
+[multiple_net_names]: Both J12.2 and Batt_Neg are attached to the same items; J12.2 will be used in the netlist
+    ; warning
+    @(4.350 in, 1.550 in): Label 'J12.2'
+    @(1.700 in, 3.150 in): Hierarchical Label 'Batt_Neg'
+[multiple_net_names]: Both J12.1 and J12.3 are attached to the same items; J12.1 will be used in the netlist
+    ; warning
+    @(4.350 in, 1.450 in): Label 'J12.1'
+    @(4.150 in, 2.350 in): Label 'J12.3'
+[multiple_net_names]: Both J12.4 and J12.6 are attached to the same items; J12.4 will be used in the netlist
+    ; warning
+    @(5.150 in, 2.350 in): Label 'J12.4'
+    @(5.050 in, 1.950 in): Label 'J12.6'
+
+ ** ERC messages: 21  Errors 0  Warnings 20
 
  ** Ignored checks:
     - Global label only appears once in the schematic
