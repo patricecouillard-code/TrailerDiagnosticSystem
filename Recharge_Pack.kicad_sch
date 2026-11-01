@@ -1881,12 +1881,6 @@
 		)
 	)
 	(junction
-		(at 130.81 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd4d5c9-5a3a-4618-bda3-a8754a344ee9")
-	)
-	(junction
 		(at 130.81 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1905,6 +1899,12 @@
 		(uuid "8286bc4f-9558-4753-ac63-10d8b041e615")
 	)
 	(junction
+		(at 130.81 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b057f3-73cb-476b-a8e2-6069e282f7a3")
+	)
+	(junction
 		(at 66.04 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1915,6 +1915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8fd14b-4ac6-4656-b6c8-fc518bdb182c")
+	)
+	(junction
+		(at 130.81 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecd16922-923c-4bf3-a988-a0b69f5c7c2b")
 	)
 	(junction
 		(at 43.18 99.06)
@@ -2004,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 29.21) (xy 143.51 29.21)
+			(xy 129.54 29.21) (xy 130.81 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2111,16 +2117,6 @@
 			(type default)
 		)
 		(uuid "6241d2f5-c0b0-470a-84dc-1f0a7d34a888")
-	)
-	(wire
-		(pts
-			(xy 43.18 80.01) (xy 48.26 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706b7626-53ae-46f9-a0a1-bb8d05889cd1")
 	)
 	(wire
 		(pts
@@ -2324,6 +2320,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 29.21) (xy 143.51 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f80714-f652-4fd2-834d-71297adc1d39")
+	)
+	(wire
+		(pts
 			(xy 68.58 132.08) (xy 130.81 132.08)
 		)
 		(stroke
@@ -2382,8 +2388,8 @@
 		)
 		(uuid "503fc311-1a4d-4e3f-8945-1c40e69be2ca")
 	)
-	(label "J12.3"
-		(at 139.7 29.21 180)
+	(label "Recharge_Pos"
+		(at 129.54 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2412,7 +2418,7 @@
 		)
 		(uuid "9647e8ec-c44e-4e11-9d68-7df60404dc72")
 	)
-	(label "J12.2"
+	(label "Batt_Neg"
 		(at 97.79 39.37 0)
 		(effects
 			(font
@@ -2432,7 +2438,7 @@
 		)
 		(uuid "9947b45c-b264-4558-9b70-6746b8d34b39")
 	)
-	(label "J12.3"
+	(label "Recharge_Pos"
 		(at 128.27 41.91 180)
 		(effects
 			(font
@@ -2442,7 +2448,7 @@
 		)
 		(uuid "a8fa0ccb-1e43-4ea9-a1aa-cb7cf5c13c80")
 	)
-	(label "J12.3"
+	(label "Recharge_Pos"
 		(at 105.41 59.69 180)
 		(effects
 			(font
@@ -2451,16 +2457,6 @@
 			(justify right bottom)
 		)
 		(uuid "a97821e1-32cb-4547-8b97-ab6c10d609b7")
-	)
-	(label "J12.3"
-		(at 130.81 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa929577-159c-41b4-974d-e190c2938827")
 	)
 	(label "Recharge_Therm"
 		(at 60.96 92.71 180)
@@ -2494,17 +2490,6 @@
 	)
 	(hierarchical_label "Batt_Neg"
 		(shape input)
-		(at 43.18 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2aa17f15-633e-488e-aeeb-2240efe99d08")
-	)
-	(hierarchical_label "J12.2"
-		(shape input)
 		(at 25.4 99.06 180)
 		(effects
 			(font
@@ -2525,7 +2510,7 @@
 		)
 		(uuid "af478692-1ed9-4c4a-8dca-eaa0ec6a071a")
 	)
-	(hierarchical_label "J12.2"
+	(hierarchical_label "Batt_Neg"
 		(shape input)
 		(at 120.65 39.37 180)
 		(effects
@@ -2535,17 +2520,6 @@
 			(justify right)
 		)
 		(uuid "ccd9b739-f99c-43a2-ac96-a07abebdb8bd")
-	)
-	(hierarchical_label "J12.2"
-		(shape input)
-		(at 48.26 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f03c03ba-34ec-4245-b423-6b7bfdbbef18")
 	)
 	(symbol
 		(lib_id "FG24X7R1H225KRT06:FG24X7R1H225KRT06")
