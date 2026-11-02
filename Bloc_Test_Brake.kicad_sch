@@ -1699,12 +1699,6 @@
 		(uuid "7a380be9-edc2-4d95-9883-ad4b5a18703b")
 	)
 	(junction
-		(at 219.71 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fcf09d6-5aa4-4374-9bd0-e0dcd75178d2")
-	)
-	(junction
 		(at 149.86 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1717,22 +1711,10 @@
 		(uuid "8b3cd860-4acf-4936-a1af-f3b7773b0b68")
 	)
 	(junction
-		(at 157.48 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "945dcc59-e542-4b1b-a988-cd9c8fb19634")
-	)
-	(junction
 		(at 198.12 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bddbf95-dc4c-4a35-a36b-b979db5c74b6")
-	)
-	(junction
-		(at 224.79 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ec68640-6fef-4a31-a0fd-b275371ada0f")
 	)
 	(junction
 		(at 58.42 170.18)
@@ -2262,16 +2244,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 24.13) (xy 220.98 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb10104-10c3-4625-8feb-9510e2367cc2")
-	)
-	(wire
-		(pts
 			(xy 134.62 81.28) (xy 137.16 81.28)
 		)
 		(stroke
@@ -2312,16 +2284,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 224.79 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901c3bd7-7d5f-4f1e-9c9e-ad61c1b833d6")
-	)
-	(wire
-		(pts
 			(xy 86.36 77.47) (xy 86.36 87.63)
 		)
 		(stroke
@@ -2349,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "93182296-4330-474c-b6b8-a5eca0121b2e")
-	)
-	(wire
-		(pts
-			(xy 158.75 73.66) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93228d60-ab87-4ae6-8e4c-18b964c8d702")
 	)
 	(wire
 		(pts
@@ -2850,15 +2802,29 @@
 		)
 		(uuid "fe279e1b-58c8-4be8-b077-95add3ad7758")
 	)
-	(label "R_Lim_B"
+	(global_label "Fac_Brake_B"
+		(shape input)
 		(at 246.38 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "04a866f5-7188-4a84-8778-89193f28fd96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Court_Brake"
 		(at 140.97 55.88 180)
@@ -2870,15 +2836,29 @@
 		)
 		(uuid "059e3b90-27c2-4c54-8872-c25a1fd87cc9")
 	)
-	(label "Btn_Brake_Etat"
+	(global_label "Fac_Btn_Brake"
+		(shape input)
 		(at 142.24 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "0b87f58a-c956-437b-aa8f-81d3e1651542")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Bleu_Brake"
 		(at 64.77 109.22 0)
@@ -2910,25 +2890,53 @@
 		)
 		(uuid "3fc891a3-2e5a-4357-b80a-351663fee5e6")
 	)
-	(label "R_Lim_R"
+	(global_label "Fac_Brake_R"
+		(shape input)
 		(at 246.38 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "40ffa977-e404-4bc5-8008-fc463ada1550")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "R_Lim_G"
+	(global_label "Fac_Brake_G"
+		(shape input)
 		(at 246.38 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "420518bc-9716-44b4-8f84-f53e346e57b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Court_V_Actif_Brake"
 		(at 45.72 158.75 180)
@@ -3110,26 +3118,6 @@
 		)
 		(uuid "d1a53381-b589-4d33-b58f-9ce39f353607")
 	)
-	(label "R_Lim_R"
-		(at 228.6 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d351107d-e302-42fd-a48b-2ed793270e24")
-	)
-	(label "R_Lim_B"
-		(at 158.75 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9314016-8b40-443e-ba2c-03319efd340e")
-	)
 	(label "Court_V_Actif_Brake"
 		(at 50.8 50.8 0)
 		(effects
@@ -3159,16 +3147,6 @@
 			(justify right bottom)
 		)
 		(uuid "e37b5111-e94f-4ecb-9e7c-154caa4f3e77")
-	)
-	(label "R_Lim_G"
-		(at 220.98 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5c8c622-8852-4a66-99d9-962c0668df08")
 	)
 	(label "Court_Brake"
 		(at 187.96 120.65 180)
@@ -3859,9 +3837,10 @@
 		)
 		(uuid "a6373076-d9ec-4496-baae-935bd39eb875")
 	)
-	(hierarchical_label "Btn_Brake_Etat"
+	(global_label "Fac_Btn_Brake"
 		(shape input)
 		(at 93.98 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,10 +3848,23 @@
 			(justify left)
 		)
 		(uuid "b362c440-1ea2-4dce-9950-2fed39d269ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "Btn_Brake_Etat"
+	(global_label "Fac_Btn_Brake"
 		(shape input)
 		(at 147.32 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3880,6 +3872,18 @@
 			(justify left)
 		)
 		(uuid "b5103898-a6d3-4f21-a73f-c6f1311bef3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "Court_Brake_Trailer"
 		(shape input)

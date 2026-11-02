@@ -7,16 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 95.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6f0237-4ec0-43d9-a32f-8f32821af018")
-	)
-	(wire
-		(pts
 			(xy 63.5 76.2) (xy 69.85 76.2)
 		)
 		(stroke
@@ -135,16 +125,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Btn_Right_Etat" input
-			(at 63.5 71.12 0)
-			(uuid "361b4802-eaa6-4904-be82-c4d10a660566")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(pin "Court_Right_Trailer" input
 			(at 63.5 60.96 0)
 			(uuid "95b35d02-6413-4410-8220-8c1d8253a9b1")
@@ -219,16 +199,6 @@
 					(size 0.762 0.762)
 				)
 				(justify left top)
-			)
-		)
-		(pin "Btn_Right_Etat" input
-			(at 95.25 71.12 180)
-			(uuid "f3926b68-83bd-465f-b5f2-4f72c15fda5e")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
 			)
 		)
 		(pin "Court_Right_Trailer" input

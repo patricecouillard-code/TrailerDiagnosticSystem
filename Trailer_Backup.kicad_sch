@@ -3269,12 +3269,6 @@
 		(uuid "7b8cf470-3a41-4d44-8c30-10c2fad9bdf6")
 	)
 	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eab46c9-1f7c-460a-a6b3-c1b099d07d79")
-	)
-	(junction
 		(at 97.79 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3510,16 +3504,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb60e96-154f-44c6-9f89-42880a5ec839")
-	)
-	(wire
-		(pts
 			(xy 224.79 60.96) (xy 227.33 60.96)
 		)
 		(stroke
@@ -3667,16 +3651,6 @@
 			(type default)
 		)
 		(uuid "6a7ffb29-bca9-4538-9618-f0857532637d")
-	)
-	(wire
-		(pts
-			(xy 68.58 82.55) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f16db01-862f-4724-81bb-1b0e9c6aa7c2")
 	)
 	(wire
 		(pts
@@ -4761,17 +4735,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "Btn_Backup_Etat"
-		(shape input)
-		(at 64.77 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08a9f961-c831-4a1b-abed-bc85bb0b3f04")
 	)
 	(hierarchical_label "Ouvert_Backup_Trailer"
 		(shape input)

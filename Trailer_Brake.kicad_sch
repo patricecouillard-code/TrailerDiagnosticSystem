@@ -3275,12 +3275,6 @@
 		(uuid "92514cf1-9435-47f8-bceb-abcbb93d4f82")
 	)
 	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94455248-2a87-4aab-ac5d-3d3e632ee365")
-	)
-	(junction
 		(at 207.01 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3417,16 +3411,6 @@
 			(type default)
 		)
 		(uuid "1c931169-24f2-4f30-81f6-93db6210ff56")
-	)
-	(wire
-		(pts
-			(xy 68.58 82.55) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20db6213-2514-4605-9e61-93a8a20d0e60")
 	)
 	(wire
 		(pts
@@ -3797,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "997b155d-3c86-43e7-951e-8fdcc272c97c")
-	)
-	(wire
-		(pts
-			(xy 68.58 76.2) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9ac8ef-1f84-4886-9736-0576b106b915")
 	)
 	(wire
 		(pts
@@ -4761,17 +4735,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "Btn_Brake_Etat"
-		(shape input)
-		(at 64.77 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3514fbb4-83a0-411c-b754-e6e8c1680b93")
 	)
 	(hierarchical_label "Trail_Brake"
 		(shape input)

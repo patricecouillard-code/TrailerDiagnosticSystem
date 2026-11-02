@@ -37,16 +37,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 71.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a56f361-4e26-40a1-b5fb-3e73eeea1a14")
-	)
-	(wire
-		(pts
 			(xy 44.45 41.91) (xy 48.26 41.91)
 		)
 		(stroke
@@ -138,16 +128,6 @@
 		(pin "Trail_Left" input
 			(at 44.45 73.66 0)
 			(uuid "1d595ee2-4837-413f-a68e-6860863d9770")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Btn_Left_Etat" input
-			(at 44.45 68.58 0)
-			(uuid "80089d94-54a9-4d72-b1e1-2c2ba1403487")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,16 +290,6 @@
 		(pin "Ouvert_Left_Vehic" input
 			(at 71.12 26.67 180)
 			(uuid "7bc2b413-5804-4fee-931a-26f90dd17b86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Left_Etat" input
-			(at 71.12 68.58 180)
-			(uuid "60518d21-b2b9-4b06-b187-9a3abb43bab5")
 			(effects
 				(font
 					(size 1.27 1.27)

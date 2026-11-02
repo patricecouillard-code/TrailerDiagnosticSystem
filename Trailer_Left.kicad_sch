@@ -3293,12 +3293,6 @@
 		(uuid "a3050968-7d74-4177-b145-191a140872a4")
 	)
 	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a884b8d5-551c-4b7d-bfbf-3d88229b435a")
-	)
-	(junction
 		(at 207.01 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4050,16 +4044,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e090fb58-85ce-46a5-bb75-aec792d8af12")
-	)
-	(wire
-		(pts
 			(xy 107.95 58.42) (xy 176.53 58.42)
 		)
 		(stroke
@@ -4187,16 +4171,6 @@
 			(type default)
 		)
 		(uuid "fb1823be-08df-4c72-927a-e6f53001ce2f")
-	)
-	(wire
-		(pts
-			(xy 68.58 82.55) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc30d22-1ad3-4daf-bc32-8ba3b30159e1")
 	)
 	(label "Court_Sense_Left"
 		(at 144.78 43.18 180)
@@ -4793,17 +4767,6 @@
 			(justify left)
 		)
 		(uuid "7b3fcf60-2543-433a-bbf8-c1cf85de8dfa")
-	)
-	(hierarchical_label "Btn_Left_Etat"
-		(shape input)
-		(at 64.77 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b192eaa9-54ba-4f5a-93c6-51a8df0c4bda")
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:10k")

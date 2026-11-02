@@ -3227,12 +3227,6 @@
 		(uuid "0a4316bc-8b13-476f-bf1c-f709d34c21fa")
 	)
 	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18c906e6-312d-4c39-b59a-ef09adf2778c")
-	)
-	(junction
 		(at 207.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3447,16 +3441,6 @@
 			(type default)
 		)
 		(uuid "36bf431e-6dfc-4cd3-b625-9801eefd7f31")
-	)
-	(wire
-		(pts
-			(xy 68.58 82.55) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ad23a7-5a3b-4003-b7ce-716e6a98b32d")
 	)
 	(wire
 		(pts
@@ -4097,16 +4081,6 @@
 			(type default)
 		)
 		(uuid "d5ee4bdd-197e-446b-b879-8931cff8761a")
-	)
-	(wire
-		(pts
-			(xy 68.58 76.2) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8b5caa-1195-47b3-a01e-d9a8349b68a3")
 	)
 	(wire
 		(pts
@@ -4772,17 +4746,6 @@
 			(justify left)
 		)
 		(uuid "5f3ceb93-0d0a-4123-973e-ec424fe76779")
-	)
-	(hierarchical_label "Btn_Right_Etat"
-		(shape input)
-		(at 64.77 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78d03a0e-f1d0-4919-b561-68f846342562")
 	)
 	(hierarchical_label "Trail_Right"
 		(shape input)

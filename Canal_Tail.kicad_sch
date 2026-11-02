@@ -97,26 +97,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 64.77) (xy 39.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67650f06-49e0-40ae-b754-2d26a1597c5d")
-	)
-	(wire
-		(pts
-			(xy 43.18 64.77) (xy 39.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915d2f78-cdaa-4266-8f32-0d220439821b")
-	)
-	(wire
-		(pts
 			(xy 43.18 72.39) (xy 31.75 72.39)
 		)
 		(stroke
@@ -134,16 +114,6 @@
 			(type default)
 		)
 		(uuid "b8840ee2-f3eb-414f-9f82-d14c1d8ffd91")
-	)
-	(wire
-		(pts
-			(xy 39.37 35.56) (xy 43.18 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c208217e-b074-4684-b91e-c11abde09db2")
 	)
 	(wire
 		(pts
@@ -258,16 +228,6 @@
 		(pin "Court_Tail_Trailer" input
 			(at 43.18 67.31 180)
 			(uuid "1e695a83-823d-4138-8f67-42f20cfa0de1")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Tail_Etat" input
-			(at 43.18 64.77 180)
-			(uuid "0db1041a-501a-4038-a7b2-7123b3966e95")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -430,16 +390,6 @@
 		(pin "Ouvert_Tail_Trailer" input
 			(at 43.18 27.94 180)
 			(uuid "5fe6df77-7fa3-49e9-9075-cb8feb565a9d")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Tail_Etat" input
-			(at 43.18 35.56 180)
-			(uuid "ae24b0bb-dae9-42a0-b598-45752082bb91")
 			(effects
 				(font
 					(size 0.762 0.762)

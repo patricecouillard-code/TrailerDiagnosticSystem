@@ -27,16 +27,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 63.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fcf7be-65f2-44f4-aba7-9ff8c6663cd4")
-	)
-	(wire
-		(pts
 			(xy 38.1 30.48) (xy 63.5 30.48)
 		)
 		(stroke
@@ -231,16 +221,6 @@
 				(justify right)
 			)
 		)
-		(pin "Btn_Brake_Etat" input
-			(at 38.1 44.45 0)
-			(uuid "b1feee2f-b546-4db6-81c3-814b20b7042b")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(pin "Court_Brake_Trailer" input
 			(at 38.1 41.91 0)
 			(uuid "b1667238-7d1d-4409-937b-37d1f400a1af")
@@ -310,16 +290,6 @@
 		(pin "Ouvert_Brake_Vehic" input
 			(at 63.5 27.94 180)
 			(uuid "817ee12d-f69b-44fd-b452-ed01cb1250db")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Brake_Etat" input
-			(at 63.5 44.45 180)
-			(uuid "d092ad1c-b697-41f2-8538-841d78ddad37")
 			(effects
 				(font
 					(size 0.762 0.762)

@@ -1667,12 +1667,6 @@
 		(uuid "36c383ac-156d-4a7a-ba16-a328f7fe20bb")
 	)
 	(junction
-		(at 222.25 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41567d5c-581d-488c-9d22-e1386b5a1340")
-	)
-	(junction
 		(at 74.93 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1781,12 +1775,6 @@
 		(uuid "d43db02b-73b6-4c78-9e61-836594cf2f3f")
 	)
 	(junction
-		(at 173.99 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d724c1f8-707d-4a99-85e7-20b6713b04d3")
-	)
-	(junction
 		(at 214.63 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1815,12 +1803,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd5b3de9-c7c0-49e0-98cf-f446a7f0f1e8")
-	)
-	(junction
-		(at 243.84 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fde5cb4a-1e24-4795-a9f9-6cfe03a3e954")
 	)
 	(wire
 		(pts
@@ -2324,16 +2306,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 73.66) (xy 173.99 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8176e722-a865-4c07-bb3f-4a29cee87806")
-	)
-	(wire
-		(pts
 			(xy 99.06 74.93) (xy 99.06 85.09)
 		)
 		(stroke
@@ -2511,16 +2483,6 @@
 			(type default)
 		)
 		(uuid "a5d7c7f7-e4e0-4fe8-a65a-6ef3df6ccffc")
-	)
-	(wire
-		(pts
-			(xy 222.25 25.4) (xy 223.52 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6077ab0-da3c-4e2a-ac10-e748854a1eb4")
 	)
 	(wire
 		(pts
@@ -2864,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 243.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab62831-951f-4d0c-a08d-b365dc58bdfe")
-	)
-	(wire
-		(pts
 			(xy 243.84 60.96) (xy 243.84 67.31)
 		)
 		(stroke
@@ -2902,25 +2854,29 @@
 		)
 		(uuid "fec659c7-f8ae-4fd3-8f78-631b6d8ba845")
 	)
-	(label "Btn_Tail_Etat"
+	(global_label "Fac_Btn_Tail"
+		(shape input)
 		(at 158.75 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "0e90f932-b9af-47ee-a618-e87e6d87b007")
-	)
-	(label "R_Lim_R"
-		(at 246.38 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
-			(justify left bottom)
 		)
-		(uuid "1006f976-0f6f-4db7-835b-b8ce06201d3f")
 	)
 	(label "Ouvert_Tail"
 		(at 224.79 107.95 180)
@@ -2931,16 +2887,6 @@
 			(justify right bottom)
 		)
 		(uuid "128d7c09-4f83-4eea-9b80-f5fd2024789e")
-	)
-	(label "R_Lim_G"
-		(at 223.52 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "137af7e1-16b6-4d5f-919f-34bb300d8d87")
 	)
 	(label "Ouvert_Tail"
 		(at 153.67 25.4 180)
@@ -2962,15 +2908,29 @@
 		)
 		(uuid "2d010ee6-a7e2-479d-87d2-0ab0bd59d9dd")
 	)
-	(label "R_Lim_B"
+	(global_label "Fac_Tail_B"
+		(shape input)
 		(at 243.84 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "2f5cdf6d-19d8-4e1f-8f2c-a6dc4790a8b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Bleu_Tail"
 		(at 153.67 36.83 180)
@@ -3052,15 +3012,29 @@
 		)
 		(uuid "51af16fa-3718-4afc-996f-f223b3230d95")
 	)
-	(label "R_Lim_R"
+	(global_label "Fac_Tail_R"
+		(shape input)
 		(at 243.84 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "5e694517-fd1a-4638-b60f-cb863a5e2bd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Bleu_Tail"
 		(at 67.31 144.78 180)
@@ -3071,16 +3045,6 @@
 			(justify right bottom)
 		)
 		(uuid "61436641-d12d-49da-8567-f41c99e844fe")
-	)
-	(label "R_Lim_B"
-		(at 176.53 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65829e19-2ea5-4a07-ad0c-d41873adedce")
 	)
 	(label "Ouvert_Tail"
 		(at 114.3 191.77 180)
@@ -3132,15 +3096,29 @@
 		)
 		(uuid "a441e09f-608e-4ea9-b062-b08d143f46df")
 	)
-	(label "R_Lim_G"
+	(global_label "Fac_Tail_G"
+		(shape input)
 		(at 243.84 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "a4cc4bf8-9f9b-4472-a225-faeff78441e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "Court_T_Actif"
 		(at 59.69 173.99 180)
@@ -3889,9 +3867,10 @@
 			)
 		)
 	)
-	(hierarchical_label "Btn_Tail_Etat"
+	(global_label "Fac_Btn_Tail"
 		(shape input)
 		(at 123.19 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,6 +3878,18 @@
 			(justify left)
 		)
 		(uuid "07b8719e-a11e-4434-aaff-537cb120b269")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "Court_Tail_Vehic"
 		(shape input)
@@ -3933,9 +3924,10 @@
 		)
 		(uuid "919ca9c6-3542-405d-b7e3-ddd76619ff8b")
 	)
-	(hierarchical_label "Btn_Tail_Etat"
+	(global_label "Fac_Btn_Tail"
 		(shape input)
 		(at 106.68 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,6 +3935,18 @@
 			(justify left)
 		)
 		(uuid "ac122d3f-0bdb-43dd-ad04-0a8a7589a204")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "Ouvert_Tail_Trailer"
 		(shape input)

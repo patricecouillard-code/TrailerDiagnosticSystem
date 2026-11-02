@@ -3392,6 +3392,30 @@
 			)
 		)
 	)
+	(global_label "Fac_Btn_Backup"
+		(shape input)
+		(at 201.93 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a0c41b8-40b6-4dbf-ac8a-f533cf3f7493")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Mode_Trailer"
 		(shape input)
 		(at 76.2 44.45 0)
@@ -3621,6 +3645,30 @@
 		(uuid "6a2c8fc4-e3a0-472a-b5bd-7b42f56c2873")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 257.4084 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Backup"
+		(shape input)
+		(at 162.56 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fb02472-3527-4468-9621-64f72ed7b2a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,6 +3944,30 @@
 			)
 		)
 	)
+	(global_label "Fac_Btn_Backup"
+		(shape input)
+		(at 151.13 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d278669a-1075-490b-8bcc-1d37c66a1cfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Mode_Trailer"
 		(shape input)
 		(at 160.02 41.91 0)
@@ -3992,28 +4064,6 @@
 			)
 		)
 	)
-	(hierarchical_label "Btn_Backup_Etat"
-		(shape input)
-		(at 201.93 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a0c41b8-40b6-4dbf-ac8a-f533cf3f7493")
-	)
-	(hierarchical_label "Btn_Backup_Etat"
-		(shape input)
-		(at 162.56 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6fb02472-3527-4468-9621-64f72ed7b2a8")
-	)
 	(hierarchical_label "Court_Backup_Trailer"
 		(shape input)
 		(at 76.2 34.29 0)
@@ -4057,17 +4107,6 @@
 			(justify left)
 		)
 		(uuid "b30d1284-f0fb-4d03-bcc0-924f80efda3d")
-	)
-	(hierarchical_label "Btn_Backup_Etat"
-		(shape input)
-		(at 151.13 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d278669a-1075-490b-8bcc-1d37c66a1cfa")
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")

@@ -57,16 +57,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 63.5 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c311aef7-b829-433b-a2a5-caf8e7f926f5")
-	)
-	(wire
-		(pts
 			(xy 39.37 26.67) (xy 63.5 26.67)
 		)
 		(stroke
@@ -165,16 +155,6 @@
 				(justify right)
 			)
 		)
-		(pin "Btn_Backup_Etat" input
-			(at 39.37 45.72 0)
-			(uuid "9270f0d6-5065-439b-b1e8-e448d624700a")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/b4ff831c-304a-4222-b9bb-487c614afe45"
@@ -234,16 +214,6 @@
 		(pin "Ouvert_Backup_Trailer" input
 			(at 63.5 40.64 180)
 			(uuid "84d23908-8452-4e03-a571-82070680a136")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Backup_Etat" input
-			(at 63.5 45.72 180)
-			(uuid "e174ec53-1b92-4fb5-88e6-0a6de9ee7456")
 			(effects
 				(font
 					(size 0.762 0.762)

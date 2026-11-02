@@ -3426,6 +3426,30 @@
 			)
 		)
 	)
+	(global_label "Fac_Btn_Left"
+		(shape input)
+		(at 151.13 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a9efa5d-7da4-44f9-85f6-4d3bca0f0f92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "V_Ref"
 		(shape input)
 		(at 118.11 54.61 0)
@@ -3511,6 +3535,30 @@
 		(uuid "36b8dad6-ff6c-40a2-9fe7-c92df27d9d2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.3847 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fac_Btn_Left"
+		(shape input)
+		(at 161.29 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ac1c36a-14aa-4930-a685-407a7d297a3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,6 +4002,30 @@
 			)
 		)
 	)
+	(global_label "Fac_Btn_Left"
+		(shape input)
+		(at 200.66 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8da2f26-1749-4f16-b229-567c065a2797")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 39.37 185.42 0)
@@ -4002,17 +4074,6 @@
 			)
 		)
 	)
-	(hierarchical_label "Btn_Left_Etat"
-		(shape input)
-		(at 151.13 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a9efa5d-7da4-44f9-85f6-4d3bca0f0f92")
-	)
 	(hierarchical_label "Court_Left_Vehic"
 		(shape input)
 		(at 36.83 33.02 0)
@@ -4046,17 +4107,6 @@
 		)
 		(uuid "2592c438-ecec-4033-b6de-c5e1ce7abea0")
 	)
-	(hierarchical_label "Btn_Left_Etat"
-		(shape input)
-		(at 161.29 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ac1c36a-14aa-4930-a685-407a7d297a3a")
-	)
 	(hierarchical_label "Ouvert_Left_Vehic"
 		(shape input)
 		(at 116.84 33.02 0)
@@ -4067,17 +4117,6 @@
 			(justify left)
 		)
 		(uuid "5cfeffa9-d084-4eb2-8607-cedf21bc1b8f")
-	)
-	(hierarchical_label "Btn_Left_Etat"
-		(shape input)
-		(at 200.66 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8da2f26-1749-4f16-b229-567c065a2797")
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148")

@@ -27,16 +27,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 52.07 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc359cb-967c-48d6-b3fd-51d84cec0f8c")
-	)
-	(wire
-		(pts
 			(xy 38.1 21.59) (xy 52.07 21.59)
 		)
 		(stroke
@@ -221,16 +211,6 @@
 				(justify right)
 			)
 		)
-		(pin "Btn_Aux_Etat" input
-			(at 39.37 46.99 0)
-			(uuid "9a188767-5764-4e8a-8810-2f8dc5fd3fec")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(pin "Ouvert_Aux_Trailer" input
 			(at 39.37 41.91 0)
 			(uuid "c5edefad-0569-4ff0-b8f8-6352cec71fee")
@@ -310,16 +290,6 @@
 		(pin "Ouvert_Aux_Vehic" input
 			(at 52.07 21.59 180)
 			(uuid "dece3543-b1be-49fb-bbf0-2fc127464fdc")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(pin "Btn_Aux_Etat" input
-			(at 52.07 46.99 180)
-			(uuid "f7acd9fc-8b1b-416a-9b13-63d58965112d")
 			(effects
 				(font
 					(size 0.762 0.762)
