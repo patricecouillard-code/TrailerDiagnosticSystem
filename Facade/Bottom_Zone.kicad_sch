@@ -1757,7 +1757,7 @@
 		)
 		(uuid "fe572676-ed76-4212-9b26-cead71340a97")
 	)
-	(label "D155.1K"
+	(label "Facade_DEL_Court_Bus"
 		(at 135.89 85.09 0)
 		(effects
 			(font
@@ -1767,7 +1767,7 @@
 		)
 		(uuid "049e1b10-b6cb-406d-bf30-870a0f8b1050")
 	)
-	(label "D152.1K"
+	(label "Facade_DEL_Inversion"
 		(at 57.15 115.57 180)
 		(effects
 			(font
@@ -1777,7 +1777,7 @@
 		)
 		(uuid "09dcc80d-9bcd-4208-81b5-3d7b7cd9b6c8")
 	)
-	(label "LED2.1A"
+	(label "Facade_DEL_Batt_Ext"
 		(at 57.15 123.19 180)
 		(effects
 			(font
@@ -1787,7 +1787,7 @@
 		)
 		(uuid "1069e243-73d8-4352-a42e-aef0027c0233")
 	)
-	(label "D156.1K"
+	(label "Facade_DEL_Incoherence"
 		(at 57.15 113.03 180)
 		(effects
 			(font
@@ -1797,7 +1797,7 @@
 		)
 		(uuid "28fc2415-b84c-4ed1-9a7d-26124974243a")
 	)
-	(label "LED1.1K"
+	(label "Facade_DEL_Surchauffe_Aux"
 		(at 129.54 119.38 0)
 		(effects
 			(font
@@ -1807,7 +1807,7 @@
 		)
 		(uuid "2a44e452-ec41-494e-a7f8-62a15bb118d4")
 	)
-	(label "D156.1K"
+	(label "Facade_DEL_Incoherence"
 		(at 135.89 95.25 0)
 		(effects
 			(font
@@ -1817,7 +1817,7 @@
 		)
 		(uuid "3414a285-3ea0-4742-a912-b42704aa3a4f")
 	)
-	(label "LED1.1K"
+	(label "Facade_DEL_Surchauffe_Aux"
 		(at 134.62 50.8 0)
 		(effects
 			(font
@@ -1827,7 +1827,7 @@
 		)
 		(uuid "51e6e60f-8510-4eca-93c5-24fb91f60b33")
 	)
-	(label "D152.1K"
+	(label "Facade_DEL_Inversion"
 		(at 57.15 86.36 180)
 		(effects
 			(font
@@ -1837,7 +1837,7 @@
 		)
 		(uuid "626bc17b-a9dc-4731-9607-3e53d197e350")
 	)
-	(label "D158.1K"
+	(label "Facade_DEL_Masse"
 		(at 135.89 106.68 0)
 		(effects
 			(font
@@ -1847,7 +1847,7 @@
 		)
 		(uuid "660ca9a3-303f-488f-8252-603c6d7ab6fc")
 	)
-	(label "BZ1.2"
+	(label "Facade_Buzzer"
 		(at 109.22 33.02 180)
 		(effects
 			(font
@@ -1857,7 +1857,7 @@
 		)
 		(uuid "6977a2f0-6599-49f9-baf9-1966fc27ced5")
 	)
-	(label "D154.1K"
+	(label "Facade_DEL_Surtension"
 		(at 57.15 110.49 180)
 		(effects
 			(font
@@ -1867,7 +1867,7 @@
 		)
 		(uuid "6b1406e7-91e1-4599-a159-2fc9709e5905")
 	)
-	(label "D155.1K"
+	(label "Facade_DEL_Court_Bus"
 		(at 127 110.49 0)
 		(effects
 			(font
@@ -1877,7 +1877,7 @@
 		)
 		(uuid "83d065b3-1a84-420d-9255-051a82eb9585")
 	)
-	(label "D147.1K"
+	(label "Facade_DEL_Surchauffe_Brake"
 		(at 135.89 63.5 0)
 		(effects
 			(font
@@ -1887,7 +1887,7 @@
 		)
 		(uuid "981ab143-abd4-4d4d-9d26-47c880c5b48a")
 	)
-	(label "BZ1.2"
+	(label "Facade_Buzzer"
 		(at 57.15 118.11 180)
 		(effects
 			(font
@@ -1897,7 +1897,7 @@
 		)
 		(uuid "9bac6d67-34f2-4562-9a6f-c1cfe981c780")
 	)
-	(label "D154.1K"
+	(label "Facade_DEL_Surtension"
 		(at 135.89 73.66 0)
 		(effects
 			(font
@@ -1907,7 +1907,7 @@
 		)
 		(uuid "9c702325-254a-4618-bd04-8752a3a66c55")
 	)
-	(label "D147.1K"
+	(label "Facade_DEL_Surchauffe_Brake"
 		(at 57.15 120.65 180)
 		(effects
 			(font
@@ -1917,7 +1917,7 @@
 		)
 		(uuid "d5aec51e-218c-4a2b-b664-6df1d6c6dbad")
 	)
-	(label "D158.1K"
+	(label "Facade_DEL_Masse"
 		(at 137.16 111.76 0)
 		(effects
 			(font
@@ -1927,7 +1927,7 @@
 		)
 		(uuid "df94ea8e-d7e3-4710-9fa3-057549831729")
 	)
-	(label "LED2.1A"
+	(label "Facade_DEL_Batt_Ext"
 		(at 57.15 97.79 180)
 		(effects
 			(font
@@ -2365,7 +2365,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x07_Odd_Even"
+		(property "Value" "IDC 2x07"
 			(at 95.25 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,6 +2398,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "3M"
+			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N3314-6302RB"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3198,7 +3220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
+		(property "Value" "Buzzer 5V"
 			(at 120.65 34.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3253,29 @@
 				)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" "Buzzer magnétique actif 5 V, 30 mA, 85 dB, Ø12 × 9,5 mm, traversant, −40 à +85 °C"
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Same Sky (CUI Devices)"
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CMI-1295IC-0585T"
 			(at 116.84 35.56 0)
 			(hide yes)
 			(show_name no)

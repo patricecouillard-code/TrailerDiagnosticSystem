@@ -3246,7 +3246,7 @@
 		)
 		(uuid "062db3e9-f40c-473d-8754-de14a01c885c")
 	)
-	(label "D26.2_RK"
+	(label "Facade_Tail_R"
 		(at 254 39.37 180)
 		(effects
 			(font
@@ -3256,7 +3256,7 @@
 		)
 		(uuid "08565e49-8fd8-4034-a377-865bc7847d6d")
 	)
-	(label "J23.2"
+	(label "Facade_Btn_Right"
 		(at 111.76 118.11 180)
 		(effects
 			(font
@@ -3266,7 +3266,7 @@
 		)
 		(uuid "0c6872bb-b2dc-4d52-b959-a7e044250b97")
 	)
-	(label "D49.4_BK"
+	(label "Facade_Brake_B"
 		(at 252.73 76.2 180)
 		(effects
 			(font
@@ -3276,7 +3276,7 @@
 		)
 		(uuid "0f095bd9-0afd-4da8-9543-ecea2f4cd592")
 	)
-	(label "J24.2"
+	(label "Facade_Btn_Backup"
 		(at 198.12 109.22 180)
 		(effects
 			(font
@@ -3286,7 +3286,7 @@
 		)
 		(uuid "11c142f3-f824-4e63-9a8c-7a2ecdb6b217")
 	)
-	(label "J25.2"
+	(label "Facade_Btn_Aux"
 		(at 198.12 133.35 180)
 		(effects
 			(font
@@ -3296,7 +3296,7 @@
 		)
 		(uuid "155be988-c623-4fea-8075-18954a1eed6e")
 	)
-	(label "D26.3_GK"
+	(label "Facade_Tail_G"
 		(at 152.4 95.25 0)
 		(effects
 			(font
@@ -3306,7 +3306,7 @@
 		)
 		(uuid "174c29c6-c44d-424b-bd65-1d6917f965d1")
 	)
-	(label "J21.2"
+	(label "Facade_Btn_Brake"
 		(at 198.12 153.67 180)
 		(effects
 			(font
@@ -3316,7 +3316,7 @@
 		)
 		(uuid "22233e23-617a-4f1b-89f3-24b6726bd235")
 	)
-	(label "D73.3_GK"
+	(label "Facade_Left_G"
 		(at 152.4 107.95 0)
 		(effects
 			(font
@@ -3326,7 +3326,7 @@
 		)
 		(uuid "2b41b2a3-492a-40e2-acc0-45bc0216b7c4")
 	)
-	(label "D97.4_BK"
+	(label "Facade_Right_B"
 		(at 152.4 115.57 0)
 		(effects
 			(font
@@ -3336,7 +3336,7 @@
 		)
 		(uuid "2b853978-3947-489f-bcbe-96a33edff1c6")
 	)
-	(label "J25.2"
+	(label "Facade_Btn_Aux"
 		(at 111.76 130.81 180)
 		(effects
 			(font
@@ -3346,7 +3346,7 @@
 		)
 		(uuid "32a8196f-4ec5-4568-8169-7fc9012da72e")
 	)
-	(label "D121.2_RK"
+	(label "Facade_Backup_R"
 		(at 111.76 120.65 180)
 		(effects
 			(font
@@ -3356,7 +3356,7 @@
 		)
 		(uuid "3330e3d1-647e-47e4-b33a-9905f3df13dd")
 	)
-	(label "D121.3_GK"
+	(label "Facade_Backup_G"
 		(at 152.4 120.65 0)
 		(effects
 			(font
@@ -3376,7 +3376,7 @@
 		)
 		(uuid "3cac7517-4111-45f9-8d6a-ff0acbfc0972")
 	)
-	(label "D49.4_BK"
+	(label "Facade_Brake_B"
 		(at 152.4 102.87 0)
 		(effects
 			(font
@@ -3386,7 +3386,7 @@
 		)
 		(uuid "3eb6a717-fff5-4df7-ba92-31e052f884b9")
 	)
-	(label "D49.2_RK"
+	(label "Facade_Brake_R"
 		(at 252.73 66.04 180)
 		(effects
 			(font
@@ -3396,7 +3396,7 @@
 		)
 		(uuid "3edea529-4af8-4015-be29-953d34ae1cca")
 	)
-	(label "J20.2"
+	(label "Facade_Btn_Tail"
 		(at 196.85 39.37 180)
 		(effects
 			(font
@@ -3406,7 +3406,7 @@
 		)
 		(uuid "4512593c-36c1-4613-bea1-840f38bd5526")
 	)
-	(label "D49.3_GK"
+	(label "Facade_Brake_G"
 		(at 252.73 71.12 180)
 		(effects
 			(font
@@ -3416,7 +3416,7 @@
 		)
 		(uuid "484dae78-b107-4d84-9573-b44a66148a96")
 	)
-	(label "D26.4_BK"
+	(label "Facade_Tail_B"
 		(at 254 49.53 180)
 		(effects
 			(font
@@ -3436,7 +3436,7 @@
 		)
 		(uuid "4cf2e560-a4af-4082-9c54-48a114aa4b62")
 	)
-	(label "D73.2_RK"
+	(label "Facade_Left_R"
 		(at 111.76 107.95 180)
 		(effects
 			(font
@@ -3446,7 +3446,7 @@
 		)
 		(uuid "4de4d762-2595-44a7-b6f6-b13524e968ea")
 	)
-	(label "J22.2"
+	(label "Facade_Btn_Left"
 		(at 48.26 97.79 180)
 		(effects
 			(font
@@ -3456,7 +3456,7 @@
 		)
 		(uuid "529ac76a-4f8c-4352-b479-5193e35b8c86")
 	)
-	(label "D121.4_BK"
+	(label "Facade_Backup_B"
 		(at 111.76 123.19 180)
 		(effects
 			(font
@@ -3476,7 +3476,7 @@
 		)
 		(uuid "580d4145-8d62-41cf-b831-c83bc0c4aaaf")
 	)
-	(label "D97.3_GK"
+	(label "Facade_Right_G"
 		(at 251.46 124.46 180)
 		(effects
 			(font
@@ -3496,7 +3496,7 @@
 		)
 		(uuid "6881fc7f-59d9-476a-8512-20ebdec8f4f3")
 	)
-	(label "D145.4_BK"
+	(label "Facade_Aux_B"
 		(at 152.4 128.27 0)
 		(effects
 			(font
@@ -3506,7 +3506,7 @@
 		)
 		(uuid "6a7d6633-139b-4086-b831-384d7bbf5f8d")
 	)
-	(label "J21.2"
+	(label "Facade_Btn_Brake"
 		(at 111.76 105.41 180)
 		(effects
 			(font
@@ -3516,7 +3516,7 @@
 		)
 		(uuid "6fd9e704-d564-48f1-a328-0418500b75c3")
 	)
-	(label "D73.4_BK"
+	(label "Facade_Left_B"
 		(at 111.76 110.49 180)
 		(effects
 			(font
@@ -3526,7 +3526,7 @@
 		)
 		(uuid "70c1626a-3596-405b-850d-6acd2a75ccda")
 	)
-	(label "D73.3_GK"
+	(label "Facade_Left_G"
 		(at 251.46 97.79 180)
 		(effects
 			(font
@@ -3536,7 +3536,7 @@
 		)
 		(uuid "719214f6-5f10-47df-b22f-57e4ad255bf8")
 	)
-	(label "J23.2"
+	(label "Facade_Btn_Right"
 		(at 48.26 107.95 180)
 		(effects
 			(font
@@ -3546,7 +3546,7 @@
 		)
 		(uuid "757a53b7-16cb-4be2-888a-bdba3efe0d01")
 	)
-	(label "D97.3_GK"
+	(label "Facade_Right_G"
 		(at 111.76 115.57 180)
 		(effects
 			(font
@@ -3566,7 +3566,7 @@
 		)
 		(uuid "79c71846-7eb7-49dd-b639-24f25003cff2")
 	)
-	(label "D121.3_GK"
+	(label "Facade_Backup_G"
 		(at 252.73 151.13 180)
 		(effects
 			(font
@@ -3586,7 +3586,7 @@
 		)
 		(uuid "82124a8c-9c68-4a3a-b074-9bf2274670af")
 	)
-	(label "D97.2_RK"
+	(label "Facade_Right_R"
 		(at 251.46 119.38 180)
 		(effects
 			(font
@@ -3596,7 +3596,7 @@
 		)
 		(uuid "833f03ea-c438-4f65-ad15-ab9dcef7e50a")
 	)
-	(label "D97.2_RK"
+	(label "Facade_Right_R"
 		(at 152.4 113.03 0)
 		(effects
 			(font
@@ -3616,7 +3616,7 @@
 		)
 		(uuid "8935112e-777a-425d-979b-4f49656e9ef1")
 	)
-	(label "J20.2"
+	(label "Facade_Btn_Tail"
 		(at 152.4 97.79 0)
 		(effects
 			(font
@@ -3666,7 +3666,7 @@
 		)
 		(uuid "a4563fb9-2269-4441-aba1-e408446d17b8")
 	)
-	(label "J20.2"
+	(label "Facade_Btn_Tail"
 		(at 48.26 76.2 180)
 		(effects
 			(font
@@ -3676,7 +3676,7 @@
 		)
 		(uuid "a461bc85-58c6-45f7-a5af-5dae947bf4f8")
 	)
-	(label "J24.2"
+	(label "Facade_Btn_Backup"
 		(at 48.26 118.11 180)
 		(effects
 			(font
@@ -3696,7 +3696,7 @@
 		)
 		(uuid "a6396646-92ce-4ece-8baf-98c07687a624")
 	)
-	(label "D73.2_RK"
+	(label "Facade_Left_R"
 		(at 251.46 92.71 180)
 		(effects
 			(font
@@ -3706,7 +3706,7 @@
 		)
 		(uuid "a6ebbf1f-957f-4bed-aab9-4a00fe1bd96f")
 	)
-	(label "D121.2_RK"
+	(label "Facade_Backup_R"
 		(at 252.73 146.05 180)
 		(effects
 			(font
@@ -3716,7 +3716,7 @@
 		)
 		(uuid "a8042647-3858-4211-b992-f43d49a29b4c")
 	)
-	(label "D145.2_RK"
+	(label "Facade_Aux_R"
 		(at 152.4 125.73 0)
 		(effects
 			(font
@@ -3726,7 +3726,7 @@
 		)
 		(uuid "a86044ea-fb1f-4f52-9f15-aac629ffc174")
 	)
-	(label "D145.3_GK"
+	(label "Facade_Aux_G"
 		(at 250.19 176.53 180)
 		(effects
 			(font
@@ -3736,7 +3736,7 @@
 		)
 		(uuid "adb817ab-4edf-4c2d-8723-b756b9451c3b")
 	)
-	(label "D49.2_RK"
+	(label "Facade_Brake_R"
 		(at 152.4 100.33 0)
 		(effects
 			(font
@@ -3746,7 +3746,7 @@
 		)
 		(uuid "b80dde9a-0956-4b26-a64a-897a09864d0c")
 	)
-	(label "D145.3_GK"
+	(label "Facade_Aux_G"
 		(at 111.76 128.27 180)
 		(effects
 			(font
@@ -3756,7 +3756,7 @@
 		)
 		(uuid "b97bfc58-4cf3-40ae-a35e-52cc29e0055e")
 	)
-	(label "D145.2_RK"
+	(label "Facade_Aux_R"
 		(at 250.19 171.45 180)
 		(effects
 			(font
@@ -3766,7 +3766,7 @@
 		)
 		(uuid "c318cc0a-01c6-438c-b6a6-190b5815f990")
 	)
-	(label "J21.2"
+	(label "Facade_Btn_Brake"
 		(at 48.26 87.63 180)
 		(effects
 			(font
@@ -3786,7 +3786,7 @@
 		)
 		(uuid "cb17e58e-0c99-4500-a45a-1c70c2396134")
 	)
-	(label "J22.2"
+	(label "Facade_Btn_Left"
 		(at 195.58 59.69 180)
 		(effects
 			(font
@@ -3816,7 +3816,7 @@
 		)
 		(uuid "cecb1c6b-66ef-4c3c-a51d-006fa805569e")
 	)
-	(label "D73.4_BK"
+	(label "Facade_Left_B"
 		(at 251.46 102.87 180)
 		(effects
 			(font
@@ -3826,7 +3826,7 @@
 		)
 		(uuid "dc7de89c-03ad-4e04-8ec2-0f037d4ed790")
 	)
-	(label "J22.2"
+	(label "Facade_Btn_Left"
 		(at 152.4 110.49 0)
 		(effects
 			(font
@@ -3836,7 +3836,7 @@
 		)
 		(uuid "e283db9f-c18f-484f-be3b-5daceb222e83")
 	)
-	(label "J24.2"
+	(label "Facade_Btn_Backup"
 		(at 152.4 123.19 0)
 		(effects
 			(font
@@ -3856,7 +3856,7 @@
 		)
 		(uuid "eb49e369-af32-4fd8-b344-e8ccf0fb9845")
 	)
-	(label "J23.2"
+	(label "Facade_Btn_Right"
 		(at 198.12 85.09 180)
 		(effects
 			(font
@@ -3876,7 +3876,7 @@
 		)
 		(uuid "ef24beb6-4e04-411f-aaf6-bdbe2e08e01f")
 	)
-	(label "D97.4_BK"
+	(label "Facade_Right_B"
 		(at 251.46 129.54 180)
 		(effects
 			(font
@@ -3886,7 +3886,7 @@
 		)
 		(uuid "efecf070-b566-4e3a-a76e-a7ecd683cfeb")
 	)
-	(label "J25.2"
+	(label "Facade_Btn_Aux"
 		(at 48.26 128.27 180)
 		(effects
 			(font
@@ -3906,7 +3906,7 @@
 		)
 		(uuid "f54fea36-974c-4ffb-8f34-a7e758fb7376")
 	)
-	(label "D26.2_RK"
+	(label "Facade_Tail_R"
 		(at 111.76 95.25 180)
 		(effects
 			(font
@@ -3916,7 +3916,7 @@
 		)
 		(uuid "f5e6c872-f5e3-492e-8949-ecea5d75d239")
 	)
-	(label "D145.4_BK"
+	(label "Facade_Aux_B"
 		(at 250.19 181.61 180)
 		(effects
 			(font
@@ -3926,7 +3926,7 @@
 		)
 		(uuid "f6586dc6-66b6-48a9-bf74-9ba4851ec27e")
 	)
-	(label "D49.3_GK"
+	(label "Facade_Brake_G"
 		(at 111.76 102.87 180)
 		(effects
 			(font
@@ -3936,7 +3936,7 @@
 		)
 		(uuid "f755b518-e921-4a6e-896e-926cdde12b3b")
 	)
-	(label "D26.4_BK"
+	(label "Facade_Tail_B"
 		(at 111.76 97.79 180)
 		(effects
 			(font
@@ -3946,7 +3946,7 @@
 		)
 		(uuid "f94e1f3e-cc5a-4168-8d49-35ba3c74fcf2")
 	)
-	(label "D26.3_GK"
+	(label "Facade_Tail_G"
 		(at 254 44.45 180)
 		(effects
 			(font
@@ -3956,7 +3956,7 @@
 		)
 		(uuid "ff05c68f-0f35-4a5c-801f-f159bab9ceca")
 	)
-	(label "D121.4_BK"
+	(label "Facade_Backup_B"
 		(at 252.73 156.21 180)
 		(effects
 			(font
@@ -4101,6 +4101,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 57.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
 			(at 57.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4542,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 261.62 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4596,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 261.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 261.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 261.62 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4751,6 +4795,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "Molex"
+			(at 57.15 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
+			(at 57.15 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4179a50f-811f-40cb-af3a-a595f0be05e3")
 		)
@@ -4825,6 +4891,28 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 205.74 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "EAO"
+			(at 205.74 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
 			(at 205.74 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4920,6 +5008,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "Molex"
+			(at 57.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
+			(at 57.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9da58fdf-dbe5-4628-992b-72d8b0a98c0c")
 		)
@@ -4960,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x17_Odd_Even"
+		(property "Value" "IDC 2x17"
 			(at 135.89 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,6 +5103,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "3M"
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N3431-6302RB"
 			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5293,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 260.35 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5457,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 260.35 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 260.35 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5611,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 261.62 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5643,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 261.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 261.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 261.62 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5901,6 +6077,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "EAO"
+			(at 204.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
+			(at 204.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "6ca165f4-0cb5-4e45-a1dc-c96f643c3cc7")
 		)
@@ -5976,6 +6174,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 57.15 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
 			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6304,6 +6524,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "EAO"
+			(at 204.47 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
+			(at 204.47 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "08f72fa5-07a5-4b7c-90bf-95a3d80b8da2")
 		)
@@ -6344,7 +6586,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 261.62 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6376,7 +6618,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 261.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 261.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 261.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6474,6 +6738,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "EAO"
+			(at 204.47 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
+			(at 204.47 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b4ea6a95-9e7f-4150-ab12-2f2cce300e64")
 		)
@@ -6549,6 +6835,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
 			(at 57.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6644,6 +6952,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "Molex"
+			(at 57.15 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "43650-0315"
+			(at 57.15 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "117214dc-0a85-47eb-992b-f3ac10342353")
 		)
@@ -6684,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 261.62 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6716,7 +7046,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7048,6 +7400,28 @@
 				)
 			)
 		)
+		(property "Fabricant" "EAO"
+			(at 205.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
+			(at 205.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "796408db-4edf-4327-823d-627fa720cc00")
 		)
@@ -7088,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Value" "RGB 5mm"
+		(property "Value" "RGB 5mm CA"
 			(at 261.62 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +7494,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 261.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 261.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 261.62 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7208,6 +7604,28 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 205.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "EAO"
+			(at 205.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "82-4153.2000"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
