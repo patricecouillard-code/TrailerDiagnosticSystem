@@ -21569,7 +21569,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -24258,7 +24258,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -24493,7 +24493,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "2.2kΩ"
 			(at 236.22 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)

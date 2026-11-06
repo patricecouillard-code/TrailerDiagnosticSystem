@@ -2998,7 +2998,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "470Ω 1W"
 			(at 33.02 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3030,29 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/2W Resistor"
+		(property "Description" "470Ω 1W, film métallique (rappel de Recharge_Therm)"
+			(at 33.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Vishay"
+			(at 33.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PR01000104700JR500"
 			(at 33.02 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3347,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5kΩ"
+		(property "Value" "330Ω"
 			(at 147.32 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3401,7 @@
 				)
 			)
 		)
-		(property "Description" "1.5kΩ, 1/4W Resistor"
+		(property "Description" "330Ω, 1/4W Resistor"
 			(at 147.32 29.21 0)
 			(hide yes)
 			(show_name no)

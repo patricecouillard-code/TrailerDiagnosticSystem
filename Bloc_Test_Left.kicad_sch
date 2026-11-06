@@ -5,7 +5,7 @@
 	(uuid "82c3fc49-cc6d-4053-81a7-5cb28ab06bb4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:LED_ARGB"
+		(symbol "Device:LED_RABG"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_ARGB"
+			(property "Value" "LED_RABG"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "RGB LED, anode/red/green/blue"
+			(property "Description" "RGB LED, red/anode/blue/green"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_0"
+			(symbol "LED_RABG_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_1"
+			(symbol "LED_RABG_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -448,7 +448,7 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_1_1"
+			(symbol "LED_RABG_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -459,7 +459,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,7 +477,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -495,7 +495,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -513,7 +513,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "150Ω"
 			(at 233.68 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5737,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "680Ω"
 			(at 233.68 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +5895,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "470Ω"
 			(at 233.68 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5954,12 +5954,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "Device:LED_RABG")
 		(at 267.97 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
 			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)

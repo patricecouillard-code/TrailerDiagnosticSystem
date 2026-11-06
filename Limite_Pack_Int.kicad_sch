@@ -3390,7 +3390,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -3757,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ 1/2W"
+		(property "Value" "1.8kΩ 1/2W"
 			(at 171.704 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)

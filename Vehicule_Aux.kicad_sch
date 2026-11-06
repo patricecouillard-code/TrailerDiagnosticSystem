@@ -4983,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "100Ω"
 			(at 236.22 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5642,7 +5642,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
