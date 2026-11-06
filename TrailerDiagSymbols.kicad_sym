@@ -621,7 +621,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SR205E104MARAP1"
+	(symbol "SR205C104KAR"
 		(pin_names
 			(offset 1.016)
 		)
@@ -641,7 +641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SR205E104MARAP1"
+		(property "Value" "SR205C104KAR"
 			(at 0 -5.0885 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -652,7 +652,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+		(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -735,18 +735,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC 7351B"
 			(at 0 0 0)
 			(show_name no)
@@ -771,19 +759,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SR205E104MARAP1"
+		(property "MP" "SR205C104KAR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -819,7 +795,7 @@
 				(justify bottom)
 			)
 		)
-		(symbol "SR205E104MARAP1_0_0"
+		(symbol "SR205C104KAR_0_0"
 			(rectangle
 				(start 0 -1.9069)
 				(end 0.635 1.905)

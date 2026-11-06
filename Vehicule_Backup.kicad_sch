@@ -2545,7 +2545,7 @@
 		)
 		(uuid "f9fd00ee-4a7a-4f37-a035-6a7f245cf481")
 	)
-	(label "Seuil_Injection_Backup"
+	(label "Seuil_Injection"
 		(at 234.95 67.31 0)
 		(effects
 			(font
@@ -2555,7 +2555,7 @@
 		)
 		(uuid "1744293b-a15f-4066-b119-d3e666f50069")
 	)
-	(label "Seuil_Court_Backup"
+	(label "Seuil_Court"
 		(at 234.95 104.14 0)
 		(effects
 			(font
@@ -2565,7 +2565,7 @@
 		)
 		(uuid "1e56c4fa-a296-43fb-bb9f-dad962c6b016")
 	)
-	(label "Injection_Backup_Fault"
+	(label "Injection_Fault"
 		(at 97.79 67.31 180)
 		(effects
 			(font
@@ -2575,7 +2575,7 @@
 		)
 		(uuid "405da1fe-21e1-45d9-b642-38fb26c164e5")
 	)
-	(label "Seuil_Court_Backup"
+	(label "Seuil_Court"
 		(at 77.47 124.46 180)
 		(effects
 			(font
@@ -2585,7 +2585,7 @@
 		)
 		(uuid "51627147-a891-442d-9a98-d82c4a618813")
 	)
-	(label "Seuil_Ouvert_Backup"
+	(label "Seuil_Ouvert"
 		(at 77.47 102.87 180)
 		(effects
 			(font
@@ -2595,7 +2595,7 @@
 		)
 		(uuid "7d6b2595-9d68-41a0-9ab0-830e33ca66a3")
 	)
-	(label "Seuil_Injection_Backup"
+	(label "Seuil_Injection"
 		(at 77.47 90.17 180)
 		(effects
 			(font
@@ -2605,7 +2605,7 @@
 		)
 		(uuid "95d1ac18-adfc-408f-8603-08950057f457")
 	)
-	(label "Opto_Court_Backup"
+	(label "Opto_Court"
 		(at 101.6 113.03 0)
 		(effects
 			(font
@@ -2615,7 +2615,7 @@
 		)
 		(uuid "b0aba3a4-9d49-4703-a126-8933362ee73b")
 	)
-	(label "Q35_Drain"
+	(label "Injection_Drain"
 		(at 80.01 170.18 0)
 		(effects
 			(font
@@ -2625,7 +2625,7 @@
 		)
 		(uuid "b357889b-fe8d-494b-9f07-04fc85379749")
 	)
-	(label "Opto_Ouvert_Backup"
+	(label "Opto_Ouvert"
 		(at 160.02 106.68 180)
 		(effects
 			(font
@@ -2635,7 +2635,7 @@
 		)
 		(uuid "dc58ff42-7d9e-4c1a-a54f-d11588dd0008")
 	)
-	(label "Opto_Court_Backup"
+	(label "Opto_Court"
 		(at 160.02 133.35 180)
 		(effects
 			(font
@@ -2645,7 +2645,7 @@
 		)
 		(uuid "e5f256ea-b5cf-4c26-a0e6-cf6e1b2d4142")
 	)
-	(label "Q35_Drain"
+	(label "Injection_Drain"
 		(at 123.19 67.31 180)
 		(effects
 			(font
@@ -2655,7 +2655,7 @@
 		)
 		(uuid "eb53fe31-cd98-4844-a466-334a3a9df1e0")
 	)
-	(label "Seuil_Ouvert_Backup"
+	(label "Seuil_Ouvert"
 		(at 234.95 85.09 0)
 		(effects
 			(font
@@ -2665,7 +2665,7 @@
 		)
 		(uuid "f3cda680-f129-4589-bb71-54e409bdd46d")
 	)
-	(label "Backup_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 45.72 144.78 180)
 		(effects
 			(font
@@ -2675,7 +2675,7 @@
 		)
 		(uuid "f75bf064-9456-432a-9e26-3425aa79bb4f")
 	)
-	(label "Backup_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 128.27 80.01 180)
 		(effects
 			(font
@@ -2685,7 +2685,7 @@
 		)
 		(uuid "f833283f-7188-415f-9f86-77955efabfac")
 	)
-	(label "Opto_Ouvert_Backup"
+	(label "Opto_Ouvert"
 		(at 101.6 96.52 0)
 		(effects
 			(font
@@ -3151,7 +3151,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Veh_Backup"
+	(hierarchical_label "Vehic_Fil_Backup"
 		(shape input)
 		(at 67.31 170.18 180)
 		(effects
@@ -3162,7 +3162,7 @@
 		)
 		(uuid "08afc19b-6262-48e9-827f-5031f6456410")
 	)
-	(hierarchical_label "Court_Backup_Vehic"
+	(hierarchical_label "Vehic_Court_Backup"
 		(shape input)
 		(at 170.18 120.65 0)
 		(effects
@@ -3173,7 +3173,7 @@
 		)
 		(uuid "55628964-b887-41cb-ba37-e83f53a62e60")
 	)
-	(hierarchical_label "Ouvert_Backup_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Backup"
 		(shape input)
 		(at 170.18 95.25 0)
 		(effects
@@ -3184,7 +3184,7 @@
 		)
 		(uuid "5b1b1a4e-eea7-4a87-a381-41de526ee445")
 	)
-	(hierarchical_label "Veh_Backup"
+	(hierarchical_label "Vehic_Fil_Backup"
 		(shape input)
 		(at 125.73 62.23 180)
 		(effects
@@ -3333,7 +3333,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 228.6 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -3366,7 +3366,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 231.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 231.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 231.14 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3399,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 228.6 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3663,7 +3685,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2 Ohm Shunt"
+		(property "Value" "0.2Ω 5W"
 			(at 39.37 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3717,29 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "Shunt VEHICLE, résistance cimentée axiale 0,2 Ω ±5 % 5 W, 22 × 9,5 × 9 mm, −55 à +155 °C"
+			(at 39.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "YAGEO"
+			(at 39.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SQP500JB-0R2"
 			(at 39.37 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3953,7 +3997,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 228.6 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -3986,7 +4030,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 231.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 231.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4085,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 228.6 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4584,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm - 25W"
+		(property "Value" "12Ω 25W"
 			(at 73.66 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +4682,29 @@
 				)
 			)
 		)
-		(property "Description" "25W Resistor"
+		(property "Description" "Résistance de charge bobinée, boîtier aluminium, 12 Ω ±5 % 25 W, −55 à +200 °C, sur la plaque"
+			(at 73.66 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TE Connectivity (CGS)"
+			(at 73.66 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HSA2512RJ"
 			(at 73.66 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5075,7 +5163,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 228.6 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +5196,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 231.14 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 231.14 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 231.14 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5141,7 +5251,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)

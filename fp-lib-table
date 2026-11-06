@@ -2,7 +2,7 @@
 	(version 7)
 	(lib (name "SR305C334KAR") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "FG26X7R1E106KRT06") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
-	(lib (name "SR205E104MARAP1") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
+	(lib (name "SR205C104KAR") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "LM74610QDGKRQ1") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "TRIM_3296W1103LF") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
 	(lib (name "OSX10201-GYR1") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))

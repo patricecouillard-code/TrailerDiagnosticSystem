@@ -65,7 +65,7 @@
 		)
 		(uuid "db713d50-fad1-41b3-bd6c-67dc02c56594")
 	)
-	(hierarchical_label "Trail_Left"
+	(hierarchical_label "Trailer_Fil_Left"
 		(shape input)
 		(at 48.26 73.66 0)
 		(effects
@@ -76,7 +76,7 @@
 		)
 		(uuid "6c8031a9-a0c5-4cd2-8488-a0cad2a13037")
 	)
-	(hierarchical_label "Veh_Left"
+	(hierarchical_label "Vehic_Fil_Left"
 		(shape input)
 		(at 48.26 41.91 0)
 		(effects
@@ -125,7 +125,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Trail_Left" input
+		(pin "Trailer_Fil_Left" input
 			(at 44.45 73.66 0)
 			(uuid "1d595ee2-4837-413f-a68e-6860863d9770")
 			(effects
@@ -135,7 +135,7 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Left_Trailer" input
+		(pin "Trailer_Ouvert_Left" input
 			(at 44.45 63.5 0)
 			(uuid "ec14475e-0d1c-402c-aaa8-1ae45567e9b5")
 			(effects
@@ -145,7 +145,7 @@
 				(justify right)
 			)
 		)
-		(pin "Court_Left_Trailer" input
+		(pin "Trailer_Court_Left" input
 			(at 44.45 58.42 0)
 			(uuid "bdd585dd-f98f-4065-8c3a-89a318c82857")
 			(effects
@@ -201,7 +201,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Ouvert_Left_Vehic" input
+		(pin "Vehic_Ouvert_Left" input
 			(at 44.45 26.67 0)
 			(uuid "a06baac6-26e4-4988-9302-963e2509a8ba")
 			(effects
@@ -211,7 +211,7 @@
 				(justify right)
 			)
 		)
-		(pin "Court_Left_Vehic" input
+		(pin "Vehic_Court_Left" input
 			(at 44.45 34.29 0)
 			(uuid "be78ac05-ebb9-4ba6-bb09-0e270c4174aa")
 			(effects
@@ -221,7 +221,7 @@
 				(justify right)
 			)
 		)
-		(pin "Veh_Left" input
+		(pin "Vehic_Fil_Left" input
 			(at 44.45 41.91 0)
 			(uuid "356c6eab-9151-487a-9c1e-be57f3065e5a")
 			(effects
@@ -277,7 +277,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Court_Left_Vehic" input
+		(pin "Vehic_Court_Left" input
 			(at 71.12 34.29 180)
 			(uuid "3c76407c-dcaa-475a-b681-0d7f9d48a539")
 			(effects
@@ -287,7 +287,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Left_Vehic" input
+		(pin "Vehic_Ouvert_Left" input
 			(at 71.12 26.67 180)
 			(uuid "7bc2b413-5804-4fee-931a-26f90dd17b86")
 			(effects
@@ -297,7 +297,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Left_Trailer" input
+		(pin "Trailer_Ouvert_Left" input
 			(at 71.12 63.5 180)
 			(uuid "f41e3b83-5409-44f3-8522-0e8f72ed7c3e")
 			(effects
@@ -307,7 +307,7 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Left_Trailer" input
+		(pin "Trailer_Court_Left" input
 			(at 71.12 58.42 180)
 			(uuid "e2e2db35-c3f6-4fce-a9b2-f4275ed269fe")
 			(effects

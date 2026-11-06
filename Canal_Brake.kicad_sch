@@ -65,7 +65,7 @@
 		)
 		(uuid "cc7f560b-1e80-4e0d-ae4d-2bce23f3a36b")
 	)
-	(hierarchical_label "Trail_Brake"
+	(hierarchical_label "Trailer_Fil_Brake"
 		(shape input)
 		(at 41.91 46.99 0)
 		(effects
@@ -76,7 +76,7 @@
 		)
 		(uuid "c062d24b-2ada-4453-bfe5-f364b2facfe3")
 	)
-	(hierarchical_label "Veh_Brake"
+	(hierarchical_label "Vehic_Fil_Brake"
 		(shape input)
 		(at 41.91 25.4 0)
 		(effects
@@ -125,7 +125,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Ouvert_Brake_Vehic" input
+		(pin "Vehic_Ouvert_Brake" input
 			(at 38.1 27.94 0)
 			(uuid "602bed04-79dd-41e6-85fe-04bc88d74989")
 			(effects
@@ -135,7 +135,7 @@
 				(justify right)
 			)
 		)
-		(pin "Court_Brake_Vehic" input
+		(pin "Vehic_Court_Brake" input
 			(at 38.1 30.48 0)
 			(uuid "c8d37771-e501-4f22-91d8-eb98e2c6c7f3")
 			(effects
@@ -145,7 +145,7 @@
 				(justify right)
 			)
 		)
-		(pin "Veh_Brake" input
+		(pin "Vehic_Fil_Brake" input
 			(at 38.1 25.4 0)
 			(uuid "4a0b9860-9e4c-443d-9ef6-b4501931de92")
 			(effects
@@ -201,7 +201,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Trail_Brake" input
+		(pin "Trailer_Fil_Brake" input
 			(at 38.1 46.99 0)
 			(uuid "2ee3f39b-015e-4299-aab3-6f36fa89b749")
 			(effects
@@ -211,7 +211,7 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Brake_Trailer" input
+		(pin "Trailer_Ouvert_Brake" input
 			(at 38.1 39.37 0)
 			(uuid "3007fb99-d20d-40f6-b157-d62507c1deea")
 			(effects
@@ -221,7 +221,7 @@
 				(justify right)
 			)
 		)
-		(pin "Court_Brake_Trailer" input
+		(pin "Trailer_Court_Brake" input
 			(at 38.1 41.91 0)
 			(uuid "b1667238-7d1d-4409-937b-37d1f400a1af")
 			(effects
@@ -277,7 +277,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Ouvert_Brake_Trailer" input
+		(pin "Trailer_Ouvert_Brake" input
 			(at 63.5 39.37 180)
 			(uuid "05671a67-abd4-459d-8f95-fbdd9ab712fa")
 			(effects
@@ -287,7 +287,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Brake_Vehic" input
+		(pin "Vehic_Ouvert_Brake" input
 			(at 63.5 27.94 180)
 			(uuid "817ee12d-f69b-44fd-b452-ed01cb1250db")
 			(effects
@@ -297,7 +297,7 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Brake_Trailer" input
+		(pin "Trailer_Court_Brake" input
 			(at 63.5 41.91 180)
 			(uuid "3316fcba-75a7-4ee8-b8e2-ddcd9c8646bf")
 			(effects
@@ -307,7 +307,7 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Brake_Vehic" input
+		(pin "Vehic_Court_Brake" input
 			(at 63.5 30.48 180)
 			(uuid "39641616-9116-4a79-ae88-461a0f38ea90")
 			(effects

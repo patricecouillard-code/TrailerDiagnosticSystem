@@ -65,7 +65,7 @@
 		)
 		(uuid "e2c5d9aa-a4d1-4ea1-be4a-fb07439454a0")
 	)
-	(hierarchical_label "Trail_Right"
+	(hierarchical_label "Trailer_Fil_Right"
 		(shape input)
 		(at 69.85 76.2 0)
 		(effects
@@ -76,7 +76,7 @@
 		)
 		(uuid "456d6e28-b902-4d6b-840d-c515d5be6df3")
 	)
-	(hierarchical_label "Veh_Right"
+	(hierarchical_label "Vehic_Fil_Right"
 		(shape input)
 		(at 68.58 44.45 0)
 		(effects
@@ -125,7 +125,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Court_Right_Trailer" input
+		(pin "Trailer_Court_Right" input
 			(at 63.5 60.96 0)
 			(uuid "95b35d02-6413-4410-8220-8c1d8253a9b1")
 			(effects
@@ -135,7 +135,7 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Right_Trailer" input
+		(pin "Trailer_Ouvert_Right" input
 			(at 63.5 66.04 0)
 			(uuid "b97025ca-e1a9-4631-9998-1381b1767a85")
 			(effects
@@ -145,7 +145,7 @@
 				(justify right)
 			)
 		)
-		(pin "Trail_Right" input
+		(pin "Trailer_Fil_Right" input
 			(at 63.5 76.2 0)
 			(uuid "aa2dc491-84ce-4795-a621-5872d08fe40c")
 			(effects
@@ -201,7 +201,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Court_Right_Trailer" input
+		(pin "Trailer_Court_Right" input
 			(at 95.25 60.96 180)
 			(uuid "69eddd81-0573-41b4-a17c-97e0b12cde79")
 			(effects
@@ -211,7 +211,7 @@
 				(justify left)
 			)
 		)
-		(pin "Court_Right_Vehic" input
+		(pin "Vehic_Court_Right" input
 			(at 95.25 36.83 180)
 			(uuid "e6b325a4-203b-44c2-aec0-d4af9e9f41ed")
 			(effects
@@ -221,7 +221,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Right_Trailer" input
+		(pin "Trailer_Ouvert_Right" input
 			(at 95.25 66.04 180)
 			(uuid "42c6b5bf-9c01-49ab-8461-eee8072a6908")
 			(effects
@@ -231,7 +231,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ouvert_Right_Vehic" input
+		(pin "Vehic_Ouvert_Right" input
 			(at 95.25 40.64 180)
 			(uuid "49e29099-8584-469c-ab2e-fd5201f78dcd")
 			(effects
@@ -287,7 +287,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Court_Right_Vehic" input
+		(pin "Vehic_Court_Right" input
 			(at 63.5 36.83 0)
 			(uuid "f2dae72d-fad3-404d-a3d6-05964b7bd748")
 			(effects
@@ -297,7 +297,7 @@
 				(justify right)
 			)
 		)
-		(pin "Ouvert_Right_Vehic" input
+		(pin "Vehic_Ouvert_Right" input
 			(at 63.5 40.64 0)
 			(uuid "d6b51822-678a-4c23-80cd-e7a78fda85a8")
 			(effects
@@ -307,7 +307,7 @@
 				(justify right)
 			)
 		)
-		(pin "Veh_Right" input
+		(pin "Vehic_Fil_Right" input
 			(at 63.5 44.45 0)
 			(uuid "878c28d0-7ef1-44c2-932c-ff3236c3e9ef")
 			(effects

@@ -4172,7 +4172,7 @@
 		)
 		(uuid "fe449547-a440-4e98-ac51-a995ad61b28a")
 	)
-	(label "I_Present_Backup"
+	(label "I_Present"
 		(at 128.27 93.98 180)
 		(effects
 			(font
@@ -4182,7 +4182,7 @@
 		)
 		(uuid "294c4a18-b2b7-47ca-90b3-35d3e2416680")
 	)
-	(label "Court_Sense_Backup"
+	(label "Court_Sense"
 		(at 224.79 91.44 180)
 		(effects
 			(font
@@ -4192,7 +4192,7 @@
 		)
 		(uuid "4fcb6857-17c9-480b-8190-064259ac71d8")
 	)
-	(label "I_Present_Backup"
+	(label "I_Present"
 		(at 222.25 69.85 180)
 		(effects
 			(font
@@ -4202,7 +4202,7 @@
 		)
 		(uuid "52d39c6f-ac70-42a2-a771-a6bc48f45ba2")
 	)
-	(label "Court_Sense_Backup"
+	(label "Court_Sense"
 		(at 144.78 43.18 180)
 		(effects
 			(font
@@ -4212,7 +4212,7 @@
 		)
 		(uuid "5e21384a-6262-4e7e-9941-ffcd388e3f3c")
 	)
-	(label "I_Present_Backup"
+	(label "I_Present"
 		(at 190.5 91.44 0)
 		(effects
 			(font
@@ -4222,7 +4222,7 @@
 		)
 		(uuid "cb26a53c-6456-43fd-a703-b080594d7f48")
 	)
-	(label "Court_Sense_Backup"
+	(label "Court_Sense"
 		(at 190.5 48.26 180)
 		(effects
 			(font
@@ -4496,7 +4496,7 @@
 			)
 		)
 	)
-	(global_label "V_Arm_Trailer"
+	(global_label "Trailer_V_Arm"
 		(shape input)
 		(at 125.73 78.74 0)
 		(fields_autoplaced yes)
@@ -4712,7 +4712,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Backup"
+	(global_label "Facade_Btn_Backup"
 		(shape input)
 		(at 71.12 59.69 0)
 		(fields_autoplaced yes)
@@ -4736,7 +4736,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Ouvert_Backup_Trailer"
+	(hierarchical_label "Trailer_Ouvert_Backup"
 		(shape input)
 		(at 254 72.39 0)
 		(effects
@@ -4747,7 +4747,7 @@
 		)
 		(uuid "5f9c17c4-85bf-444e-bde7-b3a4a89fccfe")
 	)
-	(hierarchical_label "Trail_Backup"
+	(hierarchical_label "Trailer_Fil_Backup"
 		(shape input)
 		(at 199.39 36.83 180)
 		(effects
@@ -4758,7 +4758,7 @@
 		)
 		(uuid "a4cfd1f0-663d-4d54-8198-867d8152c13c")
 	)
-	(hierarchical_label "Court_Backup_Trailer"
+	(hierarchical_label "Trailer_Court_Backup"
 		(shape input)
 		(at 254 93.98 0)
 		(effects
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm - 1W"
+		(property "Value" "12Ω 2W"
 			(at 198.12 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +5177,29 @@
 				)
 			)
 		)
-		(property "Description" "1W Resistor"
+		(property "Description" "Shunt TRAILER, couche métallique 12 Ω ±5 % 2 W, Ø3,9 × 10 mm, −55 à +155 °C, AEC-Q200."
+			(at 198.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Vishay BCcomponents"
+			(at 198.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PR02000201209JR500"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6173,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 218.44 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -6184,7 +6206,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 220.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 220.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 220.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6217,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 218.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6265,7 +6309,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -6639,7 +6683,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 218.44 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6672,7 +6716,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 220.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 220.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 220.98 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6705,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 218.44 62.23 0)
 			(hide yes)
 			(show_name no)

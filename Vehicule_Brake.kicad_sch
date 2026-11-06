@@ -3512,7 +3512,7 @@
 		)
 		(uuid "fd0050f9-d683-4274-a9f1-57b66ffe57bf")
 	)
-	(label "Brake_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 41.91 133.35 180)
 		(effects
 			(font
@@ -3522,7 +3522,7 @@
 		)
 		(uuid "0772d95a-da28-4160-b585-79f6b95de847")
 	)
-	(label "Q51_Drain"
+	(label "Injection_Drain"
 		(at 82.55 135.89 0)
 		(effects
 			(font
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "0c8117ee-9e5b-4167-bd0d-5b654aa965d4")
 	)
-	(label "Seuil_Injection_Brake"
+	(label "Seuil_Injection"
 		(at 180.34 31.75 0)
 		(effects
 			(font
@@ -3542,7 +3542,7 @@
 		)
 		(uuid "25575989-63cf-4ec7-94a8-961d7440f3da")
 	)
-	(label "Q51_Drain"
+	(label "Injection_Drain"
 		(at 113.03 34.29 180)
 		(effects
 			(font
@@ -3552,7 +3552,7 @@
 		)
 		(uuid "35de2bf8-ed02-49bc-8628-ca5445b3d3a8")
 	)
-	(label "Seuil_Ouvert_Brake"
+	(label "Seuil_Ouvert"
 		(at 69.85 69.85 180)
 		(effects
 			(font
@@ -3562,7 +3562,7 @@
 		)
 		(uuid "382d7209-3275-4799-b0a4-b18be4d70564")
 	)
-	(label "Seuil_Court_Brake"
+	(label "Seuil_Court"
 		(at 180.34 68.58 0)
 		(effects
 			(font
@@ -3572,7 +3572,7 @@
 		)
 		(uuid "46b35c16-52af-41c4-b03e-eaad52fed2f0")
 	)
-	(label "Injection_Brake_Fault"
+	(label "Injection_Fault"
 		(at 95.25 33.02 180)
 		(effects
 			(font
@@ -3582,7 +3582,7 @@
 		)
 		(uuid "52b38961-d1f3-4d24-848c-18a86e4bc87a")
 	)
-	(label "Surchauffe_Brake"
+	(label "Surchauffe"
 		(at 200.66 153.67 180)
 		(effects
 			(font
@@ -3592,7 +3592,7 @@
 		)
 		(uuid "6008f7e6-a47e-4660-87b5-8cedacd9dfb3")
 	)
-	(label "Opto_Court_Brake"
+	(label "Opto_Court"
 		(at 121.92 100.33 180)
 		(effects
 			(font
@@ -3602,7 +3602,7 @@
 		)
 		(uuid "68ed3644-77a4-4bbc-8591-62413e6d5f11")
 	)
-	(label "Brake_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 124.46 45.72 0)
 		(effects
 			(font
@@ -3612,7 +3612,7 @@
 		)
 		(uuid "7dd31846-0ce9-4d73-b3bd-c5b8ba6b130b")
 	)
-	(label "Opto_Court_Brake"
+	(label "Opto_Court"
 		(at 87.63 81.28 0)
 		(effects
 			(font
@@ -3622,7 +3622,7 @@
 		)
 		(uuid "9ce96e7f-8364-4fc3-a1f0-ebbfa38a0bfa")
 	)
-	(label "Surchauffe_Brake"
+	(label "Surchauffe"
 		(at 152.4 153.67 180)
 		(effects
 			(font
@@ -3632,7 +3632,7 @@
 		)
 		(uuid "b00ca072-b390-4c5a-8317-a44b8485a65b")
 	)
-	(label "Surchauffe_Brake"
+	(label "Surchauffe"
 		(at 128.27 147.32 0)
 		(effects
 			(font
@@ -3642,7 +3642,7 @@
 		)
 		(uuid "b178775c-5900-4db7-aa06-4ab2ed80b332")
 	)
-	(label "Seuil_Injection_Brake"
+	(label "Seuil_Injection"
 		(at 69.85 57.15 180)
 		(effects
 			(font
@@ -3652,7 +3652,7 @@
 		)
 		(uuid "b75f7ac7-6b67-4b69-84cd-a602c561c03b")
 	)
-	(label "Opto_Ouvert_Brake"
+	(label "Opto_Ouvert"
 		(at 87.63 62.23 0)
 		(effects
 			(font
@@ -3662,7 +3662,7 @@
 		)
 		(uuid "bbcfe48e-5d8e-4543-9419-11de3ba5734d")
 	)
-	(label "Injection_Brake_Fault"
+	(label "Injection_Fault"
 		(at 210.82 147.32 180)
 		(effects
 			(font
@@ -3672,7 +3672,7 @@
 		)
 		(uuid "d331e3b1-b1c6-4cec-8fd6-85bf84ea0245")
 	)
-	(label "Opto_Ouvert_Brake"
+	(label "Opto_Ouvert"
 		(at 133.35 77.47 0)
 		(effects
 			(font
@@ -3682,7 +3682,7 @@
 		)
 		(uuid "effc137b-9ebc-4a63-907e-cd157be4d2b5")
 	)
-	(label "Seuil_Court_Brake"
+	(label "Seuil_Court"
 		(at 69.85 91.44 180)
 		(effects
 			(font
@@ -3692,7 +3692,7 @@
 		)
 		(uuid "f0f88867-8e60-4afd-8dc1-161f6a6a0eb0")
 	)
-	(label "Seuil_Ouvert_Brake"
+	(label "Seuil_Ouvert"
 		(at 180.34 49.53 0)
 		(effects
 			(font
@@ -4182,7 +4182,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D147_K"
+	(global_label "Facade_DEL_Surchauffe_Brake"
 		(shape input)
 		(at 180.34 133.35 0)
 		(fields_autoplaced yes)
@@ -4314,7 +4314,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Veh_Brake"
+	(hierarchical_label "Vehic_Fil_Brake"
 		(shape input)
 		(at 69.85 135.89 180)
 		(effects
@@ -4325,7 +4325,7 @@
 		)
 		(uuid "12454139-5d2a-4e6c-987d-d6582b055018")
 	)
-	(hierarchical_label "Ouvert_Brake_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Brake"
 		(shape input)
 		(at 138.43 62.23 0)
 		(effects
@@ -4336,7 +4336,7 @@
 		)
 		(uuid "23615bc5-4828-402c-ada8-b109d8306fd7")
 	)
-	(hierarchical_label "Court_Brake_Vehic"
+	(hierarchical_label "Vehic_Court_Brake"
 		(shape input)
 		(at 129.54 83.82 0)
 		(effects
@@ -4347,7 +4347,7 @@
 		)
 		(uuid "68adc2ed-a33d-4496-8da9-9cd22c87c2e8")
 	)
-	(hierarchical_label "Veh_Brake"
+	(hierarchical_label "Vehic_Fil_Brake"
 		(shape input)
 		(at 116.84 27.94 180)
 		(effects
@@ -4829,7 +4829,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm - 25W"
+		(property "Value" "12Ω 25W"
 			(at 76.2 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4861,29 @@
 				)
 			)
 		)
-		(property "Description" "25W Resistor"
+		(property "Description" "Résistance de charge bobinée, boîtier aluminium, 12 Ω ±5 % 25 W, −55 à +200 °C, sur la plaque"
+			(at 76.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TE Connectivity (CGS)"
+			(at 76.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HSA2512RJ"
 			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4894,7 +4916,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -4909,7 +4931,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_1.8mm_Amber"
+		(property "Value" "RGB 5mm CA (ambre)"
 			(at 180.34 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4942,7 +4964,29 @@
 				)
 			)
 		)
-		(property "Description" "Amber LED, 1.8mm THT, Alternate KiCad Library"
+		(property "Description" "Voyant ambre : même DEL RGB, puces rouge + verte"
+			(at 180.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 180.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 180.34 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5105,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST_Temperature_NC"
+		(property "Value" "Thermostat 95°C NC"
 			(at 116.84 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5138,7 +5182,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent, normally closed"
+		(property "Description" "Thermostat bimétallique NC 95 °C ±5 °C, série R53 (comme SW12), bride + cosses rapides, 15 A 12 Vcc"
+			(at 115.57 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Cantherm"
+			(at 115.57 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CS709525Y"
 			(at 115.57 163.322 0)
 			(hide yes)
 			(show_name no)
@@ -5653,7 +5719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 173.99 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -5686,7 +5752,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 176.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 176.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 176.53 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5719,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5919,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 173.99 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -5952,7 +6040,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 176.53 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 176.53 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 176.53 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5985,7 +6095,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 173.99 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6070,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2 Ohm Shunt"
+		(property "Value" "0.2Ω 5W"
 			(at 39.37 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6212,29 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "Shunt VEHICLE, résistance cimentée axiale 0,2 Ω ±5 % 5 W, 22 × 9,5 × 9 mm, −55 à +155 °C"
+			(at 39.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "YAGEO"
+			(at 39.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SQP500JB-0R2"
 			(at 39.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -6825,7 +6957,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 173.99 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -6858,7 +6990,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6891,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 173.99 69.85 0)
 			(hide yes)
 			(show_name no)

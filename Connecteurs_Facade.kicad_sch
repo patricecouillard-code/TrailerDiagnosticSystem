@@ -3216,7 +3216,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_5"
+	(global_label "Facade_VM_Sel_Vehic_Right"
 		(shape input)
 		(at 76.2 115.57 0)
 		(fields_autoplaced yes)
@@ -3240,7 +3240,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_4"
+	(global_label "Facade_Jauge_4"
 		(shape input)
 		(at 76.2 130.81 0)
 		(fields_autoplaced yes)
@@ -3264,7 +3264,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Left_B"
+	(global_label "Facade_Left_B"
 		(shape input)
 		(at 45.72 72.39 180)
 		(fields_autoplaced yes)
@@ -3288,7 +3288,7 @@
 			)
 		)
 	)
-	(global_label "Fac_LED2_A"
+	(global_label "Facade_DEL_Batt_Ext"
 		(shape input)
 		(at 52.07 41.91 180)
 		(fields_autoplaced yes)
@@ -3324,7 +3324,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_4"
+	(global_label "Facade_VM_Sel_Vehic_Left"
 		(shape input)
 		(at 45.72 115.57 180)
 		(fields_autoplaced yes)
@@ -3348,7 +3348,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_G"
+	(global_label "Facade_Brake_G"
 		(shape input)
 		(at 45.72 64.77 180)
 		(fields_autoplaced yes)
@@ -3396,7 +3396,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 45.72 92.71 180)
 		(fields_autoplaced yes)
@@ -3420,7 +3420,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_8"
+	(global_label "Facade_VM_Sel_Vehic_Pince"
 		(shape input)
 		(at 45.72 120.65 180)
 		(fields_autoplaced yes)
@@ -3444,7 +3444,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Tail_B"
+	(global_label "Facade_Tail_B"
 		(shape input)
 		(at 45.72 59.69 180)
 		(fields_autoplaced yes)
@@ -3468,7 +3468,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_5"
+	(global_label "Facade_Jauge_5"
 		(shape input)
 		(at 45.72 133.35 180)
 		(fields_autoplaced yes)
@@ -3492,7 +3492,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_2"
+	(global_label "Facade_Jauge_2"
 		(shape input)
 		(at 76.2 128.27 0)
 		(fields_autoplaced yes)
@@ -3516,7 +3516,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_G"
+	(global_label "Facade_Aux_G"
 		(shape input)
 		(at 45.72 90.17 180)
 		(fields_autoplaced yes)
@@ -3540,7 +3540,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_G"
+	(global_label "Facade_Backup_G"
 		(shape input)
 		(at 77.47 82.55 0)
 		(fields_autoplaced yes)
@@ -3564,7 +3564,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Right"
+	(global_label "Facade_Btn_Right"
 		(shape input)
 		(at 45.72 80.01 180)
 		(fields_autoplaced yes)
@@ -3588,7 +3588,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Tail"
+	(global_label "Facade_Btn_Tail"
 		(shape input)
 		(at 77.47 59.69 0)
 		(fields_autoplaced yes)
@@ -3612,7 +3612,7 @@
 			)
 		)
 	)
-	(global_label "Fac_VLed_Jauge"
+	(global_label "Facade_VLed_Jauge"
 		(shape input)
 		(at 76.2 125.73 0)
 		(fields_autoplaced yes)
@@ -3636,7 +3636,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_2"
+	(global_label "Facade_VM_Sel_Vehic_Tail"
 		(shape input)
 		(at 45.72 113.03 180)
 		(fields_autoplaced yes)
@@ -3660,7 +3660,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_6"
+	(global_label "Facade_Jauge_6"
 		(shape input)
 		(at 76.2 133.35 0)
 		(fields_autoplaced yes)
@@ -3684,7 +3684,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Brake"
+	(global_label "Facade_Btn_Brake"
 		(shape input)
 		(at 45.72 67.31 180)
 		(fields_autoplaced yes)
@@ -3768,7 +3768,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D152_K"
+	(global_label "Facade_DEL_Inversion"
 		(shape input)
 		(at 52.07 34.29 180)
 		(fields_autoplaced yes)
@@ -3804,7 +3804,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_B"
+	(global_label "Facade_Aux_B"
 		(shape input)
 		(at 77.47 90.17 0)
 		(fields_autoplaced yes)
@@ -3828,7 +3828,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_9"
+	(global_label "Facade_VM_Sel_Trailer_Aux"
 		(shape input)
 		(at 76.2 120.65 0)
 		(fields_autoplaced yes)
@@ -3876,7 +3876,7 @@
 			)
 		)
 	)
-	(global_label "Fac_VM_Mesure"
+	(global_label "Facade_VM_Mesure"
 		(shape input)
 		(at 76.2 107.95 0)
 		(fields_autoplaced yes)
@@ -3900,7 +3900,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_3"
+	(global_label "Facade_VM_Sel_Vehic_Brake"
 		(shape input)
 		(at 76.2 113.03 0)
 		(fields_autoplaced yes)
@@ -3924,7 +3924,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_10"
+	(global_label "Facade_Jauge_10"
 		(shape input)
 		(at 76.2 138.43 0)
 		(fields_autoplaced yes)
@@ -4032,7 +4032,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Right_G"
+	(global_label "Facade_Right_G"
 		(shape input)
 		(at 45.72 77.47 180)
 		(fields_autoplaced yes)
@@ -4056,7 +4056,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Right_B"
+	(global_label "Facade_Right_B"
 		(shape input)
 		(at 77.47 77.47 0)
 		(fields_autoplaced yes)
@@ -4104,7 +4104,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_6"
+	(global_label "Facade_VM_Sel_Vehic_Backup"
 		(shape input)
 		(at 45.72 118.11 180)
 		(fields_autoplaced yes)
@@ -4128,7 +4128,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_7"
+	(global_label "Facade_Jauge_7"
 		(shape input)
 		(at 45.72 135.89 180)
 		(fields_autoplaced yes)
@@ -4152,7 +4152,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D155_K"
+	(global_label "Facade_DEL_Court_Bus"
 		(shape input)
 		(at 74.93 29.21 0)
 		(fields_autoplaced yes)
@@ -4176,7 +4176,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_10"
+	(global_label "Facade_VM_Sel_Trailer_Pince"
 		(shape input)
 		(at 45.72 123.19 180)
 		(fields_autoplaced yes)
@@ -4224,7 +4224,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Tail_R"
+	(global_label "Facade_Tail_R"
 		(shape input)
 		(at 45.72 57.15 180)
 		(fields_autoplaced yes)
@@ -4248,7 +4248,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Left_R"
+	(global_label "Facade_Left_R"
 		(shape input)
 		(at 45.72 69.85 180)
 		(fields_autoplaced yes)
@@ -4344,7 +4344,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D154_K"
+	(global_label "Facade_DEL_Surtension"
 		(shape input)
 		(at 52.07 29.21 180)
 		(fields_autoplaced yes)
@@ -4368,7 +4368,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Left_G"
+	(global_label "Facade_Left_G"
 		(shape input)
 		(at 77.47 69.85 0)
 		(fields_autoplaced yes)
@@ -4392,7 +4392,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_9"
+	(global_label "Facade_Jauge_9"
 		(shape input)
 		(at 45.72 138.43 180)
 		(fields_autoplaced yes)
@@ -4416,7 +4416,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_R"
+	(global_label "Facade_Backup_R"
 		(shape input)
 		(at 45.72 82.55 180)
 		(fields_autoplaced yes)
@@ -4440,7 +4440,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Left"
+	(global_label "Facade_Btn_Left"
 		(shape input)
 		(at 77.47 72.39 0)
 		(fields_autoplaced yes)
@@ -4464,7 +4464,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_B"
+	(global_label "Facade_Brake_B"
 		(shape input)
 		(at 77.47 64.77 0)
 		(fields_autoplaced yes)
@@ -4488,7 +4488,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_8"
+	(global_label "Facade_Jauge_8"
 		(shape input)
 		(at 76.2 135.89 0)
 		(fields_autoplaced yes)
@@ -4512,7 +4512,7 @@
 			)
 		)
 	)
-	(global_label "Fac_LED1_K"
+	(global_label "Facade_DEL_Surchauffe_Aux"
 		(shape input)
 		(at 74.93 39.37 0)
 		(fields_autoplaced yes)
@@ -4548,7 +4548,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Right_R"
+	(global_label "Facade_Right_R"
 		(shape input)
 		(at 77.47 74.93 0)
 		(fields_autoplaced yes)
@@ -4572,7 +4572,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_R"
+	(global_label "Facade_Aux_R"
 		(shape input)
 		(at 77.47 87.63 0)
 		(fields_autoplaced yes)
@@ -4596,7 +4596,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D147_K"
+	(global_label "Facade_DEL_Surchauffe_Brake"
 		(shape input)
 		(at 52.07 39.37 180)
 		(fields_autoplaced yes)
@@ -4632,7 +4632,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_7"
+	(global_label "Facade_VM_Sel_Vehic_Aux"
 		(shape input)
 		(at 76.2 118.11 0)
 		(fields_autoplaced yes)
@@ -4716,7 +4716,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D156_K"
+	(global_label "Facade_DEL_Incoherence"
 		(shape input)
 		(at 52.07 31.75 180)
 		(fields_autoplaced yes)
@@ -4740,7 +4740,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_3"
+	(global_label "Facade_Jauge_3"
 		(shape input)
 		(at 45.72 130.81 180)
 		(fields_autoplaced yes)
@@ -4788,7 +4788,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_1"
+	(global_label "Facade_Jauge_1"
 		(shape input)
 		(at 45.72 128.27 180)
 		(fields_autoplaced yes)
@@ -4812,7 +4812,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Tail_G"
+	(global_label "Facade_Tail_G"
 		(shape input)
 		(at 77.47 57.15 0)
 		(fields_autoplaced yes)
@@ -4836,7 +4836,7 @@
 			)
 		)
 	)
-	(global_label "Fac_SW9_1"
+	(global_label "Facade_VM_Sel_Batt"
 		(shape input)
 		(at 76.2 110.49 0)
 		(fields_autoplaced yes)
@@ -4860,7 +4860,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_R"
+	(global_label "Facade_Brake_R"
 		(shape input)
 		(at 77.47 62.23 0)
 		(fields_autoplaced yes)
@@ -4908,7 +4908,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D158_K"
+	(global_label "Facade_DEL_Masse"
 		(shape input)
 		(at 74.93 31.75 0)
 		(fields_autoplaced yes)
@@ -4944,7 +4944,7 @@
 			)
 		)
 	)
-	(global_label "Fac_BZ1_Moins"
+	(global_label "Facade_Buzzer"
 		(shape input)
 		(at 52.07 36.83 180)
 		(fields_autoplaced yes)
@@ -5004,7 +5004,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Backup"
+	(global_label "Facade_Btn_Backup"
 		(shape input)
 		(at 77.47 85.09 0)
 		(fields_autoplaced yes)
@@ -5028,7 +5028,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_B"
+	(global_label "Facade_Backup_B"
 		(shape input)
 		(at 45.72 85.09 180)
 		(fields_autoplaced yes)
@@ -5098,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x13_Odd_Even"
+		(property "Value" "IDC 2x13"
 			(at 59.69 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5130,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase IDC 26 positions à éjecteurs, loquet long, contacts dorés"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "3M"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N3429-6302RB"
 			(at 58.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5250,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x17_Odd_Even"
+		(property "Value" "IDC 2x17"
 			(at 63.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5304,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase IDC 34 positions à éjecteurs, loquet long, contacts dorés"
+			(at 62.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "3M"
+			(at 62.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N3431-6302RB"
 			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5470,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x07_Odd_Even"
+		(property "Value" "IDC 2x07"
 			(at 63.5 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5502,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase IDC 14 positions à éjecteurs, loquet long, contacts dorés"
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "3M"
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N3314-6302RB"
 			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)

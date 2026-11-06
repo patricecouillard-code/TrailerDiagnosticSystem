@@ -3312,7 +3312,7 @@
 		)
 		(uuid "f4385591-c8d9-49bb-857b-cda0eab8b5b5")
 	)
-	(label "Mesure_Aux_Trailer"
+	(label "Trailer_Mesure"
 		(at 177.8 63.5 180)
 		(effects
 			(font
@@ -3322,7 +3322,7 @@
 		)
 		(uuid "12bfdd1c-21a0-48a6-976d-857637c988bd")
 	)
-	(label "Mesure_Aux_Trailer"
+	(label "Trailer_Mesure"
 		(at 177.8 90.17 180)
 		(effects
 			(font
@@ -3332,7 +3332,7 @@
 		)
 		(uuid "9716abac-4f6e-4988-9e2d-0576555b049e")
 	)
-	(label "Mesure_Aux_Trailer"
+	(label "Trailer_Mesure"
 		(at 137.16 114.3 0)
 		(effects
 			(font
@@ -3486,7 +3486,7 @@
 			)
 		)
 	)
-	(global_label "V_Arm_Trailer"
+	(global_label "Trailer_V_Arm"
 		(shape input)
 		(at 60.96 54.61 180)
 		(fields_autoplaced yes)
@@ -3702,7 +3702,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 55.88 31.75 0)
 		(fields_autoplaced yes)
@@ -3822,7 +3822,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Trail_Aux"
+	(hierarchical_label "Trailer_Fil_Aux"
 		(shape input)
 		(at 102.87 99.06 0)
 		(effects
@@ -3833,7 +3833,7 @@
 		)
 		(uuid "2c67cfc1-e6e8-4ac1-9626-e99b17acfebc")
 	)
-	(hierarchical_label "Trail_Aux"
+	(hierarchical_label "Trailer_Fil_Aux"
 		(shape input)
 		(at 135.89 134.62 0)
 		(effects
@@ -3844,7 +3844,7 @@
 		)
 		(uuid "4b9e8087-51a2-4383-b0ca-c28643528315")
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 33.02 114.3 180)
 		(fields_autoplaced yes)
@@ -3868,7 +3868,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Ouvert_Aux_Trailer"
+	(hierarchical_label "Trailer_Ouvert_Aux"
 		(shape input)
 		(at 204.47 72.39 0)
 		(effects
@@ -3879,7 +3879,7 @@
 		)
 		(uuid "4d823967-a5de-4754-96db-7fa8d7742a02")
 	)
-	(hierarchical_label "Trail_Aux"
+	(hierarchical_label "Trailer_Fil_Aux"
 		(shape input)
 		(at 120.65 110.49 180)
 		(effects
@@ -3890,7 +3890,7 @@
 		)
 		(uuid "59dbddcb-16a5-4a0d-9261-8fc4be2e687a")
 	)
-	(hierarchical_label "Court_Aux_Trailer"
+	(hierarchical_label "Trailer_Court_Aux"
 		(shape input)
 		(at 204.47 93.98 0)
 		(effects
@@ -4182,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm, 50W"
+		(property "Value" "12Ω 50W"
 			(at 95.25 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4214,29 @@
 				)
 			)
 		)
-		(property "Description" "12 Ohm , 50 W"
+		(property "Description" "Résistance de test AUX bobinée, boîtier aluminium, 12 Ω ±5 % 50 W"
+			(at 95.25 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TE Connectivity (CGS)"
+			(at 95.25 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HSA5012RJ"
 			(at 95.25 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4458,7 +4480,7 @@
 				)
 			)
 		)
-		(property "Value" "KSD9700"
+		(property "Value" "Thermostat 95°C NC"
 			(at 83.82 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +4512,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent, normally closed"
+		(property "Description" "Thermostat bimétallique NC 95 °C ±5 °C, série R53 (comme SW12), bride + cosses rapides, 15 A 12 Vcc"
+			(at 82.55 103.632 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Cantherm"
+			(at 82.55 103.632 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CS709525Y"
 			(at 82.55 103.632 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +5041,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -5174,7 +5218,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 139.7 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +5251,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 142.24 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5240,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +6013,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 139.7 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -5980,7 +6046,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6013,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name yes)

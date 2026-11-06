@@ -9738,266 +9738,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SR205E104MARAP1:SR205E104MARAP1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 3.8109 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SR205E104MARAP1"
-				(at 0 -5.0885 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "AVX"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "081816"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SR205E104MARAP1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "KYOCERA AVX"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SR205E104MARAP1_0_0"
-				(rectangle
-					(start 0 -1.9069)
-					(end 0.635 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.9069 -1.9069)
-					(end 2.54 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SR655C106KAR:SR655C106KAR"
 			(pin_names
 				(offset 1.016)
@@ -11475,7 +11215,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TrailerDiagSymbols:SR205E104MARAP1"
+		(symbol "TrailerDiagSymbols:SR205C104KAR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -11495,7 +11235,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SR205E104MARAP1"
+			(property "Value" "SR205C104KAR"
 				(at 0 -5.0885 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11506,7 +11246,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+			(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11589,18 +11329,6 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
 			(property "STANDARD" "IPC 7351B"
 				(at 0 0 0)
 				(show_name no)
@@ -11625,19 +11353,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SR205E104MARAP1"
+			(property "MP" "SR205C104KAR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11673,7 +11389,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "SR205E104MARAP1_0_0"
+			(symbol "SR205C104KAR_0_0"
 				(rectangle
 					(start 0 -1.9069)
 					(end 0.635 1.905)
@@ -16754,7 +16470,7 @@
 		)
 		(uuid "ffd66951-a294-4c94-9ef0-0e79c62840e0")
 	)
-	(label "Sig_Jauge"
+	(label "Signal_Jauge"
 		(at 39.37 148.59 180)
 		(effects
 			(font
@@ -16784,7 +16500,7 @@
 		)
 		(uuid "0f3a65a9-a784-45e6-9e6c-67a4190ae4bb")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 175.26 82.55 0)
 		(effects
 			(font
@@ -16804,7 +16520,7 @@
 		)
 		(uuid "17a6ea89-4927-46de-ae79-c180c431d6a6")
 	)
-	(label "Sig_Jauge"
+	(label "Signal_Jauge"
 		(at 31.75 161.29 180)
 		(effects
 			(font
@@ -16874,7 +16590,7 @@
 		)
 		(uuid "4ae9c146-7b91-4d5a-822c-178f761783e3")
 	)
-	(label "Batt_Int_Shunt"
+	(label "Batt_Interne_Shunt"
 		(at 351.282 217.424 0)
 		(effects
 			(font
@@ -16964,7 +16680,7 @@
 		)
 		(uuid "6450aaf2-97f7-4391-8676-a7cbba3529d7")
 	)
-	(label "Batt_Int_Shunt"
+	(label "Batt_Interne_Shunt"
 		(at 120.65 57.15 0)
 		(effects
 			(font
@@ -17004,7 +16720,7 @@
 		)
 		(uuid "6cac2757-e3e8-4d47-b3d8-d38ba7fda10f")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 74.93 43.18 0)
 		(effects
 			(font
@@ -17024,7 +16740,7 @@
 		)
 		(uuid "7bdb7495-2324-47a9-aa93-6a8f7e27df0b")
 	)
-	(label "Sig_Jauge"
+	(label "Signal_Jauge"
 		(at 40.64 224.79 180)
 		(effects
 			(font
@@ -17104,7 +16820,7 @@
 		)
 		(uuid "8d75d97e-3797-46da-b5b2-2fe4ec138ada")
 	)
-	(label "Batt_Int_Shunt"
+	(label "Batt_Interne_Shunt"
 		(at 50.8 69.85 0)
 		(effects
 			(font
@@ -17144,7 +16860,7 @@
 		)
 		(uuid "a6213806-7236-44b4-a582-01860c6fb94a")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 102.87 80.01 180)
 		(effects
 			(font
@@ -17164,7 +16880,7 @@
 		)
 		(uuid "c0465e35-bfd4-4d09-a3eb-ce1bb19919ca")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 228.6 27.94 180)
 		(effects
 			(font
@@ -17224,7 +16940,7 @@
 		)
 		(uuid "d139a5b5-9045-40a5-a710-eb16211fc06b")
 	)
-	(label "Batt_Int_Shunt"
+	(label "Batt_Interne_Shunt"
 		(at 74.93 48.26 0)
 		(effects
 			(font
@@ -17254,7 +16970,7 @@
 		)
 		(uuid "de5c74bf-ba18-4806-94ac-d958656226a4")
 	)
-	(label "Batt_Int_Shunt"
+	(label "Batt_Interne_Shunt"
 		(at 49.53 48.26 180)
 		(effects
 			(font
@@ -17274,7 +16990,7 @@
 		)
 		(uuid "e2cae1af-0d13-4a28-bbba-a6104d1ca11f")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 31.75 67.31 180)
 		(effects
 			(font
@@ -17294,7 +17010,7 @@
 		)
 		(uuid "ec4a0a69-0af2-4e43-bb59-dac2b5f37535")
 	)
-	(label "VPwr_Selection"
+	(label "V_Source_Choisie"
 		(at 49.53 43.18 180)
 		(effects
 			(font
@@ -17364,7 +17080,7 @@
 		)
 		(uuid "fce5b3f9-46ed-4836-96e6-3fb71a5a6e12")
 	)
-	(global_label "Fac_Jauge_6"
+	(global_label "Facade_Jauge_6"
 		(shape input)
 		(at 140.97 218.44 0)
 		(fields_autoplaced yes)
@@ -17388,7 +17104,7 @@
 			)
 		)
 	)
-	(global_label "Fac_VLed_Jauge"
+	(global_label "Facade_VLed_Jauge"
 		(shape input)
 		(at 88.9 176.53 0)
 		(fields_autoplaced yes)
@@ -17436,7 +17152,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_8"
+	(global_label "Facade_Jauge_8"
 		(shape input)
 		(at 140.97 208.28 0)
 		(fields_autoplaced yes)
@@ -17460,7 +17176,7 @@
 			)
 		)
 	)
-	(global_label "Fac_D152_K"
+	(global_label "Facade_DEL_Inversion"
 		(shape input)
 		(at 228.6 44.45 180)
 		(fields_autoplaced yes)
@@ -17520,7 +17236,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_2"
+	(global_label "Facade_Jauge_2"
 		(shape input)
 		(at 140.97 238.76 0)
 		(fields_autoplaced yes)
@@ -17544,7 +17260,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_5"
+	(global_label "Facade_Jauge_5"
 		(shape input)
 		(at 140.97 223.52 0)
 		(fields_autoplaced yes)
@@ -17688,7 +17404,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_10"
+	(global_label "Facade_Jauge_10"
 		(shape input)
 		(at 140.97 198.12 0)
 		(fields_autoplaced yes)
@@ -17760,7 +17476,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_9"
+	(global_label "Facade_Jauge_9"
 		(shape input)
 		(at 140.97 203.2 0)
 		(fields_autoplaced yes)
@@ -17784,7 +17500,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_1"
+	(global_label "Facade_Jauge_1"
 		(shape input)
 		(at 140.97 243.84 0)
 		(fields_autoplaced yes)
@@ -17808,7 +17524,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_3"
+	(global_label "Facade_Jauge_3"
 		(shape input)
 		(at 140.97 233.68 0)
 		(fields_autoplaced yes)
@@ -17832,7 +17548,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_7"
+	(global_label "Facade_Jauge_7"
 		(shape input)
 		(at 140.97 213.36 0)
 		(fields_autoplaced yes)
@@ -17856,7 +17572,7 @@
 			)
 		)
 	)
-	(global_label "Fac_VM_Mesure"
+	(global_label "Facade_VM_Mesure"
 		(shape input)
 		(at 246.38 152.4 180)
 		(fields_autoplaced yes)
@@ -17880,7 +17596,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Jauge_4"
+	(global_label "Facade_Jauge_4"
 		(shape input)
 		(at 140.97 228.6 0)
 		(fields_autoplaced yes)
@@ -18017,7 +17733,7 @@
 				)
 			)
 		)
-		(property "Value" ".05 Ohm 20W"
+		(property "Value" "0.05Ω 30W"
 			(at 121.666 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18049,7 +17765,29 @@
 				)
 			)
 		)
-		(property "Description" ".05 Ohm 20W Resistor"
+		(property "Description" "Shunt INT, couche épaisse TO-220 isolé 0,05 Ω ±1 % 30 W, −55 à +150 °C, sur la plaque"
+			(at 121.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Caddock"
+			(at 121.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP930-0.050-1%"
 			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -18109,7 +17847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF4905"
+		(property "Value" "IRF4905PBF"
 			(at 229.87 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18142,7 +17880,29 @@
 				)
 			)
 		)
-		(property "Description" "-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"
+		(property "Description" "MOSFET P −55 V −74 A, TO-220"
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Infineon"
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "IRF4905PBF"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18183,7 +17943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TrailerDiagSymbols:SR205E104MARAP1")
+		(lib_id "TrailerDiagSymbols:SR205C104KAR")
 		(at 45.72 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -18204,7 +17964,7 @@
 				)
 			)
 		)
-		(property "Value" "SR205E104MARAP1"
+		(property "Value" "100nF 50V"
 			(at 46.99 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +17974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+		(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 			(at 45.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18237,7 +17997,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+		(property "Description" "Condensateur céramique X7R 100 nF 50 V ±10 %, pas 2,54 mm, −55 à +125 °C"
 			(at 45.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18249,7 +18009,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 45.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR205C104KAR"
+			(at 45.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 45.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18285,30 +18069,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 45.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 45.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC 7351B"
 			(at 45.72 135.89 0)
 			(hide yes)
@@ -18333,31 +18093,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 45.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SR205E104MARAP1"
-			(at 45.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
+		(property "MP" "SR205C104KAR"
 			(at 45.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18498,7 +18234,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "Batt. ext. 2P"
 			(at 31.75 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -18531,7 +18267,7 @@
 				)
 			)
 		)
-		(property "Description" "2 Pins non-protected generic plug"
+		(property "Description" "Prise de batterie externe IP67 à bride (Deutsch DT04 préféré) + capuchon"
 			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -18590,7 +18326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "18650 Li-ion"
 			(at 144.78 33.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18623,7 +18359,29 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Cellule Li-ion 18650 2800 mAh, ≥ 25 A continu ; charge 0 à 60 °C"
+			(at 140.97 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molicel"
+			(at 140.97 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INR-18650-P28A"
 			(at 140.97 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19072,7 +18830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SR205E104MARAP1:SR205E104MARAP1")
+		(lib_id "TrailerDiagSymbols:SR205C104KAR")
 		(at 309.88 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -19093,7 +18851,7 @@
 				)
 			)
 		)
-		(property "Value" "SR205E104MARAP1"
+		(property "Value" "100nF 50V"
 			(at 308.61 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19103,7 +18861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+		(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 			(at 309.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19126,7 +18884,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+		(property "Description" "Condensateur céramique X7R 100 nF 50 V ±10 %, pas 2,54 mm, −55 à +125 °C"
 			(at 309.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19138,7 +18896,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 309.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR205C104KAR"
+			(at 309.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 309.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19174,30 +18956,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 309.88 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 309.88 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC 7351B"
 			(at 309.88 184.15 0)
 			(hide yes)
@@ -19222,31 +18980,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 309.88 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SR205E104MARAP1"
-			(at 309.88 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
+		(property "MP" "SR205C104KAR"
 			(at 309.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19664,7 +19398,7 @@
 				)
 			)
 		)
-		(property "Value" ".03 Ohm 20W"
+		(property "Value" "0.03Ω 30W"
 			(at 181.61 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19696,7 +19430,29 @@
 				)
 			)
 		)
-		(property "Description" "20W Resistor"
+		(property "Description" "Shunt de bus 0,03 Ω 30 W, TO-220 isolé, −55 à +150 °C"
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Caddock"
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP930-0.030-5%"
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -20081,7 +19837,7 @@
 				)
 			)
 		)
-		(property "Value" "3296W-1-102LF"
+		(property "Value" "1kΩ"
 			(at 57.15 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20114,7 +19870,31 @@
 				)
 			)
 		)
-		(property "Description" "Trimmer, Cermet, Rest 1 Kilohms, PCB, 25 Turns, Pwr-Rtg 0.5W | Bourns 3296W-1-102LF"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 1 kΩ ½ W"
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "3296W-1-102LF"
 			(at 57.15 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20456,7 +20236,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "Mega-Fit 2x04"
 			(at 62.23 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20488,7 +20268,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase Mega-Fit verticale 2 × 4, pas 5,70 mm, −40 à +105 °C"
+			(at 60.96 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 60.96 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0768290008"
 			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20555,7 +20357,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BMS 3S"
 			(at 160.02 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20587,7 +20389,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BMS 3S ≥ 30-40 A continu, port commun, équilibrage, court-circuit > ~80 A crête"
 			(at 160.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21766,7 +21568,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -22220,7 +22022,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "Mega-Fit 2x02"
 			(at 166.37 149.8599 90)
 			(hide yes)
 			(show_name no)
@@ -22254,7 +22056,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase Mega-Fit verticale 2 × 2, pas 5,70 mm, 23 A/contact"
+			(at 161.29 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 161.29 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0768290004"
 			(at 161.29 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22624,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Value" "3296W1103LF"
+		(property "Value" "10kΩ"
 			(at 320.04 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22657,7 +22481,31 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 320.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 320.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 320.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -22753,7 +22601,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "3296W-1-103 LF"
+		(property "MP" "3296W-1-103LF"
 			(at 320.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -23171,7 +23019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FG26X7R1E106KRT06"
+		(property "Value" "10µF 25V"
 			(at 265.43 180.3399 90)
 			(hide yes)
 			(show_name no)
@@ -23206,7 +23054,31 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R Radial"
+		(property "Description" "Condensateur céramique X7R 10 µF 25 V, traversant"
+			(at 261.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Fabricant" "TDK"
+			(at 261.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "FG26X7R1E106KRT06"
 			(at 261.62 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -23482,7 +23354,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fusible 25A"
 			(at 156.21 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23514,7 +23386,29 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fusible ATO (ATOF 287) 25 A 32 V ; porte-fusible en ligne IP67 FHAC0003ZXJB (25 A, 14 AWG)"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Littelfuse"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0287025.PXCN"
 			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23732,7 +23626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SR655C106KAR"
+		(property "Value" "10µF 50V"
 			(at 207.01 179.0699 90)
 			(hide yes)
 			(show_name no)
@@ -23767,7 +23661,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF 50V X7R Radial"
+		(property "Description" "Condensateur céramique X7R 10 µF 50 V, traversant"
 			(at 210.82 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -23779,7 +23673,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Kyocera AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 210.82 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR655C106KAR"
+			(at 210.82 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 210.82 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -23899,7 +23817,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Kyocera AVX"
+		(property "MANUFACTURER" "KYOCERA AVX"
 			(at 210.82 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -23927,7 +23845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TrailerDiagSymbols:SR205E104MARAP1")
+		(lib_id "TrailerDiagSymbols:SR205C104KAR")
 		(at 73.66 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -23948,7 +23866,7 @@
 				)
 			)
 		)
-		(property "Value" "SR205E104MARAP1"
+		(property "Value" "100nF 50V"
 			(at 74.93 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,7 +23876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+		(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -23981,7 +23899,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+		(property "Description" "Condensateur céramique X7R 100 nF 50 V ±10 %, pas 2,54 mm, −55 à +125 °C"
 			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -23993,7 +23911,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 73.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR205C104KAR"
+			(at 73.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24029,30 +23971,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 73.66 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 73.66 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC 7351B"
 			(at 73.66 182.88 0)
 			(hide yes)
@@ -24077,31 +23995,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 73.66 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SR205E104MARAP1"
-			(at 73.66 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
+		(property "MP" "SR205C104KAR"
 			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24163,7 +24057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "18650 Li-ion"
 			(at 144.78 41.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24196,7 +24090,29 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Cellule Li-ion 18650 2800 mAh, ≥ 25 A continu ; charge 0 à 60 °C"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molicel"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INR-18650-P28A"
 			(at 140.97 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24341,7 +24257,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -24356,7 +24272,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_2x5mm_Horizontal_Red"
+		(property "Value" "RGB 5mm CA (rouge)"
 			(at 251.46 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -24389,7 +24305,29 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, Horizontal 2x5mm Rectangular THT, Alternate KiCad Library"
+		(property "Description" "Voyant d'alarme : même DEL RGB, puce rouge seule"
+			(at 251.46 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 251.46 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 251.46 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -24868,7 +24806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "18650 Li-ion"
 			(at 144.78 26.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24901,7 +24839,29 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Cellule Li-ion 18650 2800 mAh, ≥ 25 A continu ; charge 0 à 60 °C"
+			(at 140.97 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molicel"
+			(at 140.97 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INR-18650-P28A"
 			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -25439,7 +25399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FG24X7R1H225KRT06"
+		(property "Value" "2.2µF 50V"
 			(at 173.99 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25472,7 +25432,29 @@
 				)
 			)
 		)
-		(property "Description" "Commercial Grade, Halogen Free Dipped Radial / Ammo Pack"
+		(property "Description" "Condensateur céramique X7R 2,2 µF 50 V, traversant"
+			(at 170.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TDK"
+			(at 170.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FG24X7R1H225KRT06"
 			(at 170.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -25664,7 +25646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "Mega-Fit 2x02"
 			(at 86.36 19.6851 90)
 			(hide yes)
 			(show_name no)
@@ -25698,7 +25680,29 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Embase Mega-Fit verticale 2 × 2, pas 5,70 mm, 23 A/contact"
+			(at 90.17 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 90.17 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0768290004"
 			(at 90.17 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -26076,7 +26080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TrailerDiagSymbols:SR205E104MARAP1")
+		(lib_id "TrailerDiagSymbols:SR205C104KAR")
 		(at 350.52 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -26097,7 +26101,7 @@
 				)
 			)
 		)
-		(property "Value" "SR205E104MARAP1"
+		(property "Value" "100nF 50V"
 			(at 351.79 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -26108,7 +26112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SR205E104MARAP1:CAPRR254W50L508T317H508"
+		(property "Footprint" "SR205C104KAR:CAPRR254W50L508T317H508"
 			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -26131,7 +26135,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - Leaded 50V .1uF 20%"
+		(property "Description" "Condensateur céramique X7R 100 nF 50 V ±10 %, pas 2,54 mm, −55 à +125 °C"
 			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -26143,7 +26147,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 350.52 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR205C104KAR"
+			(at 350.52 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -26179,30 +26207,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 350.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=eda"
-			(at 350.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC 7351B"
 			(at 350.52 115.57 0)
 			(hide yes)
@@ -26227,31 +26231,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR205E104MARAP1/AVX/view-part/?ref=snap"
-			(at 350.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SR205E104MARAP1"
-			(at 350.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
+		(property "MP" "SR205C104KAR"
 			(at 350.52 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -26312,7 +26292,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "Mega-Fit 2x02"
 			(at 120.65 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26344,7 +26324,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Embase Mega-Fit verticale 2 × 2, pas 5,70 mm, 23 A/contact"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Molex"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0768290004"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -26398,7 +26400,7 @@
 				)
 			)
 		)
-		(property "Value" "SR305C334KAR"
+		(property "Value" "330nF 50V"
 			(at 46.99 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26431,7 +26433,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor Ceramic, Radial .33uF, 50V, 10%, X7R | AVX SR305C334KAR"
+		(property "Description" "Condensateur céramique X7R 330 nF 50 V, traversant"
 			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -26443,7 +26445,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "AVX"
+		(property "Fabricant" "KYOCERA AVX"
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SR305C334KAR"
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KYOCERA AVX"
 			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27562,7 +27588,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fusible 15A"
 			(at 55.88 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27594,7 +27620,29 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fusible ATO (ATOF 287) 15 A 32 V, −40 à +105 °C ; porte-fusible en ligne IP67 FHAC0001ZXJ (20 A, 16 AWG)"
+			(at 55.88 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Littelfuse"
+			(at 55.88 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0287015.PXCN"
 			(at 55.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -27642,7 +27690,7 @@
 				)
 			)
 		)
-		(property "Value" "FG26X7R1E106KRT06"
+		(property "Value" "10µF 25V"
 			(at 46.99 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27675,7 +27723,31 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R Radial"
+		(property "Description" "Condensateur céramique X7R 10 µF 25 V, traversant"
+			(at 45.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Fabricant" "TDK"
+			(at 45.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "FG26X7R1E106KRT06"
 			(at 45.72 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -28219,7 +28291,7 @@
 				(justify right)
 			)
 		)
-		(pin "Batt_Int_Shunt" input
+		(pin "Batt_Interne_Shunt" input
 			(at 342.392 217.424 0)
 			(uuid "461e5dc9-0f56-420b-9ebc-4d054dddb6a3")
 			(effects

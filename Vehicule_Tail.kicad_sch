@@ -2469,7 +2469,7 @@
 		)
 		(uuid "f99c372c-ef9c-47ae-9ddd-ca8e7030eba1")
 	)
-	(label "Q11_Drain"
+	(label "Injection_Drain"
 		(at 135.89 49.53 180)
 		(effects
 			(font
@@ -2479,7 +2479,7 @@
 		)
 		(uuid "054d480b-8b08-417b-b304-42a38508d09f")
 	)
-	(label "Q11_Drain"
+	(label "Injection_Drain"
 		(at 71.12 156.21 0)
 		(effects
 			(font
@@ -2499,7 +2499,7 @@
 		)
 		(uuid "266b1c99-bbe1-454b-b8a2-aa03247adf07")
 	)
-	(label "Tail_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 144.78 64.77 0)
 		(effects
 			(font
@@ -2509,7 +2509,7 @@
 		)
 		(uuid "51ce5bcb-60fa-430a-9244-991b6a2c63e5")
 	)
-	(label "Tail_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 62.23 97.79 180)
 		(effects
 			(font
@@ -2529,7 +2529,7 @@
 		)
 		(uuid "6e47172b-bf4c-4447-8a60-d3c15bd24c47")
 	)
-	(label "Injection_Tail_Fault"
+	(label "Injection_Fault"
 		(at 109.22 45.72 180)
 		(effects
 			(font
@@ -2549,7 +2549,7 @@
 		)
 		(uuid "a320d653-34f2-4c83-ad8d-3bebfe424f6a")
 	)
-	(label "Tail_Vehic_Shunt_Haut"
+	(label "Vehic_Shunt_Haut"
 		(at 66.04 148.59 180)
 		(effects
 			(font
@@ -3045,7 +3045,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Court_Tail_Vehic"
+	(hierarchical_label "Vehic_Court_Tail"
 		(shape input)
 		(at 148.59 100.33 0)
 		(effects
@@ -3056,7 +3056,7 @@
 		)
 		(uuid "2707c02f-6f1c-4fcc-989b-4263f6de3045")
 	)
-	(hierarchical_label "Ouvert_Tail_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Tail"
 		(shape input)
 		(at 157.48 78.74 0)
 		(effects
@@ -3067,7 +3067,7 @@
 		)
 		(uuid "a4aa7582-e5c4-4773-b42c-c64786fabcca")
 	)
-	(hierarchical_label "Veh_Tail"
+	(hierarchical_label "Vehic_Fil_Tail"
 		(shape input)
 		(at 135.89 43.18 180)
 		(effects
@@ -3078,7 +3078,7 @@
 		)
 		(uuid "b112c90e-d54e-47ce-9304-c092e0f40d67")
 	)
-	(hierarchical_label "Veh_Tail"
+	(hierarchical_label "Vehic_Fil_Tail"
 		(shape input)
 		(at 54.61 156.21 180)
 		(effects
@@ -3280,7 +3280,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 193.04 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -3313,7 +3313,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 195.58 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 195.58 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 195.58 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3346,7 +3368,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3636,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Value" "12 Ohm - 25W"
+		(property "Value" "12Ω 25W"
 			(at 62.23 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3690,29 @@
 				)
 			)
 		)
-		(property "Description" "25W Resistor"
+		(property "Description" "Résistance de charge bobinée, boîtier aluminium, 12 Ω ±5 % 25 W, −55 à +200 °C, sur la plaque"
+			(at 62.23 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TE Connectivity (CGS)"
+			(at 62.23 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HSA2512RJ"
 			(at 62.23 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4048,7 +4092,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2 Ohm Shunt"
+		(property "Value" "0.2Ω 5W"
 			(at 74.93 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,7 +4124,29 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "Shunt VEHICLE, résistance cimentée axiale 0,2 Ω ±5 % 5 W, 22 × 9,5 × 9 mm, −55 à +155 °C"
+			(at 74.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "YAGEO"
+			(at 74.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SQP500JB-0R2"
 			(at 74.93 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4803,7 +4869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 193.04 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -4836,7 +4902,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 195.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 195.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 195.58 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4869,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 193.04 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4953,7 +5041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Potentiometer"
+		(property "Value" "10kΩ"
 			(at 193.04 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4986,7 +5074,29 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer for Simulation"
+		(property "Description" "Potentiomètre multitours 25 tours, cermet 10 kΩ ½ W"
+			(at 195.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Bourns"
+			(at 195.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-1-103LF"
 			(at 195.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5129,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=1k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.4"
 			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)

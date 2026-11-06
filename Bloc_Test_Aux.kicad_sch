@@ -3004,7 +3004,7 @@
 		)
 		(uuid "fefe2afb-0722-42d2-91de-5fcfe966fe90")
 	)
-	(label "Court_T_Actif_Aux"
+	(label "Trailer_Court_Actif"
 		(at 123.19 80.01 180)
 		(effects
 			(font
@@ -3014,7 +3014,7 @@
 		)
 		(uuid "0d77c046-d65c-485f-aced-2ad4cd3f7c3a")
 	)
-	(label "Court_T_Actif_Aux"
+	(label "Trailer_Court_Actif"
 		(at 66.04 63.5 0)
 		(effects
 			(font
@@ -3024,7 +3024,7 @@
 		)
 		(uuid "157353c5-618b-48e3-b6c3-ce9ed011472c")
 	)
-	(label "Not_Btn_Aux"
+	(label "Not_Btn"
 		(at 242.57 48.26 0)
 		(effects
 			(font
@@ -3034,7 +3034,7 @@
 		)
 		(uuid "16a34a55-7b48-4faf-b0d9-353dd8e48ab1")
 	)
-	(label "Ouvert_Ou_Bleu_Aux"
+	(label "Ouvert_Ou_Bleu"
 		(at 41.91 162.56 180)
 		(effects
 			(font
@@ -3044,7 +3044,7 @@
 		)
 		(uuid "21402d88-7f74-4e4f-bed5-591f1064cc46")
 	)
-	(label "Bleu_Aux"
+	(label "Bleu"
 		(at 31.75 143.51 180)
 		(effects
 			(font
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "22f1800c-7241-4512-b2a7-3aaead0d386c")
 	)
-	(label "Ouvert_T_Actif_Aux"
+	(label "Trailer_Ouvert_Actif"
 		(at 41.91 88.9 180)
 		(effects
 			(font
@@ -3064,7 +3064,7 @@
 		)
 		(uuid "2879902b-ca4e-491b-80b3-50c4d28c4db5")
 	)
-	(label "Rouge_Enable_Aux"
+	(label "Rouge_Enable"
 		(at 223.52 107.95 180)
 		(effects
 			(font
@@ -3074,7 +3074,7 @@
 		)
 		(uuid "2a842e79-e4df-459d-9eb2-b038a61ed90d")
 	)
-	(label "Fault_Actif_Aux"
+	(label "Fault_Actif"
 		(at 88.9 184.15 180)
 		(effects
 			(font
@@ -3084,7 +3084,7 @@
 		)
 		(uuid "35e2aa92-2167-45f6-8537-7fa83c70a112")
 	)
-	(label "Bleu_Aux"
+	(label "Bleu"
 		(at 83.82 152.4 180)
 		(effects
 			(font
@@ -3094,7 +3094,7 @@
 		)
 		(uuid "37bb8f18-a16f-40e0-8ab7-a0260d63ea32")
 	)
-	(label "Court_V_Actif_Aux"
+	(label "Vehic_Court_Actif"
 		(at 29.21 63.5 0)
 		(effects
 			(font
@@ -3104,7 +3104,7 @@
 		)
 		(uuid "405099ae-d5ed-4ebb-89be-41101f40c110")
 	)
-	(label "Court_V_Actif_Aux"
+	(label "Vehic_Court_Actif"
 		(at 81.28 80.01 180)
 		(effects
 			(font
@@ -3114,7 +3114,7 @@
 		)
 		(uuid "5cd68b8c-5253-414f-83b8-104515ac43a1")
 	)
-	(label "Ouvert_Ou_Bleu_Aux"
+	(label "Ouvert_Ou_Bleu"
 		(at 223.52 149.86 180)
 		(effects
 			(font
@@ -3124,7 +3124,7 @@
 		)
 		(uuid "6fb1fe6c-0846-43f3-b456-b5704dc24a9d")
 	)
-	(label "Ouvert_V_Actif_Aux"
+	(label "Vehic_Ouvert_Actif"
 		(at 110.49 63.5 0)
 		(effects
 			(font
@@ -3134,7 +3134,7 @@
 		)
 		(uuid "71047aa6-997f-4e09-b646-f01aa2641a11")
 	)
-	(label "Ouvert_Aux"
+	(label "Ouvert"
 		(at 34.29 106.68 180)
 		(effects
 			(font
@@ -3144,7 +3144,7 @@
 		)
 		(uuid "76ee8f2e-cf32-4f5e-9b77-411206b83ca9")
 	)
-	(label "Rouge_Enable_Aux"
+	(label "Rouge_Enable"
 		(at 149.86 163.83 180)
 		(effects
 			(font
@@ -3154,7 +3154,7 @@
 		)
 		(uuid "7c97fcc7-c957-4115-a60e-0fb0de674872")
 	)
-	(label "Fault_Actif_Aux"
+	(label "Fault_Actif"
 		(at 87.63 165.1 180)
 		(effects
 			(font
@@ -3164,7 +3164,7 @@
 		)
 		(uuid "9072337f-36a0-4af6-9eff-4ce6f3a0083e")
 	)
-	(label "Court_Aux"
+	(label "Court"
 		(at 73.66 106.68 180)
 		(effects
 			(font
@@ -3174,7 +3174,7 @@
 		)
 		(uuid "9686ccc3-d887-46b5-b4b2-3dd0e9420d68")
 	)
-	(label "Ouvert_Aux"
+	(label "Ouvert"
 		(at 83.82 143.51 180)
 		(effects
 			(font
@@ -3184,7 +3184,7 @@
 		)
 		(uuid "99e93d05-fefa-4252-bb68-e61e8c076541")
 	)
-	(label "Ouvert_Ou_Bleu_Aux"
+	(label "Ouvert_Ou_Bleu"
 		(at 40.64 172.72 0)
 		(effects
 			(font
@@ -3194,7 +3194,7 @@
 		)
 		(uuid "9adbbe15-365b-476e-8d37-a6e841e34036")
 	)
-	(label "Ouvert_Aux"
+	(label "Ouvert"
 		(at 139.7 144.78 180)
 		(effects
 			(font
@@ -3204,7 +3204,7 @@
 		)
 		(uuid "aeac4a68-53e9-47ef-a365-acd6b94232d1")
 	)
-	(label "Court_Aux"
+	(label "Court"
 		(at 33.02 180.34 180)
 		(effects
 			(font
@@ -3214,7 +3214,7 @@
 		)
 		(uuid "b698144e-2030-49c4-8920-872f0c16c406")
 	)
-	(label "Ouvert_Aux"
+	(label "Ouvert"
 		(at 34.29 134.62 180)
 		(effects
 			(font
@@ -3224,7 +3224,7 @@
 		)
 		(uuid "c6f4ec4d-71c0-45bd-b3af-ee88355c00e5")
 	)
-	(label "Ouvert_T_Actif_Aux"
+	(label "Trailer_Ouvert_Actif"
 		(at 151.13 64.77 0)
 		(effects
 			(font
@@ -3234,7 +3234,7 @@
 		)
 		(uuid "cd44325f-ee55-46d0-9152-3276cba018f4")
 	)
-	(label "Court_Aux"
+	(label "Court"
 		(at 142.24 135.89 180)
 		(effects
 			(font
@@ -3244,7 +3244,7 @@
 		)
 		(uuid "cfdbb028-f6ec-41fb-8c4d-2feb1d5d0870")
 	)
-	(label "Ouvert_V_Actif_Aux"
+	(label "Vehic_Ouvert_Actif"
 		(at 41.91 80.01 180)
 		(effects
 			(font
@@ -3254,7 +3254,7 @@
 		)
 		(uuid "d28ffa46-c19e-4f3b-83a5-56de3b5328cc")
 	)
-	(label "Vert_Enable_Aux"
+	(label "Vert_Enable"
 		(at 223.52 129.54 180)
 		(effects
 			(font
@@ -3264,7 +3264,7 @@
 		)
 		(uuid "d40502df-0f1e-459b-a14d-3e071b49c651")
 	)
-	(label "Vert_Enable_Aux"
+	(label "Vert_Enable"
 		(at 99.06 171.45 0)
 		(effects
 			(font
@@ -3274,7 +3274,7 @@
 		)
 		(uuid "d423c705-8e21-42cd-9111-923153d87bcb")
 	)
-	(label "Bleu_Aux"
+	(label "Bleu"
 		(at 242.57 63.5 0)
 		(effects
 			(font
@@ -3284,7 +3284,7 @@
 		)
 		(uuid "de99d7b6-1809-40b1-832b-ef18744672d7")
 	)
-	(label "Not_Btn_Aux"
+	(label "Not_Btn"
 		(at 201.93 35.56 180)
 		(effects
 			(font
@@ -3294,7 +3294,7 @@
 		)
 		(uuid "e98c3a78-f3fd-4849-86a9-fdf3bbf00221")
 	)
-	(label "Court_T_Actif_Aux"
+	(label "Trailer_Court_Actif"
 		(at 81.28 88.9 180)
 		(effects
 			(font
@@ -3304,7 +3304,7 @@
 		)
 		(uuid "f1bf1ea7-d264-4c27-a62e-5aadd36fa2a5")
 	)
-	(label "Court_Aux"
+	(label "Court"
 		(at 83.82 134.62 180)
 		(effects
 			(font
@@ -3362,7 +3362,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 139.7 80.01 0)
 		(fields_autoplaced yes)
@@ -3386,7 +3386,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 38.1 46.99 0)
 		(fields_autoplaced yes)
@@ -3410,7 +3410,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 119.38 48.26 0)
 		(fields_autoplaced yes)
@@ -3458,7 +3458,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_B"
+	(global_label "Facade_Aux_B"
 		(shape input)
 		(at 241.3 142.24 0)
 		(fields_autoplaced yes)
@@ -3578,7 +3578,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_R"
+	(global_label "Facade_Aux_R"
 		(shape input)
 		(at 241.3 100.33 0)
 		(fields_autoplaced yes)
@@ -3674,7 +3674,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 162.56 53.34 0)
 		(fields_autoplaced yes)
@@ -3842,7 +3842,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Aux"
+	(global_label "Facade_Btn_Aux"
 		(shape input)
 		(at 201.93 53.34 180)
 		(fields_autoplaced yes)
@@ -3866,7 +3866,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Aux_G"
+	(global_label "Facade_Aux_G"
 		(shape input)
 		(at 241.3 121.92 0)
 		(fields_autoplaced yes)
@@ -4034,7 +4034,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Ouvert_Aux_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Aux"
 		(shape input)
 		(at 118.11 36.83 0)
 		(effects
@@ -4045,7 +4045,7 @@
 		)
 		(uuid "a18b117a-fc8d-48e7-8c2a-bce7e61a8964")
 	)
-	(hierarchical_label "Ouvert_Aux_Trailer"
+	(hierarchical_label "Trailer_Ouvert_Aux"
 		(shape input)
 		(at 161.29 35.56 0)
 		(effects
@@ -4056,7 +4056,7 @@
 		)
 		(uuid "c62e423f-c25c-4c7a-a17a-fa65bbd7928f")
 	)
-	(hierarchical_label "Court_Aux_Trailer"
+	(hierarchical_label "Trailer_Court_Aux"
 		(shape input)
 		(at 76.2 36.83 0)
 		(effects
@@ -4067,7 +4067,7 @@
 		)
 		(uuid "da844ebe-f6ac-4d52-b5ab-8982a05ebf8b")
 	)
-	(hierarchical_label "Court_Aux_Vehic"
+	(hierarchical_label "Vehic_Court_Aux"
 		(shape input)
 		(at 38.1 36.83 0)
 		(effects
@@ -4822,7 +4822,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -4838,7 +4838,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
+		(property "Value" "RGB 5mm CA"
 			(at 269.24 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,7 +4870,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 269.24 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 269.24 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 269.24 116.84 0)
 			(hide yes)
 			(show_name no)

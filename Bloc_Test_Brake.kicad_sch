@@ -2802,7 +2802,7 @@
 		)
 		(uuid "fe279e1b-58c8-4be8-b077-95add3ad7758")
 	)
-	(global_label "Fac_Brake_B"
+	(global_label "Facade_Brake_B"
 		(shape input)
 		(at 246.38 36.83 180)
 		(fields_autoplaced yes)
@@ -2826,7 +2826,7 @@
 			)
 		)
 	)
-	(label "Court_Brake"
+	(label "Court"
 		(at 140.97 55.88 180)
 		(effects
 			(font
@@ -2836,7 +2836,7 @@
 		)
 		(uuid "059e3b90-27c2-4c54-8872-c25a1fd87cc9")
 	)
-	(global_label "Fac_Btn_Brake"
+	(global_label "Facade_Btn_Brake"
 		(shape input)
 		(at 142.24 120.65 180)
 		(fields_autoplaced yes)
@@ -2860,7 +2860,7 @@
 			)
 		)
 	)
-	(label "Bleu_Brake"
+	(label "Bleu"
 		(at 64.77 109.22 0)
 		(effects
 			(font
@@ -2870,7 +2870,7 @@
 		)
 		(uuid "1bfa68b9-f5fd-451c-8602-3f8e74308dbb")
 	)
-	(label "Ouvert_V_Actif_Brake"
+	(label "Vehic_Ouvert_Actif"
 		(at 83.82 158.75 180)
 		(effects
 			(font
@@ -2880,7 +2880,7 @@
 		)
 		(uuid "3c904ace-2f2d-4ad6-ac63-afe2529051dd")
 	)
-	(label "Court_T_Actif_Brake"
+	(label "Trailer_Court_Actif"
 		(at 134.62 158.75 180)
 		(effects
 			(font
@@ -2890,7 +2890,7 @@
 		)
 		(uuid "3fc891a3-2e5a-4357-b80a-351663fee5e6")
 	)
-	(global_label "Fac_Brake_R"
+	(global_label "Facade_Brake_R"
 		(shape input)
 		(at 246.38 26.67 180)
 		(fields_autoplaced yes)
@@ -2914,7 +2914,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_G"
+	(global_label "Facade_Brake_G"
 		(shape input)
 		(at 246.38 31.75 180)
 		(fields_autoplaced yes)
@@ -2938,7 +2938,7 @@
 			)
 		)
 	)
-	(label "Court_V_Actif_Brake"
+	(label "Vehic_Court_Actif"
 		(at 45.72 158.75 180)
 		(effects
 			(font
@@ -2948,7 +2948,7 @@
 		)
 		(uuid "4cc94028-bd7f-446b-b96f-af848da2c320")
 	)
-	(label "Bleu_Brake"
+	(label "Bleu"
 		(at 137.16 36.83 180)
 		(effects
 			(font
@@ -2958,7 +2958,7 @@
 		)
 		(uuid "55a10c80-1fd7-4104-9bf9-b4e410184315")
 	)
-	(label "Not_Btn_Brake"
+	(label "Not_Btn"
 		(at 46.99 124.46 180)
 		(effects
 			(font
@@ -2968,7 +2968,7 @@
 		)
 		(uuid "58411de0-8de6-470a-a5a5-611ba33b7757")
 	)
-	(label "Court_Brake"
+	(label "Court"
 		(at 58.42 152.4 0)
 		(effects
 			(font
@@ -2978,7 +2978,7 @@
 		)
 		(uuid "5b2a4a01-5453-4b7f-9861-f54f50f5ca22")
 	)
-	(label "Court_T_Actif_Brake"
+	(label "Trailer_Court_Actif"
 		(at 95.25 50.8 0)
 		(effects
 			(font
@@ -2988,7 +2988,7 @@
 		)
 		(uuid "5b48bafa-7364-41e0-ab4d-a7b33baaa927")
 	)
-	(label "Ouvert_V_Actif_Brake"
+	(label "Vehic_Ouvert_Actif"
 		(at 49.53 93.98 180)
 		(effects
 			(font
@@ -2998,7 +2998,7 @@
 		)
 		(uuid "60a67856-cfce-4bcf-a8de-cd549fd46400")
 	)
-	(label "Ouvert_Brake"
+	(label "Ouvert"
 		(at 208.28 107.95 180)
 		(effects
 			(font
@@ -3008,7 +3008,7 @@
 		)
 		(uuid "64b68653-34ae-4ed1-95fb-0ffeec2637da")
 	)
-	(label "Ouvert_Ou_Bleu_Brake"
+	(label "Ouvert_Ou_Bleu"
 		(at 153.67 25.4 0)
 		(effects
 			(font
@@ -3018,7 +3018,7 @@
 		)
 		(uuid "7820c459-6407-43c2-b996-a3db44e236a3")
 	)
-	(label "Vert_Enable_Brake"
+	(label "Vert_Enable"
 		(at 224.79 146.05 0)
 		(effects
 			(font
@@ -3028,7 +3028,7 @@
 		)
 		(uuid "813dfbaa-8acc-495a-8101-176b6fc23388")
 	)
-	(label "Ouvert_T_Actif_Brake"
+	(label "Trailer_Ouvert_Actif"
 		(at 83.82 170.18 180)
 		(effects
 			(font
@@ -3038,7 +3038,7 @@
 		)
 		(uuid "858122fd-5393-46bb-b123-c0022e869927")
 	)
-	(label "Not_Btn_Brake"
+	(label "Not_Btn"
 		(at 146.05 115.57 180)
 		(effects
 			(font
@@ -3048,7 +3048,7 @@
 		)
 		(uuid "882dbb31-2ba0-471a-ade5-df725d3a8d51")
 	)
-	(label "Ouvert_Brake"
+	(label "Ouvert"
 		(at 95.25 152.4 0)
 		(effects
 			(font
@@ -3058,7 +3058,7 @@
 		)
 		(uuid "a26c61f7-d9d0-4b54-9461-063eab3452b9")
 	)
-	(label "Vert_Enable_Brake"
+	(label "Vert_Enable"
 		(at 203.2 33.02 180)
 		(effects
 			(font
@@ -3068,7 +3068,7 @@
 		)
 		(uuid "b7914403-f6df-429e-be09-1b368ca88897")
 	)
-	(label "Ouvert_Brake"
+	(label "Ouvert"
 		(at 187.96 85.09 180)
 		(effects
 			(font
@@ -3078,7 +3078,7 @@
 		)
 		(uuid "b9671127-1eb0-4f4f-b44a-78a74c81d241")
 	)
-	(label "Court_T_Actif_Brake"
+	(label "Trailer_Court_Actif"
 		(at 45.72 170.18 180)
 		(effects
 			(font
@@ -3088,7 +3088,7 @@
 		)
 		(uuid "bf549f36-31c3-4f86-9f95-0411c052acaf")
 	)
-	(label "Ouvert_Brake"
+	(label "Ouvert"
 		(at 137.16 25.4 180)
 		(effects
 			(font
@@ -3098,7 +3098,7 @@
 		)
 		(uuid "bff8acc8-ba94-4137-8784-e158039665a0")
 	)
-	(label "Fault_Actif_Brake"
+	(label "Fault_Actif"
 		(at 198.12 120.65 0)
 		(effects
 			(font
@@ -3108,7 +3108,7 @@
 		)
 		(uuid "ca6ae814-7684-4405-a804-ad21b2cec618")
 	)
-	(label "Court_Brake"
+	(label "Court"
 		(at 190.5 63.5 180)
 		(effects
 			(font
@@ -3118,7 +3118,7 @@
 		)
 		(uuid "d1a53381-b589-4d33-b58f-9ce39f353607")
 	)
-	(label "Court_V_Actif_Brake"
+	(label "Vehic_Court_Actif"
 		(at 50.8 50.8 0)
 		(effects
 			(font
@@ -3128,7 +3128,7 @@
 		)
 		(uuid "da3ea5c2-73ec-4f43-94a4-896146d82331")
 	)
-	(label "Ouvert_T_Actif_Brake"
+	(label "Trailer_Ouvert_Actif"
 		(at 93.98 102.87 0)
 		(effects
 			(font
@@ -3138,7 +3138,7 @@
 		)
 		(uuid "e30e5495-bffe-4c28-8f41-709f1bd5ecdd")
 	)
-	(label "Ouvert_Ou_Bleu_Brake"
+	(label "Ouvert_Ou_Bleu"
 		(at 134.62 81.28 180)
 		(effects
 			(font
@@ -3148,7 +3148,7 @@
 		)
 		(uuid "e37b5111-e94f-4ecb-9e7c-154caa4f3e77")
 	)
-	(label "Court_Brake"
+	(label "Court"
 		(at 187.96 120.65 180)
 		(effects
 			(font
@@ -3158,7 +3158,7 @@
 		)
 		(uuid "e938e1e9-c287-4dd0-812d-5152ebe6cc5f")
 	)
-	(label "Bleu_Brake"
+	(label "Bleu"
 		(at 187.96 134.62 180)
 		(effects
 			(font
@@ -3312,7 +3312,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 49.53 77.47 0)
 		(fields_autoplaced yes)
@@ -3528,7 +3528,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_B"
+	(global_label "Facade_Brake_B"
 		(shape input)
 		(at 158.75 68.58 0)
 		(fields_autoplaced yes)
@@ -3552,7 +3552,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_R"
+	(global_label "Facade_Brake_R"
 		(shape input)
 		(at 228.6 59.69 0)
 		(fields_autoplaced yes)
@@ -3696,7 +3696,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 50.8 36.83 0)
 		(effects
@@ -3791,7 +3791,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Brake_G"
+	(global_label "Facade_Brake_G"
 		(shape input)
 		(at 220.98 19.05 0)
 		(fields_autoplaced yes)
@@ -3815,7 +3815,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Court_Brake_Vehic"
+	(hierarchical_label "Vehic_Court_Brake"
 		(shape input)
 		(at 50.8 26.67 0)
 		(effects
@@ -3826,7 +3826,7 @@
 		)
 		(uuid "1f20081f-5394-4e1d-8b21-f7b69d5753bb")
 	)
-	(hierarchical_label "Ouvert_Brake_Trailer"
+	(hierarchical_label "Trailer_Ouvert_Brake"
 		(shape input)
 		(at 93.98 67.31 0)
 		(effects
@@ -3837,7 +3837,7 @@
 		)
 		(uuid "a6373076-d9ec-4496-baae-935bd39eb875")
 	)
-	(global_label "Fac_Btn_Brake"
+	(global_label "Facade_Btn_Brake"
 		(shape input)
 		(at 93.98 87.63 0)
 		(fields_autoplaced yes)
@@ -3861,7 +3861,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Brake"
+	(global_label "Facade_Btn_Brake"
 		(shape input)
 		(at 147.32 158.75 0)
 		(fields_autoplaced yes)
@@ -3885,7 +3885,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Court_Brake_Trailer"
+	(hierarchical_label "Trailer_Court_Brake"
 		(shape input)
 		(at 95.25 26.67 0)
 		(effects
@@ -3896,7 +3896,7 @@
 		)
 		(uuid "d0f94508-13b0-42a3-b24b-19aba380638c")
 	)
-	(hierarchical_label "Ouvert_Brake_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Brake"
 		(shape input)
 		(at 49.53 66.04 0)
 		(effects
@@ -7310,7 +7310,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -7326,7 +7326,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
+		(property "Value" "RGB 5mm CA"
 			(at 251.46 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7358,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 251.46 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 251.46 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 251.46 31.75 0)
 			(hide yes)
 			(show_name no)

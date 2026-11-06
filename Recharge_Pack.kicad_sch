@@ -2545,7 +2545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FG24X7R1H225KRT06"
+		(property "Value" "2.2µF 50V"
 			(at 142.24 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2578,7 +2578,29 @@
 				)
 			)
 		)
-		(property "Description" "Commercial Grade, Halogen Free Dipped Radial / Ammo Pack"
+		(property "Description" "Condensateur céramique X7R 2,2 µF 50 V, traversant"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TDK"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FG24X7R1H225KRT06"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2769,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Value" "LED bleue 5mm COLD"
+		(property "Value" "RGB 5mm CA (bleu)"
 			(at 72.39 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2823,29 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Voyant « pack trop froid » : même DEL RGB, puce bleue seule"
+			(at 72.39 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 72.39 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 72.39 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -3034,7 +3078,7 @@
 				)
 			)
 		)
-		(property "Value" "Cantherm CS701515Y"
+		(property "Value" "Thermostat NO 15°C"
 			(at 115.57 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3066,7 +3110,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "Thermostat bimétallique NO, se ferme à 15 °C, 15 A 12 V CC"
+			(at 115.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Cantherm"
+			(at 115.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CS701515Y"
 			(at 115.57 59.69 0)
 			(hide yes)
 			(show_name no)

@@ -3034,7 +3034,7 @@
 		)
 		(uuid "feb42753-aee1-44d2-99dd-1019870eb1c5")
 	)
-	(label "Rouge_Enable_Backup"
+	(label "Rouge_Enable"
 		(at 223.52 105.41 180)
 		(effects
 			(font
@@ -3044,7 +3044,7 @@
 		)
 		(uuid "02e796c0-ddd7-45d5-8e6f-319caf9a7069")
 	)
-	(label "Ouvert_T_Actif_Backup"
+	(label "Trailer_Ouvert_Actif"
 		(at 151.13 62.23 0)
 		(effects
 			(font
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "066a19c1-db18-4bed-b70f-3e9e6670f3ed")
 	)
-	(label "Not_Btn_Backup"
+	(label "Not_Btn"
 		(at 242.57 45.72 0)
 		(effects
 			(font
@@ -3064,7 +3064,7 @@
 		)
 		(uuid "0b3c514f-1d35-48cf-b73b-a96e0dbc3fbd")
 	)
-	(label "Court_Backup"
+	(label "Court"
 		(at 83.82 132.08 180)
 		(effects
 			(font
@@ -3074,7 +3074,7 @@
 		)
 		(uuid "1d677f11-7ac6-4355-bea6-56868a816679")
 	)
-	(label "Court_T_Actif_Backup"
+	(label "Trailer_Court_Actif"
 		(at 138.43 187.96 180)
 		(effects
 			(font
@@ -3084,7 +3084,7 @@
 		)
 		(uuid "23566417-2bf2-4640-b80d-55076968487b")
 	)
-	(label "Ouvert_Backup"
+	(label "Ouvert"
 		(at 34.29 132.08 180)
 		(effects
 			(font
@@ -3094,7 +3094,7 @@
 		)
 		(uuid "24474ae5-dc58-4645-a4cf-7a1a7a3ec523")
 	)
-	(label "Ouvert_Ou_Bleu_Backup"
+	(label "Ouvert_Ou_Bleu"
 		(at 40.64 170.18 0)
 		(effects
 			(font
@@ -3104,7 +3104,7 @@
 		)
 		(uuid "393d8793-04e8-4a72-840c-f13a6219025b")
 	)
-	(label "Court_V_Actif_Backup"
+	(label "Vehic_Court_Actif"
 		(at 81.28 77.47 180)
 		(effects
 			(font
@@ -3114,7 +3114,7 @@
 		)
 		(uuid "3af274d7-237c-4049-92f1-94c4b954dc77")
 	)
-	(label "Ouvert_Backup"
+	(label "Ouvert"
 		(at 83.82 140.97 180)
 		(effects
 			(font
@@ -3124,7 +3124,7 @@
 		)
 		(uuid "40643cc2-efb0-4ac4-98cb-2b6f2d3e58a3")
 	)
-	(label "Court_Backup"
+	(label "Court"
 		(at 142.24 133.35 180)
 		(effects
 			(font
@@ -3134,7 +3134,7 @@
 		)
 		(uuid "53eadf6c-15ec-4837-99d3-3ecf290ef13a")
 	)
-	(label "Ouvert_Ou_Bleu_Backup"
+	(label "Ouvert_Ou_Bleu"
 		(at 223.52 147.32 180)
 		(effects
 			(font
@@ -3144,7 +3144,7 @@
 		)
 		(uuid "5566763e-c39d-4871-8ed0-495b37eb2094")
 	)
-	(label "Ouvert_T_Actif_Backup"
+	(label "Trailer_Ouvert_Actif"
 		(at 41.91 86.36 180)
 		(effects
 			(font
@@ -3154,7 +3154,7 @@
 		)
 		(uuid "5bb6a756-03bf-4836-bb28-5f595843b612")
 	)
-	(label "Court_V_Actif_Backup"
+	(label "Vehic_Court_Actif"
 		(at 29.21 60.96 0)
 		(effects
 			(font
@@ -3164,7 +3164,7 @@
 		)
 		(uuid "5c1d719a-4f7f-474d-9adc-94e060a034c9")
 	)
-	(label "Bleu_Backup"
+	(label "Bleu"
 		(at 83.82 149.86 180)
 		(effects
 			(font
@@ -3174,7 +3174,7 @@
 		)
 		(uuid "80826c7f-ba65-42f2-9ccf-6df2601f6aea")
 	)
-	(label "Court_T_Actif_Backup"
+	(label "Trailer_Court_Actif"
 		(at 66.04 60.96 0)
 		(effects
 			(font
@@ -3184,7 +3184,7 @@
 		)
 		(uuid "8b0407eb-6151-4b45-ac97-11c02979fd40")
 	)
-	(label "Vert_Enable_Backup"
+	(label "Vert_Enable"
 		(at 223.52 127 180)
 		(effects
 			(font
@@ -3194,7 +3194,7 @@
 		)
 		(uuid "8c8e939e-91d0-4cdb-8371-a9624b01d8ca")
 	)
-	(label "Vert_Enable_Backup"
+	(label "Vert_Enable"
 		(at 99.06 168.91 0)
 		(effects
 			(font
@@ -3204,7 +3204,7 @@
 		)
 		(uuid "9583a444-b149-44cd-8419-cf77cf1c9736")
 	)
-	(label "Court_Backup"
+	(label "Court"
 		(at 73.66 104.14 180)
 		(effects
 			(font
@@ -3214,7 +3214,7 @@
 		)
 		(uuid "a681bdb2-8aa0-42d3-b5a6-a73a75f6744f")
 	)
-	(label "Not_Btn_Backup"
+	(label "Not_Btn"
 		(at 201.93 33.02 180)
 		(effects
 			(font
@@ -3224,7 +3224,7 @@
 		)
 		(uuid "acf5448f-bd0f-4245-a4bf-29b3f1f81342")
 	)
-	(label "Court_T_Actif_Backup"
+	(label "Trailer_Court_Actif"
 		(at 81.28 86.36 180)
 		(effects
 			(font
@@ -3234,7 +3234,7 @@
 		)
 		(uuid "b74e1ab5-1276-4eec-adc1-ac86d76b0af9")
 	)
-	(label "Ouvert_Ou_Bleu_Backup"
+	(label "Ouvert_Ou_Bleu"
 		(at 41.91 160.02 180)
 		(effects
 			(font
@@ -3244,7 +3244,7 @@
 		)
 		(uuid "b88502d8-7438-458c-8c9a-f4516a00158c")
 	)
-	(label "Ouvert_Backup"
+	(label "Ouvert"
 		(at 34.29 104.14 180)
 		(effects
 			(font
@@ -3254,7 +3254,7 @@
 		)
 		(uuid "c1616660-e098-459d-bcdf-17e71ac50b41")
 	)
-	(label "Rouge_Enable_Backup"
+	(label "Rouge_Enable"
 		(at 149.86 161.29 180)
 		(effects
 			(font
@@ -3264,7 +3264,7 @@
 		)
 		(uuid "d033a85c-53d1-4017-ad60-7ba7c15da15b")
 	)
-	(label "Court_Backup"
+	(label "Court"
 		(at 33.02 177.8 180)
 		(effects
 			(font
@@ -3274,7 +3274,7 @@
 		)
 		(uuid "d6020288-89b8-4750-a4cc-a18dd817f6fc")
 	)
-	(label "Bleu_Backup"
+	(label "Bleu"
 		(at 31.75 140.97 180)
 		(effects
 			(font
@@ -3284,7 +3284,7 @@
 		)
 		(uuid "d8843518-e2f6-4503-a2e4-12a4c0ff4524")
 	)
-	(label "Ouvert_Backup"
+	(label "Ouvert"
 		(at 139.7 142.24 180)
 		(effects
 			(font
@@ -3294,7 +3294,7 @@
 		)
 		(uuid "db51a2ab-4a69-4e10-9932-7ed6d26602a2")
 	)
-	(label "Ouvert_V_Actif_Backup"
+	(label "Vehic_Ouvert_Actif"
 		(at 110.49 60.96 0)
 		(effects
 			(font
@@ -3304,7 +3304,7 @@
 		)
 		(uuid "db5f7bc1-3720-4a8a-be1f-32e772ae5bab")
 	)
-	(label "Ouvert_V_Actif_Backup"
+	(label "Vehic_Ouvert_Actif"
 		(at 41.91 77.47 180)
 		(effects
 			(font
@@ -3314,7 +3314,7 @@
 		)
 		(uuid "df3ecf76-4a5c-4d98-8826-a2712946a4be")
 	)
-	(label "Bleu_Backup"
+	(label "Bleu"
 		(at 242.57 60.96 0)
 		(effects
 			(font
@@ -3324,7 +3324,7 @@
 		)
 		(uuid "ee9e1365-5f53-4cd6-a6be-e56387468560")
 	)
-	(label "Fault_Actif_Backup"
+	(label "Fault_Actif"
 		(at 87.63 162.56 180)
 		(effects
 			(font
@@ -3334,7 +3334,7 @@
 		)
 		(uuid "f71d8978-eff2-4411-9444-c101d438c36b")
 	)
-	(label "Fault_Actif_Backup"
+	(label "Fault_Actif"
 		(at 88.9 181.61 180)
 		(effects
 			(font
@@ -3392,7 +3392,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Backup"
+	(global_label "Facade_Btn_Backup"
 		(shape input)
 		(at 201.93 50.8 180)
 		(fields_autoplaced yes)
@@ -3440,7 +3440,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_B"
+	(global_label "Facade_Backup_B"
 		(shape input)
 		(at 243.84 139.7 0)
 		(fields_autoplaced yes)
@@ -3488,7 +3488,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_G"
+	(global_label "Facade_Backup_G"
 		(shape input)
 		(at 243.84 119.38 0)
 		(fields_autoplaced yes)
@@ -3656,7 +3656,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Backup"
+	(global_label "Facade_Btn_Backup"
 		(shape input)
 		(at 162.56 50.8 0)
 		(fields_autoplaced yes)
@@ -3752,7 +3752,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 38.1 44.45 0)
 		(fields_autoplaced yes)
@@ -3776,7 +3776,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Backup_R"
+	(global_label "Facade_Backup_R"
 		(shape input)
 		(at 243.84 97.79 0)
 		(fields_autoplaced yes)
@@ -3848,7 +3848,7 @@
 			)
 		)
 	)
-	(global_label "Mode_Vehicule"
+	(global_label "Mode_Vehic"
 		(shape input)
 		(at 119.38 45.72 0)
 		(fields_autoplaced yes)
@@ -3944,7 +3944,7 @@
 			)
 		)
 	)
-	(global_label "Fac_Btn_Backup"
+	(global_label "Facade_Btn_Backup"
 		(shape input)
 		(at 151.13 187.96 0)
 		(fields_autoplaced yes)
@@ -4064,7 +4064,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Court_Backup_Trailer"
+	(hierarchical_label "Trailer_Court_Backup"
 		(shape input)
 		(at 76.2 34.29 0)
 		(effects
@@ -4075,7 +4075,7 @@
 		)
 		(uuid "9e86291c-1fe4-4353-a545-ec8f4ac2ab52")
 	)
-	(hierarchical_label "Ouvert_Backup_Trailer"
+	(hierarchical_label "Trailer_Ouvert_Backup"
 		(shape input)
 		(at 161.29 33.02 0)
 		(effects
@@ -4086,7 +4086,7 @@
 		)
 		(uuid "a459dfde-d42d-47ba-a823-2beee7e982fd")
 	)
-	(hierarchical_label "Ouvert_Backup_Vehic"
+	(hierarchical_label "Vehic_Ouvert_Backup"
 		(shape input)
 		(at 118.11 34.29 0)
 		(effects
@@ -4097,7 +4097,7 @@
 		)
 		(uuid "ac28c6e9-e26f-4622-9425-0d0022f138c4")
 	)
-	(hierarchical_label "Court_Backup_Vehic"
+	(hierarchical_label "Vehic_Court_Backup"
 		(shape input)
 		(at 38.1 34.29 0)
 		(effects
@@ -6854,7 +6854,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
@@ -6870,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
+		(property "Value" "RGB 5mm CA"
 			(at 269.24 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +6902,29 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant de canal"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Kingbright"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
 			(at 269.24 114.3 0)
 			(hide yes)
 			(show_name no)
