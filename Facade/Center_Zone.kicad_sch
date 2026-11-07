@@ -4056,7 +4056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05458455-520a-40f3-bb79-46a3ff3522ac")
-		(property "Reference" "J23"
+		(property "Reference" "J3404"
 			(at 59.69 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4145,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J23")
+					(reference "J3404")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fb29ca0-3945-4c83-9059-96c448539ed1")
-		(property "Reference" "D26"
+		(property "Reference" "D924"
 			(at 261.62 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 261.62 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4644,7 +4644,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D26")
+					(reference "D924")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f36abc-8da4-41f7-ae70-b1ddeb3c5ef2")
-		(property "Reference" "J25"
+		(property "Reference" "J3406"
 			(at 59.69 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J25")
+					(reference "J3406")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fb22bbc-1312-4895-8cc0-e9add98a6792")
-		(property "Reference" "SW3"
+		(property "Reference" "SW801"
 			(at 224.028 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW3")
+					(reference "SW801")
 					(unit 1)
 				)
 			)
@@ -4953,7 +4953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31229fb4-35cb-487c-a6a3-e2f1b47d110d")
-		(property "Reference" "J21"
+		(property "Reference" "J3402"
 			(at 59.69 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,7 +5042,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J21")
+					(reference "J3402")
 					(unit 1)
 				)
 			)
@@ -5060,7 +5060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a7bcd03-a39d-4258-bdae-b5e9aab0f244")
-		(property "Reference" "J8"
+		(property "Reference" "J3203"
 			(at 135.89 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +5240,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J8")
+					(reference "J3203")
 					(unit 1)
 				)
 			)
@@ -5415,7 +5415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa649bb-2acc-40a5-bf2e-76dd851abfe8")
-		(property "Reference" "D145"
+		(property "Reference" "D2924"
 			(at 260.35 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5435,7 +5435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 260.35 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5505,7 +5505,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D145")
+					(reference "D2924")
 					(unit 1)
 				)
 			)
@@ -5601,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fac7bff-1f93-4a94-9cd1-1993024e4db9")
-		(property "Reference" "D121"
+		(property "Reference" "D2524"
 			(at 261.62 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +5621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 261.62 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5691,7 +5691,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D121")
+					(reference "D2524")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93b4e62b-bdb3-4eb1-801c-62b9c12bcda4")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2401"
 			(at 212.598 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6111,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW6")
+					(reference "SW2401")
 					(unit 1)
 				)
 			)
@@ -6129,7 +6129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b514c74-dd41-4c0e-bb5a-22d99282d12e")
-		(property "Reference" "J22"
+		(property "Reference" "J3403"
 			(at 59.69 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +6218,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J22")
+					(reference "J3403")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acfcd50b-4f2c-4584-8f53-443819de101f")
-		(property "Reference" "SW8"
+		(property "Reference" "SW1201"
 			(at 210.82 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6558,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW8")
+					(reference "SW1201")
 					(unit 1)
 				)
 			)
@@ -6576,7 +6576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03efa09-d02c-4358-88ad-70f9c50db40a")
-		(property "Reference" "D97"
+		(property "Reference" "D2124"
 			(at 261.62 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 261.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D97")
+					(reference "D2124")
 					(unit 1)
 				)
 			)
@@ -6683,7 +6683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b96fbc11-cb7f-40d7-8e35-81ed13f73851")
-		(property "Reference" "SW7"
+		(property "Reference" "SW2801"
 			(at 211.328 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6772,7 +6772,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW7")
+					(reference "SW2801")
 					(unit 1)
 				)
 			)
@@ -6790,7 +6790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c739c40c-4cf2-4b7d-90af-3d9eaccfd7b2")
-		(property "Reference" "J20"
+		(property "Reference" "J3401"
 			(at 59.69 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,7 +6879,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J20")
+					(reference "J3401")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad25ff2-a57b-4642-b20d-a9a4e28b3a32")
-		(property "Reference" "J24"
+		(property "Reference" "J3405"
 			(at 59.69 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6986,7 +6986,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "J24")
+					(reference "J3405")
 					(unit 1)
 				)
 			)
@@ -7004,7 +7004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf00f9d-ca99-4b97-a023-7fc6f868ed83")
-		(property "Reference" "D73"
+		(property "Reference" "D1724"
 			(at 261.62 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7024,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 261.62 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7094,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D73")
+					(reference "D1724")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e10865c6-2820-4ea9-b4b3-8e85e40ab2cf")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1601"
 			(at 212.09 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,7 +7434,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW4")
+					(reference "SW1601")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc7c0933-87ab-4a17-b994-b376985f97c8")
-		(property "Reference" "D49"
+		(property "Reference" "D1324"
 			(at 261.62 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 261.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7542,7 +7542,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "D49")
+					(reference "D1324")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdd9d5bf-de04-45e7-a878-6bebdbb87db2")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2001"
 			(at 217.678 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +7648,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/5a3f7627-bbce-4fa5-95a4-89d1a4c1541c"
-					(reference "SW5")
+					(reference "SW2001")
 					(unit 1)
 				)
 			)

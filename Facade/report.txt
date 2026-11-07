@@ -1,0 +1,427 @@
+Info: Processing symbol 'BZ3101:Buzzer_Beeper:Buzzer_12x9.5RM7.6'.
+Info: Processing symbol 'J3201:Connector_IDC:IDC-Header_2x13_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'D2924:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D3104:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D301:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J3402:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'D2701:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D2524:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D201:OSX10201-GYR1:DIP760W45P254L2550H815Q20B'.
+Info: Processing symbol 'D1101:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J3401:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'J3303:Connector_Molex:Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical'.
+Info: Processing symbol 'D2124:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D3103:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D3101:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D1724:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D924:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J3302:Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical'.
+Info: Processing symbol 'J3203:Connector_IDC:IDC-Header_2x17_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'D203:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J3403:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'D3102:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D1324:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J3301:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'J3202:Connector_IDC:IDC-Header_2x07_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'J3404:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'J3405:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'J3406:Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical'.
+Info: Processing symbol 'R3501:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3502:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3503:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3504:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3505:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Updated D201 fields.
+Add net /Top_Zone/Facade_VLed_Jauge.
+Reconnected D201 pin 3 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Add net /Top_Zone/Facade_Jauge_10.
+Reconnected D201 pin 20 from /Top_Zone/D25.20 to /Top_Zone/Facade_Jauge_10.
+Reconnected D201 pin 10 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Add net /Top_Zone/Facade_Jauge_1.
+Reconnected D201 pin 11 from /Top_Zone/D25.11 to /Top_Zone/Facade_Jauge_1.
+Add net /Top_Zone/Facade_Jauge_3.
+Reconnected D201 pin 13 from /Top_Zone/D25.13 to /Top_Zone/Facade_Jauge_3.
+Add net /Top_Zone/Facade_Jauge_5.
+Reconnected D201 pin 15 from /Top_Zone/D25.15 to /Top_Zone/Facade_Jauge_5.
+Reconnected D201 pin 5 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Reconnected D201 pin 4 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Reconnected D201 pin 8 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Reconnected D201 pin 7 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Add net /Top_Zone/Facade_Jauge_7.
+Reconnected D201 pin 17 from /Top_Zone/D25.17 to /Top_Zone/Facade_Jauge_7.
+Reconnected D201 pin 6 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Add net /Top_Zone/Facade_Jauge_6.
+Reconnected D201 pin 16 from /Top_Zone/D25.16 to /Top_Zone/Facade_Jauge_6.
+Reconnected D201 pin 1 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Add net /Top_Zone/Facade_Jauge_9.
+Reconnected D201 pin 19 from /Top_Zone/D25.19 to /Top_Zone/Facade_Jauge_9.
+Add net /Top_Zone/Facade_Jauge_2.
+Reconnected D201 pin 12 from /Top_Zone/D25.12 to /Top_Zone/Facade_Jauge_2.
+Add net /Top_Zone/Facade_Jauge_8.
+Reconnected D201 pin 18 from /Top_Zone/D25.18 to /Top_Zone/Facade_Jauge_8.
+Add net /Top_Zone/Facade_Jauge_4.
+Reconnected D201 pin 14 from /Top_Zone/D25.14 to /Top_Zone/Facade_Jauge_4.
+Reconnected D201 pin 2 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Reconnected D201 pin 9 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Changed D152 reference designator to D203.
+Changed D203 value from Rouge 5mm to RGB 5mm CA (rouge).
+Updated D203 fields.
+Add net /Bottom_Zone/Facade_DEL_Inversion.
+Reconnected D203 pin 1 from /Bottom_Zone/D152.1K to /Bottom_Zone/Facade_DEL_Inversion.
+Updated D203 unit metadata.
+Added D203 'Do not place' fabrication attribute.
+Changed LED2 reference designator to D301.
+Changed D301 value from Ambre 5mm to RGB 5mm CA (ambre).
+Updated D301 fields.
+Add net /Bottom_Zone/Facade_DEL_Batt_Ext.
+Reconnected D301 pin 2 from /Bottom_Zone/LED2.1A to /Bottom_Zone/Facade_DEL_Batt_Ext.
+Add net /Bottom_Zone/Batt_Ext_Rouge.
+Reconnected D301 pin 1 from GND to /Bottom_Zone/Batt_Ext_Rouge.
+Updated D301 unit metadata.
+Added D301 'Do not place' fabrication attribute.
+Changed D26 reference designator to D924.
+Changed D924 value from RGB 5mm to RGB 5mm CA.
+Updated D924 fields.
+Reconnected D924 pin 2 from /Center_Zone/D26.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Tail_B.
+Reconnected D924 pin 3 from /Center_Zone/D26.3_GK to /Center_Zone/Facade_Tail_B.
+Add net /Center_Zone/Facade_Tail_G.
+Reconnected D924 pin 4 from /Center_Zone/D26.4_BK to /Center_Zone/Facade_Tail_G.
+Add net /Center_Zone/Facade_Tail_R.
+Reconnected D924 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Tail_R.
+Updated D924 unit metadata.
+Changed D147 reference designator to D1101.
+Changed D1101 value from Ambre 5mm to RGB 5mm CA (ambre).
+Updated D1101 fields.
+Reconnected D1101 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Add net /Bottom_Zone/Surchauffe_Brake_Rouge.
+Reconnected D1101 pin 1 from /Bottom_Zone/D147.1K to /Bottom_Zone/Surchauffe_Brake_Rouge.
+Updated D1101 unit metadata.
+Added D1101 'Do not place' fabrication attribute.
+Changed D49 reference designator to D1324.
+Changed D1324 value from RGB 5mm to RGB 5mm CA.
+Updated D1324 fields.
+Add net /Center_Zone/Facade_Brake_B.
+Reconnected D1324 pin 3 from /Center_Zone/D49.3_GK to /Center_Zone/Facade_Brake_B.
+Reconnected D1324 pin 2 from /Center_Zone/D49.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Brake_R.
+Reconnected D1324 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Brake_R.
+Add net /Center_Zone/Facade_Brake_G.
+Reconnected D1324 pin 4 from /Center_Zone/D49.4_BK to /Center_Zone/Facade_Brake_G.
+Updated D1324 unit metadata.
+Changed D73 reference designator to D1724.
+Changed D1724 value from RGB 5mm to RGB 5mm CA.
+Updated D1724 fields.
+Add net /Center_Zone/Facade_Left_B.
+Reconnected D1724 pin 3 from /Center_Zone/D73.3_GK to /Center_Zone/Facade_Left_B.
+Add net /Center_Zone/Facade_Left_R.
+Reconnected D1724 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Left_R.
+Reconnected D1724 pin 2 from /Center_Zone/D73.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Left_G.
+Reconnected D1724 pin 4 from /Center_Zone/D73.4_BK to /Center_Zone/Facade_Left_G.
+Updated D1724 unit metadata.
+Changed D97 reference designator to D2124.
+Changed D2124 value from RGB 5mm to RGB 5mm CA.
+Updated D2124 fields.
+Reconnected D2124 pin 2 from /Center_Zone/D97.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Right_R.
+Reconnected D2124 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Right_R.
+Add net /Center_Zone/Facade_Right_B.
+Reconnected D2124 pin 3 from /Center_Zone/D97.3_GK to /Center_Zone/Facade_Right_B.
+Add net /Center_Zone/Facade_Right_G.
+Reconnected D2124 pin 4 from /Center_Zone/D97.4_BK to /Center_Zone/Facade_Right_G.
+Updated D2124 unit metadata.
+Changed D121 reference designator to D2524.
+Changed D2524 value from RGB 5mm to RGB 5mm CA.
+Updated D2524 fields.
+Reconnected D2524 pin 2 from /Center_Zone/D121.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Backup_G.
+Reconnected D2524 pin 4 from /Center_Zone/D121.4_BK to /Center_Zone/Facade_Backup_G.
+Add net /Center_Zone/Facade_Backup_R.
+Reconnected D2524 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Backup_R.
+Add net /Center_Zone/Facade_Backup_B.
+Reconnected D2524 pin 3 from /Center_Zone/D121.3_GK to /Center_Zone/Facade_Backup_B.
+Updated D2524 unit metadata.
+Changed LED1 reference designator to D2701.
+Changed D2701 value from Ambre 5mm to RGB 5mm CA (ambre).
+Updated D2701 fields.
+Add net /Bottom_Zone/Surchauffe_Aux_Rouge.
+Reconnected D2701 pin 1 from /Bottom_Zone/LED1.1K to /Bottom_Zone/Surchauffe_Aux_Rouge.
+Reconnected D2701 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Updated D2701 unit metadata.
+Added D2701 'Do not place' fabrication attribute.
+Changed D145 reference designator to D2924.
+Changed D2924 value from RGB 5mm to RGB 5mm CA.
+Updated D2924 fields.
+Add net /Center_Zone/Facade_Aux_G.
+Reconnected D2924 pin 4 from /Center_Zone/D145.4_BK to /Center_Zone/Facade_Aux_G.
+Add net /Center_Zone/Facade_Aux_B.
+Reconnected D2924 pin 3 from /Center_Zone/D145.3_GK to /Center_Zone/Facade_Aux_B.
+Reconnected D2924 pin 2 from /Center_Zone/D145.2_RK to /Center_Zone/V_Ref.
+Add net /Center_Zone/Facade_Aux_R.
+Reconnected D2924 pin 1 from /Center_Zone/V_Ref to /Center_Zone/Facade_Aux_R.
+Updated D2924 unit metadata.
+Changed D154 reference designator to D3101.
+Changed D3101 value from Rouge 5mm to RGB 5mm CA (rouge).
+Updated D3101 fields.
+Reconnected D3101 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Add net /Bottom_Zone/Facade_DEL_Surtension.
+Reconnected D3101 pin 1 from /Bottom_Zone/D154.1K to /Bottom_Zone/Facade_DEL_Surtension.
+Updated D3101 unit metadata.
+Added D3101 'Do not place' fabrication attribute.
+Changed D155 reference designator to D3102.
+Changed D3102 value from Rouge 5mm to RGB 5mm CA (rouge).
+Updated D3102 fields.
+Add net /Bottom_Zone/Facade_DEL_Court_Bus.
+Reconnected D3102 pin 1 from /Bottom_Zone/D155.1K to /Bottom_Zone/Facade_DEL_Court_Bus.
+Reconnected D3102 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Updated D3102 unit metadata.
+Added D3102 'Do not place' fabrication attribute.
+Changed D156 reference designator to D3103.
+Changed D3103 value from Rouge 5mm to RGB 5mm CA (rouge).
+Updated D3103 fields.
+Add net /Bottom_Zone/Facade_DEL_Incoherence.
+Reconnected D3103 pin 1 from /Bottom_Zone/D156.1K to /Bottom_Zone/Facade_DEL_Incoherence.
+Reconnected D3103 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Updated D3103 unit metadata.
+Added D3103 'Do not place' fabrication attribute.
+Changed D158 reference designator to D3104.
+Changed D3104 value from Rouge 5mm to RGB 5mm CA (rouge).
+Updated D3104 fields.
+Reconnected D3104 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Add net /Bottom_Zone/Facade_DEL_Masse.
+Reconnected D3104 pin 1 from /Bottom_Zone/D158.1K to /Bottom_Zone/Facade_DEL_Masse.
+Updated D3104 unit metadata.
+Added D3104 'Do not place' fabrication attribute.
+Changed J9 reference designator to J3201.
+Changed J3201 value from Conn_02x13_Odd_Even to IDC 2x13.
+Updated J3201 fields.
+Add net /Top_Zone/Facade_VM_Mesure.
+Reconnected J3201 pin 2 from /Top_Zone/J27.5 to /Top_Zone/Facade_VM_Mesure.
+Add net /Top_Zone/Facade_VM_Sel_Trailer_Aux.
+Reconnected J3201 pin 12 from /Top_Zone/J27.3 to /Top_Zone/Facade_VM_Sel_Trailer_Aux.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Backup.
+Reconnected J3201 pin 9 from /Top_Zone/J26.6 to /Top_Zone/Facade_VM_Sel_Vehic_Backup.
+Reconnected J3201 pin 22 from /Top_Zone/D25.16 to /Top_Zone/Facade_Jauge_6.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Right.
+Reconnected J3201 pin 8 from /Top_Zone/J26.5 to /Top_Zone/Facade_VM_Sel_Vehic_Right.
+Reconnected J3201 pin 18 from /Top_Zone/D25.12 to /Top_Zone/Facade_Jauge_2.
+Add net /Top_Zone/Mode_Trailer.
+Reconnected J3201 pin 14 from /Top_Zone/J28.2 to /Top_Zone/Mode_Trailer.
+Add net /Top_Zone/Facade_VM_Sel_Trailer_Pince.
+Reconnected J3201 pin 13 from /Top_Zone/J27.4 to /Top_Zone/Facade_VM_Sel_Trailer_Pince.
+Reconnected J3201 pin 26 from /Top_Zone/D25.20 to /Top_Zone/Facade_Jauge_10.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Brake.
+Reconnected J3201 pin 6 from /Top_Zone/J26.3 to /Top_Zone/Facade_VM_Sel_Vehic_Brake.
+Reconnected J3201 pin 24 from /Top_Zone/D25.18 to /Top_Zone/Facade_Jauge_8.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Aux.
+Reconnected J3201 pin 10 from /Top_Zone/J27.1 to /Top_Zone/Facade_VM_Sel_Vehic_Aux.
+Add net /Top_Zone/V_Ref.
+Reconnected J3201 pin 15 from /Top_Zone/J28.3 to /Top_Zone/V_Ref.
+Reconnected J3201 pin 23 from /Top_Zone/D25.17 to /Top_Zone/Facade_Jauge_7.
+Reconnected J3201 pin 21 from /Top_Zone/D25.15 to /Top_Zone/Facade_Jauge_5.
+Add net /Top_Zone/Facade_VM_Sel_Batt.
+Reconnected J3201 pin 4 from /Top_Zone/J26.1 to /Top_Zone/Facade_VM_Sel_Batt.
+Reconnected J3201 pin 20 from /Top_Zone/D25.14 to /Top_Zone/Facade_Jauge_4.
+Reconnected J3201 pin 25 from /Top_Zone/D25.19 to /Top_Zone/Facade_Jauge_9.
+Reconnected J3201 pin 16 from /Top_Zone/VLed_Jauge to /Top_Zone/Facade_VLed_Jauge.
+Reconnected J3201 pin 19 from /Top_Zone/D25.13 to /Top_Zone/Facade_Jauge_3.
+Reconnected J3201 pin 17 from /Top_Zone/D25.11 to /Top_Zone/Facade_Jauge_1.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Tail.
+Reconnected J3201 pin 5 from /Top_Zone/J26.2 to /Top_Zone/Facade_VM_Sel_Vehic_Tail.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Pince.
+Reconnected J3201 pin 11 from /Top_Zone/J27.2 to /Top_Zone/Facade_VM_Sel_Vehic_Pince.
+Add net /Top_Zone/Facade_VM_Sel_Vehic_Left.
+Reconnected J3201 pin 7 from /Top_Zone/J26.4 to /Top_Zone/Facade_VM_Sel_Vehic_Left.
+Changed J7 reference designator to J3202.
+Changed J3202 value from Conn_02x07_Odd_Even to IDC 2x07.
+Updated J3202 fields.
+Reconnected J3202 pin 7 from /Bottom_Zone/D152.1K to /Bottom_Zone/Facade_DEL_Inversion.
+Reconnected J3202 pin 2 from Net-(BZ1-+) to Net-(BZ3101-+).
+Reconnected J3202 pin 13 from /Bottom_Zone/LED2.1A to /Bottom_Zone/Facade_DEL_Batt_Ext.
+Reconnected J3202 pin 4 from /Bottom_Zone/D155.1K to /Bottom_Zone/Facade_DEL_Court_Bus.
+Reconnected J3202 pin 5 from /Bottom_Zone/D156.1K to /Bottom_Zone/Facade_DEL_Incoherence.
+Add net /Bottom_Zone/Facade_DEL_Surchauffe_Aux.
+Reconnected J3202 pin 12 from /Bottom_Zone/LED1.1K to /Bottom_Zone/Facade_DEL_Surchauffe_Aux.
+Reconnected J3202 pin 3 from /Bottom_Zone/D154.1K to /Bottom_Zone/Facade_DEL_Surtension.
+Add net /Bottom_Zone/Facade_DEL_Surchauffe_Brake.
+Reconnected J3202 pin 11 from /Bottom_Zone/D147.1K to /Bottom_Zone/Facade_DEL_Surchauffe_Brake.
+Reconnected J3202 pin 6 from /Bottom_Zone/D158.1K to /Bottom_Zone/Facade_DEL_Masse.
+Reconnected J3202 pin 9 from /Bottom_Zone/BZ1.2 to /Bottom_Zone/Facade_Buzzer.
+Changed J8 reference designator to J3203.
+Changed J3203 value from Conn_02x17_Odd_Even to IDC 2x17.
+Updated J3203 fields.
+Reconnected J3203 pin 29 from /Center_Zone/D145.3_GK to /Center_Zone/Facade_Aux_G.
+Reconnected J3203 pin 14 from /Center_Zone/D73.3_GK to /Center_Zone/Facade_Left_G.
+Reconnected J3203 pin 8 from /Center_Zone/D49.2_RK to /Center_Zone/Facade_Brake_R.
+Reconnected J3203 pin 15 from /Center_Zone/D73.4_BK to /Center_Zone/Facade_Left_B.
+Add net /Center_Zone/Facade_Btn_Right.
+Reconnected J3203 pin 21 from /Center_Zone/J23.2 to /Center_Zone/Facade_Btn_Right.
+Reconnected J3203 pin 19 from /Center_Zone/D97.3_GK to /Center_Zone/Facade_Right_G.
+Reconnected J3203 pin 9 from /Center_Zone/D49.3_GK to /Center_Zone/Facade_Brake_G.
+Add net /Center_Zone/Facade_Btn_Backup.
+Reconnected J3203 pin 26 from /Center_Zone/J24.2 to /Center_Zone/Facade_Btn_Backup.
+Add net /Center_Zone/Facade_Btn_Brake.
+Reconnected J3203 pin 11 from /Center_Zone/J21.2 to /Center_Zone/Facade_Btn_Brake.
+Reconnected J3203 pin 30 from /Center_Zone/D145.4_BK to /Center_Zone/Facade_Aux_B.
+Reconnected J3203 pin 10 from /Center_Zone/D49.4_BK to /Center_Zone/Facade_Brake_B.
+Reconnected J3203 pin 13 from /Center_Zone/D73.2_RK to /Center_Zone/Facade_Left_R.
+Reconnected J3203 pin 23 from /Center_Zone/D121.2_RK to /Center_Zone/Facade_Backup_R.
+Reconnected J3203 pin 4 from /Center_Zone/D26.3_GK to /Center_Zone/Facade_Tail_G.
+Reconnected J3203 pin 28 from /Center_Zone/D145.2_RK to /Center_Zone/Facade_Aux_R.
+Reconnected J3203 pin 24 from /Center_Zone/D121.3_GK to /Center_Zone/Facade_Backup_G.
+Reconnected J3203 pin 3 from /Center_Zone/D26.2_RK to /Center_Zone/Facade_Tail_R.
+Reconnected J3203 pin 18 from /Center_Zone/D97.2_RK to /Center_Zone/Facade_Right_R.
+Add net /Center_Zone/Facade_Btn_Aux.
+Reconnected J3203 pin 31 from /Center_Zone/J25.2 to /Center_Zone/Facade_Btn_Aux.
+Add net /Center_Zone/Facade_Btn_Tail.
+Reconnected J3203 pin 6 from /Center_Zone/J20.2 to /Center_Zone/Facade_Btn_Tail.
+Add net /Center_Zone/Facade_Btn_Left.
+Reconnected J3203 pin 16 from /Center_Zone/J22.2 to /Center_Zone/Facade_Btn_Left.
+Reconnected J3203 pin 20 from /Center_Zone/D97.4_BK to /Center_Zone/Facade_Right_B.
+Reconnected J3203 pin 25 from /Center_Zone/D121.4_BK to /Center_Zone/Facade_Backup_B.
+Reconnected J3203 pin 5 from /Center_Zone/D26.4_BK to /Center_Zone/Facade_Tail_B.
+Changed J28 reference designator to J3301.
+Updated J3301 fields.
+Removed J3301 'exclude from BOM' fabrication attribute.
+Reconnected J3301 pin 2 from /Top_Zone/J28.2 to /Top_Zone/Mode_Trailer.
+Reconnected J3301 pin 3 from /Top_Zone/J28.3 to /Top_Zone/V_Ref.
+Changed J27 reference designator to J3302.
+Updated J3302 fields.
+Removed J3302 'exclude from BOM' fabrication attribute.
+Reconnected J3302 pin 2 from /Top_Zone/J27.2 to /Top_Zone/Facade_VM_Sel_Vehic_Pince.
+Reconnected J3302 pin 1 from /Top_Zone/J27.1 to /Top_Zone/Facade_VM_Sel_Vehic_Aux.
+Reconnected J3302 pin 3 from /Top_Zone/J27.3 to /Top_Zone/Facade_VM_Sel_Trailer_Aux.
+Reconnected J3302 pin 5 from /Top_Zone/J27.5 to /Top_Zone/Facade_VM_Mesure.
+Reconnected J3302 pin 4 from /Top_Zone/J27.4 to /Top_Zone/Facade_VM_Sel_Trailer_Pince.
+Changed J26 reference designator to J3303.
+Updated J3303 fields.
+Removed J3303 'exclude from BOM' fabrication attribute.
+Reconnected J3303 pin 1 from /Top_Zone/J26.1 to /Top_Zone/Facade_VM_Sel_Batt.
+Reconnected J3303 pin 5 from /Top_Zone/J26.5 to /Top_Zone/Facade_VM_Sel_Vehic_Right.
+Reconnected J3303 pin 6 from /Top_Zone/J26.6 to /Top_Zone/Facade_VM_Sel_Vehic_Backup.
+Reconnected J3303 pin 4 from /Top_Zone/J26.4 to /Top_Zone/Facade_VM_Sel_Vehic_Left.
+Reconnected J3303 pin 3 from /Top_Zone/J26.3 to /Top_Zone/Facade_VM_Sel_Vehic_Brake.
+Reconnected J3303 pin 2 from /Top_Zone/J26.2 to /Top_Zone/Facade_VM_Sel_Vehic_Tail.
+Changed J20 reference designator to J3401.
+Updated J3401 fields.
+Removed J3401 'exclude from BOM' fabrication attribute.
+Reconnected J3401 pin 2 from /Center_Zone/J20.2 to /Center_Zone/Facade_Btn_Tail.
+Changed J21 reference designator to J3402.
+Updated J3402 fields.
+Removed J3402 'exclude from BOM' fabrication attribute.
+Reconnected J3402 pin 2 from /Center_Zone/J21.2 to /Center_Zone/Facade_Btn_Brake.
+Changed J22 reference designator to J3403.
+Updated J3403 fields.
+Removed J3403 'exclude from BOM' fabrication attribute.
+Reconnected J3403 pin 2 from /Center_Zone/J22.2 to /Center_Zone/Facade_Btn_Left.
+Changed BZ1 reference designator to BZ3101.
+Changed J23 reference designator to J3404.
+Updated J3404 fields.
+Removed J3404 'exclude from BOM' fabrication attribute.
+Reconnected J3404 pin 2 from /Center_Zone/J23.2 to /Center_Zone/Facade_Btn_Right.
+Changed BZ3101 value from Buzzer to Buzzer 5V.
+Changed J24 reference designator to J3405.
+Updated J3405 fields.
+Removed J3405 'exclude from BOM' fabrication attribute.
+Reconnected J3405 pin 2 from /Center_Zone/J24.2 to /Center_Zone/Facade_Btn_Backup.
+Updated BZ3101 fields.
+Changed J25 reference designator to J3406.
+Updated J3406 fields.
+Removed J3406 'exclude from BOM' fabrication attribute.
+Reconnected J3406 pin 2 from /Center_Zone/J25.2 to /Center_Zone/Facade_Btn_Aux.
+Add net Net-(BZ3101-+).
+Reconnected BZ3101 pin 1 from Net-(BZ1-+) to Net-(BZ3101-+).
+Add net /Bottom_Zone/Facade_Buzzer.
+Reconnected BZ3101 pin 2 from /Bottom_Zone/BZ1.2 to /Bottom_Zone/Facade_Buzzer.
+Changed D25 reference designator to D201.
+Removed unused net /Bottom_Zone/BZ1.2.
+Removed unused net /Bottom_Zone/D147.1K.
+Removed unused net /Bottom_Zone/D152.1K.
+Removed unused net /Bottom_Zone/D154.1K.
+Removed unused net /Bottom_Zone/D155.1K.
+Removed unused net /Bottom_Zone/D156.1K.
+Removed unused net /Bottom_Zone/D158.1K.
+Removed unused net /Bottom_Zone/LED1.1K.
+Removed unused net /Bottom_Zone/LED2.1A.
+Removed unused net /Center_Zone/D121.2_RK.
+Removed unused net /Center_Zone/D121.3_GK.
+Removed unused net /Center_Zone/D121.4_BK.
+Removed unused net /Center_Zone/D145.2_RK.
+Removed unused net /Center_Zone/D145.3_GK.
+Removed unused net /Center_Zone/D145.4_BK.
+Removed unused net /Center_Zone/D26.2_RK.
+Removed unused net /Center_Zone/D26.3_GK.
+Removed unused net /Center_Zone/D26.4_BK.
+Removed unused net /Center_Zone/D49.2_RK.
+Removed unused net /Center_Zone/D49.3_GK.
+Removed unused net /Center_Zone/D49.4_BK.
+Removed unused net /Center_Zone/D73.2_RK.
+Removed unused net /Center_Zone/D73.3_GK.
+Removed unused net /Center_Zone/D73.4_BK.
+Removed unused net /Center_Zone/D97.2_RK.
+Removed unused net /Center_Zone/D97.3_GK.
+Removed unused net /Center_Zone/D97.4_BK.
+Removed unused net /Center_Zone/J20.2.
+Removed unused net /Center_Zone/J21.2.
+Removed unused net /Center_Zone/J22.2.
+Removed unused net /Center_Zone/J23.2.
+Removed unused net /Center_Zone/J24.2.
+Removed unused net /Center_Zone/J25.2.
+Removed unused net /Top_Zone/D25.11.
+Removed unused net /Top_Zone/D25.12.
+Removed unused net /Top_Zone/D25.13.
+Removed unused net /Top_Zone/D25.14.
+Removed unused net /Top_Zone/D25.15.
+Removed unused net /Top_Zone/D25.16.
+Removed unused net /Top_Zone/D25.17.
+Removed unused net /Top_Zone/D25.18.
+Removed unused net /Top_Zone/D25.19.
+Removed unused net /Top_Zone/D25.20.
+Removed unused net /Top_Zone/J26.1.
+Removed unused net /Top_Zone/J26.2.
+Removed unused net /Top_Zone/J26.3.
+Removed unused net /Top_Zone/J26.4.
+Removed unused net /Top_Zone/J26.5.
+Removed unused net /Top_Zone/J26.6.
+Removed unused net /Top_Zone/J27.1.
+Removed unused net /Top_Zone/J27.2.
+Removed unused net /Top_Zone/J27.3.
+Removed unused net /Top_Zone/J27.4.
+Removed unused net /Top_Zone/J27.5.
+Removed unused net /Top_Zone/J28.2.
+Removed unused net /Top_Zone/J28.3.
+Removed unused net /Top_Zone/VLed_Jauge.
+Removed unused net Net-(BZ1-+).
+Error: Cannot update D3103 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot update D3104 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot update D301 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot update D3101 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot add R3501 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' not found).
+Error: Cannot update D1101 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot add R3502 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' not found).
+Error: Cannot update D2701 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot add R3503 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' not found).
+Error: Cannot update D3102 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot add R3504 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' not found).
+Error: Cannot update D203 (footprint 'LED_THT:LED_D5.0mm-4_RGB' not found).
+Error: Cannot add R3505 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' not found).
+Error: D203 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D203 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D301 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D301 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D1101 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D1101 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D2701 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D2701 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D3101 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D3101 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D3102 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D3102 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D3103 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D3103 pad 4 not found in LED_THT:LED_D5.0mm.
+Error: D3104 pad 3 not found in LED_THT:LED_D5.0mm.
+Error: D3104 pad 4 not found in LED_THT:LED_D5.0mm.
+
+
+Info: Total warnings: 0, errors: 29.

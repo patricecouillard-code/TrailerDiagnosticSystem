@@ -1776,643 +1776,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 109.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0068f074-64e8-4c70-a729-b7cc04fbc415")
-	)
-	(junction
-		(at 109.22 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0812b4eb-095d-4e19-b548-ca326c7c32d0")
-	)
-	(junction
-		(at 80.01 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b58f0a1-4b59-4741-97d4-9526fbf00c53")
-	)
-	(junction
-		(at 106.68 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b1fe92d-75d7-446b-92a7-ad8b90b036f2")
-	)
-	(junction
-		(at 109.22 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40534684-e2e4-40c6-a31b-768afc6a4b07")
-	)
-	(junction
-		(at 109.22 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1063438-5f32-4f0f-abe0-20ec29932231")
-	)
-	(junction
-		(at 80.01 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a10ea985-3232-47eb-8c7d-b6972bd76712")
-	)
-	(junction
-		(at 109.22 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf682563-061f-438f-b89b-f1a99fbe097f")
-	)
-	(junction
-		(at 109.22 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f97afcaf-ce43-491f-a2ae-557f190d2040")
-	)
-	(wire
-		(pts
-			(xy 109.22 38.1) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab67bc2-1b9c-437a-a7f0-ffb71182d95b")
-	)
-	(wire
-		(pts
-			(xy 101.6 114.3) (xy 113.03 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d9faa78-0d62-42a7-84fc-31bf7a02b630")
-	)
-	(wire
-		(pts
-			(xy 101.6 109.22) (xy 109.22 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136a9d35-5408-4155-939f-1df39341eaa1")
-	)
-	(wire
-		(pts
-			(xy 57.15 123.19) (xy 68.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1469b72d-30c2-4a29-8e9e-ef47a6d022b1")
-	)
-	(wire
-		(pts
-			(xy 101.6 119.38) (xy 129.54 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d5d539-0f75-452d-8f8d-49324a3b94c2")
-	)
-	(wire
-		(pts
-			(xy 109.22 73.66) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f847e7-f243-405e-92ab-83ddbd9b6662")
-	)
-	(wire
-		(pts
-			(xy 68.58 113.03) (xy 68.58 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "263e9b32-5dc5-436a-805c-cc020e24e1ff")
-	)
-	(wire
-		(pts
-			(xy 101.6 106.68) (xy 109.22 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c09fbe-1385-435e-88d4-194190426d82")
-	)
-	(wire
-		(pts
-			(xy 68.58 118.11) (xy 68.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0558ba-4a88-434b-8e34-7a88e91dcf34")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d10728-b7a9-45bb-bcac-bc1bc1f13e8e")
-	)
-	(wire
-		(pts
-			(xy 57.15 113.03) (xy 68.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35fb480b-719c-4b46-9d1d-0237f8aa4f8d")
-	)
-	(wire
-		(pts
-			(xy 71.12 106.68) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a63b06b-3462-471d-9490-07ad33f9befd")
-	)
-	(wire
-		(pts
-			(xy 106.68 121.92) (xy 106.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df2a100-3f08-43eb-99a8-05cd898d151d")
-	)
-	(wire
-		(pts
-			(xy 80.01 86.36) (xy 80.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4749ed46-528e-4ac0-977f-6a8bde9ca16c")
-	)
-	(wire
-		(pts
-			(xy 101.6 121.92) (xy 106.68 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c844bff-2a2e-4c5c-bd23-2831212b4564")
-	)
-	(wire
-		(pts
-			(xy 114.3 50.8) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5567a765-776a-40db-adbe-3bad19220a80")
-	)
-	(wire
-		(pts
-			(xy 68.58 111.76) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567d25f0-5b86-4a46-983e-3203546e8991")
-	)
-	(wire
-		(pts
-			(xy 68.58 110.49) (xy 57.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56caf9bb-807f-43aa-b35b-53ba950cbb3f")
-	)
-	(wire
-		(pts
-			(xy 101.6 116.84) (xy 113.03 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d9465ac-819b-4069-a765-541b85a673fc")
-	)
-	(wire
-		(pts
-			(xy 80.01 106.68) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe390d5-6896-4fa7-b255-43de7ccab297")
-	)
-	(wire
-		(pts
-			(xy 68.58 120.65) (xy 68.58 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601754e3-8626-44a6-9f75-b0f389d23cb5")
-	)
-	(wire
-		(pts
-			(xy 114.3 95.25) (xy 109.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603aaaab-792d-4382-b9a1-026589c5834d")
-	)
-	(wire
-		(pts
-			(xy 109.22 110.49) (xy 127 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78eff54c-ec76-4bae-98b8-0df5e40f406e")
-	)
-	(wire
-		(pts
-			(xy 57.15 118.11) (xy 68.58 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "817251fe-7f73-43e8-846a-89abbf2f0ef3")
-	)
-	(wire
-		(pts
-			(xy 57.15 115.57) (xy 68.58 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d3435d-7594-4581-83fd-13cc9a07bb2a")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 109.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "871c20ba-bd61-4b88-8f81-6ba2f29a5500")
-	)
-	(wire
-		(pts
-			(xy 106.68 121.92) (xy 113.03 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7becb4-1d6d-4ece-b141-a6c36fb04dce")
-	)
-	(wire
-		(pts
-			(xy 57.15 120.65) (xy 68.58 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf273af-2d39-4387-8269-ba1cce9a2f96")
-	)
-	(wire
-		(pts
-			(xy 114.3 85.09) (xy 109.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f69525f-c65d-4b00-898d-716c0f7d6f0f")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 68.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9deeda7c-15e4-4ffa-a499-f9c0f463ae7f")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 109.22 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e42f055-1523-4dc8-83db-403a0b39e03c")
-	)
-	(wire
-		(pts
-			(xy 68.58 121.92) (xy 88.9 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea266cc-cd5b-48ec-8205-16d7cb18f8e8")
-	)
-	(wire
-		(pts
-			(xy 68.58 123.19) (xy 68.58 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1318e68-4cfb-4971-9512-c412cde5bf2f")
-	)
-	(wire
-		(pts
-			(xy 114.3 62.23) (xy 109.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad686143-9641-4a05-9714-8b1570d23aad")
-	)
-	(wire
-		(pts
-			(xy 109.22 85.09) (xy 109.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22d24a6-7858-4b43-878e-55333f5d4e74")
-	)
-	(wire
-		(pts
-			(xy 80.01 97.79) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ad861f-2b3e-4ad4-88f5-4766f3bac345")
-	)
-	(wire
-		(pts
-			(xy 109.22 50.8) (xy 109.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09b1edf-d028-4e94-a990-976624b4ce07")
-	)
-	(wire
-		(pts
-			(xy 109.22 73.66) (xy 109.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3892ada-f6e8-459d-8a1d-1559dacc8df2")
-	)
-	(wire
-		(pts
-			(xy 57.15 97.79) (xy 66.04 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d514e884-2ff5-41a7-8951-364cbc7b4868")
-	)
-	(wire
-		(pts
-			(xy 68.58 116.84) (xy 88.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a93de5-0c3d-427a-9de4-ac4e68d079f2")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da857352-9b7f-49ff-b76a-9450711c755c")
-	)
-	(wire
-		(pts
-			(xy 68.58 115.57) (xy 68.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1948b6-a860-4a6a-b305-46ee67f1f6be")
-	)
-	(wire
-		(pts
-			(xy 114.3 106.68) (xy 109.22 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4df947-35b1-4a45-8cd8-684de8ef8789")
-	)
-	(wire
-		(pts
-			(xy 68.58 114.3) (xy 88.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de40b534-dd56-41f5-8c79-618dea5cf775")
-	)
-	(wire
-		(pts
-			(xy 109.22 109.22) (xy 109.22 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb41c46c-6382-4144-b5be-88c392dc4f7f")
-	)
-	(wire
-		(pts
-			(xy 109.22 62.23) (xy 109.22 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7d30eb-1daf-49f3-b5e3-fc9f12df9b4f")
-	)
-	(wire
-		(pts
-			(xy 88.9 109.22) (xy 68.58 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f670fbc4-1fe0-4a3c-b07a-5168ffbe0ca5")
-	)
-	(wire
-		(pts
-			(xy 109.22 33.02) (xy 114.3 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe572676-ed76-4212-9b26-cead71340a97")
-	)
-	(label "Facade_DEL_Inversion"
-		(at 57.15 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09dcc80d-9bcd-4208-81b5-3d7b7cd9b6c8")
-	)
-	(label "Facade_DEL_Batt_Ext"
-		(at 57.15 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1069e243-73d8-4352-a42e-aef0027c0233")
-	)
-	(label "Facade_DEL_Incoherence"
-		(at 57.15 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28fc2415-b84c-4ed1-9a7d-26124974243a")
-	)
-	(label "Facade_DEL_Surchauffe_Aux"
-		(at 129.54 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a44e452-ec41-494e-a7f8-62a15bb118d4")
-	)
-	(label "Facade_Buzzer"
-		(at 109.22 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6977a2f0-6599-49f9-baf9-1966fc27ced5")
-	)
-	(label "Facade_DEL_Surtension"
-		(at 57.15 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b1406e7-91e1-4599-a159-2fc9709e5905")
-	)
-	(label "Facade_DEL_Court_Bus"
-		(at 127 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83d065b3-1a84-420d-9255-051a82eb9585")
-	)
-	(label "Facade_Buzzer"
-		(at 57.15 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9bac6d67-34f2-4562-9a6f-c1cfe981c780")
-	)
-	(label "Facade_DEL_Surchauffe_Brake"
-		(at 57.15 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5aec51e-218c-4a2b-b664-6df1d6c6dbad")
-	)
-	(label "Facade_DEL_Batt_Ext"
-		(at 57.15 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2353c9a-c4d6-4fef-8bdc-826b6750f336")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 116.84 90)
+		(at 76.2 83.82 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2423,7 +1789,7 @@
 		(dnp no)
 		(uuid "37e6aae0-14b2-4a00-ac89-f089d77f1ccc")
 		(property "Reference" "#PWR05"
-			(at 119.38 116.84 0)
+			(at 82.55 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +1800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 116.8399 90)
+			(at 80.01 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,7 +1811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 116.84 0)
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2456,7 +1822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 116.84 0)
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +1833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 116.84 0)
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +1857,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 128.27 0)
+		(at 76.2 88.9 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2502,7 +1868,7 @@
 		(dnp no)
 		(uuid "5faee26b-e005-4c2b-9b75-7d4ad65c22cd")
 		(property "Reference" "#FLG01"
-			(at 106.68 130.175 0)
+			(at 76.2 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +1879,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 106.68 133.35 0)
+			(at 76.2 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2523,7 +1889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 128.27 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2534,7 +1900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 128.27 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +1911,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 128.27 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +1935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 114.3 90)
+		(at 76.2 76.2 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2580,7 +1946,7 @@
 		(dnp no)
 		(uuid "687311ba-4544-4a9e-a3e6-48568d52075f")
 		(property "Reference" "#PWR03"
-			(at 119.38 114.3 0)
+			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +1957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 114.2999 90)
+			(at 80.01 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2602,7 +1968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 114.3 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +1979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 114.3 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +1990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 114.3 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2648,7 +2014,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 106.68 270)
+		(at 212.09 160.02 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2656,10 +2023,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c4a9a87-5b1f-413a-aa2d-a902536ee943")
-		(property "Reference" "#PWR01"
-			(at 64.77 106.68 0)
+		(uuid "bb30966e-7d16-4a2e-a6a3-63c205946f2b")
+		(property "Reference" "#PWR032"
+			(at 218.44 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,7 +2036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 106.6799 90)
+			(at 215.9 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2681,7 +2047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 106.68 0)
+			(at 212.09 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2692,7 +2058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 106.68 0)
+			(at 212.09 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2703,7 +2069,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 106.68 0)
+			(at 212.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1e02c2c-95f0-4ff0-947d-983e11a8758d")
+		)
+		(instances
+			(project "Facade"
+				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c4a9a87-5b1f-413a-aa2d-a902536ee943")
+		(property "Reference" "#PWR01"
+			(at 46.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,8 +2170,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
-		(at 93.98 114.3 0)
+		(lib_id "power:GND")
+		(at 124.46 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2735,10 +2179,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8be5a993-dc82-4b64-8174-deb7df85fdf9")
-		(property "Reference" "J7"
-			(at 95.25 100.33 0)
+		(uuid "b8b92f6e-730b-4b4c-9971-00364c46271a")
+		(property "Reference" "#PWR031"
+			(at 118.11 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2747,18 +2191,19 @@
 				)
 			)
 		)
-		(property "Value" "IDC 2x07"
-			(at 95.25 102.87 0)
+		(property "Value" "GND"
+			(at 120.65 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x07_P2.54mm_Latch_Vertical"
-			(at 93.98 114.3 0)
+		(property "Footprint" ""
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2214,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 114.3 0)
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f66f3192-34c9-458f-880b-9bdc56d26a7b")
+		)
+		(instances
+			(project "Facade"
+				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8be5a993-dc82-4b64-8174-deb7df85fdf9")
+		(property "Reference" "J3202"
+			(at 64.77 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IDC 2x07"
+			(at 64.77 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x07_P2.54mm_Latch_Vertical"
+			(at 63.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +2301,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 93.98 114.3 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2791,7 +2312,7 @@
 			)
 		)
 		(property "Fabricant" "3M"
-			(at 93.98 114.3 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2802,7 +2323,7 @@
 			)
 		)
 		(property "MPN" "N3314-6302RB"
-			(at 93.98 114.3 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +2378,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "J7")
+					(reference "J3202")
 					(unit 1)
 				)
 			)
@@ -2865,7 +2386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 121.92 90)
+		(at 76.2 78.74 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2876,7 +2397,7 @@
 		(dnp no)
 		(uuid "8ce4e204-64cb-4358-865b-7c5094b72f85")
 		(property "Reference" "#PWR04"
-			(at 119.38 121.92 0)
+			(at 82.55 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2887,7 +2408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 121.9199 90)
+			(at 80.01 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2898,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 121.92 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 121.92 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +2441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 121.92 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +2465,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 116.84 35.56 0)
+		(at 66.04 104.14 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2954,8 +2475,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f83db2d4-9dc0-411e-8a52-20eec3a8b2b3")
-		(property "Reference" "BZ1"
-			(at 120.65 36.8301 0)
+		(property "Reference" "BZ3101"
+			(at 69.85 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2966,7 +2487,7 @@
 			)
 		)
 		(property "Value" "Buzzer 5V"
-			(at 120.65 34.2901 0)
+			(at 69.85 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2977,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 116.205 38.1 90)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,7 +2509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.205 38.1 90)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,7 +2520,7 @@
 			)
 		)
 		(property "Description" "Buzzer magnétique actif 5 V, 30 mA, 85 dB, Ø12 × 9,5 mm, traversant, −40 à +85 °C"
-			(at 116.84 35.56 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3010,7 +2531,7 @@
 			)
 		)
 		(property "Fabricant" "Same Sky (CUI Devices)"
-			(at 116.84 35.56 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +2542,7 @@
 			)
 		)
 		(property "MPN" "CMI-1295IC-0585T"
-			(at 116.84 35.56 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +2561,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "BZ1")
+					(reference "BZ3101")
 					(unit 1)
 				)
 			)
@@ -3048,7 +2569,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 106.68 0)
+		(at 134.62 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3058,8 +2579,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41be3588-ffab-46a8-ac0b-2e5859e57c95")
-		(property "Reference" "D158"
-			(at 120.9675 100.33 0)
+		(property "Reference" "D3104"
+			(at 127 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3069,7 +2590,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (rouge)"
-			(at 120.9675 102.87 0)
+			(at 120.65 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3078,8 +2599,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 106.68 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3090,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 106.68 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +2622,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant rouge"
-			(at 118.11 106.68 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,7 +2633,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 106.68 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3123,7 +2644,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 106.68 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,44 +2669,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D158")
+					(reference "D3104")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa2431b-90e5-4160-9058-b727724c1239")
-	)
-	(label "Facade_DEL_Masse"
-		(at 129.54 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3da5f9b1-8614-41e7-8ef8-3d0a41edef22")
-	)
-	(no_connect
-		(at 124.46 106.68)
-		(uuid "3be04efc-26ae-4f4a-b4d9-02305d7e400f")
-	)
-	(no_connect
-		(at 124.46 111.76)
-		(uuid "4e39fcb7-8920-4709-81a3-fb1356762eae")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 50.8 0)
+		(at 134.62 139.7 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3195,8 +2687,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cc53b04-0aeb-4a64-81fc-f6cffec32c32")
-		(property "Reference" "LED1"
-			(at 120.9675 44.45 0)
+		(property "Reference" "D2701"
+			(at 127 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3206,7 +2698,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (ambre)"
-			(at 120.9675 46.99 0)
+			(at 120.65 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3215,8 +2707,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 50.8 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +2719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 50.8 0)
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +2730,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant ambre"
-			(at 118.11 50.8 0)
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +2741,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 50.8 0)
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +2752,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 50.8 0)
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,61 +2777,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "LED1")
+					(reference "D2701")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 45.72) (xy 129.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f45fd94-e8e9-4973-92eb-d4cac8d21f9b")
-	)
-	(label "Surchauffe_Aux_Rouge"
-		(at 129.54 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56695ded-6af4-4baf-843d-21f26d9e0501")
-	)
-	(wire
-		(pts
-			(xy 124.46 50.8) (xy 129.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33dc9313-ad65-4393-b78a-e1e8f04e356d")
-	)
-	(label "Surchauffe_Aux_Vert"
-		(at 129.54 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8262cf0f-83fa-4f10-83c7-cb80ae3b3fb6")
-	)
-	(no_connect
-		(at 124.46 55.88)
-		(uuid "dc548d49-bfe6-4f15-8f41-a8148f1148c8")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 85.09 0)
+		(at 134.62 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3349,8 +2795,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "978729de-d976-49b3-bbf2-94b705ae7b16")
-		(property "Reference" "D155"
-			(at 120.9675 78.74 0)
+		(property "Reference" "D3102"
+			(at 127 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3360,7 +2806,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (rouge)"
-			(at 120.9675 81.28 0)
+			(at 120.65 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3369,8 +2815,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 85.09 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +2827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 85.09 0)
+			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +2838,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant rouge"
-			(at 118.11 85.09 0)
+			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +2849,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 85.09 0)
+			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3414,7 +2860,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 85.09 0)
+			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,54 +2885,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D155")
+					(reference "D3102")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 129.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e201f41-8147-47be-92da-edbf70ffd952")
-	)
-	(label "Facade_DEL_Court_Bus"
-		(at 129.54 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "684852f0-11b9-404b-b4cf-f8d40f7c85f0")
-	)
-	(no_connect
-		(at 124.46 85.09)
-		(uuid "ea9e47d7-a455-4931-b9b3-11098d8745e4")
-	)
-	(no_connect
-		(at 124.46 90.17)
-		(uuid "c5b0f9bc-b2a1-4380-ab1f-a2859dba4410")
-	)
-	(wire
-		(pts
-			(xy 114.3 95.25) (xy 114.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20109e2-e3dc-413e-9ed2-6c2a5a8215e4")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 97.79 0)
+		(at 134.62 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3496,8 +2903,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6349436-d118-49a8-a635-f143ffd6a5b8")
-		(property "Reference" "D156"
-			(at 120.9675 88.9 0)
+		(property "Reference" "D3103"
+			(at 127 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3507,7 +2914,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (rouge)"
-			(at 120.9675 91.44 0)
+			(at 120.65 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3516,8 +2923,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 95.25 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +2935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 95.25 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +2946,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant rouge"
-			(at 118.11 95.25 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +2957,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 95.25 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,7 +2968,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 95.25 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,44 +2993,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D156")
+					(reference "D3103")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 92.71) (xy 129.54 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480ac28a-5423-448b-812e-46fce1f31e04")
-	)
-	(label "Facade_DEL_Incoherence"
-		(at 129.54 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e64f88df-78f3-4bb1-8bb3-f960ca76d38d")
-	)
-	(no_connect
-		(at 124.46 97.79)
-		(uuid "503f6280-81ac-446c-adbd-91a00e701450")
-	)
-	(no_connect
-		(at 124.46 102.87)
-		(uuid "4a7374fc-971e-405e-a58d-654f2ae88494")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 71.12 97.79 0)
+		(at 134.62 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3633,8 +3011,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56dab51-bcf6-4f3b-8b95-455a6f2d471a")
-		(property "Reference" "LED2"
-			(at 72.7075 91.44 0)
+		(property "Reference" "D301"
+			(at 127 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3644,7 +3022,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (ambre)"
-			(at 72.7075 93.98 0)
+			(at 120.65 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3653,8 +3031,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 69.85 97.79 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 97.79 0)
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3054,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant ambre"
-			(at 69.85 97.79 0)
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3065,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 69.85 97.79 0)
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3076,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 69.85 97.79 0)
+			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,50 +3101,16 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "LED2")
+					(reference "D301")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 76.2 92.71) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c7ea46-3f14-4a89-b859-c524862445b6")
-	)
-	(label "Batt_Ext_Rouge"
-		(at 81.28 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "901187e8-64e2-4eba-ac90-9b21fc9b3ed9")
-	)
-	(wire
-		(pts
-			(xy 76.2 97.79) (xy 80.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f417376e-ecd7-48b8-add4-ca0bddc42287")
-	)
-	(no_connect
-		(at 76.2 102.87)
-		(uuid "80005486-5d31-4d07-8587-885946dd6d1c")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 68.58 86.36 0)
+		(at 134.62 104.14 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3774,10 +3118,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d863c8ee-7908-4261-84e3-9f144e654eb2")
-		(property "Reference" "D152"
-			(at 66.9925 80.01 0)
+		(property "Reference" "D203"
+			(at 127 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3787,7 +3130,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (rouge)"
-			(at 66.9925 82.55 0)
+			(at 120.65 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3796,8 +3139,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 69.85 86.36 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 86.36 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3162,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant rouge"
-			(at 69.85 86.36 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3173,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 69.85 86.36 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +3184,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 69.85 86.36 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,44 +3209,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D152")
+					(reference "D203")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 63.5 81.28) (xy 58.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e46213d-b1dc-4162-bf2c-3b288f9914c8")
-	)
-	(label "Facade_DEL_Inversion"
-		(at 58.42 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13d30768-58b8-49b5-9be0-eb1d0565c2d8")
-	)
-	(no_connect
-		(at 63.5 86.36)
-		(uuid "6f137e74-28be-405f-b435-84d587fd9a10")
-	)
-	(no_connect
-		(at 63.5 91.44)
-		(uuid "8f7c4e95-bf19-4160-b597-73fb252cb1c9")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 73.66 0)
+		(at 134.62 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3913,8 +3227,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de42f527-e476-41c4-8b30-1b90722e9dbf")
-		(property "Reference" "D154"
-			(at 120.9675 67.31 0)
+		(property "Reference" "D3101"
+			(at 127 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3924,7 +3238,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (rouge)"
-			(at 120.9675 69.85 0)
+			(at 120.65 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3933,8 +3247,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 73.66 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +3259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 73.66 0)
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +3270,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant rouge"
-			(at 118.11 73.66 0)
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3281,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 73.66 0)
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +3292,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 73.66 0)
+			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,44 +3317,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D154")
+					(reference "D3101")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 68.58) (xy 129.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29616c16-e3bf-4fa3-919a-3dda37555656")
-	)
-	(label "Facade_DEL_Surtension"
-		(at 129.54 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c538ee85-27fb-43fe-975d-3739ddf86d6e")
-	)
-	(no_connect
-		(at 124.46 73.66)
-		(uuid "4e3acf71-2685-4e6d-89c9-52b76bf5ed68")
-	)
-	(no_connect
-		(at 124.46 78.74)
-		(uuid "39623b5e-3be4-4581-91b7-955aea4aedab")
-	)
 	(symbol
 		(lib_id "Device:LED_RABG")
-		(at 119.38 62.23 0)
+		(at 134.62 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4050,8 +3335,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f80d6178-bda8-41fa-9ecd-b234e2cc01b6")
-		(property "Reference" "D147"
-			(at 120.9675 55.88 0)
+		(property "Reference" "D1101"
+			(at 127 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4061,7 +3346,7 @@
 			)
 		)
 		(property "Value" "RGB 5mm CA (ambre)"
-			(at 120.9675 58.42 0)
+			(at 120.65 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4070,8 +3355,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 118.11 62.23 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 62.23 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +3378,7 @@
 			)
 		)
 		(property "Description" "DEL RGB 5 mm anode commune, lentille blanche diffusante — voyant ambre"
-			(at 118.11 62.23 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +3389,7 @@
 			)
 		)
 		(property "Fabricant" "Kingbright"
-			(at 118.11 62.23 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +3400,7 @@
 			)
 		)
 		(property "MPN" "WP154A4SEJ3VBDZGW/CA"
-			(at 118.11 62.23 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,61 +3425,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "D147")
+					(reference "D1101")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 124.46 57.15) (xy 129.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b6859b-ea97-48d8-94b2-1379ec27d981")
-	)
-	(label "Surchauffe_Brake_Rouge"
-		(at 129.54 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e823bf95-a0e2-4743-acbd-5495810bb8b8")
-	)
-	(wire
-		(pts
-			(xy 124.46 62.23) (xy 129.54 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bdb86b5-108e-4a82-9c50-b6fcf0342e90")
-	)
-	(label "Surchauffe_Brake_Vert"
-		(at 129.54 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0016096a-e927-43a1-afb4-63dfdabeefa5")
-	)
-	(no_connect
-		(at 124.46 67.31)
-		(uuid "07ffb7ff-5d0c-4917-9981-594fb5e9d612")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 172.72 50.8 0)
+		(at 203.2 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4203,8 +3442,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6b3a716-4af9-4a43-888c-b197c4328047")
-		(property "Reference" "R315"
-			(at 172.72 46.99 0)
+		(property "Reference" "R3501"
+			(at 203.2 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4214,7 +3453,7 @@
 			)
 		)
 		(property "Value" "820Ω"
-			(at 172.72 54.61 0)
+			(at 203.2 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4224,7 +3463,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 50.8 0)
+			(at 203.2 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 50.8 0)
+			(at 203.2 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4246,7 +3485,7 @@
 			)
 		)
 		(property "Description" "Résistance couche métallique 1 % ¼ W — voyant ambre (teinte à régler au banc)"
-			(at 172.72 50.8 0)
+			(at 203.2 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,57 +3504,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "R315")
+					(reference "R3501")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 163.83 50.8) (xy 168.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a6e435-a6f4-4b7d-a053-cedf919aa32c")
-	)
-	(label "Surchauffe_Brake_Rouge"
-		(at 163.83 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77a0ab51-4d46-44e0-9e21-4962b3f71c1e")
-	)
-	(wire
-		(pts
-			(xy 176.53 50.8) (xy 181.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f874916-2ea6-4c5f-a72b-4bc01c19ba19")
-	)
-	(label "Facade_DEL_Surchauffe_Brake"
-		(at 181.61 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c4bb92e-057b-4a22-8fed-cbbabf0bed13")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 172.72 60.96 0)
+		(at 203.2 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4324,8 +3521,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "940e5ea9-0d9c-4dca-91af-5ac76edd8272")
-		(property "Reference" "R316"
-			(at 172.72 57.15 0)
+		(property "Reference" "R3502"
+			(at 203.2 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4335,7 +3532,7 @@
 			)
 		)
 		(property "Value" "1.2kΩ"
-			(at 172.72 64.77 0)
+			(at 203.2 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4345,7 +3542,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 60.96 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 60.96 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,7 +3564,7 @@
 			)
 		)
 		(property "Description" "Résistance couche métallique 1 % ¼ W — voyant ambre (teinte à régler au banc)"
-			(at 172.72 60.96 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,57 +3583,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "R316")
+					(reference "R3502")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 163.83 60.96) (xy 168.91 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8f2279-ae18-4f04-b2ca-f2a99f46f1eb")
-	)
-	(label "Surchauffe_Brake_Vert"
-		(at 163.83 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8a31e9e-3120-4d13-875d-0a2515c37793")
-	)
-	(wire
-		(pts
-			(xy 176.53 60.96) (xy 181.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e9ee59-99b8-490b-bbf4-566c747822f5")
-	)
-	(label "Facade_DEL_Surchauffe_Brake"
-		(at 181.61 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9dda121b-0c01-4d3e-89b0-4bb7eca02bff")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 172.72 71.12 0)
+		(at 203.2 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4445,8 +3600,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a24b32-593a-4d64-a654-d53842466aaf")
-		(property "Reference" "R317"
-			(at 172.72 67.31 0)
+		(property "Reference" "R3503"
+			(at 203.2 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4456,7 +3611,7 @@
 			)
 		)
 		(property "Value" "820Ω"
-			(at 172.72 74.93 0)
+			(at 203.2 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4466,7 +3621,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 71.12 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 71.12 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +3643,7 @@
 			)
 		)
 		(property "Description" "Résistance couche métallique 1 % ¼ W — voyant ambre (teinte à régler au banc)"
-			(at 172.72 71.12 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,57 +3662,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "R317")
+					(reference "R3503")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 168.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cddf7365-2be6-4376-94c6-32916899d148")
-	)
-	(label "Surchauffe_Aux_Rouge"
-		(at 163.83 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5463a8ac-5091-45bf-8382-829215236195")
-	)
-	(wire
-		(pts
-			(xy 176.53 71.12) (xy 181.61 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a845723-6423-4006-8b37-0d13c01af309")
-	)
-	(label "Facade_DEL_Surchauffe_Aux"
-		(at 181.61 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02414e43-dec2-42ad-ad64-e8b1dcdb583f")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 172.72 81.28 0)
+		(at 203.2 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4566,8 +3679,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2f1f398-b948-438d-87d4-bfe723816bd3")
-		(property "Reference" "R318"
-			(at 172.72 77.47 0)
+		(property "Reference" "R3504"
+			(at 203.2 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4577,7 +3690,7 @@
 			)
 		)
 		(property "Value" "1.2kΩ"
-			(at 172.72 85.09 0)
+			(at 203.2 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4587,7 +3700,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 81.28 0)
+			(at 203.2 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4598,7 +3711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 81.28 0)
+			(at 203.2 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +3722,7 @@
 			)
 		)
 		(property "Description" "Résistance couche métallique 1 % ¼ W — voyant ambre (teinte à régler au banc)"
-			(at 172.72 81.28 0)
+			(at 203.2 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,57 +3741,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "R318")
+					(reference "R3504")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 163.83 81.28) (xy 168.91 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "875ec290-aa11-41ff-a239-fc664a9cbc81")
-	)
-	(label "Surchauffe_Aux_Vert"
-		(at 163.83 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bc0636c-97e0-45b5-a228-a4a13dc33d05")
-	)
-	(wire
-		(pts
-			(xy 176.53 81.28) (xy 181.61 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d000cf59-16e7-4871-93e3-feff4e2ce4d5")
-	)
-	(label "Facade_DEL_Surchauffe_Aux"
-		(at 181.61 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0aa1338d-ae2e-4ae4-9247-2c9cff3b8165")
-	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 172.72 91.44 0)
+		(at 203.2 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4687,8 +3758,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34caf4b6-4bb4-4400-a11e-30dd627d43b1")
-		(property "Reference" "R319"
-			(at 172.72 87.63 0)
+		(property "Reference" "R3505"
+			(at 203.2 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4698,7 +3769,7 @@
 			)
 		)
 		(property "Value" "270Ω"
-			(at 172.72 95.25 0)
+			(at 203.2 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4708,7 +3779,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 91.44 0)
+			(at 203.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +3790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 91.44 0)
+			(at 203.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4730,7 +3801,7 @@
 			)
 		)
 		(property "Description" "Résistance couche métallique 1 % ¼ W — voyant ambre (teinte à régler au banc)"
-			(at 172.72 91.44 0)
+			(at 203.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,46 +3820,15 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "R319")
+					(reference "R3505")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 163.83 91.44) (xy 168.91 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a004a570-d976-4001-92fb-d16494f52fe5")
-	)
-	(label "Batt_Ext_Rouge"
-		(at 163.83 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dcef8e93-6abb-4fed-b042-f6dbfa2fc4fd")
-	)
-	(wire
-		(pts
-			(xy 176.53 91.44) (xy 181.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfca3289-667b-4f8f-938f-905a85b1d5c1")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 91.44 90)
+		(at 144.78 157.48 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4798,8 +3838,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e98bef86-18cd-4f5c-b7ea-7c3d90ddd20f")
-		(property "Reference" "#PWR06"
-			(at 119.38 116.84 0)
+		(property "Reference" "#PWR030"
+			(at 151.13 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +3850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 116.8399 90)
+			(at 148.59 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4821,7 +3861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 116.84 0)
+			(at 144.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 116.84 0)
+			(at 144.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +3883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 116.84 0)
+			(at 144.78 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,7 +3899,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/f98cd382-243e-45f7-9974-0d319b3467e9"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4867,23 +3907,900 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 104.14 111.76)
+			(xy 58.42 68.58) (xy 53.34 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "902a5be7-c6e1-403d-8f8e-a850833f09ee")
+		(uuid "5dc277d0-202e-49b6-ae30-d5b88bdc528f")
 	)
-	(label "Facade_DEL_Masse"
-		(at 104.14 111.76 0)
-		(fields_autoplaced yes)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 53.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb9940e-4a1b-4b9d-9e07-bb606c05895f")
+	)
+	(label "Facade_DEL_Surtension"
+		(at 53.34 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d82b235d-7e8f-4db0-900b-bc7efa8dfc6b")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e826bc-2e72-46c7-8df3-edd3978070c6")
+	)
+	(label "Facade_DEL_Incoherence"
+		(at 53.34 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6214d3ea-8589-4050-84f6-1db4d3a822eb")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 53.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6379d91d-231b-4d25-945b-aff209c90624")
+	)
+	(label "Facade_DEL_Inversion"
+		(at 53.34 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25175de8-0b1b-4574-bf5d-79462a11317a")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 53.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b504638a-6247-4db0-af0e-dd13a1db2a61")
+	)
+	(label "Facade_Buzzer"
+		(at 53.34 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82030024-4207-4060-9255-31b611439381")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 53.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf2696c-a0ae-4fe1-b8f7-b20586e98525")
+	)
+	(label "Facade_DEL_Surchauffe_Brake"
+		(at 53.34 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bb4b938-aadf-4b01-bf1a-5662cb678f73")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ee6ff2-9321-433c-8a94-64da7856bd38")
+	)
+	(label "Facade_DEL_Batt_Ext"
+		(at 53.34 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22568ab6-6529-4f77-8423-acf1394479b1")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a930a61-2977-4c88-861c-b771a5ac7b51")
+	)
+	(label "V_Ref"
+		(at 76.2 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a16fcefe-9878-41f0-a402-aa60907459dd")
+		(uuid "28469d02-3e24-4b65-b7b7-15df49061761")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb680f07-7c4e-4e63-a9b6-0234512ad61f")
+	)
+	(label "Facade_DEL_Court_Bus"
+		(at 76.2 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3769fd45-2507-495d-b783-c1dbafe16262")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89943bf2-b92e-47f9-a03e-b96f953a419e")
+	)
+	(label "Facade_DEL_Masse"
+		(at 76.2 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b5083c1-e900-4129-90d5-fa83553b87a3")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4c303c-0556-41a6-8107-ef2e116f3cda")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bfa5a8-d0ef-498c-9de5-092b6153f864")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd702ea-fe1e-450b-b534-11a89b0ba771")
+	)
+	(label "Facade_DEL_Surchauffe_Aux"
+		(at 76.2 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0689210-768d-4539-8e84-d9cf59c72e47")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa2abb2-5a12-4033-8a6d-f008059555ca")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9caddb50-2b0f-4308-af0d-74beb2f51f5d")
+	)
+	(junction
+		(at 76.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b4b3a2-f7f4-4da2-a686-537548c303e9")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c634ed46-3703-432c-aafe-9aed2ef39f87")
+	)
+	(label "V_Ref"
+		(at 58.42 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ab35864-3130-451d-9d11-826dd277ef1c")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92f31bf-4f32-47a1-968a-4efc5c2ef984")
+	)
+	(label "Facade_Buzzer"
+		(at 58.42 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6936e6fd-1dc1-479a-be7b-df2a852fb177")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 124.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26a89b8-936c-4ea9-abf7-29ac969b84c1")
+	)
+	(label "V_Ref"
+		(at 124.46 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eaec34e-7756-40fe-ae09-bc2a160950af")
+	)
+	(wire
+		(pts
+			(xy 139.7 27.94) (xy 144.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41205efb-9b94-4263-bade-aebd9c9e3368")
+	)
+	(label "Facade_DEL_Surtension"
+		(at 144.78 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac8b8d0-8138-4b59-bbcb-e5e70916dd54")
+	)
+	(no_connect
+		(at 139.7 33.02)
+		(uuid "a1724b52-d15c-4feb-8dca-e7208ac5a9b7")
+	)
+	(no_connect
+		(at 139.7 38.1)
+		(uuid "7a00490b-cc52-4247-ad3b-d84533bc9bdb")
+	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdc1d0d-0ebf-4d8c-96c4-21e8c621337b")
+	)
+	(label "V_Ref"
+		(at 124.46 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e04a336-df2d-4091-9573-ed015423080f")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6c32d0-5641-44f4-8627-6f62d2ee97a2")
+	)
+	(label "Facade_DEL_Court_Bus"
+		(at 144.78 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27f51ee9-413d-484b-bea9-b788533c5ca1")
+	)
+	(no_connect
+		(at 139.7 50.8)
+		(uuid "17250168-c088-4cfc-a86c-1c57ed6da7ba")
+	)
+	(no_connect
+		(at 139.7 55.88)
+		(uuid "19ed610e-c4cc-46e7-bdb6-364a7c180aef")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404126fc-f565-4147-86ad-129af0dc8854")
+	)
+	(label "V_Ref"
+		(at 124.46 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1173533-478d-4d62-898c-b7e13092e65c")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82075eec-3369-4a9f-b7e5-7f9b3bc9615d")
+	)
+	(label "Facade_DEL_Incoherence"
+		(at 144.78 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc705597-fe0c-4982-9199-7d244476335c")
+	)
+	(no_connect
+		(at 139.7 68.58)
+		(uuid "cbf3e1ad-e564-4726-81d6-9faa26988e4d")
+	)
+	(no_connect
+		(at 139.7 73.66)
+		(uuid "d8083b41-6ef5-44bb-a72f-6e4bf8c0c199")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b274bd-875d-431a-bc4f-a00864cebbee")
+	)
+	(label "V_Ref"
+		(at 124.46 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1c9aff0-c992-4803-a976-de811bed99ff")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b8eb7a-be2e-4f03-93b5-cac48d31f311")
+	)
+	(label "Facade_DEL_Masse"
+		(at 144.78 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b8fdcb-dd2f-426d-8578-cec41a57b85c")
+	)
+	(no_connect
+		(at 139.7 86.36)
+		(uuid "9d4b7044-b1ef-4441-884b-b6a675f16043")
+	)
+	(no_connect
+		(at 139.7 91.44)
+		(uuid "404d91ae-39b1-4119-b757-575f1baad6fb")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab76b04-f054-44e4-821a-3f957d554ada")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaf0e37-900d-42af-b429-e118722e8b7a")
+	)
+	(label "Facade_DEL_Inversion"
+		(at 144.78 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2375e7-d136-4e2e-a775-68a626993358")
+	)
+	(no_connect
+		(at 139.7 104.14)
+		(uuid "621b491d-5edc-497b-a4e1-2b3ed8e56a57")
+	)
+	(no_connect
+		(at 139.7 109.22)
+		(uuid "8b2d3911-33ab-43a0-ae21-89eda335e868")
+	)
+	(wire
+		(pts
+			(xy 129.54 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dd860d-88c8-4fe0-b37c-ce1efc029358")
+	)
+	(label "V_Ref"
+		(at 124.46 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bec8f36-627e-4e39-b7ec-c7ee16ce1527")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9db2f2-e2b2-408d-9eb0-f56c792410b2")
+	)
+	(label "Surchauffe_Brake_Rouge"
+		(at 144.78 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7b1df82-ba8a-45cb-9447-3bc359d7af43")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01e6c7e-6cc9-49e1-9949-9eb6bf6bfb70")
+	)
+	(label "Surchauffe_Brake_Vert"
+		(at 144.78 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bc6e9f1-7ffe-48a1-83d2-eeff22044fbf")
+	)
+	(no_connect
+		(at 139.7 127)
+		(uuid "f8cbb208-2a84-4384-9701-310b5c2de09b")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df6a616-707c-4ec1-8055-2bc762b038a0")
+	)
+	(label "V_Ref"
+		(at 124.46 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "844e1a7b-5f07-4502-9fdd-117351d531da")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f46996-3caa-4c3e-9c06-0002b576de42")
+	)
+	(label "Surchauffe_Aux_Rouge"
+		(at 144.78 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d439bb-53cf-4e1f-abce-f25061da03e9")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2aa59f9-065d-46cc-a519-939d1f197374")
+	)
+	(label "Surchauffe_Aux_Vert"
+		(at 144.78 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07ae5369-9942-4db1-8420-2ffa1e52bf9f")
+	)
+	(no_connect
+		(at 139.7 144.78)
+		(uuid "a94540aa-5c5c-4400-97b8-87e97d5379c6")
+	)
+	(wire
+		(pts
+			(xy 129.54 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fc02d2-6d84-45e6-ba7a-a9f7f30e0e85")
+	)
+	(label "Facade_DEL_Batt_Ext"
+		(at 124.46 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "113aa1e9-7b66-4feb-80b3-ee176c7b26e8")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 144.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2b8f21-299b-4877-934c-8a50dcd2ab81")
+	)
+	(label "Batt_Ext_Rouge"
+		(at 144.78 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be202a92-5662-40a4-86c3-064620186a31")
+	)
+	(wire
+		(pts
+			(xy 139.7 157.48) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9b9e3a-9649-41b0-8203-096b818e3f1e")
+	)
+	(no_connect
+		(at 139.7 162.56)
+		(uuid "cf684521-b3e1-4776-80cb-64481d35f8b4")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ab92d4-b135-43ef-ada6-07d42d23be6c")
+	)
+	(label "Surchauffe_Brake_Rouge"
+		(at 194.31 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a47fd6f-85be-47b5-9e60-38c20be7eaf6")
+	)
+	(wire
+		(pts
+			(xy 207.01 119.38) (xy 212.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ae3c29-6e0c-4995-9651-7c2efe610309")
+	)
+	(label "Facade_DEL_Surchauffe_Brake"
+		(at 212.09 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70cf3997-5639-42c0-b8f7-d0e250be8b3a")
+	)
+	(wire
+		(pts
+			(xy 199.39 129.54) (xy 194.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626bf6e4-2c18-4dd2-ae21-1fb437b6635b")
+	)
+	(label "Surchauffe_Brake_Vert"
+		(at 194.31 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1135dbcf-bc5c-4455-b05f-2571ccb19046")
+	)
+	(wire
+		(pts
+			(xy 207.01 129.54) (xy 212.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2522fdb4-4aca-4847-8d26-c42fd3420c3f")
+	)
+	(label "Facade_DEL_Surchauffe_Brake"
+		(at 212.09 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82c3fc95-08cc-4ea6-818f-c15678c2c269")
+	)
+	(wire
+		(pts
+			(xy 199.39 139.7) (xy 194.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797d9677-292a-4050-bea6-e815c201e19e")
+	)
+	(label "Surchauffe_Aux_Rouge"
+		(at 194.31 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "628efdfb-0432-4e46-9386-eea524e96026")
+	)
+	(wire
+		(pts
+			(xy 207.01 139.7) (xy 212.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8debf1c-183b-4bf3-9d20-744a59e9b95c")
+	)
+	(label "Facade_DEL_Surchauffe_Aux"
+		(at 212.09 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "951aea55-b353-4e7c-a47c-98d7fe07b59f")
+	)
+	(wire
+		(pts
+			(xy 199.39 149.86) (xy 194.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6b4625-e4d4-4ca1-bdc4-521a92091f6c")
+	)
+	(label "Surchauffe_Aux_Vert"
+		(at 194.31 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1615c1b-debd-4c44-9509-13ae19364538")
+	)
+	(wire
+		(pts
+			(xy 207.01 149.86) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa47a91-7604-48e7-81eb-6512f83e7e85")
+	)
+	(label "Facade_DEL_Surchauffe_Aux"
+		(at 212.09 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f180232c-ada5-4d07-9901-b84b9c3f8fcf")
+	)
+	(wire
+		(pts
+			(xy 199.39 160.02) (xy 194.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f2b37a-edaf-48d8-a1f3-71e4796c41ed")
+	)
+	(label "Batt_Ext_Rouge"
+		(at 194.31 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42c7de4a-e166-46e6-a40d-6447b1f312e7")
+	)
+	(wire
+		(pts
+			(xy 207.01 160.02) (xy 212.09 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f041485d-1161-4122-ad95-6f57c9d8f321")
 	)
 )

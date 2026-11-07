@@ -4730,7 +4730,7 @@
 		)
 		(uuid "5569269d-21b0-4ccb-a4ae-d44ea26bb699")
 	)
-	(text "SW2 pôle A (puissance V12_Rail / Trailer_V_Arm) :\ncâblé dans le projet principal par J6 (Mega-Fit)"
+	(text "SW501 pôle A (puissance V12_Rail / Trailer_V_Arm) :\ncâblé dans le projet principal par J501 (Mega-Fit)"
 		(exclude_from_sim no)
 		(at 21.59 20.32 0)
 		(effects
@@ -6473,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bea5137-22ee-4f1d-9399-c3482128f4cc")
-		(property "Reference" "SW9"
+		(property "Reference" "SW101"
 			(at 133.35 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6590,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "SW9")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -6608,7 +6608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555ec667-e5fd-4e15-8999-81ec001121d1")
-		(property "Reference" "J27"
+		(property "Reference" "J3302"
 			(at 69.85 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +6703,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "J27")
+					(reference "J3302")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70775fe6-c3f5-4c21-b671-83fde3b6be66")
-		(property "Reference" "SW2"
+		(property "Reference" "SW501"
 			(at 67.31 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6818,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "SW2")
+					(reference "SW501")
 					(unit 2)
 				)
 			)
@@ -6991,7 +6991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97bce1db-a19b-4ff6-8729-80857becc638")
-		(property "Reference" "J26"
+		(property "Reference" "J3303"
 			(at 70.358 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7089,7 +7089,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "J26")
+					(reference "J3303")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57e6924-b568-47cd-a656-4b4ac5ca2015")
-		(property "Reference" "SW2"
+		(property "Reference" "SW501"
 			(at 34.29 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +7282,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "SW2")
+					(reference "SW501")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2254f56-e661-4d93-abe6-9de0120cb508")
-		(property "Reference" "D25"
+		(property "Reference" "D201"
 			(at 220.98 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7653,7 +7653,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "D25")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -7670,7 +7670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2d748b5-72ea-40bb-ae88-aa914a164889")
-		(property "Reference" "J9"
+		(property "Reference" "J3201"
 			(at 135.636 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7827,7 +7827,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "J9")
+					(reference "J3201")
 					(unit 1)
 				)
 			)
@@ -7845,7 +7845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e70dd563-f622-44ac-964e-02eca315a1e7")
-		(property "Reference" "J28"
+		(property "Reference" "J3301"
 			(at 69.85 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7934,7 +7934,7 @@
 		(instances
 			(project "Facade"
 				(path "/a22adf74-3f4e-45d1-a847-1db98a43facb/4f2414e1-a7cd-42f9-b8b3-08fad12baea6"
-					(reference "J28")
+					(reference "J3301")
 					(unit 1)
 				)
 			)
