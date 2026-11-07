@@ -1,0 +1,657 @@
+** Drc report for Facade.kicad_pcb **
+** Created on 2026-11-07T09:14:54 **
+** Report includes: Errors, Warnings **
+
+** Found 44 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1901 mm)
+    Rule: board setup constraints hole; error
+    @(168.9500 mm, 111.2800 mm): PTH pad 14 [/Top_Zone/Facade_Jauge_4] of D201
+    @(170.3450 mm, 111.1200 mm): NPTH pad of J3301
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1901 mm)
+    Rule: board setup constraints hole; error
+    @(168.9500 mm, 111.2800 mm): PTH pad 14 [/Top_Zone/Facade_Jauge_4] of D201
+    @(170.3450 mm, 111.1200 mm): NPTH pad of J3301
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(173.3450 mm, 113.0800 mm): Footprint J3301
+    @(165.1500 mm, 107.4700 mm): Footprint D201
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(170.3450 mm, 111.1200 mm): NPTH pad of J3301
+    @(165.1500 mm, 107.4700 mm): Footprint D201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(151.9600 mm, 88.9100 mm): Footprint J3201
+    @(160.9750 mm, 79.0200 mm): Footprint J3303
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(157.9750 mm, 77.0600 mm): NPTH pad of J3303
+    @(151.9600 mm, 88.9100 mm): Footprint J3201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(165.1500 mm, 107.4700 mm): Footprint D201
+    @(173.3450 mm, 96.0500 mm): Footprint J3302
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(170.3450 mm, 94.0900 mm): NPTH pad of J3302
+    @(165.1500 mm, 107.4700 mm): Footprint D201
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(178.4880 mm, 141.3920 mm): Reference field of D3104
+    @(178.4880 mm, 137.8820 mm): Arc of D3103 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(169.9100 mm, 115.0900 mm): Segment of J3301 on F.Silkscreen
+    @(170.2500 mm, 94.7200 mm): Segment of D201 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(171.0080 mm, 137.8820 mm): Arc of D3101 on F.Silkscreen
+    @(171.0080 mm, 141.3920 mm): Reference field of D3102
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.5280 mm, 145.3520 mm): Arc of D203 on F.Silkscreen
+    @(165.4250 mm, 147.9000 mm): Reference field of BZ3101
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.5280 mm, 145.3520 mm): Arc of D203 on F.Silkscreen
+    @(165.4250 mm, 147.9000 mm): Reference field of BZ3101
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(185.9680 mm, 141.3920 mm): Reference field of D301
+    @(185.9680 mm, 137.8820 mm): Arc of D2701 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(77.7980 mm, 131.8320 mm): Reference field of D2924
+    @(77.7980 mm, 128.3220 mm): Arc of D2524 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.5280 mm, 137.8820 mm): Arc of D1101 on F.Silkscreen
+    @(163.5280 mm, 141.3920 mm): Reference field of D203
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(157.5400 mm, 81.0300 mm): Segment of J3303 on F.Silkscreen
+    @(157.7400 mm, 77.8300 mm): Segment of J3201 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(169.9100 mm, 98.0600 mm): Segment of J3302 on F.Silkscreen
+    @(170.2500 mm, 94.7200 mm): Segment of D201 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(77.7980 mm, 124.3620 mm): Reference field of D2524
+    @(77.7980 mm, 120.8520 mm): Arc of D2124 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(77.7980 mm, 116.8920 mm): Reference field of D2124
+    @(77.7980 mm, 113.3820 mm): Arc of D1724 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(77.7980 mm, 105.9120 mm): Arc of D1324 on F.Silkscreen
+    @(77.7980 mm, 109.4220 mm): Reference field of D1724
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(77.7980 mm, 98.4420 mm): Arc of D924 on F.Silkscreen
+    @(77.7980 mm, 101.9520 mm): Reference field of D1324
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(27.6500 mm, 33.0300 mm): Rectangle of R3502 on F.Silkscreen
+    @(30.9200 mm, 36.0800 mm): Reference field of R3503
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(27.6500 mm, 28.9800 mm): Rectangle of R3501 on F.Silkscreen
+    @(30.9200 mm, 32.0300 mm): Reference field of R3502
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(30.9200 mm, 40.1300 mm): Reference field of R3504
+    @(27.6500 mm, 37.0800 mm): Rectangle of R3503 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(27.6500 mm, 41.1300 mm): Rectangle of R3504 on F.Silkscreen
+    @(30.9200 mm, 44.1800 mm): Reference field of R3505
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.4880 mm, 145.3520 mm): Arc of D3104 on F.Silkscreen
+    @(180.9010 mm, 146.1140 mm): PTH pad 4 [unconnected-(D3104-GK-Pad4)] of D3104
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.0080 mm, 145.3520 mm): Arc of D3102 on F.Silkscreen
+    @(173.4210 mm, 146.1140 mm): PTH pad 4 [unconnected-(D3102-GK-Pad4)] of D3102
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.0080 mm, 137.8820 mm): Arc of D3101 on F.Silkscreen
+    @(173.4210 mm, 138.6440 mm): PTH pad 4 [unconnected-(D3101-GK-Pad4)] of D3101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.5280 mm, 145.3520 mm): Arc of D203 on F.Silkscreen
+    @(165.9410 mm, 146.1140 mm): PTH pad 4 [unconnected-(D203-GK-Pad4)] of D203
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.4880 mm, 137.8820 mm): Arc of D3103 on F.Silkscreen
+    @(180.9010 mm, 138.6440 mm): PTH pad 4 [unconnected-(D3103-GK-Pad4)] of D3103
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.9680 mm, 137.8820 mm): Arc of D2701 on F.Silkscreen
+    @(188.3810 mm, 138.6440 mm): PTH pad 4 [/Bottom_Zone/Surchauffe_Aux_Vert] of D2701
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.9680 mm, 145.3520 mm): Arc of D301 on F.Silkscreen
+    @(188.3810 mm, 146.1140 mm): PTH pad 4 [GND] of D301
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.5280 mm, 137.8820 mm): Arc of D1101 on F.Silkscreen
+    @(165.9410 mm, 138.6440 mm): PTH pad 4 [/Bottom_Zone/Surchauffe_Brake_Vert] of D1101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.2500 mm, 94.7200 mm): Segment of D201 on F.Silkscreen
+    @(170.3450 mm, 111.1200 mm): NPTH pad of J3301
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.2500 mm, 94.7200 mm): Segment of D201 on F.Silkscreen
+    @(170.3450 mm, 94.0900 mm): NPTH pad of J3302
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.0500 mm, 94.7200 mm): Segment of D201 on F.Silkscreen
+    @(170.3450 mm, 94.0900 mm): NPTH pad of J3302
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 135.7920 mm): Arc of D2924 on F.Silkscreen
+    @(80.2110 mm, 136.5540 mm): PTH pad 4 [/Center_Zone/Facade_Aux_G] of D2924
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 128.3220 mm): Arc of D2524 on F.Silkscreen
+    @(80.2110 mm, 129.0840 mm): PTH pad 4 [/Center_Zone/Facade_Backup_G] of D2524
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 120.8520 mm): Arc of D2124 on F.Silkscreen
+    @(80.2110 mm, 121.6140 mm): PTH pad 4 [/Center_Zone/Facade_Right_G] of D2124
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 113.3820 mm): Arc of D1724 on F.Silkscreen
+    @(80.2110 mm, 114.1440 mm): PTH pad 4 [/Center_Zone/Facade_Left_G] of D1724
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 105.9120 mm): Arc of D1324 on F.Silkscreen
+    @(80.2110 mm, 106.6740 mm): PTH pad 4 [/Center_Zone/Facade_Brake_G] of D1324
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(77.7980 mm, 98.4420 mm): Arc of D924 on F.Silkscreen
+    @(80.2110 mm, 99.2040 mm): PTH pad 4 [/Center_Zone/Facade_Tail_G] of D924
+
+** Found 116 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.0000 mm, 46.5500 mm): PTH pad 2 [GND] of R3505
+    @(69.9950 mm, 79.0200 mm): PTH pad 3 [GND] of J3401
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 113.5600 mm): PTH pad 7 [GND] of J3203
+    @(69.4000 mm, 118.6400 mm): PTH pad 12 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 113.5600 mm): PTH pad 7 [GND] of J3203
+    @(66.8600 mm, 105.9400 mm): PTH pad 1 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 126.2600 mm): PTH pad 17 [GND] of J3203
+    @(69.4000 mm, 131.3400 mm): PTH pad 22 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 118.6400 mm): PTH pad 12 [GND] of J3203
+    @(66.8600 mm, 126.2600 mm): PTH pad 17 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 131.3400 mm): PTH pad 22 [GND] of J3203
+    @(66.8600 mm, 138.9600 mm): PTH pad 27 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 144.0400 mm): PTH pad 32 [GND] of J3203
+    @(66.8600 mm, 138.9600 mm): PTH pad 27 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 146.5800 mm): PTH pad 34 [GND] of J3203
+    @(69.4000 mm, 144.0400 mm): PTH pad 32 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.9950 mm, 79.0200 mm): PTH pad 3 [GND] of J3401
+    @(66.8600 mm, 105.9400 mm): PTH pad 1 [GND] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8450 mm, 79.0200 mm): PTH pad 3 [GND] of J3402
+    @(69.9950 mm, 79.0200 mm): PTH pad 3 [GND] of J3401
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8450 mm, 79.0200 mm): PTH pad 3 [GND] of J3402
+    @(97.6950 mm, 79.0200 mm): PTH pad 3 [GND] of J3403
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.6950 mm, 79.0200 mm): PTH pad 3 [GND] of J3403
+    @(111.5450 mm, 79.0200 mm): PTH pad 3 [GND] of J3404
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.5450 mm, 79.0200 mm): PTH pad 3 [GND] of J3404
+    @(125.3950 mm, 79.0200 mm): PTH pad 3 [GND] of J3405
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.3950 mm, 79.0200 mm): PTH pad 3 [GND] of J3405
+    @(139.2450 mm, 79.0200 mm): PTH pad 3 [GND] of J3406
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 88.9100 mm): PTH pad 1 [GND] of J3201
+    @(139.2450 mm, 79.0200 mm): PTH pad 3 [GND] of J3406
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 91.4500 mm): PTH pad 3 [GND] of J3201
+    @(151.9600 mm, 88.9100 mm): PTH pad 1 [GND] of J3201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 153.0000 mm): PTH pad 8 [GND] of J3202
+    @(151.9600 mm, 145.3800 mm): PTH pad 1 [GND] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 153.0000 mm): PTH pad 8 [GND] of J3202
+    @(162.8930 mm, 146.1140 mm): PTH pad 2 [GND] of D203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 155.5400 mm): PTH pad 10 [GND] of J3202
+    @(154.5000 mm, 153.0000 mm): PTH pad 8 [GND] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 160.6200 mm): PTH pad 14 [GND] of J3202
+    @(154.5000 mm, 155.5400 mm): PTH pad 10 [GND] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.8930 mm, 146.1140 mm): PTH pad 2 [GND] of D203
+    @(188.3810 mm, 146.1140 mm): PTH pad 4 [GND] of D301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.8930 mm, 146.1140 mm): PTH pad 2 [GND] of D203
+    @(173.3450 mm, 113.0800 mm): PTH pad 1 [GND] of J3301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.3450 mm, 113.0800 mm): PTH pad 1 [GND] of J3301
+    @(151.9600 mm, 91.4500 mm): PTH pad 3 [GND] of J3201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 104.1500 mm): PTH pad 14 [/Top_Zone/Mode_Trailer] of J3201
+    @(176.3450 mm, 113.0800 mm): PTH pad 2 [/Top_Zone/Mode_Trailer] of J3301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 106.6900 mm): PTH pad 15 [/Top_Zone/V_Ref] of J3201
+    @(179.3450 mm, 113.0800 mm): PTH pad 3 [/Top_Zone/V_Ref] of J3301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 147.9200 mm): PTH pad 3 [/Bottom_Zone/Facade_DEL_Surtension] of J3202
+    @(168.5950 mm, 137.1200 mm): PTH pad 1 [/Bottom_Zone/Facade_DEL_Surtension] of D3101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 145.3800 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of J3202
+    @(161.6250 mm, 155.1000 mm): PTH pad 1 [/Bottom_Zone/V_Ref] of BZ3101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.8930 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D1101
+    @(154.5000 mm, 145.3800 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.3730 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3101
+    @(162.8930 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D1101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.3730 mm, 146.1140 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3102
+    @(170.3730 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.3730 mm, 146.1140 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3102
+    @(177.8530 mm, 146.1140 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3104
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.8530 mm, 146.1140 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3104
+    @(177.8530 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3103
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.3330 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D2701
+    @(177.8530 mm, 138.6440 mm): PTH pad 2 [/Bottom_Zone/V_Ref] of D3103
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 150.4600 mm): PTH pad 6 [/Bottom_Zone/Facade_DEL_Masse] of J3202
+    @(176.0750 mm, 144.5900 mm): PTH pad 1 [/Bottom_Zone/Facade_DEL_Masse] of D3104
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 155.5400 mm): PTH pad 9 [/Bottom_Zone/Facade_Buzzer] of J3202
+    @(169.2250 mm, 155.1000 mm): PTH pad 2 [/Bottom_Zone/Facade_Buzzer] of BZ3101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 146.5800 mm): PTH pad 33 [/Center_Zone/V_Ref] of J3203
+    @(77.1630 mm, 136.5540 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 106.6740 mm): PTH pad 2 [/Center_Zone/V_Ref] of D1324
+    @(77.1630 mm, 99.2040 mm): PTH pad 2 [/Center_Zone/V_Ref] of D924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 106.6740 mm): PTH pad 2 [/Center_Zone/V_Ref] of D1324
+    @(69.4000 mm, 105.9400 mm): PTH pad 2 [/Center_Zone/V_Ref] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 114.1440 mm): PTH pad 2 [/Center_Zone/V_Ref] of D1724
+    @(77.1630 mm, 106.6740 mm): PTH pad 2 [/Center_Zone/V_Ref] of D1324
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 114.1440 mm): PTH pad 2 [/Center_Zone/V_Ref] of D1724
+    @(77.1630 mm, 121.6140 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2124
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 121.6140 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2124
+    @(77.1630 mm, 129.0840 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2524
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.1630 mm, 129.0840 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2524
+    @(77.1630 mm, 136.5540 mm): PTH pad 2 [/Center_Zone/V_Ref] of D2924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.8450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3402
+    @(63.9950 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3401
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.8450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3402
+    @(77.1630 mm, 99.2040 mm): PTH pad 2 [/Center_Zone/V_Ref] of D924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.6950 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3403
+    @(77.8450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3402
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.5450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3404
+    @(91.6950 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3403
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.3950 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3405
+    @(105.5450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3404
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.2450 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3406
+    @(119.3950 mm, 79.0200 mm): PTH pad 1 [/Center_Zone/V_Ref] of J3405
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 118.6400 mm): PTH pad 11 [/Center_Zone/Facade_Btn_Brake] of J3203
+    @(80.8450 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Brake] of J3402
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 150.4600 mm): PTH pad 5 [/Bottom_Zone/Facade_DEL_Incoherence] of J3202
+    @(176.0750 mm, 137.1200 mm): PTH pad 1 [/Bottom_Zone/Facade_DEL_Incoherence] of D3103
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 88.9100 mm): PTH pad 2 [/Top_Zone/Facade_VM_Mesure] of J3201
+    @(185.3450 mm, 96.0500 mm): PTH pad 5 [/Top_Zone/Facade_VM_Mesure] of J3302
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 91.4500 mm): PTH pad 4 [/Top_Zone/Facade_VM_Sel_Batt] of J3201
+    @(160.9750 mm, 79.0200 mm): PTH pad 1 [/Top_Zone/Facade_VM_Sel_Batt] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 93.9900 mm): PTH pad 5 [/Top_Zone/Facade_VM_Sel_Vehic_Tail] of J3201
+    @(163.9750 mm, 79.0200 mm): PTH pad 2 [/Top_Zone/Facade_VM_Sel_Vehic_Tail] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 93.9900 mm): PTH pad 6 [/Top_Zone/Facade_VM_Sel_Vehic_Brake] of J3201
+    @(166.9750 mm, 79.0200 mm): PTH pad 3 [/Top_Zone/Facade_VM_Sel_Vehic_Brake] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 96.5300 mm): PTH pad 7 [/Top_Zone/Facade_VM_Sel_Vehic_Left] of J3201
+    @(169.9750 mm, 79.0200 mm): PTH pad 4 [/Top_Zone/Facade_VM_Sel_Vehic_Left] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 96.5300 mm): PTH pad 8 [/Top_Zone/Facade_VM_Sel_Vehic_Right] of J3201
+    @(172.9750 mm, 79.0200 mm): PTH pad 5 [/Top_Zone/Facade_VM_Sel_Vehic_Right] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 99.0700 mm): PTH pad 9 [/Top_Zone/Facade_VM_Sel_Vehic_Backup] of J3201
+    @(175.9750 mm, 79.0200 mm): PTH pad 6 [/Top_Zone/Facade_VM_Sel_Vehic_Backup] of J3303
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 99.0700 mm): PTH pad 10 [/Top_Zone/Facade_VM_Sel_Vehic_Aux] of J3201
+    @(173.3450 mm, 96.0500 mm): PTH pad 1 [/Top_Zone/Facade_VM_Sel_Vehic_Aux] of J3302
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 101.6100 mm): PTH pad 11 [/Top_Zone/Facade_VM_Sel_Vehic_Pince] of J3201
+    @(176.3450 mm, 96.0500 mm): PTH pad 2 [/Top_Zone/Facade_VM_Sel_Vehic_Pince] of J3302
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 101.6100 mm): PTH pad 12 [/Top_Zone/Facade_VM_Sel_Trailer_Aux] of J3201
+    @(179.3450 mm, 96.0500 mm): PTH pad 3 [/Top_Zone/Facade_VM_Sel_Trailer_Aux] of J3302
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 104.1500 mm): PTH pad 13 [/Top_Zone/Facade_VM_Sel_Trailer_Pince] of J3201
+    @(182.3450 mm, 96.0500 mm): PTH pad 4 [/Top_Zone/Facade_VM_Sel_Trailer_Pince] of J3302
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 98.5800 mm): PTH pad 2 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 96.0400 mm): PTH pad 1 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 101.1200 mm): PTH pad 3 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 98.5800 mm): PTH pad 2 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 103.6600 mm): PTH pad 4 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 101.1200 mm): PTH pad 3 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 106.2000 mm): PTH pad 5 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 103.6600 mm): PTH pad 4 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 106.2000 mm): PTH pad 5 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(154.5000 mm, 106.6900 mm): PTH pad 16 [/Top_Zone/Facade_VLed_Jauge] of J3201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 108.7400 mm): PTH pad 6 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 106.2000 mm): PTH pad 5 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 111.2800 mm): PTH pad 7 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 108.7400 mm): PTH pad 6 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 113.8200 mm): PTH pad 8 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 111.2800 mm): PTH pad 7 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 116.3600 mm): PTH pad 9 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 113.8200 mm): PTH pad 8 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.3500 mm, 118.9000 mm): PTH pad 10 [/Top_Zone/Facade_VLed_Jauge] of D201
+    @(161.3500 mm, 116.3600 mm): PTH pad 9 [/Top_Zone/Facade_VLed_Jauge] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 109.2300 mm): PTH pad 17 [/Top_Zone/Facade_Jauge_1] of J3201
+    @(168.9500 mm, 118.9000 mm): PTH pad 11 [/Top_Zone/Facade_Jauge_1] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 109.2300 mm): PTH pad 18 [/Top_Zone/Facade_Jauge_2] of J3201
+    @(168.9500 mm, 116.3600 mm): PTH pad 12 [/Top_Zone/Facade_Jauge_2] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 111.7700 mm): PTH pad 19 [/Top_Zone/Facade_Jauge_3] of J3201
+    @(168.9500 mm, 113.8200 mm): PTH pad 13 [/Top_Zone/Facade_Jauge_3] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 111.7700 mm): PTH pad 20 [/Top_Zone/Facade_Jauge_4] of J3201
+    @(168.9500 mm, 111.2800 mm): PTH pad 14 [/Top_Zone/Facade_Jauge_4] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 114.3100 mm): PTH pad 21 [/Top_Zone/Facade_Jauge_5] of J3201
+    @(168.9500 mm, 108.7400 mm): PTH pad 15 [/Top_Zone/Facade_Jauge_5] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 114.3100 mm): PTH pad 22 [/Top_Zone/Facade_Jauge_6] of J3201
+    @(168.9500 mm, 106.2000 mm): PTH pad 16 [/Top_Zone/Facade_Jauge_6] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 116.8500 mm): PTH pad 23 [/Top_Zone/Facade_Jauge_7] of J3201
+    @(168.9500 mm, 103.6600 mm): PTH pad 17 [/Top_Zone/Facade_Jauge_7] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 116.8500 mm): PTH pad 24 [/Top_Zone/Facade_Jauge_8] of J3201
+    @(168.9500 mm, 101.1200 mm): PTH pad 18 [/Top_Zone/Facade_Jauge_8] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 119.3900 mm): PTH pad 25 [/Top_Zone/Facade_Jauge_9] of J3201
+    @(168.9500 mm, 98.5800 mm): PTH pad 19 [/Top_Zone/Facade_Jauge_9] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 119.3900 mm): PTH pad 26 [/Top_Zone/Facade_Jauge_10] of J3201
+    @(168.9500 mm, 96.0400 mm): PTH pad 20 [/Top_Zone/Facade_Jauge_10] of D201
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.8400 mm, 38.4500 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Aux_Rouge] of R3503
+    @(183.5550 mm, 137.1200 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Aux_Rouge] of D2701
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.0000 mm, 38.4500 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Aux] of R3503
+    @(36.0000 mm, 42.5000 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Aux] of R3504
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.0000 mm, 42.5000 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Aux] of R3504
+    @(154.5000 mm, 158.0800 mm): PTH pad 12 [/Bottom_Zone/Facade_DEL_Surchauffe_Aux] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.8400 mm, 46.5500 mm): PTH pad 1 [/Bottom_Zone/Batt_Ext_Rouge] of R3505
+    @(183.5550 mm, 144.5900 mm): PTH pad 1 [/Bottom_Zone/Batt_Ext_Rouge] of D301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 160.6200 mm): PTH pad 13 [/Bottom_Zone/Facade_DEL_Batt_Ext] of J3202
+    @(185.3330 mm, 146.1140 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Batt_Ext] of D301
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 131.3400 mm): PTH pad 21 [/Center_Zone/Facade_Btn_Right] of J3203
+    @(108.5450 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Right] of J3404
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 108.4800 mm): PTH pad 3 [/Center_Zone/Facade_Tail_R] of J3203
+    @(75.3850 mm, 97.6800 mm): PTH pad 1 [/Center_Zone/Facade_Tail_R] of D924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 108.4800 mm): PTH pad 4 [/Center_Zone/Facade_Tail_G] of J3203
+    @(80.2110 mm, 99.2040 mm): PTH pad 4 [/Center_Zone/Facade_Tail_G] of D924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 111.0200 mm): PTH pad 5 [/Center_Zone/Facade_Tail_B] of J3203
+    @(78.6870 mm, 97.6800 mm): PTH pad 3 [/Center_Zone/Facade_Tail_B] of D924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.9950 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Tail] of J3401
+    @(69.4000 mm, 111.0200 mm): PTH pad 6 [/Center_Zone/Facade_Btn_Tail] of J3203
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 113.5600 mm): PTH pad 8 [/Center_Zone/Facade_Brake_R] of J3203
+    @(75.3850 mm, 105.1500 mm): PTH pad 1 [/Center_Zone/Facade_Brake_R] of D1324
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 116.1000 mm): PTH pad 9 [/Center_Zone/Facade_Brake_G] of J3203
+    @(80.2110 mm, 106.6740 mm): PTH pad 4 [/Center_Zone/Facade_Brake_G] of D1324
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 116.1000 mm): PTH pad 10 [/Center_Zone/Facade_Brake_B] of J3203
+    @(78.6870 mm, 105.1500 mm): PTH pad 3 [/Center_Zone/Facade_Brake_B] of D1324
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 121.1800 mm): PTH pad 13 [/Center_Zone/Facade_Left_R] of J3203
+    @(75.3850 mm, 112.6200 mm): PTH pad 1 [/Center_Zone/Facade_Left_R] of D1724
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 121.1800 mm): PTH pad 14 [/Center_Zone/Facade_Left_G] of J3203
+    @(80.2110 mm, 114.1440 mm): PTH pad 4 [/Center_Zone/Facade_Left_G] of D1724
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 123.7200 mm): PTH pad 15 [/Center_Zone/Facade_Left_B] of J3203
+    @(78.6870 mm, 112.6200 mm): PTH pad 3 [/Center_Zone/Facade_Left_B] of D1724
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 123.7200 mm): PTH pad 16 [/Center_Zone/Facade_Btn_Left] of J3203
+    @(94.6950 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Left] of J3403
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 126.2600 mm): PTH pad 18 [/Center_Zone/Facade_Right_R] of J3203
+    @(75.3850 mm, 120.0900 mm): PTH pad 1 [/Center_Zone/Facade_Right_R] of D2124
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 128.8000 mm): PTH pad 19 [/Center_Zone/Facade_Right_G] of J3203
+    @(80.2110 mm, 121.6140 mm): PTH pad 4 [/Center_Zone/Facade_Right_G] of D2124
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 128.8000 mm): PTH pad 20 [/Center_Zone/Facade_Right_B] of J3203
+    @(78.6870 mm, 120.0900 mm): PTH pad 3 [/Center_Zone/Facade_Right_B] of D2124
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 133.8800 mm): PTH pad 23 [/Center_Zone/Facade_Backup_R] of J3203
+    @(75.3850 mm, 127.5600 mm): PTH pad 1 [/Center_Zone/Facade_Backup_R] of D2524
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 133.8800 mm): PTH pad 24 [/Center_Zone/Facade_Backup_G] of J3203
+    @(80.2110 mm, 129.0840 mm): PTH pad 4 [/Center_Zone/Facade_Backup_G] of D2524
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 136.4200 mm): PTH pad 25 [/Center_Zone/Facade_Backup_B] of J3203
+    @(78.6870 mm, 127.5600 mm): PTH pad 3 [/Center_Zone/Facade_Backup_B] of D2524
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 136.4200 mm): PTH pad 26 [/Center_Zone/Facade_Btn_Backup] of J3203
+    @(122.3950 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Backup] of J3405
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 138.9600 mm): PTH pad 28 [/Center_Zone/Facade_Aux_R] of J3203
+    @(75.3850 mm, 135.0300 mm): PTH pad 1 [/Center_Zone/Facade_Aux_R] of D2924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 141.5000 mm): PTH pad 29 [/Center_Zone/Facade_Aux_G] of J3203
+    @(80.2110 mm, 136.5540 mm): PTH pad 4 [/Center_Zone/Facade_Aux_G] of D2924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 141.5000 mm): PTH pad 30 [/Center_Zone/Facade_Aux_B] of J3203
+    @(78.6870 mm, 135.0300 mm): PTH pad 3 [/Center_Zone/Facade_Aux_B] of D2924
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8600 mm, 144.0400 mm): PTH pad 31 [/Center_Zone/Facade_Btn_Aux] of J3203
+    @(136.2450 mm, 79.0200 mm): PTH pad 2 [/Center_Zone/Facade_Btn_Aux] of J3406
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.8400 mm, 30.3500 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Brake_Rouge] of R3501
+    @(161.1150 mm, 137.1200 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Brake_Rouge] of D1101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.0000 mm, 30.3500 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Brake] of R3501
+    @(36.0000 mm, 34.4000 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Brake] of R3502
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.0000 mm, 34.4000 mm): PTH pad 2 [/Bottom_Zone/Facade_DEL_Surchauffe_Brake] of R3502
+    @(151.9600 mm, 158.0800 mm): PTH pad 11 [/Bottom_Zone/Facade_DEL_Surchauffe_Brake] of J3202
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.8400 mm, 42.5000 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Aux_Vert] of R3504
+    @(188.3810 mm, 138.6440 mm): PTH pad 4 [/Bottom_Zone/Surchauffe_Aux_Vert] of D2701
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(25.8400 mm, 34.4000 mm): PTH pad 1 [/Bottom_Zone/Surchauffe_Brake_Vert] of R3502
+    @(165.9410 mm, 138.6440 mm): PTH pad 4 [/Bottom_Zone/Surchauffe_Brake_Vert] of D1101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.5000 mm, 147.9200 mm): PTH pad 4 [/Bottom_Zone/Facade_DEL_Court_Bus] of J3202
+    @(168.5950 mm, 144.5900 mm): PTH pad 1 [/Bottom_Zone/Facade_DEL_Court_Bus] of D3102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9600 mm, 153.0000 mm): PTH pad 7 [/Bottom_Zone/Facade_DEL_Inversion] of J3202
+    @(161.1150 mm, 144.5900 mm): PTH pad 1 [/Bottom_Zone/Facade_DEL_Inversion] of D203
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

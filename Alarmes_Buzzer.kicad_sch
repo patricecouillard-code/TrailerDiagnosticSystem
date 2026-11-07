@@ -2476,7 +2476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0408d24c-7651-4d84-a066-9456d47ae404")
-		(property "Reference" "R229"
+		(property "Reference" "R3105"
 			(at 236.22 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2538,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "R229")
+					(reference "R3105")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1569f6e0-8681-4571-a786-e59da01829f8")
-		(property "Reference" "D156"
+		(property "Reference" "D3103"
 			(at 123.19 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,7 +2576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2640,7 +2640,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D156")
+					(reference "D3103")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a62c618-2f77-4ff0-b314-545111d6593a")
-		(property "Reference" "D167"
+		(property "Reference" "D3108"
 			(at 236.22 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2720,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D167")
+					(reference "D3108")
 					(unit 1)
 				)
 			)
@@ -2738,7 +2738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de6830b-aa9a-4ade-bcd1-99422ebb0bd7")
-		(property "Reference" "Q63"
+		(property "Reference" "Q3105"
 			(at 257.81 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "Q63")
+					(reference "Q3105")
 					(unit 1)
 				)
 			)
@@ -2826,7 +2826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24fcf4c2-8db6-440b-a1fb-47ff018091bd")
-		(property "Reference" "Q58"
+		(property "Reference" "Q3101"
 			(at 180.34 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2896,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "Q58")
+					(reference "Q3101")
 					(unit 1)
 				)
 			)
@@ -2914,7 +2914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44f7d398-aca0-43a6-8729-76cab9db6ae5")
-		(property "Reference" "BZ1"
+		(property "Reference" "BZ3101"
 			(at 271.78 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "BZ1")
+					(reference "BZ3101")
 					(unit 1)
 				)
 			)
@@ -3018,7 +3018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db6fea9-33fe-46d8-80d4-996ed16ab5c2")
-		(property "Reference" "D165"
+		(property "Reference" "D3106"
 			(at 236.22 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +3080,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D165")
+					(reference "D3106")
 					(unit 1)
 				)
 			)
@@ -3098,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55da82e3-897a-468b-b998-f615fa0ab230")
-		(property "Reference" "R227"
+		(property "Reference" "R3104"
 			(at 137.16 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3160,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "R227")
+					(reference "R3104")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77872ec7-ec1c-4869-825e-1c6a062ce017")
-		(property "Reference" "D158"
+		(property "Reference" "D3104"
 			(at 123.19 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 123.19 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3262,7 +3262,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D158")
+					(reference "D3104")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883ee9d6-92e3-447e-9add-c158f8329cb2")
-		(property "Reference" "D155"
+		(property "Reference" "D3102"
 			(at 123.19 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D155")
+					(reference "D3102")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f479f46-4527-4211-8130-6d617171ec78")
-		(property "Reference" "R223"
+		(property "Reference" "R3101"
 			(at 137.16 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +3444,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "R223")
+					(reference "R3101")
 					(unit 1)
 				)
 			)
@@ -3462,7 +3462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5376030-62ba-43d2-9110-7165904b5622")
-		(property "Reference" "R224"
+		(property "Reference" "R3102"
 			(at 137.16 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3524,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "R224")
+					(reference "R3102")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd282844-1b8e-4c83-947e-a1249ec4eb95")
-		(property "Reference" "D166"
+		(property "Reference" "D3107"
 			(at 236.22 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3604,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D166")
+					(reference "D3107")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be10c321-49fd-451c-a504-9d7e8414fe36")
-		(property "Reference" "R225"
+		(property "Reference" "R3103"
 			(at 135.89 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +3683,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "R225")
+					(reference "R3103")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4e4757d-3b8d-4e75-85f0-9f16d19921b0")
-		(property "Reference" "Q62"
+		(property "Reference" "Q3104"
 			(at 180.34 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +3771,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "Q62")
+					(reference "Q3104")
 					(unit 1)
 				)
 			)
@@ -3789,7 +3789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63bb0bc-a8aa-4dda-ad90-5be1d308a183")
-		(property "Reference" "Q60"
+		(property "Reference" "Q3103"
 			(at 180.34 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3859,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "Q60")
+					(reference "Q3103")
 					(unit 1)
 				)
 			)
@@ -3876,7 +3876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5a2da74-3cf6-4788-8d74-54dc362a4b32")
-		(property "Reference" "D154"
+		(property "Reference" "D3101"
 			(at 123.19 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
 			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +3961,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D154")
+					(reference "D3101")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e678bb7c-a872-49c0-884a-748070dbcacc")
-		(property "Reference" "Q59"
+		(property "Reference" "Q3102"
 			(at 180.34 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4049,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "Q59")
+					(reference "Q3102")
 					(unit 1)
 				)
 			)
@@ -4067,7 +4067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec007ebc-7726-42ae-8554-7cc5af406561")
-		(property "Reference" "D149"
+		(property "Reference" "D3105"
 			(at 233.68 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4129,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/cdb1da1d-75aa-4768-93cb-d21a7fd03228"
-					(reference "D149")
+					(reference "D3105")
 					(unit 1)
 				)
 			)

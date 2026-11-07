@@ -5088,7 +5088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32dfaa08-2ff2-48dc-ba7e-6f44d27a0170")
-		(property "Reference" "J9"
+		(property "Reference" "J3201"
 			(at 59.69 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5244,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/bfa6d45a-419b-4fd2-9733-45fa892a7af6"
-					(reference "J9")
+					(reference "J3201")
 					(unit 1)
 				)
 			)
@@ -5262,7 +5262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e4e34e-3d5a-4bac-9aa0-2e395b06098a")
-		(property "Reference" "J8"
+		(property "Reference" "J3203"
 			(at 63.5 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5442,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/bfa6d45a-419b-4fd2-9733-45fa892a7af6"
-					(reference "J8")
+					(reference "J3203")
 					(unit 1)
 				)
 			)
@@ -5460,7 +5460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "913ab511-a85e-4f50-a7cb-7cf96227f934")
-		(property "Reference" "J7"
+		(property "Reference" "J3202"
 			(at 63.5 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,7 +5580,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/bfa6d45a-419b-4fd2-9733-45fa892a7af6"
-					(reference "J7")
+					(reference "J3202")
 					(unit 1)
 				)
 			)

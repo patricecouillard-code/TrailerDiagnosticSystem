@@ -810,6 +810,14 @@
       "Alimentation"
     ],
     [
+      "c2c7fe29-9e82-4292-ba5a-c901376e77e6",
+      "Limite_Pack_Int"
+    ],
+    [
+      "b65cae5a-0721-42eb-91e2-88a6a3316c7c",
+      "Recharge_Pack"
+    ],
+    [
       "d808f71c-7914-43fb-8ac9-96d92cd6294f",
       "Mode_Coherence"
     ],
@@ -918,16 +926,8 @@
       "Alarmes_Buzzer"
     ],
     [
-      "c2c7fe29-9e82-4292-ba5a-c901376e77e6",
-      "Limite_Pack_Int"
-    ],
-    [
       "bfa6d45a-419b-4fd2-9733-45fa892a7af6",
       "Connecteurs_Facade"
-    ],
-    [
-      "b65cae5a-0721-42eb-91e2-88a6a3316c7c",
-      "Recharge_Pack"
     ]
   ],
   "text_variables": {},

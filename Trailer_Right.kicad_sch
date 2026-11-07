@@ -4781,7 +4781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d7ab18-c67f-4797-b6ea-4fe8a9c1f9ea")
-		(property "Reference" "Q76"
+		(property "Reference" "Q2003"
 			(at 179.07 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,7 +4859,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "Q76")
+					(reference "Q2003")
 					(unit 1)
 				)
 			)
@@ -4876,7 +4876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ad1a9f9-7264-4474-b2b6-facacfbc324d")
-		(property "Reference" "R280"
+		(property "Reference" "R2005"
 			(at 152.4 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +4938,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R280")
+					(reference "R2005")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e12f269-eeeb-41be-ab47-9260634b622c")
-		(property "Reference" "R274"
+		(property "Reference" "R2002"
 			(at 91.44 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +5018,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R274")
+					(reference "R2002")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f00caf0-8b97-48ca-b9ff-774fa0d83999")
-		(property "Reference" "R105"
+		(property "Reference" "R2012"
 			(at 250.19 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5098,7 +5098,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R105")
+					(reference "R2012")
 					(unit 1)
 				)
 			)
@@ -5116,7 +5116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210c55b2-bd8d-4281-9aa8-419b96c7dbac")
-		(property "Reference" "U8"
+		(property "Reference" "U2001"
 			(at 234.95 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5214,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "U8")
+					(reference "U2001")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2258e5fe-b694-41c6-bbe8-a63b4b16e40d")
-		(property "Reference" "R279"
+		(property "Reference" "R2008"
 			(at 198.12 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5293,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R279")
+					(reference "R2008")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0f30d8-66e3-4f11-8608-08cec3387099")
-		(property "Reference" "R278"
+		(property "Reference" "R2004"
 			(at 135.89 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R278")
+					(reference "R2004")
 					(unit 1)
 				)
 			)
@@ -5391,7 +5391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3da930-edaf-4eb4-99c7-013a17733ffd")
-		(property "Reference" "DZ5"
+		(property "Reference" "DZ2001"
 			(at 102.87 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5453,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "DZ5")
+					(reference "DZ2001")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4703e53e-3c09-42ca-a9dd-1f3690bc3676")
-		(property "Reference" "D74"
+		(property "Reference" "D2002"
 			(at 199.39 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,7 +5532,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "D74")
+					(reference "D2002")
 					(unit 1)
 				)
 			)
@@ -5550,7 +5550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531aed41-8d5e-4dbc-bcc6-75af25e85b84")
-		(property "Reference" "R104"
+		(property "Reference" "R2011"
 			(at 218.44 80.6451 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +5684,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R104")
+					(reference "R2011")
 					(unit 1)
 				)
 			)
@@ -5702,7 +5702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b850f4c-9f08-452e-8df8-932a09f30eb3")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2001"
 			(at 60.96 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5767,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "SW5")
+					(reference "SW2001")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bff7f1d-2b1b-4690-83e2-153dc37a6e2e")
-		(property "Reference" "U8"
+		(property "Reference" "U2001"
 			(at 236.22 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5885,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "U8")
+					(reference "U2001")
 					(unit 5)
 				)
 			)
@@ -5903,7 +5903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83143013-07f6-4f47-bb2b-2a676748f102")
-		(property "Reference" "R101"
+		(property "Reference" "R2001"
 			(at 58.42 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5965,7 +5965,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R101")
+					(reference "R2001")
 					(unit 1)
 				)
 			)
@@ -5983,7 +5983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8640636f-687e-4978-aef7-2c486c613b2f")
-		(property "Reference" "U8"
+		(property "Reference" "U2001"
 			(at 234.95 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6081,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "U8")
+					(reference "U2001")
 					(unit 3)
 				)
 			)
@@ -6099,7 +6099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86d3ad9b-6b10-4efc-9d62-f25d5a8694b3")
-		(property "Reference" "R103"
+		(property "Reference" "R2010"
 			(at 218.44 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6233,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R103")
+					(reference "R2010")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a27a5bf-f121-4caa-ac45-16df1a095ce2")
-		(property "Reference" "D176"
+		(property "Reference" "D2001"
 			(at 198.12 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "D176")
+					(reference "D2001")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a99f91c8-016d-4f9b-824f-96ba150049c3")
-		(property "Reference" "R277"
+		(property "Reference" "R2007"
 			(at 182.88 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6414,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R277")
+					(reference "R2007")
 					(unit 1)
 				)
 			)
@@ -6431,7 +6431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9adc40c-c78c-4b7d-9dd1-9e3bc2a04cb2")
-		(property "Reference" "Q75"
+		(property "Reference" "Q2001"
 			(at 81.28 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +6509,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "Q75")
+					(reference "Q2001")
 					(unit 1)
 				)
 			)
@@ -6527,7 +6527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5d77e2-ab88-4e65-8a00-f7d00928ce7f")
-		(property "Reference" "R102"
+		(property "Reference" "R2009"
 			(at 198.12 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +6611,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R102")
+					(reference "R2009")
 					(unit 1)
 				)
 			)
@@ -6629,7 +6629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d4c9ba-85af-467a-b121-3fe8f2cbc535")
-		(property "Reference" "R106"
+		(property "Reference" "R2013"
 			(at 250.19 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6691,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R106")
+					(reference "R2013")
 					(unit 1)
 				)
 			)
@@ -6709,7 +6709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc75e318-362e-4437-b45f-d8b3e58f65c9")
-		(property "Reference" "Q28"
+		(property "Reference" "Q2002"
 			(at 111.76 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6787,7 +6787,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "Q28")
+					(reference "Q2002")
 					(unit 1)
 				)
 			)
@@ -6806,7 +6806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c5c0bc-5304-42d2-bdc6-8f2198420fc5")
-		(property "Reference" "R276"
+		(property "Reference" "R2006"
 			(at 163.83 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,7 +6868,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R276")
+					(reference "R2006")
 					(unit 1)
 				)
 			)
@@ -6886,7 +6886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1a81c7-d752-4e46-bc7c-b6a1cddc700d")
-		(property "Reference" "U8"
+		(property "Reference" "U2001"
 			(at 234.95 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,7 +6984,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "U8")
+					(reference "U2001")
 					(unit 2)
 				)
 			)
@@ -7001,7 +7001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff35f4a-edbf-4285-93de-4aa2e31d69d1")
-		(property "Reference" "R275"
+		(property "Reference" "R2003"
 			(at 102.87 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7063,7 +7063,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "R275")
+					(reference "R2003")
 					(unit 1)
 				)
 			)
@@ -7082,7 +7082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ef4ec6-9415-484a-9b79-35331e8c223c")
-		(property "Reference" "F4"
+		(property "Reference" "F2001"
 			(at 115.57 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +7145,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "F4")
+					(reference "F2001")
 					(unit 1)
 				)
 			)
@@ -7163,7 +7163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd9acb65-71b3-4c3e-96bc-5c49b0a9aa37")
-		(property "Reference" "U8"
+		(property "Reference" "U2001"
 			(at 236.22 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7261,7 +7261,7 @@
 		(instances
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/4f89c816-e1c8-4a6d-9631-51fb882801ea/1e95c9e6-a7ca-4f7a-9344-1c33b38c6f8a"
-					(reference "U8")
+					(reference "U2001")
 					(unit 4)
 				)
 			)
