@@ -1731,7 +1731,7 @@
 		(uuid "f5bac598-cfd3-4275-b78e-2e3b1ceadffd")
 	)
 	(no_connect
-		(at 44.45 59.69)
+		(at 40.64 59.69)
 		(uuid "2497d008-4376-4b0f-bf6c-7bcf9e260b0b")
 	)
 	(wire
@@ -2113,16 +2113,6 @@
 			(type default)
 		)
 		(uuid "db4e16e9-cc2d-48bc-8a04-5982aef3c49c")
-	)
-	(wire
-		(pts
-			(xy 40.64 59.69) (xy 44.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e19c3410-dca9-4bc9-801f-b351a55d9fff")
 	)
 	(wire
 		(pts

@@ -3998,6 +3998,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM74610QDGKRQ1:LM74610QDGKRQ1"
 			(pin_names
 				(offset 1.016)
@@ -12348,6 +12514,17 @@
 		)
 		(uuid "1b267596-0ac7-4788-849e-228b7bbb1b72")
 	)
+	(text "OPTION PROTECTION 24 V (réservée, à concevoir) :\nJP1 posé = pas de protection.\nPlace réservée sur le PCB entre V_Source_Choisie et V_Source_Protegee."
+		(exclude_from_sim no)
+		(at 213.614 245.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e37c380-7c17-46f6-affd-3de894904249")
+	)
 	(text "Alarme - Surtension"
 		(exclude_from_sim no)
 		(at 350.52 16.764 0)
@@ -12501,6 +12678,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44454233-80eb-4df8-8eb6-baac6eb1ee7d")
+	)
+	(junction
+		(at 316.23 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44cdfc74-96fa-4b9a-9cc1-3c35721de830")
 	)
 	(junction
 		(at 140.97 29.21)
@@ -12663,6 +12846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993c7e59-dd51-4978-acaf-78ad00b67455")
+	)
+	(junction
+		(at 323.85 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99ee25f6-524a-4ee8-90fc-bab781bf8df6")
 	)
 	(junction
 		(at 382.27 158.75)
@@ -13302,7 +13491,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 222.25) (xy 279.4 222.25)
+			(xy 266.7 212.09) (xy 271.78 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13962,7 +14151,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 229.87) (xy 279.4 229.87)
+			(xy 266.7 219.71) (xy 271.78 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14692,6 +14881,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 143.51) (xy 323.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c61b59-6e3e-4722-b07a-0d7ab958319e")
+	)
+	(wire
+		(pts
 			(xy 185.42 166.37) (xy 190.5 166.37)
 		)
 		(stroke
@@ -14799,6 +14998,26 @@
 			(type default)
 		)
 		(uuid "89b543de-70b1-4b65-b076-dbda0af5ed47")
+	)
+	(wire
+		(pts
+			(xy 250.19 252.73) (xy 256.54 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca731d-215f-405a-b8b9-a5fa0c133552")
+	)
+	(wire
+		(pts
+			(xy 240.03 252.73) (xy 237.49 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f5c21b-580d-48e7-bfd7-75a2b907d49e")
 	)
 	(wire
 		(pts
@@ -15662,6 +15881,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 143.51) (xy 316.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdafe6b1-d00a-4afb-9046-672fc9e928da")
+	)
+	(wire
+		(pts
 			(xy 185.42 105.41) (xy 186.69 105.41)
 		)
 		(stroke
@@ -16500,7 +16729,7 @@
 		)
 		(uuid "0f3a65a9-a784-45e6-9e6c-67a4190ae4bb")
 	)
-	(label "V_Source_Choisie"
+	(label "V_Source_Protegee"
 		(at 175.26 82.55 0)
 		(effects
 			(font
@@ -16541,7 +16770,7 @@
 		(uuid "2a479a10-d2ff-4e7e-9cbe-340cfc72494a")
 	)
 	(label "Batt_Interne_Pos"
-		(at 279.4 229.87 0)
+		(at 271.78 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16599,6 +16828,16 @@
 			(justify left bottom)
 		)
 		(uuid "5294c4d0-42c3-4b68-a7c5-ec355d208b4b")
+	)
+	(label "V_Source_Protegee"
+		(at 256.54 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53af8d8e-f4e0-412b-85fb-b70134a3812b")
 	)
 	(label "V12_PostShunt"
 		(at 314.96 36.83 180)
@@ -16691,7 +16930,7 @@
 		(uuid "66c12264-94a9-42c9-8930-0ee8af2a6e2e")
 	)
 	(label "Batt_Neg"
-		(at 279.4 222.25 0)
+		(at 271.78 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16860,7 +17099,7 @@
 		)
 		(uuid "a6213806-7236-44b4-a582-01860c6fb94a")
 	)
-	(label "V_Source_Choisie"
+	(label "V_Source_Protegee"
 		(at 102.87 80.01 180)
 		(effects
 			(font
@@ -16949,6 +17188,16 @@
 			(justify left bottom)
 		)
 		(uuid "d58bc8df-9761-40fc-b7bb-a04695779cfb")
+	)
+	(label "V_Source_Choisie"
+		(at 237.49 252.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7c3778e-ea2a-41be-9e58-8fd9dbf99585")
 	)
 	(label "Batt_Neg"
 		(at 69.85 33.02 0)
@@ -20358,7 +20607,7 @@
 				)
 			)
 		)
-		(property "Value" "BMS 3S"
+		(property "Value" "PCM 3S 30A"
 			(at 160.02 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20390,7 +20639,29 @@
 				)
 			)
 		)
-		(property "Description" "BMS 3S ≥ 30-40 A continu, port commun, équilibrage, court-circuit > ~80 A crête"
+		(property "Description" "PCM 3S Li-ion 30 A continu (charge 20 A), port commun, équilibrage 84 mA, surintensité 120-160 A, −40 à +85 °C, coupure 60 °C. Câblage : B1 de la carte = C2 du symbole (jonction BT3/BT2), B2 = C1 (BT2/BT1), B3 = B+ ; P+ = B+ sur cette carte"
+			(at 160.02 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "Batteryspace (AA Portable Power)"
+			(at 160.02 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCM-L04S30-566 (CU-J881, produit #7758)"
 			(at 160.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21318,6 +21589,254 @@
 		)
 	)
 	(symbol
+		(lib_id "FG24X7R1H225KRT06:FG24X7R1H225KRT06")
+		(at 318.77 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5472d6ec-ac0b-4bfc-b4e6-1b244833948b")
+		(property "Reference" "C16"
+			(at 320.04 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2µF 50V"
+			(at 320.04 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FG24X7R1H225KRT06:CAPRB500W50L450T300H550"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Condensateur céramique X7R 2,2 µF 50 V, traversant. Filtre de la mesure court-bus (Q55 B-E, tau ~10 ms) : ignore l'appel des filaments froids et les rebonds de SW1"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fabricant" "TDK"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FG24X7R1H225KRT06"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "TDK"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.0 mm"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Radial TDK"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FG24X7R1H225KRT06/TDK/view-part/?ref=eda"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "20200310"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FG24X7R1H225KRT06/TDK/view-part/?ref=snap"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "FG24X7R1H225KRT06"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1852898&manufacturer=TDK&part_name=FG24X7R1H225KRT06&search_term=fg24x7r1h225krt06"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 318.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "666076b1-5022-4b7d-a41e-e408e1b16e4d")
+		)
+		(pin "1"
+			(uuid "dd1c3f20-a49e-40c4-9a5d-bcbf371362ac")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 161.29 175.26 0)
 		(mirror y)
@@ -21995,6 +22514,85 @@
 			(project "TrailerDiagnosticSystem"
 				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 245.11 252.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6eb39d73-2a06-481c-9f72-85fda6bf34c4")
+		(property "Reference" "JP1"
+			(at 245.11 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Cavalier 12 AWG"
+			(at 245.11 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pont de fil 12 AWG (14 A). Retirer seulement si la protection 24 V (option) est montée."
+			(at 245.11 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34dd714e-d636-45dc-adc3-ce28712b5304")
+		)
+		(pin "2"
+			(uuid "55ed1cc4-21ed-4dce-bace-dd83c3d87243")
+		)
+		(instances
+			(project "TrailerDiagnosticSystem"
+				(path "/d4e407a7-3e32-4226-ae57-831ecdb3edf4/56af58a1-2657-4f00-930b-84ffb6766669"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -28159,7 +28757,7 @@
 		)
 	)
 	(sheet
-		(at 246.38 218.44)
+		(at 238.76 208.28)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28175,7 +28773,7 @@
 		)
 		(uuid "b65cae5a-0721-42eb-91e2-88a6a3316c7c")
 		(property "Sheetname" "Recharge_Pack"
-			(at 246.38 217.7284 0)
+			(at 238.76 207.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28186,7 +28784,7 @@
 			)
 		)
 		(property "Sheetfile" "Recharge_Pack.kicad_sch"
-			(at 246.38 234.2646 0)
+			(at 238.76 224.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28197,7 +28795,7 @@
 			)
 		)
 		(pin "Batt_Neg" input
-			(at 274.32 222.25 0)
+			(at 266.7 212.09 0)
 			(uuid "176f8f20-caa5-4da9-b59c-77a86b1cd310")
 			(effects
 				(font
@@ -28207,7 +28805,7 @@
 			)
 		)
 		(pin "Batt_Interne_Pos" input
-			(at 274.32 229.87 0)
+			(at 266.7 219.71 0)
 			(uuid "f66cd1fc-868f-4103-b840-a74968bba661")
 			(effects
 				(font

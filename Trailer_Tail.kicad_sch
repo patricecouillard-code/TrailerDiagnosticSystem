@@ -5381,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-R700"
+		(property "Value" "MF-R800"
 			(at 115.57 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
