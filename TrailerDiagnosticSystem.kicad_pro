@@ -500,7 +500,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -511,10 +511,124 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Alim_Logique",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "tuning_profile": "",
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Canal_Trailer",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Canal_Vehic",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.9,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Recharge",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -523,7 +637,216 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/Batt_Externe_Pos"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/Batt_Interne_Pos"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/Batt_Interne_Shunt"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/Batt_Neg"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/V_Source_Choisie"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/V_Source_Protegee"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/Alimentation/V12_Bus_Raw"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/V12_PostShunt"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "/V12_Rail"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Trailer_V_Arm"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Tail"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Brake"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Left"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Right"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Backup"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "/Trailer_Fil_Aux"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ801-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ1201-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ1601-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ2001-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ2401-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(DZ2801-K)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(D801-A)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(D1201-A)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(D1601-A)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(D2001-A)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(D2401-A)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(Q2802-D)"
+      },
+      {
+        "netclass": "Canal_Trailer",
+        "pattern": "Net-(R2804-Pad2)"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Tail"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Brake"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Left"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Right"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Backup"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Vehic_Fil_Aux"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Tail/Vehicule_Tail/Injection_Drain"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Brake/Vehicule_Brake/Injection_Drain"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Left/Vehicule_Left/Injection_Drain"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Right/Vehicule_Right/Injection_Drain"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Backup/Vehicule_Backup/Injection_Drain"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "Net-(Q2701-D)"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Tail/Vehicule_Tail/Vehic_Shunt_Haut"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Brake/Vehicule_Brake/Vehic_Shunt_Haut"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Left/Vehicule_Left/Vehic_Shunt_Haut"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Right/Vehicule_Right/Vehic_Shunt_Haut"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "/Canal_Backup/Vehicule_Backup/Vehic_Shunt_Haut"
+      },
+      {
+        "netclass": "Canal_Vehic",
+        "pattern": "Net-(Q2701-S)"
+      },
+      {
+        "netclass": "Recharge",
+        "pattern": "/Alimentation/Recharge_Pack/Recharge_Pos"
+      },
+      {
+        "netclass": "Recharge",
+        "pattern": "/Alimentation/Recharge_Pack/Recharge_Therm"
+      },
+      {
+        "netclass": "Alim_Logique",
+        "pattern": "V_Ref"
+      },
+      {
+        "netclass": "Alim_Logique",
+        "pattern": "Facade_VLed_Jauge"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
