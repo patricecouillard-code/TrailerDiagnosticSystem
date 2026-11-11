@@ -3140,7 +3140,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "680Ω, 1/4W Resistor"
 			(at 137.16 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "680Ω, 1/4W Resistor"
 			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3504,7 +3504,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "680Ω, 1/4W Resistor"
 			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3663,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "680Ω, 1/4W Resistor"
 			(at 137.16 85.09 0)
 			(hide yes)
 			(show_name no)

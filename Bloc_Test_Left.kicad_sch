@@ -4329,7 +4329,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "100kΩ, 1/4W Resistor"
 			(at 46.99 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4645,7 +4645,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 147.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5453,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Description" "330Ω, 1/4W Resistor"
+		(property "Description" "150Ω, 1/4W Resistor"
 			(at 233.68 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5769,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Description" "330Ω, 1/4W Resistor"
+		(property "Description" "680Ω, 1/4W Resistor"
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5927,7 +5927,7 @@
 				)
 			)
 		)
-		(property "Description" "330Ω, 1/4W Resistor"
+		(property "Description" "470Ω, 1/4W Resistor"
 			(at 233.68 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6361,7 +6361,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 85.09 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6607,7 +6607,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "100kΩ, 1/4W Resistor"
 			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "470kΩ, 1/4W Resistor"
 			(at 39.37 149.86 0)
 			(hide yes)
 			(show_name no)

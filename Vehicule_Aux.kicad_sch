@@ -5015,7 +5015,7 @@
 				)
 			)
 		)
-		(property "Description" "100kΩ, 1/4W Resistor"
+		(property "Description" "100Ω, 1/4W Resistor"
 			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7kΩ, 1/4W Resistor"
+		(property "Description" "330kΩ, 1/4W Resistor"
 			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)

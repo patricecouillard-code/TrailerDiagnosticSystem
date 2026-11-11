@@ -19484,7 +19484,7 @@
 				)
 			)
 		)
-		(property "Description" "2.9kΩ, 1/4W Resistor"
+		(property "Description" "3.9kΩ, 1/4W Resistor"
 			(at 20.32 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20360,7 +20360,7 @@
 				)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "1MΩ, 1/4W Resistor"
 			(at 375.92 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -22550,7 +22550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
 			(at 245.11 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -25123,7 +25123,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "2.2kΩ, 1/4W Resistor"
 			(at 236.22 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -27544,7 +27544,7 @@
 				)
 			)
 		)
-		(property "Description" "5W Resistor"
+		(property "Description" "68Ω, 5W Resistor"
 			(at 44.45 185.42 0)
 			(hide yes)
 			(show_name no)

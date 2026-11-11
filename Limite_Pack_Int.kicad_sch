@@ -4274,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8kΩ 1/2W"
+		(property "Value" "1.8kΩ"
 			(at 171.704 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4306,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/2W Resistor"
+		(property "Description" "1.8kΩ, 1/4W Resistor"
 			(at 171.45 73.66 0)
 			(hide yes)
 			(show_name no)

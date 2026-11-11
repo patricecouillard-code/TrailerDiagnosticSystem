@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 215.519 103.378 0)
 			(hide yes)
 			(show_name no)
@@ -4413,7 +4413,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 214.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4574,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 222.25 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5125,7 +5125,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 214.63 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 222.25 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5427,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 215.519 93.218 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 214.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 209.55 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6354,7 @@
 				)
 			)
 		)
-		(property "Description" "1/2W Resistor"
+		(property "Description" "1kΩ, 1/2W Resistor"
 			(at 209.55 49.53 0)
 			(hide yes)
 			(show_name no)
