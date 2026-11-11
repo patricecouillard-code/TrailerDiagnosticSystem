@@ -4652,7 +4652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
 			(at 214.63 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -6594,7 +6594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD"
 			(at 166.37 155.575 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,721 @@
+Info: Processing symbol 'C201:SR305C334KAR:CAPRR508W50L762T381H762'.
+Info: Processing symbol 'C202:FG26X7R1E106KRT06:CAPRB500W50L550T350H600'.
+Info: Processing symbol 'C203:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C204:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C205:FG24X7R1H225KRT06:CAPRB500W50L450T300H550'.
+Info: Processing symbol 'C206:CAPRR508W50L762T381H762:CAPRR508W50L762T381H762'.
+Info: Processing symbol 'C207:FG26X7R1E106KRT06:CAPRB500W50L550T350H600'.
+Info: Processing symbol 'C208:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C209:FG24X7R1H225KRT06:CAPRB500W50L450T300H550'.
+Info: Processing symbol 'C210:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C301:Capacitor_THT:C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4'.
+Info: Processing symbol 'C302:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C303:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'C401:FG24X7R1H225KRT06:CAPRB500W50L450T300H550'.
+Info: Processing symbol 'C2701:Capacitor_THT:C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4'.
+Info: Processing symbol 'C3001:SR205C104KAR:CAPRR254W50L508T317H508'.
+Info: Processing symbol 'D202:Diode_THT:D_DO-201AE_P15.24mm_Horizontal'.
+Info: Processing symbol 'D204:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D501:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D502:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D503:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D801:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'D802:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D901:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D902:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D903:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D904:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D905:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D906:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D907:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D908:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D909:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D910:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D911:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D912:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D913:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D914:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D915:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D916:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D917:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D918:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D919:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D920:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D921:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D922:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D923:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1201:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'D1202:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D1301:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1302:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1303:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1304:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1305:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1306:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1307:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1308:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1309:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1310:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1311:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1312:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1313:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1314:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1315:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1316:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1317:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1318:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1319:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1320:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1321:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1322:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1323:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1601:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'D1602:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D1701:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1702:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1703:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1704:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1705:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1706:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1707:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1708:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1709:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1710:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1711:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1712:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1713:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1714:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1715:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1716:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1717:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1718:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1719:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1720:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1721:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1722:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1723:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2001:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'D2002:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D2101:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2102:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2103:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2104:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2105:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2106:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2107:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2108:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2109:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2110:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2111:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2112:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2113:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2114:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2115:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2116:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2117:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2118:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2119:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2120:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2121:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2122:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2123:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2401:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'D2402:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D2501:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2502:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2503:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2504:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2505:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2506:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2507:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2508:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2509:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2510:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2511:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2512:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2513:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2514:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2515:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2516:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2517:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2518:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2519:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2520:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2521:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2522:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2523:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2801:PCM_Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal_Zener'.
+Info: Processing symbol 'D2901:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2902:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2903:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2904:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2905:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2906:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2907:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2908:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2909:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2910:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2911:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2912:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2913:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2914:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2915:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2916:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2917:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2918:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2919:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2920:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2921:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2922:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2923:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3105:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3106:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3107:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3108:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'DZ201:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ801:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ1201:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ1601:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ2001:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ2401:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'DZ2801:PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal_Zener'.
+Info: Processing symbol 'F801:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P10.20mm_W24.2mm'.
+Info: Processing symbol 'F1201:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P5.10mm_W12.0mm'.
+Info: Processing symbol 'F1601:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P10.20mm_W24.2mm'.
+Info: Processing symbol 'F2001:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P10.20mm_W24.2mm'.
+Info: Processing symbol 'F2401:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P10.20mm_W24.2mm'.
+Info: Processing symbol 'F2801:PTC_Bourns_MF-R:PTC_Bourns_MF-R_P5.10mm_W12.0mm'.
+Info: Processing symbol 'J101:Connector_Molex:Molex_Mega-Fit_76829-0010_2x05_P5.70mm_Vertical'.
+Info: Processing symbol 'J102:Connector_Molex:Molex_Mega-Fit_76829-0010_2x05_P5.70mm_Vertical'.
+Info: Processing symbol 'J201:Connector_Molex:Molex_Mega-Fit_76829-0008_2x04_P5.70mm_Vertical'.
+Info: Processing symbol 'J202:Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical'.
+Info: Processing symbol 'J203:Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical'.
+Info: Processing symbol 'J204:Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical'.
+Info: Processing symbol 'J205:Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical'.
+Info: Processing symbol 'J206:Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical'.
+Info: Processing symbol 'J402:Connector_Molex:Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical'.
+Info: Processing symbol 'J501:Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical'.
+Info: Processing symbol 'J3201:Connector_IDC:IDC-Header_2x13_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'J3202:Connector_IDC:IDC-Header_2x07_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'J3203:Connector_IDC:IDC-Header_2x17_P2.54mm_Latch_Vertical'.
+Info: Processing symbol 'JP201:Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm'.
+Info: Processing symbol 'OC701:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC702:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1101:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1102:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1501:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1502:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1901:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC1902:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC2301:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC2302:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC2701:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'OC2702:PCM_Package_DIP_AKL:DIP-4_W7.62mm_LongPads'.
+Info: Processing symbol 'PS201:TMR 2-1211WIN:CONV_TMR_2-1211WIN'.
+Info: Processing symbol 'Q201:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q202:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q203:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q204:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q205:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q206:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q207:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q301:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q302:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q303:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q304:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q401:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q501:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q502:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q503:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q701:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q801:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q802:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q803:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q901:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2710:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2711:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q902:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2712:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2713:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'Q903:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2714:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2715:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q904:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2716:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2801:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q905:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2802:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2803:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q906:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2804:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R2805:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1101:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q1102:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2806:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2807:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'Q1103:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2808:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2809:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1201:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q1202:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q1203:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q1301:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2810:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2811:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1302:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2901:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2902:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1303:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2903:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2904:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1304:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2905:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2906:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1305:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2907:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2908:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1306:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2909:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2910:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1501:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q1601:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q1602:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q1603:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q1701:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2911:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2912:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1702:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2913:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2914:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1703:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R2915:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3001:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'Q1704:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3002:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3003:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1705:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3004:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3005:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1706:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3006:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3007:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q1901:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q2001:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2002:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q2003:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q2101:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3008:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3009:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q2102:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3010:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3011:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q2103:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3101:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3102:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q2104:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3103:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R3104:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q2105:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R3105:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'TH1101:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'Q2106:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'TH2701:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'TH2801:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'Q2301:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q2401:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2402:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q2403:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC'.
+Info: Processing symbol 'Q2501:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U201:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical'.
+Info: Processing symbol 'U202:Package_DIP:DIP-18_W7.62mm_Socket'.
+Info: Processing symbol 'Q2502:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U203:LM74610QDGKRQ1:SOP65P490X110-8N'.
+Info: Processing symbol 'U204:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2503:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U401:LM74610QDGKRQ1:SOP65P490X110-8N'.
+Info: Processing symbol 'U701:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2504:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U801:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U1101:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2505:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U1201:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U1501:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2506:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U1601:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U1901:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2701:PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS'.
+Info: Processing symbol 'Q2702:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2703:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2801:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2802:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'Q2901:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U2001:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U2301:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2902:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U2401:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U2701:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2903:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'U2801:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'U3001:Package_DIP:DIP-14_W7.62mm_Socket'.
+Info: Processing symbol 'Q2904:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2905:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q2906:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q3101:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q3102:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q3103:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q3104:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'Q3105:PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Info: Processing symbol 'R101:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R102:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R103:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R104:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R105:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R106:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R107:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R108:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R109:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R110:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R201:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R202:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R203:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R204:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R205:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R206:3296W-1-102LF:TRIM_3296W-1-102LF'.
+Info: Processing symbol 'R207:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'R208:Package_TO_SOT_THT:TO-220-2_Vertical'.
+Info: Processing symbol 'R210:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R211:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R212:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R213:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R214:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R215:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R216:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R217:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R218:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R219:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R220:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R221:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R222:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R301:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R302:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R303:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R304:3296W-1-102LF:TRIM_3296W-1-102LF'.
+Info: Processing symbol 'R305:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R306:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R307:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R308:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R309:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R310:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R311:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R312:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R401:Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal'.
+Info: Processing symbol 'R402:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R501:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R502:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R503:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R504:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R505:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R506:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R507:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R508:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R509:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R701:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R702:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R703:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R704:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R705:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R706:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R707:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R708:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R709:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R710:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R711:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R712:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R801:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R802:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R803:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R804:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R805:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R806:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R807:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R808:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R809:Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R810:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R811:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R812:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R813:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R901:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R902:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R903:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R904:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R905:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R906:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R907:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R908:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R909:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R910:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R911:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R912:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R913:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R914:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R915:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1101:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R1102:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R1103:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1104:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1105:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1106:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1107:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1108:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1109:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1110:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1111:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1112:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1113:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1114:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1201:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1202:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1203:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1204:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1205:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1206:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1207:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1208:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1209:Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R1210:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1211:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1212:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1213:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1301:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1302:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1303:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1304:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1305:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1306:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1307:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1308:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1309:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1310:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1311:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1312:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1313:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1314:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1315:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1501:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R1502:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R1503:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1504:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1505:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1506:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1507:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1508:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1509:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1510:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1511:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1512:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1601:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1602:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1603:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1604:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1605:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1606:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1607:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1608:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1609:Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R1610:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1611:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1612:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1613:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1701:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1702:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1703:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1704:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1705:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1706:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1707:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1708:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1709:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1710:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1711:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1712:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1713:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1714:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1715:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1901:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R1902:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R1903:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1904:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1905:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1906:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1907:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1908:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1909:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1910:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1911:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R1912:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2001:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2002:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2003:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2004:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2005:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2006:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2007:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2008:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2009:Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R2010:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2011:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2012:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2013:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2101:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2102:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2103:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2104:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2105:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2106:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2107:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2108:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2109:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2110:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2111:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2112:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2113:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2114:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2115:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2301:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R2302:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R2303:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2304:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2305:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2306:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2307:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2308:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2309:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2310:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2311:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2312:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2401:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2402:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2403:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2404:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2405:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2406:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2407:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2408:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2409:Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R2410:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2411:TRIM_3296W1103LF:TRIM_3296W1103LF'.
+Info: Processing symbol 'R2412:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2413:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2501:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2502:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2503:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2504:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2505:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2506:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2507:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2508:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2509:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2510:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2511:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2512:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2513:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2514:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2515:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2701:Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm'.
+Info: Processing symbol 'R2702:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2703:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2704:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2705:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2706:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2707:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2708:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
+Info: Processing symbol 'R2709:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Change Q901 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q901 'Do not place' fabrication attribute.
+Change Q902 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q902 'Do not place' fabrication attribute.
+Change Q903 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q903 'Do not place' fabrication attribute.
+Change Q904 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q904 'Do not place' fabrication attribute.
+Change Q905 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q905 'Do not place' fabrication attribute.
+Change Q906 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q906 'Do not place' fabrication attribute.
+Change Q1102 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1102 'Do not place' fabrication attribute.
+Change Q1103 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1103 'Do not place' fabrication attribute.
+Change Q1301 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1301 'Do not place' fabrication attribute.
+Change Q1302 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1302 'Do not place' fabrication attribute.
+Change Q1303 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1303 'Do not place' fabrication attribute.
+Change Q1304 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1304 'Do not place' fabrication attribute.
+Change Q1305 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1305 'Do not place' fabrication attribute.
+Change Q1306 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1306 'Do not place' fabrication attribute.
+Change Q1701 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1701 'Do not place' fabrication attribute.
+Change Q1702 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1702 'Do not place' fabrication attribute.
+Change Q1703 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1703 'Do not place' fabrication attribute.
+Change Q1704 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1704 'Do not place' fabrication attribute.
+Change Q1705 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1705 'Do not place' fabrication attribute.
+Change Q1706 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q1706 'Do not place' fabrication attribute.
+Change Q2101 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2101 'Do not place' fabrication attribute.
+Change Q2102 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2102 'Do not place' fabrication attribute.
+Change Q2103 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2103 'Do not place' fabrication attribute.
+Change Q2104 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2104 'Do not place' fabrication attribute.
+Change Q2105 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2105 'Do not place' fabrication attribute.
+Change Q2106 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2106 'Do not place' fabrication attribute.
+Change Q2501 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2501 'Do not place' fabrication attribute.
+Change Q2502 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2502 'Do not place' fabrication attribute.
+Change Q2503 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2503 'Do not place' fabrication attribute.
+Change Q2504 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2504 'Do not place' fabrication attribute.
+Change Q2505 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2505 'Do not place' fabrication attribute.
+Change Q2506 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2506 'Do not place' fabrication attribute.
+Change Q2901 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2901 'Do not place' fabrication attribute.
+Change Q2902 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2902 'Do not place' fabrication attribute.
+Change Q2903 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q2903 'Do not place' fabrication attribute.
+Add Q3105 'Do not place' fabrication attribute.
+Add Q2906 'Do not place' fabrication attribute.
+Change Q2904 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Change Q3101 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q3101 'Do not place' fabrication attribute.
+Change Q2905 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Change Q3102 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q3102 'Do not place' fabrication attribute.
+Add Q2905 'Do not place' fabrication attribute.
+Change Q3103 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q3103 'Do not place' fabrication attribute.
+Add Q2904 'Do not place' fabrication attribute.
+Change Q3104 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Add Q3104 'Do not place' fabrication attribute.
+Change Q2906 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+Change Q3105 footprint from 'Package_TO_SOT_THT:TO-92_Inline' to 'PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_SGD'.
+
+
+Info: Total warnings: 0, errors: 0.
