@@ -2837,7 +2837,7 @@
 			(uuid "c5c71c98-86df-433e-8e38-e04d7438de9d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6008,7 +6008,7 @@
 			(uuid "b0220fa2-95dd-4328-bc22-70efdcf0140c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6480,7 +6480,7 @@
 			(uuid "133732ea-cb7a-46bd-8193-c4c2503d1dbc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19750,7 +19750,7 @@
 			(uuid "daefa2b2-08e8-44e6-91a2-49070939db38")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24095,7 +24095,7 @@
 			(uuid "6e781dbf-07fc-4ce7-8615-320128b41c44")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24376,7 +24376,7 @@
 			(uuid "bbfa0444-6ec2-458c-b04c-11ec931bcd20")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34202,7 +34202,7 @@
 			(uuid "80aaf9fd-f3cc-4415-bfa2-3a1972b8343e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36521,7 +36521,7 @@
 			(uuid "c62204b2-4456-419f-908f-b42395586233")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37259,7 +37259,7 @@
 			(uuid "b14d6b8e-630e-4d03-b124-314e6f6da978")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37540,7 +37540,7 @@
 			(uuid "cfebe4a8-b9ce-4d24-a3c3-d9fae096bb1f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43267,7 +43267,7 @@
 			(uuid "59740b55-93a6-4ec9-99af-3eee1b77688c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46269,7 +46269,7 @@
 			(uuid "4e7650f8-404e-47cd-8809-0100ddf1ef4b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49557,7 +49557,7 @@
 			(uuid "b7dfd8fa-ef9a-4416-8318-dceecb43c731")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57108,7 +57108,7 @@
 			(uuid "d71529f9-b1f7-4a8e-808c-2df864149d9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57389,7 +57389,7 @@
 			(uuid "c48e9eff-eee5-4963-97a0-a2f5206eaafa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59022,7 +59022,7 @@
 			(uuid "01621bf1-ea2f-4b98-b6ba-06f0464e8b54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59666,7 +59666,7 @@
 			(uuid "c541c448-5a80-4cf5-92dc-c89e3a5fd996")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59947,7 +59947,7 @@
 			(uuid "82616dfb-88cb-4630-b5a8-53d200fcd529")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60228,7 +60228,7 @@
 			(uuid "9687d9d9-09ac-4cb6-93ed-2cc47a382716")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -75062,7 +75062,7 @@
 			(uuid "d2711c3f-1ab4-49b5-b81a-164a31641275")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -81565,7 +81565,7 @@
 			(uuid "44069f96-7322-43b6-b032-7ee548c8d6f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -87985,7 +87985,7 @@
 			(uuid "1d46b4e7-a464-4602-a86c-a795141c6089")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -88820,7 +88820,7 @@
 			(uuid "a40a50f1-62ed-44ab-8a28-516f5bed0a54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -89464,7 +89464,7 @@
 			(uuid "6d15c623-b558-469a-b911-9cde25b11356")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -91822,7 +91822,7 @@
 			(uuid "55376607-4da5-4813-94b0-5edd8f525650")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -96144,7 +96144,7 @@
 			(uuid "1b86c8ee-eaf4-4e9c-a8c6-3cb81373bb6e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -98566,7 +98566,7 @@
 			(uuid "d80900dd-9ee2-4923-87e3-4e26d46292f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -99605,7 +99605,7 @@
 			(uuid "1a12c8d3-c61f-4851-a92e-94f6a22b61ee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -104286,7 +104286,7 @@
 			(uuid "0d88dfce-0c2f-4276-a1de-34def1da6bac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -112468,7 +112468,7 @@
 			(uuid "0028dfbd-7490-4006-9a7b-6cb4cdabad73")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -116781,7 +116781,7 @@
 			(uuid "237e4fa5-18a6-425e-ad80-f52a1f045253")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -118872,7 +118872,7 @@
 			(uuid "f26c7c4e-6a8e-4610-af33-59b53d05f82c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -125236,7 +125236,7 @@
 			(uuid "86a381a9-8b4d-48e8-88ce-b6b150f627c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -134009,7 +134009,7 @@
 			(uuid "53108722-c730-43a0-b97d-2d5a7150bad6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -137984,7 +137984,7 @@
 			(uuid "11908a91-e731-45dd-ae02-fc5749f95f95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -139384,7 +139384,7 @@
 			(uuid "ee21f53b-b82a-4597-a7d6-6fde8bba4795")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -140264,7 +140264,7 @@
 			(uuid "c62daf56-682a-4a1e-844d-a70c0a403e2b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -149452,7 +149452,7 @@
 			(uuid "69e77a9b-7fbe-4376-9057-309bfdeccfa4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -150768,7 +150768,7 @@
 			(uuid "61c0c5b2-1330-4030-bbf8-2109824d3368")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -160493,7 +160493,7 @@
 			(uuid "441e82d8-046d-4389-8e66-cd9e2b866f90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -161710,7 +161710,7 @@
 			(uuid "fa953352-d3e5-49ca-a7ba-d23675f9e510")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -164974,7 +164974,7 @@
 			(uuid "ac408098-865f-497b-8e0b-fb0839839464")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -179067,7 +179067,7 @@
 			(uuid "cdc8e6cd-3ee2-4bae-8096-820e2007e764")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
 				(xyz 0 0 0)
 			)
