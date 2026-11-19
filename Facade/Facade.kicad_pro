@@ -577,7 +577,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Soumission/Gerbers_Facade/",
       "specctra_dsn": "",
       "vrml": ""
     },
